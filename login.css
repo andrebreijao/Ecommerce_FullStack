@@ -1,0 +1,96 @@
+.faixa-inicial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 9rem;
+    position: relative;
+    right: auto;
+    left: 0;
+}
+
+.box{
+    position: relative;
+}
+
+.frase-logo{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: gray;
+    left: 1.4rem;
+    right: auto;
+    top: 50%;
+    transform: translate(0, 50%);
+    line-height: 2rem;
+}
+
+#logo{
+    position: absolute;
+    display: block;
+    height: 7rem;
+    left: auto;
+    right: 1.4rem;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.faixa-azul{
+    display: block;
+    background-color: #4373C6;
+    height: 0.5rem;
+}
+
+.caixa-laranja{
+    background-color: #ED7D31;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 12rem;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, 0);
+    padding-top: 0.3rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 800;
+    font-size: 1.5rem;
+    width: 60rem;
+    height: 3rem;
+}
+
+.caixa-azul{
+    background-color: #4373C6;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 15.8rem;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, 0);
+    padding-top: 17.5rem;
+    padding-bottom: 0.3rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 800;
+    font-size: 1.5rem;
+    width: 18rem;
+    height: 20rem;
+    cursor: pointer; 
+}
+
+.caixa-azul > img{
+    position: absolute;
+    border-radius: 50%;
+    top: -3rem;
+    right: 50%;
+    transform: translate(50%, 50%);
+    height: 11rem;
+}
+
+
+
+#consumidor{
+    left: 25.5%
+}
+
+#vendedor{
+    left: 74.5%
+}
