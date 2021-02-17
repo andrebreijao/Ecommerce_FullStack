@@ -181,7 +181,18 @@ a {
     }
 
     .card-shopping:hover {
-        transform: scale(1.1);
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width:550px){
+    .card-shopping{
+        transform: scale(0.7);
+        margin: 0.1vw;
+    }
+
+    .card-shopping:hover {
+        transform: scale(0.8);
     }
 }
 
