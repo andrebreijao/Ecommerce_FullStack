@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+   }
+
 * {
     padding: 0px;
     margin: auto 0;
@@ -45,9 +49,10 @@ a {
 
 
 
-.conteudo {
+#conteudo {
     width: 80%;
     margin: auto;
+    margin-top: 0px;
 }
 
 /* part-2 */
@@ -86,33 +91,28 @@ a {
 
 .cta-content h1 {
     font-weight: 300;
-    font-size: 4em;
-    line-height: 112px;
-    /* identical to box height, or 187% */
-    letter-spacing: -1.5px;
-    }
+    font-size: 10vh;
+}
 
 .cta-content p {
     margin-top: 1em;
     font-weight: 300;
     font-size: 24px;
-    line-height: 24px;
-    /* identical to box height, or 100% */
-    letter-spacing: 0.28px;
+    font-size: 3vh;
 }
 
 .cta-content-search {
-    margin-top: 2rem;
+    margin-top: 4vh;
 }
 
 .btn-medium {
     border: 2px solid rgba(25, 25, 25, 0.6);
     border-radius: 4px;
-    background: #333333;
+    background: red;
     font-style: normal;
     font-weight: bold;
     font-size: 0.6rem;
-    line-height: 16px;
+    font-size: 2vh;
     letter-spacing: 1.25px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -120,26 +120,13 @@ a {
     cursor: pointer;
     outline: none;
     margin-left: 0.5rem;
+    width: 10rem;
+    width: 30vh;
 }
 
 .btn-medium:hover {
-    background: rgb(148, 148, 148);
+    background: rgb(196, 0, 0);
 }
-
-.search-field {
-    width: 17rem;
-    height: 1.5rem;
-    border-radius: 5px;
-    font-size: 0.8rem;
-}
-
-::placeholder {
-    font-size: 0.6rem;
-    padding-left: 3px;
-}
-
-
-
 
 
 /* secao lista de shoppings */
@@ -157,8 +144,17 @@ a {
 .lista-cards{
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    align-items: center;
+    margin-top: 2vh;
 }
+
+@media (max-width: 500px){
+    .lista-cards{
+        flex-wrap: wrap;
+    }
+}
+
+
 
 /* Cards individuais */
 
@@ -170,12 +166,23 @@ a {
     text-align: center;
     height: 13rem;
     transition: all .4s ease-in-out;
-    margin: 1rem;
+    margin: 1vw;
     cursor: pointer;
 }
 
 .card-shopping:hover {
     transform: scale(1.2);
+}
+
+@media (max-width:750px){
+    .card-shopping{
+        transform: scale(0.8);
+        margin: 0.1vw;
+    }
+
+    .card-shopping:hover {
+        transform: scale(1.1);
+    }
 }
 
 .card-shopping > * {
@@ -185,7 +192,7 @@ a {
 
 .card-shopping p {
     font-size: 0.9rem;
-    line-height: 2rem;
+    line-height: 6vh;
     
 }
 
@@ -202,17 +209,15 @@ a {
 }
 
 .linha-entre-secoes {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 7vh;
+    margin-bottom: 1vh;
     width: 100%;
 
 }
 
 /* explica e-shop */
 
-.explica-e-shop {
-    height: 300px;
-}
+
 
 
 .explica-e-shop-conteudo-grid {
@@ -222,13 +227,21 @@ a {
     margin: auto;
 }
 
+@media (max-width:1000px){
+    .explica-e-shop-conteudo-grid {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
 .explica-e-shop-bloco-1 {
     align-self: stretch;
     
 }
 
 .explica-e-shop-bloco-1 p {
-    margin: 4rem 0rem;
+    margin: 4vh 0rem;
     font-size: 1rem;
 }
 
@@ -239,5 +252,5 @@ a {
 #video {
     background-color: black;
     height: 15rem;
-    width: 100%;
+    width: 90%;
 }
