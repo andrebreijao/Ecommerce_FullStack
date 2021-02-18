@@ -357,7 +357,8 @@ a {
 	background-color: silver;
 	height: 30vh;
 	margin: 0.3vh;
-	border-radius: 2%;
+	display: flex;
+	cursor: pointer;
 }
 
 .grid-1 {
@@ -398,6 +399,15 @@ a {
 		
 	}
 
-	
+}
 
+.label {
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: 20%;
+	display: flex;
+	padding-left: 1rem;
+	position: relative;
+	top: 40%;
+	color: white;
 }
