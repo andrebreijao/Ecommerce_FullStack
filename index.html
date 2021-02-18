@@ -11,75 +11,126 @@
 </head>
 <body>
     
-    <div class="nav-bar">
-                <img src="" alt="logo" id="logo-nav">
-                <div class="login">
-                    <a href="" id="entrar">Entrar</a>
-                    <a href="" id="cadastro">Crie uma conta</a>
-                </div>
-        </body>
-    </div>
-
-    <div class="cta">
-        <div class="cta-content">
-            <div id="logo-cta">Logo</div>
-            <h1>O Shopping mais perto de você.</h1>
-            <p>Fique a vontade para passear e ver as lojas disponíveis.</p>
-            <div class="cta-content-search">
-                <button onClick="document.getElementById('linha-cta').scrollIntoView();" class="btn-medium">Entre nos shoppings</button>
-            </div>
-        </div>        
-    </div>
-
-    <hr id= "linha-cta" class="linha-entre-secoes">
-
-    <div id="conteudo">
-
-        <div class="secao-lista-shoppings">
-            <div class= "titulo-secao">Os melhores Shoppings estão aqui</div>
-            <div class="lista-cards">
-
-
-                <div class="card-shopping">
-                    <img src="./Imagens/logo-shopping-eldorado.jpg" alt="logo-shopping" class="img-lista-shoppings">
-                    <p>Nome do Shopping</p>
-                    <img class="story-lista-shoppings" src="./Imagens/logo-shopping-eldorado.jpg" alt="story">
-                </div>
-
-                <div class="card-shopping">
-                    <img src="./Imagens/logo-shopping-eldorado.jpg" alt="logo-shopping" class="img-lista-shoppings">
-                    <p>Nome do Shopping</p>
-                    <img class="story-lista-shoppings" src="./Imagens/logo-shopping-eldorado.jpg" alt="story">
-                </div>
-                
-                <div class="card-shopping">
-                    <img src="./Imagens/logo-shopping-eldorado.jpg" alt="logo-shopping" class="img-lista-shoppings">
-                    <p>Nome do Shopping</p>
-                    <img class="story-lista-shoppings" src="./Imagens/logo-shopping-eldorado.jpg" alt="story">
-                </div>
-            </div>
-        </div>
-
-        <hr class="linha-entre-secoes">
-
-        <div class="explica-e-shop">
+        <div class="nav-bar">
+                    <img src="" alt="logo" id="logo-nav">
+                    <div class="login">
+                        <a href="#" id="entrar" onclick="togglePopup1()" >Entrar</a>
+                        <a href="#" id="cadastro" onclick="togglePopup2()">Crie uma conta</a>
+                    </div>
             
-            <div class="explica-e-shop-conteudo-grid">
-                
-                <div class="explica-e-shop-bloco-1"> 
-                        <div class= "titulo-secao">Tenha a experiência do shopping dentro de casa </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolores repellendus obcaecati id, saepe error quae voluptatem. Odio labore totam earum, eveniet incidunt ipsa commodi, excepturi repellendus, quam voluptatem officiis.</p>
-                </div
-                
-
-                <div class="explica-e-shop-bloco-2">
-                        <div id="video"></div>
-                </div>
-
-            </div>
-                
-            <hr class="linha-entre-secoes">
         </div>
 
-    </div>
+                <!-- Pop up login-->
+                <div class="popup" id="popup-1">
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <div class="close-btn" onclick="togglePopup1()">&times;</div>
+                        <img id="logo_popup" src="./imagens/WhatsApp Image 2021-01-28 at 17.54.56.jpeg" alt="Logo">
+                        <div class="titulo-popup">Inicie seção</div>
+                        <form class="form_login-popup" action="">
+                            <input class= "input_texto" type="text" placeholder="E-mail">
+                            <input class= "input_texto" type="password" placeholder="Senha">
+                            <a href="#" class="esqueceu_senha">Esqueceu a senha?</a>
+                            <button class="btn-login">Entre</button>
+                        </form>
+                        <a class="btn-face" href="#">
+                            <div class="login-face-conteudo">
+                                <div class="login-face">
+                                    <img id= "logo-face"src="./imagens/logo-facebook.png" alt="face">
+                                    <div>Entre com Facebook</div>
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <a  href="#">
+                            <div class="login-face-conteudo" onclick="togglePopup1(); togglePopup2()">
+                                <div class="login-face login-cadastre">
+                                    <div>Cadastre-se grátis</div>
+                                </div>
+                            </div>
+                        </a>
+        
+                        
+                    </div>
+                </div>
+        
+                <!-- Pop up login-->
+                <div class="popup" id="popup-2">
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                        <h1>Teste</h1>    
+        
+                        
+                    </div>
+                </div>
+
+        <div class="cta">
+            <div class="cta-content">
+                <div id="logo-cta">Logo</div>
+                <h1>O Shopping mais perto de você.</h1>
+                <p>Fique a vontade para passear e ver as lojas disponíveis.</p>
+                <div class="cta-content-search">
+                    <button onClick="document.getElementById('linha-cta').scrollIntoView();" class="btn-medium">Entre nos shoppings</button>
+                </div>
+            </div>        
+        </div>
+
+        <hr id= "linha-cta" class="linha-entre-secoes">
+
+        <div id="conteudo">
+
+            <div class="secao-lista-shoppings">
+                <div class= "titulo-secao">Os melhores Shoppings estão aqui</div>
+                <div class="lista-cards">
+
+
+                    <div class="card-shopping">
+                        <img src="./Imagens/logo-shopping-eldorado.jpg" alt="logo-shopping" class="img-lista-shoppings">
+                        <p>Nome do Shopping</p>
+                        <img class="story-lista-shoppings" src="./Imagens/logo-shopping-eldorado.jpg" alt="story">
+                    </div>
+
+                    <div class="card-shopping">
+                        <img src="./Imagens/logo-shopping-eldorado.jpg" alt="logo-shopping" class="img-lista-shoppings">
+                        <p>Nome do Shopping</p>
+                        <img class="story-lista-shoppings" src="./Imagens/logo-shopping-eldorado.jpg" alt="story">
+                    </div>
+                    
+                    <div class="card-shopping">
+                        <img src="./Imagens/logo-shopping-eldorado.jpg" alt="logo-shopping" class="img-lista-shoppings">
+                        <p>Nome do Shopping</p>
+                        <img class="story-lista-shoppings" src="./Imagens/logo-shopping-eldorado.jpg" alt="story">
+                    </div>
+                </div>
+            </div>
+
+            <hr class="linha-entre-secoes">
+
+            <div class="explica-e-shop">
+                
+                <div class="explica-e-shop-conteudo-grid">
+                    
+                    <div class="explica-e-shop-bloco-1"> 
+                            <div class= "titulo-secao">Tenha a experiência do shopping dentro de casa </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolores repellendus obcaecati id, saepe error quae voluptatem. Odio labore totam earum, eveniet incidunt ipsa commodi, excepturi repellendus, quam voluptatem officiis.</p>
+                    </div
+                    
+
+                    <div class="explica-e-shop-bloco-2">
+                            <div id="video"></div>
+                    </div>
+
+                </div>
+                    
+                <hr class="linha-entre-secoes">
+            </div>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
 </html>
