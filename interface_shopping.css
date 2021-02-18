@@ -1,0 +1,245 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0px;
+	margin: auto 0;
+	font-family: "Lato", sans-serif;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	margin-top: auto;
+}
+
+
+
+/* nav section */
+
+.nav-bar {
+	display: flex;
+	font-size: 0.9rem;
+	list-style: none;
+	background-color: black;
+	height: 7vh;
+	width: 100%;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 5;
+}
+
+.login {
+	margin-right: 16px;
+}
+
+.login > * {
+	padding: 0.5vh;
+	height: 3vh;
+}
+
+.login :first-child {
+	margin-right: 1rem;
+}
+
+.login > a {
+	border-radius: 10%;
+}
+
+#logo-nav {
+	margin-left: 2rem;
+	background-color: white;
+}
+
+/* end-nav-section */
+
+
+
+/* part-2 */
+.cta {
+	width: 100%;
+	height: 93vh;
+	position: relative;
+	background: url(./Imagens/background-shopping-eldorado.jpg) no-repeat center center/cover;
+	display: flex;
+	position: relative;
+	top: 7vh;
+}
+
+.cta::after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.1);
+	box-shadow: inset 60px 70px 250px #000000, inset -60px -10px 50px #000000;
+}
+
+.cta-content {
+	position: relative;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	z-index: 2;
+	margin: auto;
+}
+
+#logo-cta {
+	display: flex;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	text-transform: uppercase;
+	width: 20vh;
+	height: 20vh;
+	border-radius: 100%;
+}
+
+.cta-content h1 {
+	font-weight: 300;
+	font-size: 10vh;
+}
+
+.cta-content p {
+	margin-top: 1em;
+	font-weight: 300;
+	font-size: 24px;
+	font-size: 3vh;
+}
+
+.cta-content-search {
+	margin-top: 4vh;
+}
+
+
+
+.btn-medium {
+	border: 2px solid rgba(25, 25, 25, 0.6);
+	border-radius: 4px;
+	background: red;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.6rem;
+	font-size: 2vh;
+	letter-spacing: 1.25px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 0.2rem;
+	cursor: pointer;
+	outline: none;
+	margin-left: 0.5rem;
+	width: 10rem;
+	width: 30vh;
+}
+
+.btn-medium:hover {
+	background: rgb(196, 0, 0);
+}
+
+#linha-cta {
+	margin-top: 0px;
+	margin-top: 4vh;
+}
+
+
+/* titulo e ver mais */
+
+.titulo-e-ver-mais {
+	display: block;
+}
+
+.titulo-secao {
+	margin-top: 3rem;
+	font-size: 2rem;
+	margin-left: 0rem;
+	display: inline-block;
+}
+
+.ver-mais {
+	margin-top: 3rem;
+	font-size: 0.66rem;
+	margin-left: 0rem;
+	display: inline-block;
+	color: black;
+	margin-left: 2vh;
+}
+
+#container-conteudo {
+	width: 80%;
+	margin: auto;
+	margin-top: 0px;
+}
+
+/* Navegue por categorias */
+
+.nav-categorias	{
+	background-color: #C4C4C4;
+}
+
+.lista-categorias {
+	margin-top: 2vh;
+	overflow: auto;
+  	white-space: nowrap;
+	
+}
+
+
+/* Cards individuais */
+
+.categoria-individual {
+	display: inline-block;
+	background-color: white;
+	border: 1px solid #c4c4c4;
+	align-items: center;
+	width: 6rem;
+	height: 6rem;
+	border-radius: 100%;
+	text-align: center;
+	transition: all 0.4s ease-in-out;
+	margin: 1vw;
+	cursor: pointer;
+}
+
+.categoria-individual:hover {
+	transform: scale(1.2);
+}
+
+@media (max-width: 750px) {
+	.categoria-individual {
+		transform: scale(0.8);
+		margin: 0.1vw;
+	}
+
+	.categoria-individual:hover {
+		transform: scale(0.9);
+	}
+}
+
+@media (max-width: 550px) {
+	.categoria-individual {
+		transform: scale(0.7);
+		margin: 0.1vw;
+	}
+
+	.categoria-individual:hover {
+		transform: scale(0.8);
+	}
+}
+
+/* adicional marca */
+
+.marca {
+	border-radius: 4%;
+	height: 5.5rem;
+	width: 12.5rem;
+}

@@ -274,8 +274,9 @@ input[type=text]:focus, input[type=password]:focus {
 	align-items: center;
 	color: black;
 	text-transform: uppercase;
-	width: 10vh;
-	height: 10vh;
+	width: 20vh;
+	height: 20vh;
+	border-radius: 100%;
 }
 
 .cta-content h1 {
@@ -293,6 +294,8 @@ input[type=text]:focus, input[type=password]:focus {
 .cta-content-search {
 	margin-top: 4vh;
 }
+
+
 
 .btn-medium {
 	border: 2px solid rgba(25, 25, 25, 0.6);
