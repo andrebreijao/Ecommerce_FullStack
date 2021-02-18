@@ -44,7 +44,7 @@ a {
 	border-radius: 10%;
 }
 
-#logo {
+#logo-nav {
 	margin-left: 2rem;
 	background-color: white;
 }
@@ -89,6 +89,17 @@ a {
 	color: white;
 	z-index: 2;
 	margin: auto;
+}
+
+#logo-cta {
+	display: flex;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	text-transform: uppercase;
+	width: 10vh;
+	height: 10vh;
 }
 
 .cta-content h1 {
