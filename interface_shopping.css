@@ -103,6 +103,34 @@ a {
 
 }
 
+@media (min-width: 137px) {
+	#shopping {
+		font-weight: 300;
+		font-size: 50px;
+	}
+	
+	#subtitulo-shop {
+		margin-top: 1em;
+		font-weight: 300;
+		font-size: 10px;
+		font-size: 2vh;
+	}
+}
+
+@media (max-width: 136px) {
+	#shopping {
+		font-weight: 300;
+		font-size: 100px;
+	}
+	
+	#subtitulo-shop {
+		margin-top: 1em;
+		font-weight: 300;
+		font-size: 10px;
+		font-size: 2vh;
+	}
+}
+
 #logo-cta {
 	display: flex;
 	background-color: white;
@@ -115,17 +143,6 @@ a {
 	border-radius: 100%;
 }
 
-.cta-content h1 {
-	font-weight: 300;
-	font-size: 10vh;
-}
-
-.cta-content p {
-	margin-top: 1em;
-	font-weight: 300;
-	font-size: 24px;
-	font-size: 3vh;
-}
 
 .cta-content-search {
 	margin-top: 4vh;
