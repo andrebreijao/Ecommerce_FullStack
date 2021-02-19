@@ -180,6 +180,22 @@ a {
 	background-color: #c4c4c4;
 }
 
+.barra-rolagem {
+	display: flex;
+	width: 113%;
+	position: relative;
+	right: 4rem;
+	margin: 1vh;
+}
+
+.botao-rolagem {
+	background-color: gray;
+	border: none;
+	border-radius: 100%;
+	width: 3rem;
+	height: 3rem;
+}
+
 .lista-categorias {
 	margin-top: 2vh;
 	overflow: auto;
@@ -200,7 +216,7 @@ a {
 	border-radius: 100%;
 	text-align: center;
 	transition: all 0.4s ease-in-out;
-	margin: 1vw;
+	margin: 0.5vw;
 	cursor: pointer;
 }
 
