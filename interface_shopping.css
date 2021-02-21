@@ -329,6 +329,9 @@ a {
 	transition: all 0.4s ease-in-out;
 	margin: 1vw;
 	cursor: pointer;
+	box-shadow: -webkit-box-shadow: 28px 10px 88px -45px rgba(0,0,0,0.54);
+	-moz-box-shadow: 28px 10px 88px -45px rgba(0,0,0,0.54);
+	box-shadow: 28px 10px 88px -45px rgba(0,0,0,0.54);
 }
 
 .card-shopping:hover {
