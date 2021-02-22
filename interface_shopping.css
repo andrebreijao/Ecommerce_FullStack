@@ -224,6 +224,7 @@ a {
 	position: relative;
 	right: 4rem;
 	margin-top: 0vh;
+	
 }
 
 .botao-rolagem {
@@ -239,6 +240,7 @@ a {
 	margin-top: 2vh;
 	overflow: auto;
 	white-space: nowrap;
+	display: flex;
 }
 
 
@@ -258,6 +260,33 @@ a {
 	margin: 0.5vw;
 	cursor: pointer;
 }
+
+.categoria-individual-categoria {
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	flex-wrap: wrap;
+	width: 6rem;
+	height: 10rem;
+	text-align: center;
+	transition: all 0.4s ease-in-out;
+	margin: 0.5vw;
+	cursor: pointer;	
+	justify-content: center;
+}
+
+
+
+.categoria-individual-imagem {
+	border: 1px solid #c4c4c4;
+	width: 5rem;
+	height: 5rem;
+	border-radius: 100%;
+	background-color: white;
+	border: 1px solid #c4c4c4;
+}
+
+
 
 .categoria-individual:hover {
 	transform: scale(1.2);

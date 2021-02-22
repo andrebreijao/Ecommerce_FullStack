@@ -6,8 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="interface_lojas.css">
     <title>E-Shop: O Shopping mais perto de você</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <div class="nav-bar">
+        <img src="" alt="logo" id="logo-nav">
+    </div>
+
+    <div class="nav-bar-loja">
+        <img src="" alt="logo" id="logo-nav">
+        <div class="nav-bar-loja-menu">
+            <a href="#">Categorias</a>
+            <a href="#">Vitrines</a>
+            <a href="#">Serviços</a>
+        </div>
+        <div class="login">
+            <a href="#" id="entrar" onclick="togglePopup1()" >Entrar</a>
+            <a href="#" id="cadastro" onclick="togglePopup2()">Crie uma conta</a>
+        </div>
+    </div>
+
+    <div class="campo-busca">
+        <div class="campo-busca-input">
+            <input type="text" placeholder="Busca">
+        </div>
+    </div>
 
     <div class="card-produto">
         <img src="./Imagens/camera.jpg" alt="logo-shopping" class="img-lista-produto">
@@ -16,6 +41,22 @@
             <p class="card-produto-nome-loja">Nome da loja</p>
             <p class="card-produto-nome-loja">Descricao produto</p>
         </div>
-    </div>    
+    </div>
+    
+    <div class="card-loja">
+        <div class="card-loja-label-top">
+            <!-- <img src="" alt="" class="card-loja-logo-loja"> -->
+            <div class="card-loja-logo-loja"></div>
+            <div class="card-loja-label-top-box">
+                <p class="card-loja-nome-loja">Nome da Loja</p>
+                <p class="card-loja-categoria">Categoria</p>
+            </div> 
+
+        </div>
+        <img src="./Imagens/camera.jpg" alt="imagem-loja" class="img-lista-loja">
+        <div class="card-loja-descricao">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
+        </div>
+    </div>
 </body>
 </html>
