@@ -1,0 +1,84 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0px;
+	margin: auto 0;
+	font-family: "Lato", sans-serif;
+	box-sizing: border-box;
+}
+
+/* Cards individuais */
+
+.card-produto {
+	border: 1px solid #c4c4c4;
+	align-items: center;
+	width: 10.3rem;
+	border-radius: 4px;
+	text-align: center;
+	height: 16rem;
+	transition: all 0.4s ease-in-out;
+	margin: 3vw;
+	cursor: pointer;
+}
+
+.card-produto:hover {
+	transform: scale(1.2);
+}
+
+@media (max-width: 750px) {
+	.card-produto {
+		transform: scale(0.8);
+		margin: 0.1vw;
+	}
+
+	.card-produto:hover {
+		transform: scale(0.9);
+	}
+}
+
+@media (max-width: 550px) {
+	.card-produto {
+		transform: scale(0.7);
+		margin: 0.1vw;
+	}
+
+	.card-produto:hover {
+		transform: scale(0.8);
+	}
+}
+
+.card-produto > * {
+	display: inline-block;
+}
+
+.card-produto-descricao{
+    width: 90%;
+}
+
+.card-produto-descricao > * {
+    line-height: 1.5rem;
+    text-align: left;
+    padding: 0px;
+}
+
+.card-produto-nome-produto {
+    display: block;
+	font-size: 1rem;
+    padding-bottom: 0px;
+}
+
+.card-produto-nome-loja {
+	font-size: 0.66rem;
+    text-align: left;
+    padding-top: 0px;
+}
+
+
+.img-lista-produto {
+	height: 9rem;
+	border-radius: 2px;
+	width: 10rem;
+	margin-top: 2px;
+}
