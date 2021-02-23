@@ -23,11 +23,18 @@ a {
 }
 
 .container-secao {
-	-webkit-box-shadow:0px 2px 2px #c4c4c4cc;
-	-moz-box-shadow:0px 2px 2px #c4c4c4cc;
-	box-shadow:0px 2px 2px #c4c4c4cc;
 	width: 80%;
 	margin: auto;
+}
+
+.linha-entre-secoes {
+	margin-top: 0vh;
+	margin-bottom: 0vh;
+	width: 100%;
+	-webkit-box-shadow:0px 1px 1px blueviolet;
+	-moz-box-shadow:0px 1px 1px blueviolet;
+	box-shadow:0px 1px 1px blueviolet;
+	z-index: 100;
 }
 
 /* nav section */
@@ -55,9 +62,7 @@ a {
 	position:sticky;
 	top:0;
 	z-index: 5;
-	-webkit-box-shadow:0px 1px 1px rgb(20, 35, 168);
-	-moz-box-shadow:0px 1px 1px rgb(20, 35, 168);
-	box-shadow:0px 1px 1px rgb(20, 35, 168);
+	
 }
 
 .nav-bar-loja-menu {
@@ -96,6 +101,8 @@ a {
 
 /* fim navbar */
 
+/* campo de busca */
+
 .campo-busca {
     display: flex;
 	align-items: center;
@@ -103,23 +110,31 @@ a {
 	justify-items: center;
 	height: 3.5vw;
 	background-color: blueviolet;
-	-webkit-box-shadow:0px 1.5px 1.5px blueviolet;
-	-moz-box-shadow:0px 1.5px 1.5px blueviolet;
-	box-shadow:0px 1.5px 1.5px blueviolet;
     }
 
 .campo-busca-input {
     grid-column: 2/4;
     width: 35% ;
 	align-items: center;
-	height: 70%;	
+	height: 2rem;	
 	margin: 30px;
+	padding: 1px;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    padding-left: 0.5rem;
+}
+
+input:focus {
+	outline: none;
+    
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	opacity: 1; /* Firefox */
 	font-size: 0.7rem;
-	padding: 0.5rem;
+	
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
@@ -132,15 +147,57 @@ a {
 	padding: 0.5rem;
   }
 
-#campo-busca-input {
+.campo-busca-input {
+	width: 35rem;
+	height: 2rem;
+	font-size: 1rem;
+	position: relative;
+}
+
+#campo-busca-input-text {
 	width: 100%;
 	border: 1px solid #c4c4c4;
 	border-radius: 2px;
 	align-self: center;
 	height: 100%;
-
+	position: relative;
+	margin: 0;
 }
 
+#campo-de-busca-botao{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	position: absolute;
+	top: auto;
+	right: 0;
+	height: 100%;
+	width: 3rem;
+	background-color: rgba(137, 43, 226, 0.123);
+}
+
+#campo-de-busca-botao:hover{
+	background-color: rgba(100, 148, 237, 0.479);
+	border:none;
+	height: 95%;
+}
+
+#campo-de-busca-limpar {
+	text-decoration: underline;
+}
+
+/* banner */
+
+.banner{
+	height: 1vh;
+}
+/* fim banner */
 
 
 /* Cards individuais */
