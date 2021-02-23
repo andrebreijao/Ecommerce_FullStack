@@ -40,6 +40,9 @@ a {
 	position:sticky;
 	top:0;
 	z-index: 5;
+	-webkit-box-shadow:0px 1px 1px rgb(20, 35, 168);
+	-moz-box-shadow:0px 1px 1px rgb(20, 35, 168);
+	box-shadow:0px 1px 1px rgb(20, 35, 168);
 }
 
 .nav-bar-loja-menu {
@@ -79,18 +82,50 @@ a {
 /* fim navbar */
 
 .campo-busca {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    background-color: red;
-    width: 100%;
-    padding-bottom: 1rem;
-    align-items: center;
-}
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	height: 3.5vw;
+	background-color: blueviolet;
+	-webkit-box-shadow:0px 1.5px 1.5px blueviolet;
+	-moz-box-shadow:0px 1.5px 1.5px blueviolet;
+	box-shadow:0px 1.5px 1.5px blueviolet;
+    }
 
 .campo-busca-input {
     grid-column: 2/4;
-    width: 80% ;
+    width: 35% ;
+	align-items: center;
+	height: 70%;	
+	margin: 30px;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	opacity: 1; /* Firefox */
+	font-size: 0.7rem;
+	padding: 0.5rem;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font-size: 0.7rem;
+	padding: 0.5rem;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+	font-size: 0.7rem;
+	padding: 0.5rem;
+  }
+
+#campo-busca-input {
+	width: 100%;
+	border: 1px solid #c4c4c4;
+	border-radius: 2px;
+	align-self: center;
+	height: 100%;
+
+}
+
 
 
 /* Cards individuais */
@@ -105,6 +140,9 @@ a {
 	transition: all 0.4s ease-in-out;
 	margin: 3vw;
 	cursor: pointer;
+	-webkit-box-shadow:0px 2px 2px #c4c4c4cc;
+	-moz-box-shadow:0px 2px 2px #c4c4c4cc;
+	box-shadow:0px 2px 2px #c4c4c4cc;
 }
 
 .card-produto:hover {
@@ -169,6 +207,12 @@ a {
 
 /* Cards loja */
 
+.lista-lojas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .card-loja {
 	border: 1px solid #c4c4c4;
 	align-items: center;
@@ -179,6 +223,9 @@ a {
 	transition: all 0.4s ease-in-out;
 	margin: 3vw;
 	cursor: pointer;
+	-webkit-box-shadow:0px 2px 2px #c4c4c4cc;
+	-moz-box-shadow:0px 2px 2px #c4c4c4cc;
+	box-shadow:0px 2px 2px #c4c4c4cc;
 }
 
 .card-loja:hover {
@@ -264,3 +311,10 @@ a {
     color: rgba(0, 0, 0, 0.404);
 }
 
+
+.container-carrosel {
+	display: inline-block;
+	display: flex;
+	width: 100%;
+	margin: auto;
+}
