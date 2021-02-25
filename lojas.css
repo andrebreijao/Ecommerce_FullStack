@@ -229,7 +229,7 @@ input:focus {
 .card-produto {
 	border: 1px solid #794f4f;
 	align-items: center;
-	width: 10.3rem;
+	width: 13rem;
 	border-radius: 4px;
 	text-align: center;
 	height: 18rem;
@@ -296,10 +296,10 @@ input:focus {
 
 
 .img-lista-produto {
-	height: 30vh;
+	height: 35vh;
 	border-radius: 2px;
-	width: 10rem;
-	margin-top: 2px;
+	width: 16vw;
+	margin-top: 4px;
 }
 
 .card-produto-preco {
