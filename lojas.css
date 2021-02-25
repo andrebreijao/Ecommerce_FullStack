@@ -314,3 +314,18 @@ input:focus {
 .filtro-toggle:hover {
 	background-color: rgba(20, 35, 168, 0.61);
 }	
+
+.secao-banner {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	height: 20rem;
+	margin: 1rem 0rem;
+}
+
+#banner {
+	background-color: blueviolet;
+	width: 70vw;
+	height: 50vh;
+}
