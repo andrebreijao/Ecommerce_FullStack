@@ -9,8 +9,11 @@ document.querySelectorAll('.card-wishlist-solido').forEach(item => {
 item.addEventListener('click', event => {
     console.log("solido")
     item.className = 'card-wishlist-vazio';
+}), { once : false}
 })
-})
+
+
+
 
 $(document).ready(function(){
     $("#genero").click(function(){

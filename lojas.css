@@ -7,6 +7,7 @@ html {
 	margin: auto 0;
 	font-family: "Lato", sans-serif;
 	box-sizing: border-box;
+	
 }
 
 a {
@@ -15,34 +16,12 @@ a {
 	margin-top: auto;
 }
 
-.titulo-secao {
-	margin-top: 3rem;
-	font-size: 2rem;
-	margin-left: 0rem;
-	display: inline-block;
-}
-
-.container-secao {
-	width: 80%;
-	margin: auto;
-	margin-top: 3rem;
-}
-
-.linha-entre-secoes {
-	margin-top: 0vh;
-	margin-bottom: 0vh;
-	width: 100%;
-	-webkit-box-shadow:0px 1px 1px blueviolet;
-	-moz-box-shadow:0px 1px 1px blueviolet;
-	box-shadow:0px 1px 1px blueviolet;
-	z-index: 100;
-}
 
 /* nav section */
 
 .nav-bar {
 	display: flex;
-	font-size: 0.9rem;
+	font-size: 0.6rem;
 	list-style: none;
 	background-color: black;
 	height: 6vh;
@@ -54,7 +33,7 @@ a {
 
 .nav-bar-loja {
 	display: flex;
-	font-size: 0.9rem;
+	font-size: 0.7rem;
 	list-style: none;
 	background-color: rgb(20, 35, 168);
 	height: 8vh;
@@ -109,7 +88,7 @@ a {
 	align-content: center;
 	align-items: center;
 	height: 100%;
-	width: 14rem;
+	width: 10rem;
 	background-color: rgba(204, 204, 204, 0.068);
 	position: fixed;
 	top: 0;
@@ -133,14 +112,18 @@ a {
 	align-items: center;
 	align-content: center;
 	flex-direction: column;
+	position: relative;
 }
 
 #nav-filtros-logo-loja {
-	background-color: black;
-	height: 10px;
-	width: 10px;
+	
+	height: 2.5rem;
+	width: 5rem;
+	position: absolute;
+	top: 20vh;
+	left: 50%;
 	transform: translate(-50%,-50%);
-	margin: 1rem 50%;
+	border: solid 1px rgba(0, 0, 0, 0.253);
 
 }
 
@@ -191,7 +174,7 @@ input:focus {
 	position: absolute;
 	top: auto;
 	right: 0;
-	height: 100%;
+	height: 90%;
 	width: 3rem;
 	background-color: rgba(255, 255, 255, 0);
 }
@@ -205,13 +188,13 @@ input:focus {
 #campo-de-busca-botao:hover{
 	background-color: rgba(100, 148, 237, 0.479);
 	border:none;
-	height: 100%;
+	height: 95%;
 }
 
 .campo-busca-input {
 	width: 90%;
-	height: 2rem;
-	font-size: 1rem;
+	height: 1.6rem;
+	font-size: 0.1rem;
 	position: relative;
 	position: relative;
 	display: flex;
@@ -240,26 +223,37 @@ input:focus {
 
 .filtro-toggle{
 	width: 100%;
+	height: 2rem;
 	background-color: rgba(41, 44, 65, 0.884);
 	cursor: pointer;
 	border-radius: 4px;
 	text-align: left;
-	padding: 1.3vh 3vh;
 	-webkit-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
 	box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
+	font-weight: 700;
+	font-size: 1rem;
+	padding: 1rem ;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	justify-items: center;
 	margin: 0.2rem 0rem;
-	font-weight: 700;
-	padding: 1rem ;
+	
+}
+
+.filtro-toggle > *{
+	position: relative;
+	bottom: 0.6rem;
+	display: inline-block;
+
 	
 }
 
 /* conteudo-loja */
 
 .conteudo-loja {
-	margin-left: 15rem;
+	margin-left: 10rem;
 }
 
 /* Cards individuais */
@@ -280,16 +274,17 @@ input:focus {
 	text-align: center;
 	height: 18rem;
 	transition: all 0.4s ease-in-out;
-	margin: 0.5vw;
+	margin: 0.1vw;
 	cursor: pointer;
 	-webkit-box-shadow:0px 2px 2px #c4c4c4cc;
 	-moz-box-shadow:0px 2px 2px #c4c4c4cc;
-	box-shadow:0px 2px 2px #c4c4c4cc;
+	box-shadow:0px 2px 2px #0f0808cc;
 	position: relative;
+	transform: scale(0.8)
 }
 
 .card-produto:hover {
-	transform: scale(1.03);
+	transform: scale(0.85);
 }
 
 @media (max-width: 750px) {
@@ -390,14 +385,14 @@ input:focus {
 	align-content: center;
 	align-items: center;
 	justify-content: center;
-	height: 20rem;
+	height: 15rem;
 	margin: 1rem 0rem;
 }
 
 #banner {
 	background-color: rgba(0, 0, 0, 0.185);
-	width: 70vw;
-	height: 50vh;
+	width: 75vw;
+	height: 14rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
