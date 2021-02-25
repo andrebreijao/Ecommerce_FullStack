@@ -17,6 +17,7 @@ a {
 }
 
 
+
 /* nav section */
 
 .nav-bar {
@@ -88,7 +89,7 @@ a {
 	align-content: center;
 	align-items: center;
 	height: 100%;
-	width: 10rem;
+	width: 14rem;
 	background-color: rgba(204, 204, 204, 0.068);
 	position: fixed;
 	top: 0;
@@ -250,11 +251,35 @@ input:focus {
 	
 }
 
+/* fim-filtros */
+
 /* conteudo-loja */
 
 .conteudo-loja {
-	margin-left: 10rem;
+	margin-left: 14rem;
 }
+
+/* secao banner */
+.secao-banner {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+	margin: 1rem 0rem;
+}
+
+#banner {
+	background-color: rgba(0, 0, 0, 0.185);
+	width: 1000px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* fim-secao-banner */
+
 
 /* Cards individuais */
 
@@ -269,22 +294,21 @@ input:focus {
 .card-produto {
 	border: 1px solid #C4C4C4;
 	align-items: center;
-	width: 13rem;
+	width: 12rem;
 	border-radius: 4px;
 	text-align: center;
 	height: 18rem;
 	transition: all 0.4s ease-in-out;
-	margin: 0.1vw;
+	margin: 1vw;
 	cursor: pointer;
 	-webkit-box-shadow:0px 2px 2px #c4c4c4cc;
 	-moz-box-shadow:0px 2px 2px #c4c4c4cc;
 	box-shadow:0px 2px 2px #0f0808cc;
 	position: relative;
-	transform: scale(0.8)
 }
 
 .card-produto:hover {
-	transform: scale(0.85);
+	transform: scale(1.05);
 }
 
 @media (max-width: 750px) {
@@ -337,10 +361,11 @@ input:focus {
 
 
 .img-lista-produto {
-	height: 35vh;
+	height: 180px;
 	border-radius: 2px;
-	width: 16vw;
+	width: 180px;
 	margin-top: 4px;
+	object-fit: cover;
 }
 
 .card-produto-preco {
@@ -380,23 +405,7 @@ input:focus {
 
 	
 
-.secao-banner {
-	display: flex;
-	align-content: center;
-	align-items: center;
-	justify-content: center;
-	height: 15rem;
-	margin: 1rem 0rem;
-}
 
-#banner {
-	background-color: rgba(0, 0, 0, 0.185);
-	width: 75vw;
-	height: 14rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
 #panel-genero {
 	background-color: red;
