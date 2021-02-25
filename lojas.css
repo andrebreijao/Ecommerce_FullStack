@@ -110,7 +110,7 @@ a {
 	align-items: center;
 	height: 100%;
 	width: 15rem;
-	background-color: rgb(131, 130, 130);
+	background-color: rgba(204, 204, 204, 0.904);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -190,7 +190,7 @@ input:focus {
 #campo-de-busca-botao:hover{
 	background-color: rgba(100, 148, 237, 0.479);
 	border:none;
-	height: 95%;
+	height: 100%;
 }
 
 .campo-busca-input {
@@ -303,8 +303,14 @@ input:focus {
 
 .filtro-toggle{
 	width: 100%;
-	text-align: center;
-	padding: 1rem 1rem;
 	margin: 1rem 0rem;
-	background-color: rgb(194, 187, 177);
+	background-color: rgba(20, 35, 168, 0.884);
+	cursor: pointer;
+	border-radius: 4px;
+	text-align: center;
+	padding: 1.3vh 0vh;
 }
+
+.filtro-toggle:hover {
+	background-color: rgba(20, 35, 168, 0.61);
+}	
