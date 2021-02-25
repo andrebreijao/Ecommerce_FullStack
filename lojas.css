@@ -308,7 +308,8 @@ input:focus {
 }
 
 .card-produto:hover {
-	transform: scale(1.05);
+	transform: scale(1.02);
+	
 }
 
 @media (max-width: 750px) {
@@ -366,7 +367,16 @@ input:focus {
 	width: 180px;
 	margin-top: 4px;
 	object-fit: cover;
+	background: url(./Imagens/camera.jpg);
+	background-size: 180px 180px;
 }
+
+.img-lista-produto:hover {
+	background: url(./Imagens/vitrine\ -\ 1.jpg);
+	background-size: 180px 180px;
+}
+
+
 
 .card-produto-preco {
 	font-weight: 700;

@@ -12,7 +12,11 @@ item.addEventListener('click', event => {
 }), { once : false}
 })
 
-
+// document.querySelectorAll('.card-produto').forEach(item => {
+// item.addEventListener('mouseover', event => {
+//     item.style.backgroundImage = "url('./Imagens/vitrine\ -\ 1.jpg')";
+// }), { once : false}
+// })
 
 
 $(document).ready(function(){
