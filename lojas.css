@@ -32,18 +32,22 @@ a {
 	z-index: 5;
 }
 
-.nav-bar-loja {
+.nav-bar-shopping {
 	display: flex;
 	font-size: 0.7rem;
 	list-style: none;
-	background-color: #a0a0a0;
+	background-color: #BF2C37;
 	height: 8vh;
 	width: 100%;
 	justify-content: space-between;
 	position:sticky;
 	top:0;
-	z-index: 5;
-	
+	z-index: 5;	
+}
+
+#logo-shopping {
+	height: 40px;
+	margin-left: 20px;
 }
 
 .nav-bar-loja-menu {
@@ -90,7 +94,7 @@ a {
 	align-items: center;
 	height: 100%;
 	width: 14rem;
-	background-color: rgba(204, 204, 204, 0.068);
+	background-color: rgba(245,245,245, 1);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -118,13 +122,13 @@ a {
 
 #nav-filtros-logo-loja {
 	
-	height: 2.5rem;
-	width: 5rem;
+	height: 7rem;
+	width: auto;
 	position: absolute;
 	top: 20vh;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	border: solid 1px rgba(0, 0, 0, 0.253);
+	margin-top: 1.5rem;
 
 }
 
@@ -276,6 +280,7 @@ input:focus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: url(./Imagens/Destaques.jpg);
 }
 
 /* fim-secao-banner */
@@ -367,12 +372,12 @@ input:focus {
 	width: 180px;
 	margin-top: 4px;
 	object-fit: cover;
-	background: url(./Imagens/camera.jpg);
+	background: url(./Imagens/Card1.jpg);
 	background-size: 180px 180px;
 }
 
 .img-lista-produto:hover {
-	background: url(./Imagens/vitrine\ -\ 1.jpg);
+	background: url(./Imagens/Card2.jpg);
 	background-size: 180px 180px;
 }
 
@@ -387,8 +392,8 @@ input:focus {
 
 .card-wishlist-vazio {
 	position: absolute;
-	height: 1.5rem;
-	width: 1.5rem;
+	height: 1.8rem;
+	width: 1.8rem;
 	top: 5px;
 	right: 7px;
 	display: flex;
@@ -396,6 +401,8 @@ input:focus {
 	align-content: center;
 	justify-content: center;
 	background: url(./Imagens/heart-regular.svg);
+	background-color: rgba(255, 255, 255, 0.712);
+	border-radius: 100%;
 }
 
 .card-wishlist-solido {
