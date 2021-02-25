@@ -232,13 +232,14 @@ input:focus {
 	width: 10.3rem;
 	border-radius: 4px;
 	text-align: center;
-	height: 16rem;
+	height: 18rem;
 	transition: all 0.4s ease-in-out;
 	margin: 0.5vw;
 	cursor: pointer;
 	-webkit-box-shadow:0px 2px 2px #c4c4c4cc;
 	-moz-box-shadow:0px 2px 2px #c4c4c4cc;
 	box-shadow:0px 2px 2px #c4c4c4cc;
+	position: relative;
 }
 
 .card-produto:hover {
@@ -295,10 +296,17 @@ input:focus {
 
 
 .img-lista-produto {
-	height: 9rem;
+	height: 30vh;
 	border-radius: 2px;
 	width: 10rem;
 	margin-top: 2px;
+}
+
+.card-produto-preco {
+	font-weight: 700;
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
 }
 
 .filtro-toggle{
