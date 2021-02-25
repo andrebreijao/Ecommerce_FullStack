@@ -309,6 +309,34 @@ input:focus {
 	right: 4px;
 }
 
+.card-wishlist-vazio {
+	position: absolute;
+	height: 1.5rem;
+	width: 1.5rem;
+	top: 5px;
+	right: 7px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	background: url(./Imagens/heart-regular.svg);
+}
+
+.card-wishlist-solido {
+	position: absolute;
+	height: 1.5rem;
+	width: 1.5rem;
+	top: 5px;
+	right: 7px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	background: url(./Imagens/heart-solid.svg);
+}
+
+
+
 .filtro-toggle{
 	width: 100%;
 	margin: 1rem 0rem;
