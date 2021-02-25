@@ -402,3 +402,7 @@ input:focus {
 	justify-content: center;
 	align-items: center;
 }
+
+#panel-genero {
+	background-color: red;
+}
