@@ -109,12 +109,20 @@ a {
 	align-content: center;
 	align-items: center;
 	height: 100%;
-	width: 15rem;
-	background-color: rgba(204, 204, 204, 0.904);
+	width: 14rem;
+	background-color: rgba(204, 204, 204, 0.068);
 	position: fixed;
 	top: 0;
 	left: 0;
 	color: white;
+	border-right: solid 1px rgba(0, 0, 0, 0.014);
+}
+
+.container-input {
+	width: 100%;
+	height: 1rem;
+	margin: 2vh 0rem;
+	padding: 0.8rem;
 }
 
 .nav-filtros-conteudo {
@@ -163,6 +171,13 @@ input:focus {
 	padding: 0.5rem;
   }
 
+.campo-busca{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
  #campo-de-busca-botao {
 	background: transparent;
 	border: none;
@@ -194,11 +209,17 @@ input:focus {
 }
 
 .campo-busca-input {
-	width: 13rem;
+	width: 90%;
 	height: 2rem;
 	font-size: 1rem;
 	position: relative;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
+
 
 #campo-busca-input-text {
 	width: 100%;
@@ -208,6 +229,31 @@ input:focus {
 	height: 100%;
 	position: relative;
 	margin: 0;
+	position: absolute;
+	
+}
+
+.lista-toggle-filtro {
+	margin-top: 2rem;
+	width: 100%;
+}
+
+.filtro-toggle{
+	width: 100%;
+	background-color: rgba(41, 44, 65, 0.884);
+	cursor: pointer;
+	border-radius: 4px;
+	text-align: left;
+	padding: 1.3vh 3vh;
+	-webkit-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
+	display: flex;
+	justify-content: space-between;
+	margin: 0.2rem 0rem;
+	font-weight: 700;
+	padding: 1rem ;
+	
 }
 
 /* conteudo-loja */
@@ -227,7 +273,7 @@ input:focus {
 }
 
 .card-produto {
-	border: 1px solid #794f4f;
+	border: 1px solid #C4C4C4;
 	align-items: center;
 	width: 13rem;
 	border-radius: 4px;
@@ -337,19 +383,7 @@ input:focus {
 
 
 
-.filtro-toggle{
-	width: 100%;
-	margin: 1rem 0rem;
-	background-color: rgba(20, 35, 168, 0.884);
-	cursor: pointer;
-	border-radius: 4px;
-	text-align: center;
-	padding: 1.3vh 0vh;
-}
-
-.filtro-toggle:hover {
-	background-color: rgba(20, 35, 168, 0.61);
-}	
+	
 
 .secao-banner {
 	display: flex;
@@ -361,7 +395,10 @@ input:focus {
 }
 
 #banner {
-	background-color: blueviolet;
+	background-color: rgba(0, 0, 0, 0.185);
 	width: 70vw;
 	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
