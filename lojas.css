@@ -226,12 +226,12 @@ input:focus {
 	width: 100%;
 }
 
-.filtro-toggle{
+.filtro-toggle {
 	width: 100%;
 	height: 2rem;
 	background-color: rgba(41, 44, 65, 0.884);
 	cursor: pointer;
-	border-radius: 4px;
+	border-radius:1px;
 	text-align: left;
 	-webkit-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
@@ -244,6 +244,7 @@ input:focus {
 	align-items: center;
 	justify-items: center;
 	margin: 0.2rem 0rem;
+	z-index: 100;
 	
 }
 
@@ -251,8 +252,6 @@ input:focus {
 	position: relative;
 	bottom: 0.6rem;
 	display: inline-block;
-
-	
 }
 
 /* fim-filtros */
@@ -402,8 +401,11 @@ input:focus {
 	align-content: center;
 	justify-content: center;
 	background: url(./Imagens/heart-regular.svg);
-	background-color: rgba(255, 255, 255, 0.712);
+	background-repeat: no-repeat;
+	background-size: 80% auto;
+	background-color: rgba(0, 0, 0, 0.897);
 	border-radius: 100%;
+	background-position: center center;
 }
 
 .card-wishlist-solido {
@@ -417,11 +419,22 @@ input:focus {
 	align-content: center;
 	justify-content: center;
 	background: url(./Imagens/heart-solid.svg);
+	background-repeat: no-repeat;
+	background-size: 80% auto;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 100%;
+	background-position: center center;
 }
 
 
 #panel-genero {
-	background-color: red;
+	background-color: rgba(0, 0, 0, 0.644);
+	border: solid 1px rgba(0, 0, 0, 0.178);
+	border-radius: 2px;
+	height: 40px;
+	position: relative;
+	bottom: 4px;
+	padding-top: 15px;
 }
 
 
@@ -499,6 +512,9 @@ img {vertical-align: middle;}
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+
+  /* escondendo bolinhas */
+  display: none;
 }
 
 .active, .dot:hover {
