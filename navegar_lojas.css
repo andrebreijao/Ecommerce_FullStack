@@ -42,7 +42,7 @@ a {
 
 .nav-bar {
 	display: flex;
-	font-size: 0.9rem;
+	font-size: 0.6rem;
 	list-style: none;
 	background-color: black;
 	height: 6vh;
@@ -52,18 +52,22 @@ a {
 	z-index: 5;
 }
 
-.nav-bar-loja {
+.nav-bar-shopping {
 	display: flex;
-	font-size: 0.9rem;
+	font-size: 0.7rem;
 	list-style: none;
-	background-color: rgb(20, 35, 168);
+	background-color: #BF2C37;
 	height: 8vh;
 	width: 100%;
 	justify-content: space-between;
 	position:sticky;
 	top:0;
-	z-index: 5;
-	
+	z-index: 5;	
+}
+
+#logo-shopping {
+	height: 40px;
+	margin-left: 20px;
 }
 
 .nav-bar-loja-menu {
@@ -99,7 +103,6 @@ a {
 	margin-left: 2rem;
 	background-color: white;
 }
-
 /* fim navbar */
 
 /* campo de busca */

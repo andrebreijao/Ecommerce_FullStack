@@ -19,10 +19,10 @@ a {
 
 .nav-bar {
 	display: flex;
-	font-size: 0.9rem;
+	font-size: 0.6rem;
 	list-style: none;
 	background-color: black;
-	height: 7vh;
+	height: 6vh;
 	width: 100%;
 	position:relative;
 	justify-content: center;
@@ -31,16 +31,32 @@ a {
 
 .nav-bar-shopping {
 	display: flex;
-	font-size: 0.9rem;
+	font-size: 0.7rem;
 	list-style: none;
-	background-color: rgb(168, 20, 20);
-	height: 10vh;
+	background-color: #BF2C37;
+	height: 8vh;
 	width: 100%;
 	justify-content: space-between;
 	position:sticky;
 	top:0;
-	z-index: 5;
+	z-index: 5;	
+}
 
+#logo-shopping {
+	height: 40px;
+	margin-left: 20px;
+}
+
+.nav-bar-loja-menu {
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-loja-menu > a {
+    margin: 0 3rem;
+    text-transform: uppercase;    
 }
 
 .login {
@@ -64,8 +80,7 @@ a {
 	margin-left: 2rem;
 	background-color: white;
 }
-
-/* end-nav-section */
+/* fim navbar */
 
 /* part-2 */
 .cta {

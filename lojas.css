@@ -403,15 +403,15 @@ input:focus {
 	background: url(./Imagens/heart-regular.svg);
 	background-repeat: no-repeat;
 	background-size: 80% auto;
-	background-color: rgba(0, 0, 0, 0.897);
+	background-color: #E0E0E0;
 	border-radius: 100%;
 	background-position: center center;
 }
 
 .card-wishlist-solido {
 	position: absolute;
-	height: 1.5rem;
-	width: 1.5rem;
+	height: 1.8rem;
+	width: 1.8rem;
 	top: 5px;
 	right: 7px;
 	display: flex;
@@ -421,7 +421,7 @@ input:focus {
 	background: url(./Imagens/heart-solid.svg);
 	background-repeat: no-repeat;
 	background-size: 80% auto;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: #E0E0E0;
 	border-radius: 100%;
 	background-position: center center;
 }
