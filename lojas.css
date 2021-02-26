@@ -16,6 +16,10 @@ a {
 	margin-top: auto;
 }
 
+body {
+	width: 1355px;
+	height: 1000px;
+}
 
 
 /* nav section */
@@ -304,7 +308,7 @@ input:focus {
 	text-align: center;
 	height: 18rem;
 	transition: all 0.4s ease-in-out;
-	margin: 1vw;
+	margin: 2vw;
 	cursor: pointer;
 	-webkit-box-shadow:0px 2px 2px #c4c4c4cc;
 	-moz-box-shadow:0px 2px 2px #c4c4c4cc;
