@@ -85,9 +85,9 @@ a {
 /* part-2 */
 .cta {
 	width: 100%;
-	height: 83vh;
+	height: 86vh;
 	position: relative;
-	background: url(./Imagens/background-shopping-eldorado.jpg) no-repeat center
+	background: url(./Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Capa_Vale_Sul.jpg) no-repeat center
 		center/cover;
 	display: flex;
 }
@@ -190,11 +190,11 @@ a {
 
 
 #linha-cta {
-	height: 7.5vh;
+	height: 8vh;
 	margin-top: auto;
-	margin-bottom: 15px;
-	opacity: 0;
+	margin-bottom: 0;
 	z-index: 3;
+	opacity: 0;
 	position: absolute;
 	bottom: 0vh; /*Chutando o valor para posicionar a linha*/
 	background-color: blue;
@@ -233,14 +233,14 @@ a {
 /* Navegue por categorias */
 
 .categorias {
-	background-color: #c4c4c4;
+	position: relative;
+	background-color: rgb(233, 233, 233);
 
 }
 
 .categorias-barra-rolagem {
 	display: flex;
 	width: 110%;
-	position: relative;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 0vh;
@@ -285,11 +285,9 @@ a {
 }
 
 .categoria-individual-imagem {
-	border: 1px solid #c4c4c4;
 	width: 5rem;
 	height: 5rem;
 	border-radius: 100%;
-	background-color: white;
 	/* centralizando com a margem */
 	margin-left: auto;
 	margin-right: auto;
