@@ -210,7 +210,7 @@ a {
 .titulo-secao {
 
 	margin-top: 0rem;
-	font-size: 2rem;
+	font-size: 1rem;
 	margin-left: 0rem;
 	display: inline-block;
 }
@@ -336,9 +336,6 @@ a {
 }
 
 /* secao lista de shoppings */
-
-.secao-lista-shoppings {
-}
 
 .titulo-secao {
 	margin-top: 3rem;
