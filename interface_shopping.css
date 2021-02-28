@@ -205,18 +205,20 @@ a {
 
 .titulo-e-ver-mais {
 	display: block;
+	margin-top: 0rem;
 }
 
 .titulo-secao {
 
 	margin-top: 0rem;
-	font-size: 1rem;
+	font-size: 2rem;
 	margin-left: 0rem;
 	display: inline-block;
+	color: black;
 }
 
 .ver-mais {
-	margin-top: 3rem;
+	margin-top: 0rem;
 	font-size: 0.66rem;
 	margin-left: 0rem;
 	display: inline-block;
@@ -291,7 +293,14 @@ a {
 	/* centralizando com a margem */
 	margin-left: auto;
 	margin-right: auto;
+	filter: grayscale(80%);
+	-webkit-filter: grayscale(90%);
+	transition: 0.4s;
+}
 
+.categoria-individual-imagem:hover{
+	filter: none;
+	-webkit-filter: none;
 }
 .categorias-individual-label{
 	justify-content: center;
@@ -329,10 +338,20 @@ a {
 
 .marca {
 	border-radius: 4%;
-	height: 5.5rem;
-	width: 12.5rem;
+	height: 7.3rem;
+	width: 7.3rem;
 	background-color: white;
-	border: 1px solid #c4c4c4;
+	border: 2px solid #c4c4c4;
+	margin-left: 1rem;
+	align-items: center;
+	justify-items: center;
+}
+
+.img-marca{
+	border-radius: 4%;
+	height: 7rem;
+	width: 7rem;
+	
 }
 
 /* secao lista de shoppings */
