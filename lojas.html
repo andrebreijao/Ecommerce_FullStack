@@ -18,7 +18,7 @@
     </div>
 
     <div class="nav-bar-shopping">
-        <img src="./Imagens/Logo valesul.svg" alt="logo" id="logo-shopping">
+        <img src="./Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Logo_shopping_Vale_SUL.jpg" alt="logo" id="logo-shopping">
         <div class="nav-bar-loja-menu">
             <a href="#">Categorias</a>
             <a href="#">Vitrines</a>
@@ -34,32 +34,77 @@
         <div class="nav-filtros-conteudo">
             <div class="campo-busca">
                 <img src="./Imagens/Logo-Loja-FIcticia.jpg" alt="" id="nav-filtros-logo-loja">
-                <div class="container-input">
+                <div class="container-input" id="container-busca">
                     <div class="campo-busca-input">
                         <input type="text" placeholder="Pesquisar"  id="campo-busca-input-text">
                         <button id="campo-de-busca-botao"><i class="fa fa-search"></i></button>
                     </div>
                     <div class="linha-personalizavel" id="linha-primaria"></div>
                 </div>
+                <div class="container-input" id="container-genero">
+                    <div class="filtro-toggle" id="genero">
+                        <button class="genero" id="gen" value="masculino" onclick="function1()">Masculino</button>
+                        <button class="genero" id="gen" value="feminino" onclick="function1()">Feminino</button>
+                        <button class="genero" id="kids" value="kids" onclick="function2()">Kids</button>
+                    </div>
+                </div>
+                <div class="container-input">
+                    <div class="filtro-toggle" id="categoria">
+                        <div class="filtro-toggle-texto">Categorias:</div>
+                        <select name="tipo" id="categ">
+                            <option value="Sem_filtro">Sem Filtro</option>
+                            <option value="Camisa_social">Camisa Social</option>
+                            <option value="Casaco">Casaco</option>
+                        </select>
+                    </div>
+                    <div class="linha-personalizavel" id="linha-secundaria"></div>
+                </div>
+                <div class="container-input">
+                    <div class="filtro-toggle" id="marcas">
+                        <div class="filtro-toggle-texto">Marcas:</div>
+                        <select name="tipo" id="categ">
+                            <option value="Sem_filtro">Sem Filtro</option>
+                            <option value="Camisa_social">Reserva</option>
+                            <option value="Casaco">Adidas</option>
+                        </select>
+                    </div>
+                    <div class="linha-personalizavel" id="linha-terciaria"></div>
+                </div>
+                <div class="container-input"> 
+                    <div class="filtro-toggle" id="tamanho">
+                        <div class="filtro-toggle-texto">Tamanho:</div>
+                        <select name="tipo" id="categ">
+                            <option value="Sem_filtro">Sem Filtro</option>
+                            <option value="muito_pequeno">PP</option>
+                            <option value="pequeno">P</option>
+                            <option value="medio">M</option>
+                            <option value="grande">G</option>
+                            <option value="muito_grande">GG</option>
+                        </select>
+                    </div>
+                    <div class="linha-personalizavel" id="linha-quaternaria"></div>
+                </div>
+<!--  
                 <div class="lista-toggle-filtro">
                     <div class="filtro-toggle" id="genero">
-                        <div class="filtro-toggle-texto">Genero</div>
+                        <div class="filtro-toggle-texto">Genero:</div>
                         <div class="filtro-toggle-imagem"><img src="./Imagens/seta-baixo.svg" alt=""></div>
                         
                     </div>
                     <div id="panel-genero">Consegui!!</div>
                     <div class="filtro-toggle" id="genero">
-                        <div class="filtro-toggle-texto">Tamanhos</div>
+                        <div class="filtro-toggle-texto">Tamanho:</div>
                         <div class="filtro-toggle-imagem"><img src="./Imagens/seta-baixo.svg" alt=""></div>
                         
                     </div>
                     <div class="filtro-toggle" id="genero">
-                        <div class="filtro-toggle-texto">Marcas</div>
+                        <div class="filtro-toggle-texto">Marcas:</div>
                         <div class="filtro-toggle-imagem"><img src="./Imagens/seta-baixo.svg" alt=""></div>
                         
                     </div>
                     
-                </div>        
+                </div>  
+-->      
             </div>
         </div>
     </div>

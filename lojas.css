@@ -104,8 +104,13 @@ a {
 .container-input {
 	width: 100%;
 	height: 1rem;
-	margin: 5vh 0rem;
+	margin: 1vh 0rem;
 	padding: 0.8rem;
+}
+
+#container-busca{
+	margin: 2vh 0rem;
+	top: 0;
 }
 
 .nav-filtros-conteudo {
@@ -228,37 +233,106 @@ input:focus {
 	background-color: black;
 }
 
+#linha-secundaria{
+	background-color: rgb(234,29,60);
+}
+
+#linha-terciaria{
+	background-color: rgb(252,179,22);
+}
+
+#linha-quaternaria{
+	background-color: rgb(89,202,234);
+}
+
 .lista-toggle-filtro {
 	margin-top: 2rem;
 	width: 100%;
 }
 
 .filtro-toggle {
-	width: 100%;
-	height: 2rem;
-	background-color: rgba(41, 44, 65, 0.884);
-	cursor: pointer;
-	border-radius:1px;
-	text-align: left;
-	-webkit-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
-	box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
-	font-weight: 700;
-	font-size: 1rem;
-	padding: 1rem ;
+	width: 95%;
+	height: 1.6rem;
+	background-color: rgba(245,245,245, 1);
+	font-weight: 900;
+	font-size: 0.8rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	align-content: center;
 	justify-items: center;
-	margin: 0.2rem 0rem;
 	z-index: 100;
+	margin-left: 5%;
 	
 }
 
 .filtro-toggle > *{
 	position: relative;
-	bottom: 0.6rem;
+	bottom: 0rem;
 	display: inline-block;
+	color: rgb(118, 118, 118)
+}
+
+#container-genero{
+	margin-bottom: 5vh;
+}
+
+#genero{
+	margin-left: 0%;
+	align-content: center;
+}
+
+.genero{
+	border:none;
+	border-radius:0rem;
+	cursor: pointer;
+	font-weight: 900;
+	display:block;
+	background-color: rgba(245,245,245, 1);
+	padding: 6px;
+}
+
+#gen:focus{
+	color: rgb(234,29,60);
+	background-color: rgba(245,245,245, 1);
+}
+
+#kids:focus{
+	color: rgb(234,29,60);
+	background-color: rgba(245,245,245, 1);
+}
+
+
+.nav-de-filtros-botao {
+	display: block;
+	margin: 0 1rem;
+	padding: 6px;
+	position: relative;
+	bottom: 1rem;
+	right: 1rem;
+	background-color: white;
+	color: blueviolet;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+}
+
+button:focus {
+	background-color: orange;
+	color: white;
+}
+
+
+#categ{
+
+	background-color:rgba(245,245,245, 1) ;
+	border: none;
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-style: italic;
+	right: 0;
+}
+option{
+	right:0;
 }
 
 /* fim-filtros */
