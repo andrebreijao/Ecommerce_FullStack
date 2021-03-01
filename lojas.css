@@ -161,7 +161,6 @@ input:focus {
 .campo-busca{
 	width: 100%;
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 }
@@ -177,7 +176,6 @@ input:focus {
 	z-index: 2;
 	position: absolute;
 	top: auto;
-	right: 0;
 	height: 90%;
 	width: 3rem;
 	background-color: rgba(255, 255, 255, 0);
@@ -200,7 +198,6 @@ input:focus {
 	height: 1.6rem;
 	font-size: 0.1rem;
 	position: relative;
-	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -210,14 +207,24 @@ input:focus {
 
 #campo-busca-input-text {
 	width: 100%;
-	border: 1px solid #c4c4c4;
+	border: 0px;
 	border-radius: 2px;
-	align-self: center;
 	height: 100%;
 	position: relative;
-	margin: 0;
+	margin-right: 0;
+	margin-left: 0;
 	position: absolute;
+	background-color:  rgba(245,245,245, 1);
 	
+}
+
+.linha-personalizavel{
+	width:100%;
+	height: 0.3rem;
+}
+
+#linha-primaria{
+	background-color: black;
 }
 
 .lista-toggle-filtro {
