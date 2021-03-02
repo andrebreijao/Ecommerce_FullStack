@@ -8,17 +8,20 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     
         <div class="nav-bar">
-                    <img src="" alt="logo" id="logo-nav">
-                    <div class="login">
-                        <a href="#" id="entrar" onclick="togglePopup1()" >Entrar</a>
-                        <a href="#" id="cadastro" onclick="togglePopup2()">Crie uma conta</a>
-                    </div>
-            
+            <img src="" alt="logo" id="logo-nav">
+            <div class="login">
+                <a href="#" id="cadastro" onclick="togglePopup2()"><i class="fa fa-shopping-cart" class="icone" style="margin: 4px;"></i>Carrinho</a>
+                <a href="#" id="entrar" onclick="togglePopup1()" ><i class="fa fa-user" class="icone" style="margin: 4px;"></i>Entrar</a>
+               
+            </div>   
         </div>
+
+
 
                 <!-- Pop up login-->
                 <div class="popup" id="popup-1">
@@ -31,13 +34,17 @@
                             <input class= "input_texto" type="text" placeholder="E-mail">
                             <input class= "input_texto" type="password" placeholder="Senha">
                             <a href="#" class="esqueceu_senha">Esqueceu a senha?</a>
-                            <button class="btn-login">Entre</button>
+                            <button class="btn-login">Entrar</button>
                         </form>
                         <a class="btn-face" href="#">
                             <div class="login-face-conteudo">
                                 <div class="login-face">
-                                    <img id= "logo-face"src="./imagens/logo-facebook.png" alt="face">
-                                    <div>Entre com Facebook</div>
+                                    <img class="logo-face"id= "logo-face"src="./imagens/logo-facebook.png" alt="face">
+                                    <div>Entrar com Facebook</div>
+                                </div>
+                                <div class="login-face" id="login-google">
+                                    <img class="logo-face" id="logo-google" src="./imagens/Logo_Google.png" alt="face">
+                                    <div>Entrar com Google</div>
                                 </div>
                             </div>
                         </a>
@@ -46,7 +53,7 @@
                         <a  href="#">
                             <div class="login-face-conteudo" onclick="togglePopup1(); togglePopup2()">
                                 <div class="login-face login-cadastre">
-                                    <div>Cadastre-se grátis</div>
+                                    <div>Cadastre-se</div>
                                 </div>
                             </div>
                         </a>
@@ -54,7 +61,6 @@
                         
                     </div>
                 </div>
-        
                 <!-- Pop up login-->
                 <div class="popup" id="popup-2">
                     <div class="overlay"></div>
@@ -113,8 +119,8 @@
                 <div class="explica-e-shop-conteudo-grid">
                     
                     <div class="explica-e-shop-bloco-1"> 
-                            <div class= "titulo-secao">Tenha a experiência do shopping dentro de casa </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolores repellendus obcaecati id, saepe error quae voluptatem. Odio labore totam earum, eveniet incidunt ipsa commodi, excepturi repellendus, quam voluptatem officiis.</p>
+                            <div class= "titulo-secao">Eshop - o Shopping na sua casa</div>
+                            <p>A E-Shop é uma plataforma onde você encontrará os shoppings mais próximos de você. Você pode navegar pela página do shopping e entrar no espaço virtual de suas lojas. Consultar produtos, falar com os vendedores e efetuar a compra, como se você estivesse fisicamente na loja. No vídeo ao lado explicamos como melhor utilizar as funcionalidades da E-Shop.</p>
                     </div
                     
 

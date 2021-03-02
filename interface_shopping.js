@@ -1,3 +1,15 @@
+const videos = document.querySelectorAll("video")
+
+videos.forEach(video =>{
+    video.addEventListener("mouseover", function(){
+        this.play()
+    })
+    video.addEventListener("mouseout", function(){
+        this.pause()
+    })
+})
+
+
 function rolar_esquerda() {
     let barra = document.getElementById("lista-categorias")
     let scroll = barra.scrollLeft - 100;

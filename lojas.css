@@ -63,6 +63,7 @@ a {
 
 .login {
 	margin-right: 16px;
+	font-size: 0.8rem;
 }
 
 .login > * {
@@ -302,26 +303,6 @@ input:focus {
 	background-color: rgba(245,245,245, 1);
 }
 
-
-.nav-de-filtros-botao {
-	display: block;
-	margin: 0 1rem;
-	padding: 6px;
-	position: relative;
-	bottom: 1rem;
-	right: 1rem;
-	background-color: white;
-	color: blueviolet;
-	text-transform: uppercase;
-	font-size: 0.7rem;
-}
-
-button:focus {
-	background-color: orange;
-	color: white;
-}
-
-
 #categ{
 
 	background-color:rgba(245,245,245, 1) ;
@@ -330,9 +311,6 @@ button:focus {
 	font-size: 0.8rem;
 	font-style: italic;
 	right: 0;
-}
-option{
-	right:0;
 }
 
 /* fim-filtros */

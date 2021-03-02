@@ -61,6 +61,7 @@ a {
 
 .login {
 	margin-right: 16px;
+	font-size: 0.8rem;
 }
 
 .login > * {
@@ -282,7 +283,9 @@ a {
 	margin-top: 0.4vw;
 	margin-bottom: 0.4vw;
 	cursor: pointer;	
-
+	filter: grayscale(80%);
+	-webkit-filter: grayscale(90%);
+	transition: 0.4s;
 	
 }
 
@@ -293,15 +296,9 @@ a {
 	/* centralizando com a margem */
 	margin-left: auto;
 	margin-right: auto;
-	filter: grayscale(80%);
-	-webkit-filter: grayscale(90%);
-	transition: 0.4s;
+
 }
 
-.categoria-individual-imagem:hover{
-	filter: none;
-	-webkit-filter: none;
-}
 .categorias-individual-label{
 	justify-content: center;
 }
@@ -310,6 +307,8 @@ a {
 
 .categorias-individual:hover {
 	transform: scale(1.1);
+	filter: none;
+	-webkit-filter: none;
 }
 
 @media (max-width: 750px) {
@@ -338,20 +337,28 @@ a {
 
 .marca {
 	border-radius: 4%;
-	height: 7.3rem;
-	width: 7.3rem;
+	height: 18.3rem;
+	width: 12.3rem;
 	background-color: white;
 	border: 2px solid #c4c4c4;
 	margin-left: 1rem;
 	align-items: center;
 	justify-items: center;
+	filter: none;
+	-webkit-filter: none;
 }
 
 .img-marca{
 	border-radius: 4%;
-	height: 7rem;
-	width: 7rem;
+	height: 12rem;
+	width: 12rem;
 	
+}
+
+.previa-video{
+	border-radius: 4%;
+	height: 18.3rem;
+	width: 12.3rem;
 }
 
 /* secao lista de shoppings */
@@ -393,7 +400,7 @@ a {
 }
 
 .card-shopping:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 @media (max-width: 750px) {
