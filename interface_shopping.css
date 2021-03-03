@@ -78,7 +78,7 @@ a {
 }
 
 #logo-nav {
-	margin-left: 2rem;
+	margin-left: 0rem;
 	background-color: white;
 }
 /* fim navbar */
@@ -283,7 +283,7 @@ a {
 	margin-top: 0.4vw;
 	margin-bottom: 0.4vw;
 	cursor: pointer;	
-	filter: grayscale(80%);
+	filter: grayscale(90%);
 	-webkit-filter: grayscale(90%);
 	transition: 0.4s;
 	
@@ -360,6 +360,7 @@ a {
 	height: 12.5rem;
 	width: 10rem;
 }
+
 
 /* secao lista de shoppings */
 
