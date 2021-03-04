@@ -465,11 +465,13 @@ input[type=text]:focus, input[type=password]:focus {
 
 .explica-e-shop-bloco-1 {
 	align-self: stretch;
+	margin-right: 5vw;
 }
 
 .explica-e-shop-bloco-1 p {
 	margin: 4vh 0rem;
 	font-size: 1rem;
+	text-align: justify;
 }
 
 .explica-e-shop-bloco-2 {
