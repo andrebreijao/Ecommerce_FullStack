@@ -431,12 +431,12 @@ input:focus {
 	width: 180px;
 	margin-top: 4px;
 	object-fit: cover;
-	background: url(./Imagens/Card1.jpg);
+	/* background: url(./Imagens/Card1.jpg); */
 	background-size: 180px 180px;
 }
 
 .img-lista-produto:hover {
-	background: url(./Imagens/Card2.jpg);
+	/* background: url(./Imagens/Card2.jpg); */
 	background-size: 180px 180px;
 }
 

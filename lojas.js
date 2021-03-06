@@ -105,3 +105,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
 // }
 
 
+
+
+console.log("kkkkkk")
+const cards = document.querySelectorAll(".img-lista-produto")
+
+cards.forEach(card =>{
+    card.addEventListener("mouseover", function(){
+      this.src= card.dataset.src2;
+    })
+    card.addEventListener("mouseout", function(){
+      this.src= card.dataset.src1;
+    })
+})
