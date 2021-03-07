@@ -102,6 +102,95 @@ a {
 	border-right: solid 1px rgba(0, 0, 0, 0.014);
 }
 
+.liga-desliga{
+	margin-top: 2rem;
+}
+
+.liga-desliga-checkbox{
+	display: none;
+}
+
+.liga-desliga-checkbox + label{
+	display: inline-block;
+	height: 60px;
+	width: 200px;
+	position: relative;
+	font-size: 20px;
+	border: 4px solid black;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: all 0.3s ease;
+}
+
+.liga-desliga-checkbox + label:before{
+	position: absolute;
+	top: 4px;
+	height: 44px;
+	width: 44px;
+	content:"";
+	transition: all 0.3s ease;
+	z-index: 3;
+}
+
+.liga-desliga-checkbox + label::after{
+	width: 140px;
+	text-align:center;
+	z-index: 2;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.liga-desliga-checkbox + label.liga-desliga-texto{
+	border-radius: 30px;
+}
+
+.liga-desliga-checkbox + label.liga-desliga-texto::before{
+	border-radius: 50%;
+}
+
+.liga-desliga-checkbox:not(:checked) + label{
+	background-color: transparent;
+	text-align: right;
+}
+
+.liga-desliga-checkbox:not(:checked) + label::after{
+	content:attr(data-unchecked);
+	right: 0;
+	left: auto;
+	opacity: 1;
+	color: black;
+}
+
+.liga-desliga-checkbox:not(:checked) + label::before{
+	left:4px;
+	background-color: black;
+}
+
+.liga-desliga-checkbox:checked + label{
+	text-align: left;
+	border-color: green;
+}
+
+.liga-desliga-checkbox:checked + label::after{
+	content: attr(data-checked);
+	left: 4px;
+	right:auto;
+	opacity: 1;
+	color: green;
+}
+
+.liga-desliga-checkbox:checked + label::before{
+	left: 144px;
+	background-color: green;
+}
+
+
 .container-input {
 	width: 100%;
 	height: 1rem;
@@ -134,7 +223,6 @@ a {
 	left: 50%;
 	transform: translate(-50%,-50%);
 	margin-top: 1.5rem;
-
 }
 
 input[type="text"] {
