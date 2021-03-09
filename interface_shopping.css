@@ -597,11 +597,6 @@ a {
 	border-right: 5px solid #ffffff;
 }
 
-#footer-col-info-shopping{
-	margin-top: 0;
-	border-right: 5px solid #ffffff;
-
-}
 
 #footer-col-info-shopping ul{
 	margin-top: 63px;
@@ -668,13 +663,6 @@ a {
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
-}
-
-/* tentativa frustada de colocar uma coluna divisória com div */
-.footer-col-divisao{
-	background-color: #ffffff;
-	width: 50px;
-	height: 100%;
 }
 
 /* footer responsivo */
