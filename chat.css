@@ -18,9 +18,9 @@ section{
 
 .chat-btn{
     position: fixed;
-    right:50px;
-    bottom: 50px;
-    background: rgb(255, 30, 30);
+    right:20px;
+    bottom: 10px;
+    background: rgba(255, 30, 30, 0.685);
     color: white;
     width:60px;
     height: 60px;
@@ -37,10 +37,10 @@ section{
 .chat-popup{
     display: none;
     position: fixed;
-    bottom:80px;
-    right:120px;
-    height: 400px;
-    width: 300px;
+    bottom:10px;
+    right:90px;
+    height: 500px;
+    width: 400px;
     background-color: white;
     /* display: flex; */
     flex-direction: column;
@@ -109,6 +109,8 @@ input[type="text"]{
     font-size: 1rem;
     border-radius: 5px;
     height: 2.2rem;
+    padding-left: 42px;
+    padding-right: 40px;
 }
 
 #emoji-btn{
@@ -120,10 +122,27 @@ input[type="text"]{
     opacity:0.5;
 }
 
+#wish-list-btn {
+	position: absolute;
+	height: 1.8rem;
+	width: 1.8rem;
+	top: 5px;
+	left: 3px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	background: url(./Imagens/heart-solid.svg);
+	background-repeat: no-repeat;
+	background-size: 80% auto;
+	border-radius: 100%;
+	background-position: center center;
+}
+
 .submit{
     padding: 0.25rem 0.5rem;
     margin-left: 0.5rem;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(15, 15, 15);
     color:white;
     display: flex;
     justify-content: center;
