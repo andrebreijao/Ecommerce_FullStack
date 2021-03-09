@@ -185,7 +185,7 @@ section{
     justify-content: center;
 }
 
-input[type="text"]{
+#input_chat {
     width:100%;
     border: 1px solid #ccc;
     font-size: 1rem;
