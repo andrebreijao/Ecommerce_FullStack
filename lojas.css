@@ -670,6 +670,10 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
+.prev-chat, .next-chat {
+	color: black;
+}
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -747,3 +751,6 @@ img {vertical-align: middle;}
 	background-color: white;
 	position: absolute;
 }
+
+
+

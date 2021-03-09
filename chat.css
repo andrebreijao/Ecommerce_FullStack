@@ -16,7 +16,7 @@ section{
 
 
 
-.chat-btn{
+.chat-btn {
     position: fixed;
     right:20px;
     bottom: 10px;
@@ -30,11 +30,12 @@ section{
     box-shadow: 0 5px 5px rgba(0,0,0,0.4);
 }
 
+
 .chat-btn:hover, .submit:hover, #emoji-btn:hover{
     opacity: 1;
 }
 
-.chat-popup{
+.chat-popup, .pop-up-wishlist {
     display: none;
     position: fixed;
     bottom:10px;
@@ -49,6 +50,87 @@ section{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
     border-radius: 10px;
 }
+
+/* pop-up-wishllist */
+
+.pop-up-wishlist {
+    right: 480px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.4);
+    /* display: flex; */
+    width: 600px;
+}
+
+.wish-pop-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    justify-items: center;
+}
+
+#logo-wish {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    border-radius:50% ;
+    transform: translate(-50%,+25%);
+
+}
+
+#wish-list-close{
+    margin-right: 10px;
+    transform: translate(50%, -100%);
+    cursor: pointer;
+}
+
+.popup-wishlist-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+
+.popup-wishlist-conteudo > *{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#img-wish-produto {
+    width: 200px;
+    height: 300px;
+}
+
+.pop-grid1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wish-pop-informacoes-produto h1{
+    color: rgba(0, 0, 0, 0.842);
+    margin: 10px 0px 30px 0px;
+}
+
+.wish-pop-informacoes-produto h3{
+    color: rgba(0, 0, 0, 0.842);
+    text-align: end;
+}
+    
+
+
 
 .show{
     display: flex;
@@ -179,3 +261,5 @@ input[type="text"]{
         width: 80vw;
     }
 }
+
+  

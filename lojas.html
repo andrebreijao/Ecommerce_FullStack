@@ -158,12 +158,6 @@
                   <span class="dot" onclick="currentSlide(3)"></span> 
                 </div>
         </div>
-
-    
-    
-        
-
-        
         
         <div class="lista-produtos">
             
@@ -250,6 +244,8 @@
             
         </div>
     </div>
+    
+    <!-- fim-card-produto -->
 
     <section id="chat">
                         
@@ -278,8 +274,39 @@
             </div>
         </div>
     </section>
-    <!-- fim-card-produto -->
     
+    <div class= "pop-up-wishlist" id="janela-wish">
+        <div class="wish-pop-nav">
+            <div>
+                    <img src="./Imagens/Logo-Loja-FIcticia.jpg" alt="" id="logo-wish">
+                </div>
+                <div class="wish-pop-botoes">
+                    <span class="material-icons" id="wish-list-close">
+                        highlight_off
+                    </span>
+                </div>
+                
+            </div>
+            
+            <div class="popup-wishlist-conteudo">
+                <div class="pop-grid1">
+                    <img src="./Imagens/Card2.jpg" alt="" id="img-wish-produto">
+                </div>
+                <div class="wish-pop-informacoes-produto">
+                    <h1>Titulo do produto</h1>
+                    <h3>R$ 129,99</h3>
+                    <p>Descrição produto</p>
+                </div>
+            </div>
+            
+            <a class="prev prev-chat" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next next-chat" onclick="plusSlides(1)">&#10095;</a>
+           
+        </div>
+    </div>
+
+
+
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./lojas.js"></script>

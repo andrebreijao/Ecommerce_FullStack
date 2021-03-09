@@ -5,6 +5,10 @@ const chatArea = document.querySelector('.chat-area');
 const inputElm = document.querySelector('#input_chat');
 const emojiBtn = document.querySelector('#emoji-btn');
 const picker = new EmojiButton();
+const btnpopwhishlist = document.querySelector("#wish-list-btn"); 
+const btnwishlistclose = document.querySelector("#wish-list-close"); 
+const popupwishlist = document.querySelector('.pop-up-wishlist');
+const popupwish_id= document.querySelector('#janela-wish')
 
 
 // Emoji selection  
@@ -21,8 +25,25 @@ window.addEventListener('DOMContentLoaded', () => {
 
 //   chat button toggler 
 
+btnpopwhishlist.addEventListener('click', ()=>{
+  console.log("clicou")
+  popupwishlist.classList.toggle('show');
+})
+
+btnwishlistclose.addEventListener('click', ()=>{
+  console.log("clicou")
+  popupwishlist.classList.toggle('show');
+})
+
 chatBtn.addEventListener('click', ()=>{
+  
+  if (popupwish_id.classList.contains('show') && popup.classList.contains('show')){
     popup.classList.toggle('show');
+    popupwishlist.classList.toggle('show');
+  }else{popup.classList.toggle('show');}
+  
+
+    
 })
 
 // send msg 
@@ -31,7 +52,7 @@ submitBtn.addEventListener('click', ()=>{
 
     console.log(userInput.length);
 
-    if (userInput.length =! 0) {
+    if (userInput.length !== 0) {
 
       let temp = `<div class="out-msg">
       <span class="my-msg">${userInput}</span>
@@ -41,7 +62,7 @@ submitBtn.addEventListener('click', ()=>{
       chatArea.insertAdjacentHTML("beforeend", temp);
       inputElm.value = '';
     }else{ 
-      //pass
+      console.log("vazio")
     }
 
 })
