@@ -38,9 +38,9 @@ section{
 .chat-popup, .pop-up-wishlist {
     display: none;
     position: fixed;
-    bottom:10px;
+    bottom:30px;
     right:90px;
-    height: 500px;
+    height: 525px;
     width: 400px;
     background-color: white;
     /* display: flex; */

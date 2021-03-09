@@ -490,7 +490,8 @@ input:focus {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	width: 90%;
+	margin: auto;
 	
 	
 }
