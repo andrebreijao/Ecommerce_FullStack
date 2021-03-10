@@ -57,78 +57,98 @@ section{
     right: 480px;
     border-radius: 10px 0px 0px 10px;
     box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.4);
-    /* display: flex; */
+    display: flex;
     width: 600px;
 }
 
-.wish-pop-nav {
-    display: flex;
-    justify-content: space-between;
-    height: 40px;
-    align-items: center;
-    justify-items: center;
-    height: 5%;
+.container-grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 2fr 20fr 3fr;
 }
 
-#logo-wish {
-    height: 50px;
-    width: 50px;
-    position: absolute;
+
+.container-grid > *{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.wish-pop-nav {
+    background-color: blueviolet;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotos-wish {
+    background-color: red;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    
+
+}
+
+.foto-wish{
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    position: relative;
     top: 10px;
-    left: 50px;
-    border-radius:50% ;
-    transform: translate(-50%,+25%);
+}
+
+.conteudo-wish-pop {
+    background-color: yellow;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.nome-produto {
+    font-weight: 700;
+    margin: 10px 10px;
+    text-transform: capitalize;
+}
+
+.preco-wish {
+    text-align: end;
+    margin: 0px 20px;
+    font-weight: 700;
+}
+
+
+
+.nav-botoes-wish {
+    background-color: green;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+
+#logo-wish {
+    height: 40px;
+    width: auto;
+    top: 4px;
+    left: 30px;
+    border-radius:50%;
+    position: relative;
+
 
 }
 
 #wish-list-close{
     margin-right: 10px;
-    transform: translate(50%, 50%);
     cursor: pointer;
-}
-
-.popup-wishlist-conteudo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0px;
+    bottom: 5px;
+    left: 10px;
     position: relative;
-    text-align: center;
-    height: 90%;
 }
 
 
-
-
-
-.popup-wishlist-conteudo > *{
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-}
-
-
-#img-wish-produto {
-    width: 200px;
-    height: 300px;
-}
-
-.pop-grid1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.wish-pop-informacoes-produto h1{
-    color: rgba(0, 0, 0, 0.842);
-    margin: 70px 0px 30px 0px;
-}
-
-.wish-pop-informacoes-produto h3{
-    color: rgba(0, 0, 0, 0.842);
-    text-align: end;
-}
     
 
 
