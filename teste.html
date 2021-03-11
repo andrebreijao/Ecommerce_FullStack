@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .teste{
+        height: 300px;
+        width: 300px;
+        background-color: red;
+        position: relative;
+    }
+
+    .teste::after{
+        height: 300px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.171);
+        content: "dfasd";
+        color: white;
+        position: absolute;
+        left: 0;
+    }
+</style>
+<body>
+    <div class="teste"></div>
+</body>
+</html>

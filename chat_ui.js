@@ -10,6 +10,7 @@ const btnwishlistclose = document.querySelector("#wish-list-close");
 const popupwishlist = document.querySelector('.pop-up-wishlist');
 const popupwish_id= document.querySelector('#janela-wish');
 const input_qtd = document.getElementById("n-items");
+const foto_ativa = document.getElementById("foto-wish-active")
 
 
 // Emoji selection  
@@ -91,3 +92,16 @@ function less_item () {
   //pass 
 }
 }
+
+//mudar foto ativa
+
+const mini_fotos = document.querySelectorAll(".foto-wish-visao")
+
+
+mini_fotos.forEach(foto =>{
+  foto.addEventListener("click", function(){
+    let new_source = foto.dataset.imagem;
+    console.log(new_source)
+    foto_ativa.setAttribute('src', new_source);
+  })
+})
