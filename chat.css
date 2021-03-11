@@ -68,7 +68,7 @@ section{
     left: 35px;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 3fr 20fr 3fr;
+    grid-template-rows: 1fr 20fr 3fr;
 }
 
 
@@ -173,8 +173,8 @@ section{
 }
 
 .select-produto {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     background-color: rgba(128, 128, 128, 0.445);
     margin: 0px 5px;
     cursor: pointer;
@@ -184,6 +184,8 @@ section{
     color: rgb(0, 5, 65);
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 13px;
+
 }
 
 .wish-detalhes-tamanho-lista {
@@ -237,19 +239,28 @@ section{
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: 10px
+
 }
 
 
 .adicionar-sacola-wish{
     display: flex;
     margin-right: 10px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .adicionar-sacola-wish > * {
     margin: 0px 3px;
+}
+
+#texto-quantidade{
+    position: relative;
+    bottom: 30px;
+    left: 92px;
+    font-weight: 800;
+    font-size: 0.8rem;
+    color:rgb(128, 128, 128);
 }
 
 #n-items{

@@ -75,13 +75,19 @@ input_qtd.defaultValue = "1";
 let counter = 1
 
 function plus_item () {
+  counter = parseInt(input_qtd.value)
   counter += 1;
   input_qtd.value = counter;
   return counter 
 }
 
 function less_item () {
+  counter = parseInt(input_qtd.value);
+  if (counter>1){
   counter -= 1;
   input_qtd.value = counter;
   return counter 
+}else{
+  //pass 
+}
 }
