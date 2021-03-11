@@ -1,6 +1,6 @@
 
 button{
-   z border:none;
+    border:none;
     outline: none;
     cursor: pointer;
 }
@@ -104,8 +104,9 @@ section{
     justify-content: center;
     width: 189px;
     position: relative;
-
 }
+
+
 
 .foto-wish-visao {
     position: relative;

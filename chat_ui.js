@@ -98,10 +98,10 @@ function less_item () {
 const mini_fotos = document.querySelectorAll(".foto-wish-visao")
 
 
+
 mini_fotos.forEach(foto =>{
   foto.addEventListener("click", function(){
-    let new_source = foto.dataset.imagem;
-    console.log(new_source)
-    foto_ativa.setAttribute('src', new_source);
+    let new_source = (foto.src).toString();
+    foto_ativa.src= new_source;
   })
 })
