@@ -259,7 +259,7 @@
             <div class="chat-area">
              <div class="income-msg">
                  <img src="Imagens/person.jpg" class="avatar" alt="">
-                 <span class="msg"> Bem vindo a Cloth Fashion</span>
+                 <span class="msg"> Olá! Bem vindo a Cloth Fashion</span>
              </div>   
              <div class="income-msg">
                  <img src="Imagens/person.jpg" class="avatar" alt="">
@@ -288,15 +288,66 @@
                 </div>
             </div>
             <div class="fotos-wish">
-                <div class="foto-wish"></div>
+                <div class="foto-wish-active"></div>
+                <div class="foto-wish-selecoes">
+                    <div class="foto-wish-visao"></div>
+                    <div class="foto-wish-visao"></div>
+                    <div class="foto-wish-visao"></div>
+                </div>
             </div>
             <div class="conteudo-wish-pop">
                 <div class="nome-produto">
                     Jaqueta feminina Em Tecido de algodão com zíper - Roxo
                 </div>
-                <div class="preco-wish">R$ 129,90</div>
+                <div class="wish-precos-container">
+                    <div class="preco-antigo-wish">R$ 259,99</div>
+                    <div class="preco-wish">R$ 129,99</div>
+                    <div class="preco-wish-parcelado"> 4 x <strong>R$32,49</strong></div>
+                </div>
+                
+                <div class="wish-container-linha"></div>
+                
+                <div class="wish-detalhes-produto">
+                    <div class="wish-detalhes-cor">
+                        <div class="select-produto-titulo">ESCOLHA A COR: <strong>ROXO</strong></div>
+                        <img class="select-produto" src="" alt="">
+                    </div>
+                    <div class="wish-detalhes-tamanho">
+                        <div class="select-produto-titulo">ESCOLHA O TAMANHO:</div>
+                        <div class="wish-detalhes-tamanho-lista">
+                            <div class="select-produto select-tamanho" src="" alt="roxo">xp</div>
+                            <div class="select-produto select-tamanho" src="" alt="roxo">p</div>
+                            <div class="select-produto select-tamanho" src="" alt="roxo">m</div>
+                            <div class="select-produto select-tamanho" src="" alt="roxo">g</div>
+                            <div class="select-produto select-tamanho" src="" alt="roxo">xg</div>
+                        </div>
+                    </div>
+                    <div class="wish-detalhes-descricao">
+                        <div class="select-produto-titulo-detalhes">
+                            <div class="select-produto-titulo"><span class="material-icons" id="lista-ui">toc</span>DETALHES DO PRODUTO:</div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto deserunt dignissimos sunt, quasi at accusantium hic rem placeat, facere tempore dolore nihil quidem ab nulla tenetur. Quae blanditiis impedit perspiciatis amet placeat, atque !</p>
+                    </div>
+                </div>
             </div>
-            <div class="nav-botoes-wish"></div>  
+            <div class="nav-botoes-wish">
+                <button>
+                    <span id= "pop-wish-ver-wish" class="material-icons">
+                            favorite
+                        </span> Ver whishlist</button>
+                
+                <div class="adicionar-sacola-wish">
+                    <div id="texto-quantidade">Quantidade</div>
+                    <span id= "remove-item " class="material-icons" onclick="less_item()">
+                        remove
+                        </span>
+                    <input type="text" id="n-items"></input>
+                    <span id= "add-item" class="material-icons" onclick="plus_item()">
+                        add
+                        </span>
+                    <button><span class="material-icons" id="cart-wish"> shopping_cart</span>Adicionar ao carrinho</button>
+                </div>
+            </div>  
 
         </div>
 
