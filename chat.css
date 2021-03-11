@@ -63,10 +63,12 @@ section{
 
 .container-grid {
     height: 100%;
-    width: 100%;
+    width: 90%;
+    position: relative;
+    left: 35px;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 2fr 20fr 3fr;
+    grid-template-rows: 3fr 20fr 3fr;
 }
 
 
@@ -78,7 +80,7 @@ section{
 
 
 .wish-pop-nav {
-    background-color: blueviolet;
+
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     display: flex;
@@ -86,14 +88,12 @@ section{
 }
 
 .fotos-wish {
-    background-color: red;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    
-
 }
 
-.foto-wish{
+
+.foto-wish-active {
     background-color: black;
     width: 200px;
     height: 300px;
@@ -102,8 +102,22 @@ section{
     top: 10px;
 }
 
+.foto-wish-selecoes{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.foto-wish-visao {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
 .conteudo-wish-pop {
-    background-color: yellow;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
@@ -114,18 +128,144 @@ section{
     text-transform: capitalize;
 }
 
+.wish-precos-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 0px 10px 0px
+}
+
+.preco-antigo-wish {
+    font-size: 12px;
+    font-weight: 800;
+    color: rgba(128, 128, 128, 0.39);
+    text-decoration: line-through;
+}
+
 .preco-wish {
     text-align: end;
-    margin: 0px 20px;
+    margin: 0px 10px;
     font-weight: 700;
 }
 
+.preco-wish-parcelado {
+    font-size: 10px;
+}
+
+.wish-container-linha {
+    background-color: rgba(128, 128, 128, 0.363);
+    width: 90%;
+    height: 1px;
+    width: 100%;
+    position: relative;
+    left: 10px;
+    
+}
+
+/* wish detalhes produto */
+.wish-detalhes-produto {
+    margin: 10px 0px 0px 10px;
+}
+
+.select-produto-titulo {
+    font-size: 0.78rem;
+    margin: 5px 0px 5px 0px;
+    font-weight: 400;
+}
+
+.select-produto {
+    height: 35px;
+    width: 35px;
+    background-color: rgba(128, 128, 128, 0.445);
+    margin: 0px 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 5, 65);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.wish-detalhes-tamanho-lista {
+    display: flex;
+}
+
+.wish-detalhes-descricao {
+    margin-top: 20px;
+}
+
+#lista-ui {
+    position: relative;
+    top:8px;
+    margin-right:5px;
+    font-size: 23px;
+}
+
+.wish-detalhes-descricao p {
+    font-size: 0.8rem;
+    color: black;
+}
 
 
 .nav-botoes-wish {
-    background-color: green;
     grid-column: 1 / 3;
     grid-row: 3 / 4;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cart-wish {
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    right: 10px;
+}
+
+#pop-wish-ver-wish {
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    right: 14px;
+}
+
+.nav-botoes-wish  button {
+    background-color: #203864;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px
+}
+
+
+.adicionar-sacola-wish{
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.adicionar-sacola-wish > * {
+    margin: 0px 3px;
+}
+
+#n-items{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    border: solid 1px rgba(128, 128, 128, 0.548);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.adicionar-sacola-wish {
+    cursor: pointer;
 }
 
 

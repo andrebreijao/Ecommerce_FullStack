@@ -8,7 +8,8 @@ const picker = new EmojiButton();
 const btnpopwhishlist = document.querySelector("#wish-list-btn"); 
 const btnwishlistclose = document.querySelector("#wish-list-close"); 
 const popupwishlist = document.querySelector('.pop-up-wishlist');
-const popupwish_id= document.querySelector('#janela-wish')
+const popupwish_id= document.querySelector('#janela-wish');
+const input_qtd = document.getElementById("n-items");
 
 
 // Emoji selection  
@@ -66,3 +67,21 @@ submitBtn.addEventListener('click', ()=>{
     }
 
 })
+
+//atualizar número elementos
+
+input_qtd.defaultValue = "1";
+
+let counter = 1
+
+function plus_item () {
+  counter += 1;
+  input_qtd.value = counter;
+  return counter 
+}
+
+function less_item () {
+  counter -= 1;
+  input_qtd.value = counter;
+  return counter 
+}
