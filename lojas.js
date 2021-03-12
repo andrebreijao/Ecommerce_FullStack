@@ -104,6 +104,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 //   setTimeout(showSlides, 4000); // Change image every 2 seconds
 // }
 
+
+
+
+console.log("kkkkkk")
 const cards = document.querySelectorAll(".img-lista-produto")
 
 cards.forEach(card =>{
@@ -114,3 +118,8 @@ cards.forEach(card =>{
       this.src= card.dataset.src1;
     })
 })
+
+// function togglePopupStories(){
+//   document.getElementById("popupstories").classList.toggle("active");
+// }
+
