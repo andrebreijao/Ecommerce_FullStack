@@ -7,7 +7,9 @@ class SlideStories {
   
     activeSlide(index) {
       this.active = index;
+      //Desativa slide anterior
       this.items.forEach((item) => item.classList.remove('active'));
+      //ativa o slide atual
       this.items[index].classList.add('active');
       this.thumbItems.forEach((item) => item.classList.remove('active'));
       this.thumbItems[index].classList.add('active');
@@ -57,5 +59,8 @@ class SlideStories {
       this.addNavigation();
     }
 }
-  
+
+const videos = document.querySelectorAll("video")
+
+
 new SlideStories('slide');
