@@ -25,16 +25,22 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   });        
 
-//   chat button toggler 
+//   chat button toggler
+
+let open_wish = false;
 
 btnpopwhishlist.addEventListener('click', ()=>{
-  console.log("clicou")
+  if (popupwish_id.classList.contains('show')){
+    open_wish = false;
+  }else{open_wish= true};
   popupwishlist.classList.toggle('show');
 })
 
 btnwishlistclose.addEventListener('click', ()=>{
-  console.log("clicou")
+  open_wish = false;
   popupwishlist.classList.toggle('show');
+
+  return open_wish
 })
 
 chatBtn.addEventListener('click', ()=>{
@@ -42,10 +48,10 @@ chatBtn.addEventListener('click', ()=>{
   if (popupwish_id.classList.contains('show') && popup.classList.contains('show')){
     popup.classList.toggle('show');
     popupwishlist.classList.toggle('show');
-  }else{popup.classList.toggle('show');}
-  
-
-    
+  }else{
+    popup.classList.toggle('show');
+    if(open_wish){popupwishlist.classList.toggle('show')};
+  }
 })
 
 // send msg 
