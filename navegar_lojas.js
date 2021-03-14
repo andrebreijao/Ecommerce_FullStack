@@ -7,10 +7,10 @@ const lista_lojas = document.querySelector(".lista-lojas");
 
 function mostar_produtos() {
     lista_lojas.style.display = "None";
-    lista_produtos.style.display = "flex";
+    lista_produtos.style.display = "grid";
 }
 
 function mostar_lojas() {
     lista_produtos.style.display = "None";
-    lista_lojas.style.display = "flex";
+    lista_lojas.style.display = "grid";
 }
