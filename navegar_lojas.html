@@ -33,88 +33,95 @@
         </div>
     </div>
 
-    <div class="nav-de-filtros"> 
-        <div class="nav-de-filtros-grid">
-            <div class="campo-busca">
-                <div class="campo-busca-input">
-                    <input type="text" placeholder="Busca"  id="campo-busca-input-text">
-                    <button id="campo-de-busca-botao"><i class="fa fa-search"></i></button>
-                </div>        
-                <button class="nav-de-filtros-botao">Produtos</button>
-                <button class="nav-de-filtros-botao">Lojas</button>
-            </div>
+    <div class="nav-de-filtros">
+        <div class="botoes-filtro-loja-produto">
+            <button class="btn-filtro" id="btn-loja" onclick="mostar_lojas()">Lojas</button>
+            <button class="btn-filtro" id="btn-produto" onclick="mostar_produtos()">Produtos</button>
         </div>
+        <div class="campo-busca">
+            <div class="campo-busca-input">
+                <input type="text" placeholder="Busca"  id="campo-busca-input-text">
+                <button id="campo-de-busca-botao"><i class="fa fa-search"></i></button>
+            </div>        
+        </div>
+        <a href="#">Limpar todos</a>
+    </div>
 
-        <div class="nav-de-filtros-grid">
-            <div class="categorias">
-                <div id="container-conteudo">
-                    <div class="categorias-barra-rolagem">
-                        <div class="categorias-lista" id="categorias-lista">
-                            <div class="categorias-individual">
-                                <div class="categoria-individual-imagem"></div>
-                                <div class="categoria-individual-label"> Masculino</div>
-                            </div>
-                            <div class="categorias-individual">
-                                <div class="categoria-individual-imagem"></div>
-                                <div class="categoria-individual-label"> Feminino</div>
-                            </div>
-                            <div class="categorias-individual">
-                                <div class="categoria-individual-imagem"></div>
-                                <div class="categoria-individual-label"> Kids</div>
-                            </div>
-                            <div class="categorias-individual">
-                                <div class="categoria-individual-imagem"></div>
-                                <div class="categoria-individual-label"> Vestuário</div>
-                            </div>
-                            <div class="categorias-individual">
-                                <div class="categoria-individual-imagem"></div>
-                                <div class="categoria-individual-label"> Calçados</div>
-                            </div>
-                            <div class="categorias-individual">
-                                <div class="categoria-individual-imagem"></div>
-                                <div class="categoria-individual-label"> Acessórios</div>
-                            </div>
-                            <div class="categorias-individual">
-                                <div class="categoria-individual-imagem"></div>
-                                <div class="categoria-individual-label"> Esportes</div>
-                            </div>
-                            <div class="categorias-individual">
-                                <div class="categoria-individual-imagem"></div>
-                                <div class="categoria-individual-label"> Eletrônicos</div>
-                            </div>
-                            <div class="categorias-individual">
-                                <div class="categoria-individual-imagem"></div>
-                                <div class="categoria-individual-label"> Games</div>
-                            </div>
-                            <div class="categorias-individual">
-                                <div class="categoria-individual-imagem"></div>
-                                <div class="categoria-individual-label"> Beleza</div>
-                            </div>
-                            <div class="categorias-individual">
-                                <div class="categoria-individual-imagem"></div>
-                                <div class="categoria-individual-label"> Decoração</div>
-                            </div>
-                        </div>
-                    </div>
+    <!-- categorias -->
+    <div class="categorias">
+        <div class="masc-fem-kids">
+            <div class="categorias-lista" id="categorias-lista">
+                <div class="categorias-individual">
+                    <img class="categoria-individual-imagem" src="./Imagens/Categorias/Masculino2.jpg">
+                    <div class="categoria-individual-label"> Masculino</div>
+                </div>
+                <div class="categorias-individual">
+                    <img class="categoria-individual-imagem" src="./Imagens/Categorias/Feminino2.jpg">
+                    <div class="categoria-individual-label"> Feminino</div>
+                </div>
+                <div class="categorias-individual">
+                    <img class="categoria-individual-imagem" src="./Imagens/Categorias/Kids.jpg">
+                    <div class="categoria-individual-label"> Kids</div>
                 </div>
             </div>
+            </div>
+        
+        
+        <div class="categorias-barra-rolagem">
+            <button class="categorias-botao-rolagem" onclick="rolar_esquerda()">&#x2039;</button>
+            <div class="categorias-lista" id="categorias-lista">
+                <div class="categorias-individual">
+                    <img class="categoria-individual-imagem" src="./Imagens/Categorias/Vestuário2.jpg">
+                    <div class="categoria-individual-label"> Vestuário</div>
+                </div>
+                <div class="categorias-individual">
+                    <img class="categoria-individual-imagem" src="./Imagens/Categorias/Calçados2.jpg">
+                    <div class="categoria-individual-label"> Calçados</div>
+                </div>
+                <div class="categorias-individual">
+                    <img class="categoria-individual-imagem" src="./Imagens/Categorias/Acessórios2.jpg">
+                    <div class="categoria-individual-label"> Acessórios</div>
+                </div>
+                <div class="categorias-individual">
+                    <img class="categoria-individual-imagem" src="./Imagens/Categorias/Esportes2.jpg">
+                    <div class="categoria-individual-label"> Esportes</div>
+                </div>
+                <div class="categorias-individual">
+                    <img class="categoria-individual-imagem" src="./Imagens/Categorias/Eletrônicos2.jpg">
+                    <div class="categoria-individual-label"> Eletrônicos</div>
+                </div>
+                <div class="categorias-individual">
+                    <img class="categoria-individual-imagem" src="./Imagens/Categorias/Games.jpg">
+                    <div class="categoria-individual-label"> Games</div>
+                </div>
+                <div class="categorias-individual">
+                    <img class="categoria-individual-imagem" src="./Imagens/Categorias/Beleza.jpg">
+                    <div class="categoria-individual-label"> Beleza</div>
+                </div>
+                <div class="categorias-individual">
+                    <img class="categoria-individual-imagem" src="./Imagens/Categorias/Decoração.jpg">
+                    <div class="categoria-individual-label"> Decoração</div>
+                </div>
+                
+            </div>
+            <button class="categorias-botao-rolagem" onclick="rolar_direita()">&#x203A;</button>
         </div>
     </div>
 
     <!-- lista de lojas -->
-    <div class="container-secao">
-        <div class="lista-lojas">
+    <div class="container-secao" >
+        <div class="lista-lojas" >
             <div class="card-loja">
                 <div class="card-loja-label-top">
                     <!-- <img src="" alt="" class="card-loja-logo-loja"> -->
                     <div class="card-loja-logo-loja"></div>
                     <div class="card-loja-label-top-box">
-                        <p class="card-loja-nome-loja">Nome da Loja</p>
-                        <p class="card-loja-categoria">Categoria</p>
+                        <p class="card-loja-nome-loja">The Beauty Box</p>
+                        <p class="card-loja-categoria">Vesturário</p>
                     </div> 
     
                 </div>
-                <img src="./Imagens/camera.jpg" alt="imagem-loja" class="img-lista-loja">
+                <img src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Beauty_Box/Logo_1x1.jpg" alt="imagem-loja" class="img-lista-loja">
                 <div class="card-loja-descricao">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
                 </div>
@@ -125,12 +132,12 @@
                     <!-- <img src="" alt="" class="card-loja-logo-loja"> -->
                     <div class="card-loja-logo-loja"></div>
                     <div class="card-loja-label-top-box">
-                        <p class="card-loja-nome-loja">Nome da Loja</p>
-                        <p class="card-loja-categoria">Categoria</p>
+                        <p class="card-loja-nome-loja">Clothe Fashion</p>
+                        <p class="card-loja-categoria">Vesturário</p>
                     </div> 
     
                 </div>
-                <img src="./Imagens/camera.jpg" alt="imagem-loja" class="img-lista-loja">
+                <img src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Logo_1x1.jpg" alt="imagem-loja" class="img-lista-loja">
                 <div class="card-loja-descricao">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
                 </div>
@@ -141,12 +148,12 @@
                     <!-- <img src="" alt="" class="card-loja-logo-loja"> -->
                     <div class="card-loja-logo-loja"></div>
                     <div class="card-loja-label-top-box">
-                        <p class="card-loja-nome-loja">Nome da Loja</p>
-                        <p class="card-loja-categoria">Categoria</p>
+                        <p class="card-loja-nome-loja">Hering</p>
+                        <p class="card-loja-categoria">Vestuário</p>
                     </div> 
     
                 </div>
-                <img src="./Imagens/camera.jpg" alt="imagem-loja" class="img-lista-loja">
+                <img src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Hering/Logo_1x1.jpg" alt="imagem-loja" class="img-lista-loja">
                 <div class="card-loja-descricao">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
                 </div>
@@ -157,23 +164,115 @@
                     <!-- <img src="" alt="" class="card-loja-logo-loja"> -->
                     <div class="card-loja-logo-loja"></div>
                     <div class="card-loja-label-top-box">
-                        <p class="card-loja-nome-loja">Nome da Loja</p>
-                        <p class="card-loja-categoria">Categoria</p>
+                        <p class="card-loja-nome-loja">Ilha do mel</p>
+                        <p class="card-loja-categoria">Vestuário</p>
                     </div> 
     
                 </div>
-                <img src="./Imagens/camera.jpg" alt="imagem-loja" class="img-lista-loja">
+                <img src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Ilha_do_mel/Logo_1x1.jpg" alt="imagem-loja" class="img-lista-loja">
+                <div class="card-loja-descricao">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
+                </div>
+            </div>
+    
+            <div class="card-loja">
+                <div class="card-loja-label-top">
+                    <!-- <img src="" alt="" class="card-loja-logo-loja"> -->
+                    <div class="card-loja-logo-loja"></div>
+                    <div class="card-loja-label-top-box">
+                        <p class="card-loja-nome-loja">Nike</p>
+                        <p class="card-loja-categoria">Vestuário</p>
+                    </div> 
+    
+                </div>
+                <img src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Nike/Logo_1x1.jpg" alt="imagem-loja" class="img-lista-loja">
+                <div class="card-loja-descricao">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
+                </div>
+            </div>
+    
+            <div class="card-loja">
+                <div class="card-loja-label-top">
+                    <!-- <img src="" alt="" class="card-loja-logo-loja"> -->
+                    <div class="card-loja-logo-loja"></div>
+                    <div class="card-loja-label-top-box">
+                        <p class="card-loja-nome-loja">Oscar Calçados</p>
+                        <p class="card-loja-categoria">Calçados</p>
+                    </div> 
+    
+                </div>
+                <img src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Oscar_calçados/Logo_1x1.jpg" alt="imagem-loja" class="img-lista-loja">
+                <div class="card-loja-descricao">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
+                </div>
+            </div>
+    
+            <div class="card-loja">
+                <div class="card-loja-label-top">
+                    <!-- <img src="" alt="" class="card-loja-logo-loja"> -->
+                    <div class="card-loja-logo-loja"></div>
+                    <div class="card-loja-label-top-box">
+                        <p class="card-loja-nome-loja">Starpoint</p>
+                        <p class="card-loja-categoria">Vestuário</p>
+                    </div> 
+    
+                </div>
+                <img src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Star_Point/Logo_1x1.jpg" alt="imagem-loja" class="img-lista-loja">
+                <div class="card-loja-descricao">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
+                </div>
+            </div>
+    
+            <div class="card-loja">
+                <div class="card-loja-label-top">
+                    <!-- <img src="" alt="" class="card-loja-logo-loja"> -->
+                    <div class="card-loja-logo-loja"></div>
+                    <div class="card-loja-label-top-box">
+                        <p class="card-loja-nome-loja">Hering</p>
+                        <p class="card-loja-categoria">Vestuário</p>
+                    </div> 
+    
+                </div>
+                <img src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Hering/Logo_1x1.jpg" alt="imagem-loja" class="img-lista-loja">
+                <div class="card-loja-descricao">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
+                </div>
+            </div>
+    
+            <div class="card-loja">
+                <div class="card-loja-label-top">
+                    <!-- <img src="" alt="" class="card-loja-logo-loja"> -->
+                    <div class="card-loja-logo-loja"></div>
+                    <div class="card-loja-label-top-box">
+                        <p class="card-loja-nome-loja">Hering</p>
+                        <p class="card-loja-categoria">Vestuário</p>
+                    </div> 
+    
+                </div>
+                <img src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Hering/Logo_1x1.jpg" alt="imagem-loja" class="img-lista-loja">
+                <div class="card-loja-descricao">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
+                </div>
+            </div>
+        
+            <div class="card-loja">
+                <div class="card-loja-label-top">
+                    <!-- <img src="" alt="" class="card-loja-logo-loja"> -->
+                    <div class="card-loja-logo-loja"></div>
+                    <div class="card-loja-label-top-box">
+                        <p class="card-loja-nome-loja">Hering</p>
+                        <p class="card-loja-categoria">Vestuário</p>
+                    </div> 
+    
+                </div>
+                <img src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Hering/Logo_1x1.jpg" alt="imagem-loja" class="img-lista-loja">
                 <div class="card-loja-descricao">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias.
                 </div>
             </div>
     
         </div>
-    </div>
-    <!-- fim lista de lojas -->
-
-    <!-- card-produto -->
-    <div class="container-secao">
+    
         <div class="lista-produtos">
             <div class="card-produto">
                 <img src="./Imagens/camera.jpg" alt="logo-shopping" class="img-lista-produto">
@@ -212,6 +311,6 @@
         </div>
     </div>
     <!-- fim-card-produto -->
-
+<script src="./navegar_lojas.js"></script>
 </body>
 </html>
