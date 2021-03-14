@@ -27,9 +27,9 @@ body{
 }
 
 .container-secao {
-	width: 95%;
+	width: 90%;
 	margin: auto;
-	margin-top: 0.5rem;
+	margin-top: 3rem;
 }
 
 .linha-entre-secoes {
@@ -319,7 +319,7 @@ input:focus {
 
 .lista-lojas {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	justify-content: center;
 	align-items: center;
 	width: 90%;
@@ -336,6 +336,7 @@ input:focus {
 	height: 18rem;
 	transition: all 0.4s ease-in-out;
 	transform: scale(0.9);
+	cursor: pointer;
 }
 
 .card-loja:hover {
