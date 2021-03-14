@@ -318,11 +318,12 @@ input:focus {
 /* Cards loja */
 
 .lista-lojas {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	width: 90%;
+	margin: auto;
 
 }
 
