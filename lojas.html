@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
     <link rel="stylesheet" href="chat.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="storiesteste.css">
 </head>
 
 <body>
@@ -42,7 +43,7 @@
             <div class="campo-busca">
                 <img src="./Imagens/Logo-Loja-FIcticia.jpg" alt="" id="nav-filtros-logo-loja">
                 <div class="instagram-copy-kkk">
-                    <a href="Storiesteste.html" class="stories" id="ao-vivo-animation">Live</a>
+                    <div class="stories" id="ao-vivo-animation" onclick="mostrar_story()">Live</div>
                     <!-- <a href="#" onclick="togglePopupStories()" class="stories" id="ao-vivo-animation">Live</a> -->
                     <div class="liga-desliga">
                         <input type="checkbox" class="liga-desliga-checkbox" id="liga-desliga">
@@ -487,12 +488,27 @@
         </div>
     </div>
 
-
-
+    <div id="container-story">
+        <div data-slide="slide" class="slide">
+            <div class="slide-items">
+                <img src="./Imagens/stories/img1.jpg" alt="Img 1" class="img-stories">
+                <img src="./Imagens/stories/img2.jpg" alt="Img 2" class="img-stories">
+                <img src="./Imagens/stories/img3.jpg" alt="Img 3" class="img-stories">
+                <video src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/previa_video_4x5.mp4" autoplay loop layout="fill" alt="Img 4" class="img-stories" id="videostories"></video>
+                <img src="./Imagens/stories/img4.jpg" alt="Img 5" class="img-stories">
+            </div>
+            <nav class="slide-nav">
+                <div class="slide-thumb"></div>
+                <button class="slide-prev">Anterior</button>
+                <button class="slide-next">Próximo</button>
+            </nav>
+        </div>
+    </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./lojas.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
     <script src="chat_ui.js"></script>
+    <script src="Storiesteste.js"></script>
 </body>
 </html>

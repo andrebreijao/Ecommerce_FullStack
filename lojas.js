@@ -1,5 +1,3 @@
-
-
 function redimensionar_body() {
   let tamanho_tela = (screen.width-5).toString();
   var x = document.getElementsByTagName("BODY")[0];
@@ -76,7 +74,6 @@ function showSlides(n) {
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  console.log("DOM completamente carregado e analisado");
   my_timer= setInterval(proxslide, 3000);
 
 });
@@ -105,19 +102,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 // }
 
 
-
-
-console.log("kkkkkk")
-const cards = document.querySelectorAll(".img-lista-produto")
-
-cards.forEach(card =>{
-    card.addEventListener("mouseover", function(){
-      this.src= card.dataset.src2;
-    })
-    card.addEventListener("mouseout", function(){
-      this.src= card.dataset.src1;
-    })
-})
 
 // function togglePopupStories(){
 //   document.getElementById("popupstories").classList.toggle("active");

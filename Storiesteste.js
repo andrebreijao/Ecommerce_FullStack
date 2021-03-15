@@ -1,3 +1,40 @@
+let body_element = document.getElementsByTagName("BODY")[0];
+let container_story = document.getElementById("container-story");
+
+function mostrar_story() {
+  console.log("Mostrei slide");
+  body_element.style.overflow= "hidden";
+  container_story.style.top= window.scrollY.toString()+"px";
+  container_story.style.display= "flex";
+  console.log(window.scrollY);
+}
+
+function fechar_story() {
+  console.log("fechei slide");
+  body_element.style.overflow= "visible";
+  container_story.style.display= "none";
+}
+
+
+
+document.addEventListener('keydown', (event) => {
+  if (event.key == 'ArrowUp') {
+      console.log("up")
+  }
+  else if (event.key == 'ArrowLeft'){
+    console.log("left");
+    destaque.prev()
+  }
+  else if (event.key == 'ArrowRight'){
+    console.log("right");
+    destaque.next();
+  }
+  else if (event.key == 'Escape'){
+    console.log("Esc");
+    fechar_story();
+  }
+});
+
 class SlideStories {
     constructor(id) {
       this.slide = document.querySelector(`[data-slide="${id}"]`);
@@ -58,9 +95,10 @@ class SlideStories {
       this.activeSlide(0);
       this.addNavigation();
     }
+    
 }
 
 const videos = document.querySelectorAll("video")
 
 
-new SlideStories('slide');
+let destaque = new SlideStories('slide');
