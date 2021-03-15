@@ -137,6 +137,7 @@ a {
 	animation: gradient 10s ease infinite;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) no-repeat;
 	background-size: 300% 300%;
+	text-align: center;
 }
 
 @keyframes gradient {
@@ -266,14 +267,9 @@ a {
 }
 
 #nav-filtros-logo-loja {
-	
 	height: 7rem;
 	width: auto;
-	position: absolute;
-	top: 20vh;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	margin-top: 1.5rem;
+	position: relative;
 }
 
 input[type="text"] {
@@ -308,6 +304,8 @@ input:focus {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	position: relative;
+	top: 30px;
 }
  #campo-de-busca-botao {
 	background: transparent;
@@ -781,6 +779,7 @@ img {vertical-align: middle;}
 	transform: scale(0.9);
 	transition: 0.2s;
 	transition-timing-function: ease;
+	cursor: pointer;
 }
 
 .card-produto-grid:hover {
@@ -825,6 +824,30 @@ img {vertical-align: middle;}
 	border-radius: 5px;
 }
 
+.botoes-card-grid {
+	background-color: #bf2c366e;
+    font-size: 1.5rem;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 5px;
+    right: 5px;
+    max-width: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 8px;
+    line-height: 13.5px;
+	width: 50px;
+}
 
+
+.icone {
+	color: white;
+	font-size: 1.0rem;	
+}
+
+.segundo-icone{
+	margin-top: 10px;
+}
 
 
