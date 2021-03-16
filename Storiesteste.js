@@ -1,5 +1,6 @@
 let body_element = document.getElementsByTagName("BODY")[0];
 let container_story = document.getElementById("container-story");
+let story_area = document.getElementsByClassName("slide")
 
 function mostrar_story() {
   console.log("Mostrei slide");
@@ -14,6 +15,15 @@ function fechar_story() {
   body_element.style.overflow= "visible";
   container_story.style.display= "none";
 }
+
+// story_area.addEventListener("click", ()=> {
+//   console.log("story");
+// } );
+
+// container_story.addEventListener("click", ()=> {
+//   fechar_story();
+//   console.log("container");
+// } );
 
 
 
