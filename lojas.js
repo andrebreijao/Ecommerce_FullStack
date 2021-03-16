@@ -9,7 +9,6 @@ function redimensionar_body() {
 //cards
 
 //botoes wish e sacola e pop up de aviso de adicao
-let popup_aviso_wish = document.getElementById("popup-card-adicionado-whish"); 
 
 document.querySelectorAll('.icone').forEach(item => {
     item.addEventListener('click', event => {
@@ -21,20 +20,46 @@ document.querySelectorAll('.icone').forEach(item => {
           item.classList.add('icone-selecionado');
 
           console.log("andre");
-
+          
+          if (item.classList.contains('fa-heart')){  
           alert_wish()
-      };
+      }else{
+        alert_sacola()
+      }};
     })
   })
 
 //popup aviso de adição a wish
 
+let popup_aviso_wish = document.getElementById("popup-card-adicionado-whish"); 
+let popup_sacola = document.getElementById("popup-card-adicionado-carrinho"); 
+
 function alert_wish() {
   console.log("alert")
-  popup_aviso_wish.style.display="block";
+  // popup_aviso_wish.style.display="block";
+  popup_aviso_wish.style.visibility="visible";
+  popup_aviso_wish.style.opacity="1";
+
   setTimeout(function(){ 
-    popup_aviso_wish.style.display="none"; 
+    popup_aviso_wish.style.visibility="hidden";
+    popup_aviso_wish.style.opacity="0";
+    // popup_aviso_wish.style.display="none"; 
   }, 3000);
+}
+
+function alert_sacola() {
+
+  popup_sacola.style.top= window.scrollY.toString()+"px";
+  body_element.style.overflow= "hidden";
+  popup_sacola.style.display="flex";
+  popup_sacola.style.visibility="visible";
+  popup_sacola.style.opacity="1";
+
+  popup_sacola.addEventListener("click", ()=> {
+    popup_sacola.style.display="none";
+    body_element.style.overflow= "visible";
+    popup_sacola.style.opacity="0";
+  })
 }
 
 

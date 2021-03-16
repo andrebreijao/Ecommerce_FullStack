@@ -863,12 +863,47 @@ img {vertical-align: middle;}
 	background-color: #bf2c36b2;
 	padding: 10px 20px;
 	border-radius: 5px;
-	color: white;
 	text-transform: uppercase;
 	font-size: 13px;
-	display: none;
-
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #bf2c3667, 0 0 5px #bf2c36e7;
+	box-shadow: 0 4px 20px 4px rgba(0, 0, 0, 0.4);
+	opacity: 0; 
+	display: block;
+	visibility: hidden;
+	-webkit-transition: visibility 0.6s linear,
+	opacity 0.6s linear;
+	-moz-transition: visibility 0.6s linear,
+	opacity 0.6s linear;
+	-o-transition: visibility 0.6s linear,
+	opacity 0.6s linear; 
 }
+
+#popup-card-adicionado-carrinho{
+	display: flex;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	background-color: rgba(0, 0, 0, 0.856);
+	z-index: 100;
+	visibility: hidden;
+	-webkit-transition: visibility 0.6s linear,
+	opacity 0.6s linear;
+	-moz-transition: visibility 0.6s linear,
+	opacity 0.6s linear;
+	-o-transition: visibility 0.6s linear,
+	opacity 0.6s linear; 
+}
+
+#popup-card-adicionado-carrinho > img{
+	height: 500px;
+}
+
+
 
 /* secao story */
 
