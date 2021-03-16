@@ -767,6 +767,10 @@ img {vertical-align: middle;}
 
 /* Lista de produtos grid */
 
+#app{
+	width: 100%;
+}
+
 .lista-produtos-grid {
 	display: flex;
 	flex-wrap: wrap;
@@ -774,25 +778,26 @@ img {vertical-align: middle;}
 	align-content: center;
 	align-items: center;
 	justify-content: center;
-	
 }
 
 .card-produto-grid {
 	margin: 0;
-	transform: scale(0.9);
+	transform: scale(0.8);
 	transition: 0.2s;
 	transition-timing-function: ease;
 	cursor: pointer;
 }
 
 .card-produto-grid:hover {
-	transform: scale(1);
+	transform: scale(0.9);
 	
 }
 
 .card-grid-nome-produto{
 	font-size: 17px;
 	margin-top: 20px;
+	max-width: 250px;
+	
 }
 
 .card-grid-precos{
