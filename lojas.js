@@ -5,25 +5,38 @@ function redimensionar_body() {
   console.log(tamanho_tela)
 }
 
-document.querySelectorAll('.card-wishlist-vazio').forEach(item => {
+
+//cards
+
+//botoes wish e sacola e pop up de aviso de adicao
+let popup_aviso_wish = document.getElementById("popup-card-adicionado-whish"); 
+
+document.querySelectorAll('.icone').forEach(item => {
     item.addEventListener('click', event => {
-        console.log("vazio")
-        item.className = 'card-wishlist-solido';
+        if (item.classList.contains('icone-selecionado')){
+          item.classList.remove('icone-selecionado');
+
+        }else{
+
+          item.classList.add('icone-selecionado');
+
+          console.log("andre");
+
+          alert_wish()
+      };
     })
   })
 
-document.querySelectorAll('.card-wishlist-solido').forEach(item => {
-item.addEventListener('click', event => {
-    console.log("solido")
-    item.className = 'card-wishlist-vazio';
-}), { once : false}
-})
+//popup aviso de adição a wish
 
-// document.querySelectorAll('.card-produto').forEach(item => {
-// item.addEventListener('mouseover', event => {
-//     item.style.backgroundImage = "url('./Imagens/vitrine\ -\ 1.jpg')";
-// }), { once : false}
-// })
+function alert_wish() {
+  console.log("alert")
+  popup_aviso_wish.style.display="block";
+  setTimeout(function(){ 
+    popup_aviso_wish.style.display="none"; 
+  }, 3000);
+}
+
 
 
 $(document).ready(function(){
@@ -53,8 +66,6 @@ function proxslide() {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
-
 
 
 function showSlides(n) {
