@@ -1,6 +1,7 @@
 let body_element = document.getElementsByTagName("BODY")[0];
 let container_story = document.getElementById("container-story");
-let story_area = document.getElementsByClassName("slide")
+// let story_area = document.querySelectorAll("body > div:not(.slide-nav)")
+// var story_area = document.querySelectorAll("#container-story > div:not(.slide)");
 
 function mostrar_story() {
   console.log("Mostrei slide");
@@ -20,7 +21,7 @@ function fechar_story() {
 //   console.log("story");
 // } );
 
-// container_story.addEventListener("click", ()=> {
+// story_area.addEventListener("click", ()=> {
 //   fechar_story();
 //   console.log("container");
 // } );
