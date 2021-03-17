@@ -767,9 +767,7 @@ img {vertical-align: middle;}
 
 /* Lista de produtos grid */
 
-#app{
-	width: 100%;
-}
+
 
 .lista-produtos-grid {
 	display: flex;
@@ -797,6 +795,7 @@ img {vertical-align: middle;}
 	font-size: 17px;
 	margin-top: 20px;
 	max-width: 250px;
+	margin: 0;
 	
 }
 
@@ -804,6 +803,7 @@ img {vertical-align: middle;}
 	width: 20px;
 	display: grid;
 	grid-template-columns: 1fr 4fr;
+	margin: 0px;
 }
 
 .card-grid-preco-antigo{
