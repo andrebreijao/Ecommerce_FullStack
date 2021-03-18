@@ -464,9 +464,7 @@ input:focus {
 	width: 90%;
 	margin: auto;
 	font-size: 13px;
-	padding: 10px;
-	
-	
+	padding: 10px;	
 }
 
 .filtro-toggle-opcoes > *{
@@ -939,7 +937,7 @@ img {vertical-align: middle;}
 
 /* secao story */
 
-#container-story {
+#container-story, #background-story {
 	display: none;
 	position: absolute;
 	top: 0;
@@ -950,9 +948,16 @@ img {vertical-align: middle;}
 	justify-items: center;
 	background-color: rgba(0, 0, 0, 0.856);
 	z-index: 100;
-
 }
 
+#container-story {
+	background-color: rgba(0, 0, 0, 0);
+	max-width: 380px;
+	margin: auto;
+	position: absolute;
+	right: 50%;
+	transform: translate(+50%,0);
+}
 
 .stop-scrolling {
 	height: 100%;

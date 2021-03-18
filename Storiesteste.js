@@ -1,11 +1,14 @@
 let body_element = document.getElementsByTagName("BODY")[0];
 let container_story = document.getElementById("container-story");
+let background_story = document.getElementById("background-story");
 // let story_area = document.querySelectorAll("body > div:not(.slide-nav)")
 // var story_area = document.querySelectorAll("#container-story > div:not(.slide)");
 
 function mostrar_story() {
   console.log("Mostrei slide");
   body_element.style.overflow= "hidden";
+  background_story.style.top= window.scrollY.toString()+"px";
+  background_story.style.display= "flex";
   container_story.style.top= window.scrollY.toString()+"px";
   container_story.style.display= "flex";
   console.log(window.scrollY);
@@ -14,6 +17,7 @@ function mostrar_story() {
 function fechar_story() {
   console.log("fechei slide");
   body_element.style.overflow= "visible";
+  background_story.style.display= "none";
   container_story.style.display= "none";
 }
 
@@ -21,10 +25,10 @@ function fechar_story() {
 //   console.log("story");
 // } );
 
-// story_area.addEventListener("click", ()=> {
-//   fechar_story();
-//   console.log("container");
-// } );
+background_story.addEventListener("click", ()=> {
+  fechar_story();
+  console.log("container");
+} );
 
 
 
