@@ -64,11 +64,7 @@ function alert_sacola() {
 
 
 
-$(document).ready(function(){
-    $("#genero").click(function(){
-      $("#panel-genero").slideToggle("fast");
-    });
-  });
+
 
 // secao carosel
 
@@ -142,4 +138,26 @@ document.addEventListener("DOMContentLoaded", function(event) {
 // function togglePopupStories(){
 //   document.getElementById("popupstories").classList.toggle("active");
 // }
+
+
+
+//filtro toggle 
+
+$(document).ready(function(){
+  $("#cat_1").click(function(){
+    $("#cat_1_toogle").slideToggle('slow');
+  });
+});
+
+$(document).ready(function(){
+  $("#cat_2").click(function(){
+    $("#cat_2_toogle").slideToggle('slow');
+  });
+});
+
+$(document).ready(function(){
+  $("#cat_3").click(function(){
+    $("#cat_3_toogle").slideToggle('slow');
+  });
+});
 

@@ -40,7 +40,6 @@
 
     <div class="nav-filtros">
         <div class="nav-filtros-conteudo">
-
             <div class="campo-busca">
                 <img src="./Imagens/Logo-Loja-FIcticia.jpg" alt="" id="nav-filtros-logo-loja">
                 <div class="instagram-copy-kkk">
@@ -59,80 +58,70 @@
                     </div>
                     <div class="linha-personalizavel" id="linha-primaria"></div>
                 </div>
-
-                <!-- secao genero -->
                 <div class="container-input" id="container-genero">
-                    <div class="filtro-toggle" >
-                        <button class="genero" id="gen" value="masculino" >Masculino</button>
-                        <button class="genero" id="gen" value="feminino" >Feminino</button>
-                        <button class="genero" id="kids" value="kids" >Kids</button>
+                    <div class="filtro-toggle" id="genero">
+                        <button class="genero" id="gen" value="masculino" onclick="function1()">Masculino</button>
+                        <button class="genero" id="gen" value="feminino" onclick="function1()">Feminino</button>
+                        <button class="genero" id="kids" value="kids" onclick="function2()">Kids</button>
                     </div>
                 </div>
 
-
-                <!-- filtro toggle -->
-                <div class="lista-toggle-filtro">
-                    <div class="filtro-toggle" id="cat_1" data-aba="cat_1_toogle">
-                        <div class="filtro-toggle-texto">Categoria</div>
-                        <div class="filtro-toggle-imagem"><img src="./Imagens/seta-baixo.svg" alt=""></div>    
-                    </div>
-                    
-                    <div class="filtro-toggle-opcoes" id="cat_1_toogle">
+                <!-- <div class="container-input">
+                    <div class="filtro-toggle" id="categoria">
+                        <div class="filtro-toggle-texto">Categorias:</div>
                         
-                        <input type="checkbox" id="bermudas" name="bermudas" value="Bike">
-                        <label for="bermudas"> Bermudas</label><br>
+                        <select name="tipo" id="categ">
+                            <option value="Sem_filtro">Sem Filtro</option>
+                            <option value="Camisa_social">Camisa Social</option>
+                            <option value="Casaco">Casaco</option>
+                        </select>
+                    </div>
+                    <div class="linha-personalizavel" id="linha-secundaria"></div>
+                </div>
+                <div class="container-input">
+                    <div class="filtro-toggle" id="marcas">
+                        <div class="filtro-toggle-texto">Marcas:</div>
+                        <select name="tipo" id="categ">
+                            <option value="Sem_filtro">Sem Filtro</option>
+                            <option value="Camisa_social">Reserva</option>
+                            <option value="Casaco">Adidas</option>
+                        </select>
+                    </div>
+                    <div class="linha-personalizavel" id="linha-terciaria"></div>
+                </div>
+                <div class="container-input"> 
+                    <div class="filtro-toggle" id="tamanho">
+                        <div class="filtro-toggle-texto">Tamanho:</div>
+                        <select name="tipo" id="categ">
+                            <option value="Sem_filtro">Sem Filtro</option>
+                            <option value="muito_pequeno">PP</option>
+                            <option value="pequeno">P</option>
+                            <option value="medio">M</option>
+                            <option value="grande">G</option>
+                            <option value="muito_grande">GG</option>
+                        </select>
+                    </div>
+                    <div class="linha-personalizavel" id="linha-quaternaria"></div>
+                </div> -->
 
-                        <input type="checkbox" id="calca" name="calca" value="Bike">
-                        <label for="calca"> Calças </label><br>
-
-                        <input type="checkbox" id="camisetas" name="camisetas" value="Bike">
-                        <label for="Camisetas"> Camisetas</label><br>
-
-                        <input type="checkbox" id="regatas" name="regatas" value="Bike">
-                        <label for="regatas"> Regatas</label><br>
+                <div class="lista-toggle-filtro">
+                    <div class="filtro-toggle" id="genero">
+                        <div class="filtro-toggle-texto">Genero:</div>
+                        <div class="filtro-toggle-imagem"><img src="./Imagens/seta-baixo.svg" alt=""></div>
+                        
+                    </div>
+                    <div id="panel-genero">Consegui!!</div>
+                    <div class="filtro-toggle" id="genero">
+                        <div class="filtro-toggle-texto">Tamanho:</div>
+                        <div class="filtro-toggle-imagem"><img src="./Imagens/seta-baixo.svg" alt=""></div>
+                        
+                    </div>
+                    <div class="filtro-toggle" id="genero">
+                        <div class="filtro-toggle-texto">Marcas:</div>
+                        <div class="filtro-toggle-imagem"><img src="./Imagens/seta-baixo.svg" alt=""></div>
+                        
                     </div>
                     
-                    <div class="filtro-toggle" id="cat_2" data-aba="cat_2_toogle">
-                        <div class="filtro-toggle-texto">Tamanho</div>
-                        <div class="filtro-toggle-imagem"><img src="./Imagens/seta-baixo.svg" alt=""></div>
-                    </div>
-
-                    <div class="filtro-toggle-opcoes" id="cat_2_toogle" >
-                                                
-                        <input type="checkbox" id="p" name="p" value="Bike">
-                        <label for="p">P</label><br>
-                                                
-                        <input type="checkbox" id="m" name="m" value="Bike">
-                        <label for="m">M</label><br>
-                                                
-                        <input type="checkbox" id="g" name="g" value="Bike">
-                        <label for="g"> G</label><br>
-
-                    </div>
-                    
-                    <div class="filtro-toggle" id="cat_3" data-aba="cat_3_toogle">
-                        <div class="filtro-toggle-texto">Faixa de preço</div>
-                        <div class="filtro-toggle-imagem"><img src="./Imagens/seta-baixo.svg" alt=""></div>
-                    </div>
-
-                    <div class="filtro-toggle-opcoes" id="cat_3_toogle">
-                                                                        
-                        <input type="checkbox" id="faixa-1" name="faixa-1" value="Bike">
-                        <label for="faixa-1">R$0-R$19,99</label><br>
-                                                                        
-                        <input type="checkbox" id="faixa-1" name="faixa-1" value="Bike">
-                        <label for="faixa-1">R$20-R$49,99</label><br>
-                                                                        
-                        <input type="checkbox" id="faixa-1" name="faixa-1" value="Bike">
-                        <label for="faixa-1">R$50-R$99,99</label><br>
-                                                                        
-                        <input type="checkbox" id="faixa-1" name="faixa-1" value="Bike">
-                        <label for="faixa-1">R$100-R$199,99</label><br>
-                                                                        
-                        <input type="checkbox" id="faixa-1" name="faixa-1" value="Bike">
-                        <label for="faixa-1">R$200-R$299,99</label><br>
-
-                    </div>
                 </div>  
      
             </div>
@@ -174,123 +163,203 @@
                 </div>
         </div>
         
-
-        <div class="lista-produtos-grid">
+        <!-- <div class="lista-produtos">
             
-            <div class="card-produto-grid">
-                <div class="botoes-card-grid">
-                    <i class="fas fa-heart icone"></i>
-                    <i class="fas fa-shopping-bag icone segundo-icone"></i>
+            <div class="card-produto">
+                <div class="card-wishlist-vazio"></div>
+                <img src="./Imagens/Card1.jpg" alt="produto" class="img-lista-produto" data-src1="./Imagens/Card1.jpg" data-src2="./Imagens/Card2.jpg">
+                <div class="card-produto-descricao">
+                    <p class="card-produto-nome-produto">Nome do Produto</p>
+                    <p class="card-produto-nome-loja">Descricao produto</p>
                 </div>
-                <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-1.webp" alt="produto">
-                <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
-                <div class="card-grid-precos">
-                    <div class="card-grid-preco-antigo">R$119,99</div>
-                    <div class="card-grid-preco-atual">R$59,99</div>
-                    <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
+                <div class="card-produto-preco">R$ 1.024,99</div>
+            </div>  
+            
+            <div class="card-produto">
+                <div class="card-wishlist-vazio"></div>
+                <img src="./Imagens/camera.jpg" alt="produto" class="img-lista-produto" data-src1="./Imagens/camera.jpg" data-src2="./Imagens/Card2.jpg">
+                <div class="card-produto-descricao">
+                    <p class="card-produto-nome-produto">Nome do Produto</p>
+                    <p class="card-produto-nome-loja">Descricao produto</p>
                 </div>
+                <div class="card-produto-preco">R$ 1.024,99</div>
+            </div>  
+            <div class="card-produto">
+                <div class="card-wishlist-vazio"></div>
+                <img src="./Imagens/Card1.jpg" alt="produto" class="img-lista-produto" data-src1="./Imagens/Card1.jpg" data-src2="./Imagens/Card2.jpg">
+                <div class="card-produto-descricao">
+                    <p class="card-produto-nome-produto">Nome do Produto</p>
+                    <p class="card-produto-nome-loja">Descricao produto</p>
+                </div>
+                <div class="card-produto-preco">R$ 1.024,99</div>
+            </div>  
+            
+            <div class="card-produto">
+                <div class="card-wishlist-vazio"></div>
+                <img src="./Imagens/camera.jpg" alt="produto" class="img-lista-produto" data-src1="./Imagens/camera.jpg" data-src2="./Imagens/Card2.jpg">
+                <div class="card-produto-descricao">
+                    <p class="card-produto-nome-produto">Nome do Produto</p>
+                    <p class="card-produto-nome-loja">Descricao produto</p>
+                </div>
+                <div class="card-produto-preco">R$ 1.024,99</div>
             </div>
             
-            <div class="card-produto-grid">
-                <div class="botoes-card-grid">
-                    <i class="fas fa-heart icone"></i>
-                    <i class="fas fa-shopping-bag icone segundo-icone"></i>
+            <div class="card-produto">
+                <div class="card-wishlist-vazio"></div>
+                <img src="./Imagens/Card1.jpg" alt="produto" class="img-lista-produto" data-src1="./Imagens/Card1.jpg" data-src2="./Imagens/Card2.jpg">
+                <div class="card-produto-descricao">
+                    <p class="card-produto-nome-produto">Nome do Produto</p>
+                    <p class="card-produto-nome-loja">Descricao produto</p>
                 </div>
-                <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-2.webp" alt="produto">
-                <div class="card-grid-nome-produto">Regata Feminina Alças Largas</div>
-                <div class="card-grid-precos">
-                    <div class="card-grid-preco-antigo">R$69,99</div>
-                    <div class="card-grid-preco-atual">R$59,99</div>
-                    <div class="card-grid-preco-parcela">ou 2x de R$24,99</div>
-                </div>
-            </div>
+                <div class="card-produto-preco">R$ 1.024,99</div>
+            </div>  
             
-            <div class="card-produto-grid">
-                <div class="botoes-card-grid">
-                    <i class="fas fa-heart icone"></i>
-                    <i class="fas fa-shopping-bag icone segundo-icone"></i>
+            <div class="card-produto">
+                <div class="card-wishlist-vazio"></div>
+                <img src="./Imagens/camera.jpg" alt="produto" class="img-lista-produto" data-src1="./Imagens/camera.jpg" data-src2="./Imagens/Card2.jpg">
+                <div class="card-produto-descricao">
+                    <p class="card-produto-nome-produto">Nome do Produto</p>
+                    <p class="card-produto-nome-loja">Descricao produto</p>
                 </div>
-                <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-3.webp" alt="produto">
-                <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
-                <div class="card-grid-precos">
-                    <div class="card-grid-preco-antigo">R$119,99</div>
-                    <div class="card-grid-preco-atual">R$59,99</div>
-                    <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
+                <div class="card-produto-preco">R$ 1.024,99</div>
+            </div>  
+            <div class="card-produto">
+                <div class="card-wishlist-vazio"></div>
+                <img src="./Imagens/Card1.jpg" alt="produto" class="img-lista-produto" data-src1="./Imagens/Card1.jpg" data-src2="./Imagens/Card2.jpg">
+                <div class="card-produto-descricao">
+                    <p class="card-produto-nome-produto">Nome do Produto</p>
+                    <p class="card-produto-nome-loja">Descricao produto</p>
                 </div>
-            </div>
+                <div class="card-produto-preco">R$ 1.024,99</div>
+            </div>  
             
-            <div class="card-produto-grid">
-                <div class="botoes-card-grid">
-                    <i class="fas fa-heart icone"></i>
-                    <i class="fas fa-shopping-bag icone segundo-icone"></i>
+            <div class="card-produto">
+                <div class="card-wishlist-vazio"></div>
+                <img src="./Imagens/camera.jpg" alt="produto" class="img-lista-produto" data-src1="./Imagens/camera.jpg" data-src2="./Imagens/Card2.jpg">
+                <div class="card-produto-descricao">
+                    <p class="card-produto-nome-produto">Nome do Produto</p>
+                    <p class="card-produto-nome-loja">Descricao produto</p>
                 </div>
-                <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-4.webp" alt="produto">
-                <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
-                <div class="card-grid-precos">
-                    <div class="card-grid-preco-antigo">R$119,99</div>
-                    <div class="card-grid-preco-atual">R$59,99</div>
-                    <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
-                </div>
-            </div>
+                <div class="card-produto-preco">R$ 1.024,99</div>
+            </div>  
             
-            <div class="card-produto-grid">
-                <div class="botoes-card-grid">
-                    <i class="fas fa-heart icone"></i>
-                    <i class="fas fa-shopping-bag icone segundo-icone"></i>
+        </div> -->
+            <div class="lista-produtos-grid">
+                
+                <div class="card-produto-grid">
+                    <div class="botoes-card-grid">
+                        <i class="fas fa-heart icone"></i>
+                        <i class="fas fa-shopping-bag icone segundo-icone"></i>
+                    </div>
+                    <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-1.webp" alt="produto">
+                    <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
+                    <div class="card-grid-precos">
+                        <div class="card-grid-preco-antigo">R$119,99</div>
+                        <div class="card-grid-preco-atual">R$59,99</div>
+                        <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
+                    </div>
                 </div>
-                <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-5.webp" alt="produto">
-                <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
-                <div class="card-grid-precos">
-                    <div class="card-grid-preco-antigo">R$119,99</div>
-                    <div class="card-grid-preco-atual">R$59,99</div>
-                    <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
+                
+                <div class="card-produto-grid">
+                    <div class="botoes-card-grid">
+                        <i class="fas fa-heart icone"></i>
+                        <i class="fas fa-shopping-bag icone segundo-icone"></i>
+                    </div>
+                    <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-2.webp" alt="produto">
+                    <div class="card-grid-nome-produto">Regata Feminina Alças Largas</div>
+                    <div class="card-grid-precos">
+                        <div class="card-grid-preco-antigo">R$69,99</div>
+                        <div class="card-grid-preco-atual">R$59,99</div>
+                        <div class="card-grid-preco-parcela">ou 2x de R$24,99</div>
+                    </div>
                 </div>
+                
+                <div class="card-produto-grid">
+                    <div class="botoes-card-grid">
+                        <i class="fas fa-heart icone"></i>
+                        <i class="fas fa-shopping-bag icone segundo-icone"></i>
+                    </div>
+                    <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-3.webp" alt="produto">
+                    <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
+                    <div class="card-grid-precos">
+                        <div class="card-grid-preco-antigo">R$119,99</div>
+                        <div class="card-grid-preco-atual">R$59,99</div>
+                        <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
+                    </div>
+                </div>
+                
+                <div class="card-produto-grid">
+                    <div class="botoes-card-grid">
+                        <i class="fas fa-heart icone"></i>
+                        <i class="fas fa-shopping-bag icone segundo-icone"></i>
+                    </div>
+                    <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-4.webp" alt="produto">
+                    <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
+                    <div class="card-grid-precos">
+                        <div class="card-grid-preco-antigo">R$119,99</div>
+                        <div class="card-grid-preco-atual">R$59,99</div>
+                        <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
+                    </div>
+                </div>
+                
+                <div class="card-produto-grid">
+                    <div class="botoes-card-grid">
+                        <i class="fas fa-heart icone"></i>
+                        <i class="fas fa-shopping-bag icone segundo-icone"></i>
+                    </div>
+                    <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-5.webp" alt="produto">
+                    <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
+                    <div class="card-grid-precos">
+                        <div class="card-grid-preco-antigo">R$119,99</div>
+                        <div class="card-grid-preco-atual">R$59,99</div>
+                        <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
+                    </div>
+                </div>
+                
+                <div class="card-produto-grid">
+                    <div class="botoes-card-grid">
+                        <i class="fas fa-heart icone"></i>
+                        <i class="fas fa-shopping-bag icone segundo-icone"></i>
+                    </div>
+                    <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-6.webp" alt="produto">
+                    <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
+                    <div class="card-grid-precos">
+                        <div class="card-grid-preco-antigo">R$119,99</div>
+                        <div class="card-grid-preco-atual">R$59,99</div>
+                        <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
+                    </div>
+                </div>
+                
+                <div class="card-produto-grid">
+                    <div class="botoes-card-grid">
+                        <i class="fas fa-heart icone"></i>
+                        <i class="fas fa-shopping-bag icone segundo-icone"></i>
+                    </div>
+                    <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-7.webp" alt="produto">
+                    <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
+                    <div class="card-grid-precos">
+                        <div class="card-grid-preco-antigo">R$119,99</div>
+                        <div class="card-grid-preco-atual">R$59,99</div>
+                        <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
+                    </div>
+                </div>
+                
+                <div class="card-produto-grid">
+                    <div class="botoes-card-grid">
+                        <i class="fas fa-heart icone"></i>
+                        <i class="fas fa-shopping-bag icone segundo-icone"></i>
+                    </div>
+                    <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-8.jpg" alt="produto">
+                    <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
+                    <div class="card-grid-precos">
+                        <div class="card-grid-preco-antigo">R$119,99</div>
+                        <div class="card-grid-preco-atual">R$59,99</div>
+                        <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
+                    </div>
+                </div>
+               
+                        
             </div>
-            
-            <div class="card-produto-grid">
-                <div class="botoes-card-grid">
-                    <i class="fas fa-heart icone"></i>
-                    <i class="fas fa-shopping-bag icone segundo-icone"></i>
-                </div>
-                <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-6.webp" alt="produto">
-                <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
-                <div class="card-grid-precos">
-                    <div class="card-grid-preco-antigo">R$119,99</div>
-                    <div class="card-grid-preco-atual">R$59,99</div>
-                    <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
-                </div>
-            </div>
-            
-            <div class="card-produto-grid">
-                <div class="botoes-card-grid">
-                    <i class="fas fa-heart icone"></i>
-                    <i class="fas fa-shopping-bag icone segundo-icone"></i>
-                </div>
-                <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-7.webp" alt="produto">
-                <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
-                <div class="card-grid-precos">
-                    <div class="card-grid-preco-antigo">R$119,99</div>
-                    <div class="card-grid-preco-atual">R$59,99</div>
-                    <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
-                </div>
-            </div>
-            
-            <div class="card-produto-grid">
-                <div class="botoes-card-grid">
-                    <i class="fas fa-heart icone"></i>
-                    <i class="fas fa-shopping-bag icone segundo-icone"></i>
-                </div>
-                <img class="produto-grid-img" src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-8.jpg" alt="produto">
-                <div class="card-grid-nome-produto">Shorts Masculino Em Sarja</div>
-                <div class="card-grid-precos">
-                    <div class="card-grid-preco-antigo">R$119,99</div>
-                    <div class="card-grid-preco-atual">R$59,99</div>
-                    <div class="card-grid-preco-parcela">ou 2x de R$34,99</div>
-                </div>
-            </div>
-            
-                    
-        </div>
         
     </div>
         

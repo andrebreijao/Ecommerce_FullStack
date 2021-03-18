@@ -404,6 +404,7 @@ input:focus {
 	justify-items: center;
 	z-index: 100;
 	margin-left: 5%;
+	cursor: pointer;
 	
 }
 
@@ -412,6 +413,10 @@ input:focus {
 	bottom: 0rem;
 	display: inline-block;
 	color: rgb(118, 118, 118)
+}
+
+.filtro-toggle-imagem{
+	margin: 0px 20px;
 }
 
 #container-genero{
@@ -452,6 +457,28 @@ input:focus {
 	font-style: italic;
 	right: 0;
 }
+
+.filtro-toggle-opcoes{
+	display: none;
+	background-color: rgba(192, 192, 192, 0.294);
+	width: 90%;
+	margin: auto;
+	font-size: 13px;
+	padding: 10px;
+	
+	
+}
+
+.filtro-toggle-opcoes > *{
+	margin: 5px 2px;
+}
+
+
+
+#cat_3_toogle {
+	display: block;
+}
+
 
 /* fim-filtros */
 
