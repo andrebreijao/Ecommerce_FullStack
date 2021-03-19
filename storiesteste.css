@@ -17,7 +17,7 @@
     grid-area: 1/1;
     border-radius: 5px;
     overflow: hidden;
-}
+
   
 .slide-nav {
     grid-area: 1/1;
@@ -76,5 +76,4 @@
       transform: initial;
     }
 }
-
 

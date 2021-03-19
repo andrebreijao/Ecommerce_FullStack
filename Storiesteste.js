@@ -10,7 +10,7 @@ function mostrar_story() {
   background_story.style.top= window.scrollY.toString()+"px";
   background_story.style.display= "flex";
   container_story.style.top= window.scrollY.toString()+"px";
-  container_story.style.display= "flex";
+  container_story.style.display= "block";
   console.log(window.scrollY);
 }
 
