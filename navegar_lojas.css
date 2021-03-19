@@ -119,7 +119,7 @@ body{
 	display: grid;
 	justify-content: space-around;
 	position: relative;
-	grid-template-columns: 2fr 10fr 2fr;
+	grid-template-columns: 4fr 10fr 4fr;
 	align-items: center;
 	justify-items: center;
 }
