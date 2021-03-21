@@ -1,13 +1,16 @@
-import './App.css';
-import Card from "./Card/Card";
+import React from 'react'
+import produtos_json from '../lista_produtos'
+import Card from "../Card/Card"
 
-function Lista_cards() {
-    return (
-        <div>
-            <Card />
-        </div>
-    )
-}
+class Cardlist extends React.Component {
 
+    render(){
+        return (
+            <div className="lista-produtos-grid">
+                <Card />
+            </div>
+        );
+    }
+};
 
-export default Lista_cards
+export default Cardlist
