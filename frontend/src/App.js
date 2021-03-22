@@ -1,11 +1,12 @@
 import './App.css';
-import Card from "./components/Card/Card"
-import Cardlist from './components/Lista_cards/Lista_cards';
+import Inicial from './pages/Inicial';
+import React from 'react';
+
 
 function App() {
   return (
     <div className="App">
-      <Cardlist />
+      <Inicial />
     </div>
   );
 }
