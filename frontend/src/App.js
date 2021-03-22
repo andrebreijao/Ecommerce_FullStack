@@ -1,12 +1,12 @@
 import './App.css';
-import Inicial from './pages/Inicial';
+import Shopping from './pages/shopping/Shopping';
 import React from 'react';
 
 
 function App() {
   return (
     <div className="App">
-      <Inicial />
+      <Shopping />
     </div>
   );
 }

@@ -1,4 +1,6 @@
 import React from 'react';
+import './loginpop.css';
+
 
 function Loginpop() {
   return (
