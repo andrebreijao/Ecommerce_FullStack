@@ -1,0 +1,97 @@
+/* Navegue por categorias */
+
+.categorias {
+  position: relative;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container-categorias {
+  width: 90%;
+}
+
+.categorias-barra-rolagem {
+  display: flex;
+  width: 100%;
+  margin-top: 0vh;
+  justify-content: space-between;
+}
+
+.categorias-botao-rolagem {
+  border: none;
+  background-color: rgb(0, 0, 0, 0);
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.categorias-lista {
+  margin-top: 2vh;
+  overflow: auto;
+  white-space: nowrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* display: flex; */
+}
+
+/* Cards individuais */
+
+.categorias-individual {
+  display: inline-block;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  width: 6rem;
+  height: 7rem;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  margin: 0.4vw 10px;
+  cursor: pointer;
+  filter: grayscale(90%);
+  -webkit-filter: grayscale(90%);
+  transition: 0.4s;
+}
+
+.categoria-individual-imagem {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  /* centralizando com a margem */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.categorias-individual-label {
+  justify-content: center;
+}
+
+.categorias-individual:hover {
+  transform: scale(1.1);
+  filter: none;
+  -webkit-filter: none;
+}
+
+@media (max-width: 750px) {
+  .categorias-individual {
+    transform: scale(0.8);
+    margin: 0.1vw;
+  }
+
+  .categorias-individual:hover {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 550px) {
+  .categorias-individual {
+    transform: scale(0.7);
+    margin: 0.1vw;
+  }
+
+  .categorias-individual:hover {
+    transform: scale(0.8);
+  }
+}

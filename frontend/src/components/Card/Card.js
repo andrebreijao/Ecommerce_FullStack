@@ -3,12 +3,12 @@ import './Card.css';
 
 function Card() {
   return (
-    <div className="card-produto-grid" >
+    <div className="card-produto-grid">
       <div className="botoes-card-grid">
-        <i className="fas fa-heart icone"></i>
-        <i className="fas fa-shopping-bag icone segundo-icone"></i>
+        <i className="fas fa-heart icone" />
+        <i className="fas fa-shopping-bag icone segundo-icone" />
       </div>
-      <img className="produto-grid-img" src={`${process.env.PUBLIC_URL}/imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-1.webp`} alt="produto"/>
+      <img className="produto-grid-img" src={`${process.env.PUBLIC_URL}/imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-1.webp`} alt="produto" />
       <div className="card-grid-nome-produto">Teste</div>
       <div className="card-grid-precos">
         <div className="card-grid-preco-antigo">R$119,99</div>
@@ -17,6 +17,6 @@ function Card() {
       </div>
     </div>
   );
-};
+}
 
 export default Card;

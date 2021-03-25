@@ -1,0 +1,29 @@
+/* titulo e ver mais */
+
+.titulo-e-ver-mais {
+  display: block;
+  margin-top: 0rem;
+}
+
+.titulo-secao {
+  margin-top: 0rem;
+  font-size: 2rem;
+  margin-left: 0rem;
+  display: inline-block;
+  color: black;
+}
+
+.ver-mais {
+  margin-top: 0rem;
+  font-size: 0.66rem;
+  margin-left: 0rem;
+  display: inline-block;
+  color: black;
+  margin-left: 2vh;
+}
+#container-conteudo {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}

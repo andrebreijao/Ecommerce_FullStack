@@ -1,7 +1,6 @@
-import './App.css';
-import Shopping from './pages/shopping/Shopping';
 import React from 'react';
-
+import './App.css';
+import Shopping from './pages/shopping/ShoppingValeSul';
 
 function App() {
   return (
