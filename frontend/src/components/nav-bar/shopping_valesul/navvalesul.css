@@ -27,103 +27,102 @@ a {
   z-index: 5;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
 }
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 * {
-	padding: 0px;
-	margin: auto 0;
-	font-family: "Lato", sans-serif;
-	box-sizing: border-box;
+  padding: 0px;
+  margin: auto 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
 }
 
 a {
-	text-decoration: none;
-	color: white;
-	margin-top: auto;
+  text-decoration: none;
+  color: white;
+  margin-top: auto;
 }
 
-#link-card-shopping{
-	color: black;
+#link-card-shopping {
+  color: black;
 }
 
 /* nav section */
 
 .nav-bar {
-	display: flex;
-	font-size: 0.6rem;
-	list-style: none;
-	background-color: black;
-	height: 6vh;
-	width: 100%;
-	position:relative;
-	justify-content: center;
-	z-index: 5;
+  display: flex;
+  font-size: 0.6rem;
+  list-style: none;
+  background-color: black;
+  height: 6vh;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  z-index: 5;
 }
 
 .nav-bar-shopping {
-	display: flex;
-	font-size: 0.7rem;
-	list-style: none;
-	background-color: #BF2C37;
-	height: 8vh;
-	width: 100%;
-	justify-content: space-between;
-	position:sticky;
-	top:0;
-	z-index: 5;	
+  display: flex;
+  font-size: 0.7rem;
+  list-style: none;
+  background-color: #bf2c37;
+  height: 8vh;
+  width: 100%;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
 #logo-shopping {
-	height: 40px;
-	margin-left: 20px;
+  height: 40px;
+  margin-left: 20px;
 }
 
 .nav-bar-loja-menu {
-    display: flex;
-    height: 80%;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  height: 80%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-bar-loja-menu > a {
-    margin: 0 3rem;
-    text-transform: uppercase;    
+  margin: 0 3rem;
+  text-transform: uppercase;
 }
 
 .login {
-	margin-right: 16px;
-	font-size: 0.8rem;
+  margin-right: 16px;
+  font-size: 0.8rem;
 }
 
 .login > * {
-	padding: 0.3vh;
-	height: 1vh;
+  padding: 0.3vh;
+  height: 1vh;
 }
 
 .login :first-child {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 .login > a {
-	border-radius: 10%;
+  border-radius: 10%;
 }
 
 #logo-nav {
-	margin-left: 0rem;
-	background-color: white;
+  margin-left: 0rem;
+  background-color: white;
+  height: 40px;
 }
 /* fim navbar */
 
-.icone{
-    margin: 0px;
+.icone {
+  margin: 0px;
 }

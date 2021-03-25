@@ -7,7 +7,7 @@ function ListaCardMarca() {
     <div className="categorias-barra-rolagem">
       {
       ListaMarcas.map((marca) => (
-        <CardMarca imagem={marca.imagem} nome={marca.Nome} />
+        <CardMarca imagem={marca.imagem} nome={marca.Nome} video={marca.video} />
       ))
       }
     </div>

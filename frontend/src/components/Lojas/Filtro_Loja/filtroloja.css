@@ -1,0 +1,411 @@
+/* nav-filtros */
+.nav-filtros {
+  display: inline-block;
+  width: 14rem;
+  background-color: rgba(245, 245, 245, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  border-right: solid 1px rgba(0, 0, 0, 0.014);
+  z-index: 1;
+  height: 100%;
+}
+
+.instagram-copy-kkk {
+  margin-top: 1rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.stories {
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  position: relative;
+  font-size: 10px;
+  font-weight: 1000;
+  border: 2px solid rgb(118, 118, 118);
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.stories:hover,
+.liga-desliga:hover {
+  transform: scale(1.1);
+}
+
+#ao-vivo-animation {
+  animation: gradient 10s ease infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)
+    no-repeat;
+  background-size: 300% 300%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.liga-desliga {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.liga-desliga-checkbox {
+  display: none;
+}
+
+.liga-desliga-checkbox + label {
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  position: relative;
+  font-size: 10px;
+  font-weight: 1000;
+  border: 2px solid rgb(118, 118, 118);
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.liga-desliga-checkbox + label:before {
+  position: absolute;
+  top: 0.7px;
+  height: 15px;
+  width: 15px;
+  content: "";
+  transition: all 0.3s ease;
+  z-index: 3;
+}
+
+.liga-desliga-checkbox + label::after {
+  width: 58px;
+  text-align: center;
+  z-index: 2;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.liga-desliga-checkbox + label.liga-desliga-texto {
+  border-radius: 30px;
+}
+
+.liga-desliga-checkbox + label.liga-desliga-texto::before {
+  border-radius: 50%;
+}
+
+.liga-desliga-checkbox:not(:checked) + label {
+  background-color: transparent;
+  text-align: right;
+}
+
+.liga-desliga-checkbox:not(:checked) + label::after {
+  content: attr(data-unchecked);
+  right: 0;
+  left: auto;
+  opacity: 1;
+  color: rgb(118, 118, 118);
+}
+
+.liga-desliga-checkbox:not(:checked) + label::before {
+  left: 1px;
+  background-color: rgb(118, 118, 118);
+}
+
+.liga-desliga-checkbox:checked + label {
+  text-align: left;
+  border-color: green;
+}
+
+.liga-desliga-checkbox:checked + label::after {
+  content: attr(data-checked);
+  left: auto;
+  right: auto;
+  opacity: 1;
+  color: green;
+}
+
+.liga-desliga-checkbox:checked + label::before {
+  left: 59px;
+  background-color: green;
+}
+
+.container-input {
+  width: 100%;
+  height: 1rem;
+  margin: 1vh 0rem;
+  padding: 0.8rem;
+}
+
+#container-busca {
+  margin: 2vh 0rem;
+  top: 0;
+}
+
+.nav-filtros-conteudo {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 120px;
+}
+
+.nav-filtro-conteudo-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#nav-filtros-logo-loja {
+  height: 7rem;
+  width: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  padding-left: 0.5rem;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 1; /* Firefox */
+  font-size: 0.7rem;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
+
+.campo-busca {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+#campo-de-busca-botao {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  right: -1rem; /*acochambrada*/
+  z-index: 2;
+  top: auto;
+  height: 90%;
+  width: 2rem;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#campo-de-busca-botao:focus {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+#campo-de-busca-botao:hover {
+  background-color: rgba(100, 148, 237, 0.479);
+  border: none;
+  height: 95%;
+}
+
+.campo-busca-input {
+  width: 90%;
+  height: 1.6rem;
+  font-size: 0.1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#campo-busca-input-text {
+  width: 90%;
+  border: 0px;
+  border-radius: 2px;
+  height: 100%;
+  position: relative;
+  left: 0;
+  position: absolute;
+  background-color: rgba(245, 245, 245, 1);
+}
+#campo-busca-input-text::placeholder {
+  font-style: italic;
+}
+
+.linha-personalizavel,
+.linha-personalizavel-toggle {
+  width: 100%;
+  height: 0.3rem;
+}
+
+.linha-personalizavel-toggle {
+  width: 90%;
+  margin: auto;
+}
+
+#linha-primaria {
+  background-color: black;
+}
+
+#linha-secundaria {
+  background-color: rgb(234, 29, 60);
+}
+
+#linha-terciaria {
+  background-color: rgb(252, 179, 22);
+}
+
+#linha-quaternaria {
+  background-color: rgb(89, 202, 234);
+}
+
+.lista-toggle-filtro {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.filtro-toggle {
+  width: 95%;
+  height: 1.6rem;
+  background-color: rgba(245, 245, 245, 1);
+  font-weight: 900;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  z-index: 100;
+  margin-left: 5%;
+  cursor: pointer;
+  position: relative;
+}
+
+.filtro-toggle > * {
+  position: relative;
+  bottom: 0rem;
+  display: inline-block;
+  color: rgb(118, 118, 118);
+}
+
+.filtro-toggle-imagem {
+  margin: 0px 20px;
+}
+
+#container-genero {
+  margin-bottom: 5vh;
+  position: relative;
+
+  right: 8px;
+}
+
+#genero {
+  margin-left: 0%;
+  align-content: center;
+}
+
+.genero {
+  border: none;
+  border-radius: 0rem;
+  cursor: pointer;
+  font-weight: 900;
+  display: block;
+  background-color: rgba(245, 245, 245, 1);
+  padding: 6px;
+}
+
+#gen:focus {
+  color: rgb(234, 29, 60);
+  background-color: rgba(245, 245, 245, 1);
+}
+
+#kids:focus {
+  color: rgb(234, 29, 60);
+  background-color: rgba(245, 245, 245, 1);
+}
+
+#categ {
+  background-color: rgba(245, 245, 245, 1);
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-style: italic;
+  right: 0;
+}
+
+.filtro-toggle-opcoes {
+  display: none;
+  background-color: rgba(192, 192, 192, 0.294);
+  width: 90%;
+  margin: auto;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 0px 0px 8px 8px;
+  width: 85%;
+}
+
+.filtro-toggle-opcoes > * {
+  margin: 5px 2px;
+  color: rgba(0, 0, 0, 0.637);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+#cat_1::after {
+  background-color: red;
+  height: 1rem;
+  width: 1rem;
+  z-index: 1000;
+}
+
+#cat_2_toogle::after {
+}
+
+#cat_3_toogle::after {
+}

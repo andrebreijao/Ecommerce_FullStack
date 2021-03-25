@@ -12,14 +12,14 @@ function togglePopup2() {
   document.getElementById('popup-2').classList.toggle('active');
 }
 
-function Navmaster() {
+function Navvaleusul() {
   return (
     <div>
       <Loginpop />
 
       <div className="nav-bar">
         <a href="index.html">
-          <img src="" alt="logo" id="logo-nav" />
+          <img src="Imagens/logo_weby.png" alt="logo" id="logo-nav" />
         </a>
       </div>
 
@@ -47,4 +47,4 @@ function Navmaster() {
   );
 }
 
-export default Navmaster;
+export default Navvaleusul;
