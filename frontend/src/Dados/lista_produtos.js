@@ -4,6 +4,8 @@ const listaproduto = [
     genero: 'Masculino',
     categoria: 'bermuda',
     faixa: 'R$50-R$99,99',
+    tamanho: 'M',
+    img: 'hrg-1',
     preco: 'R$59,99',
     parcelado: '2x R$29,99',
     id: 1,

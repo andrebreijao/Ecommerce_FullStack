@@ -7,8 +7,8 @@ function Card({ titulo, imagem, preco, parcelado }) {
   return (
     <div className="card-produto-grid">
       <div className="botoes-card-grid">
-        <i className="fas fa-heart icone" />
-        <i className="fas fa-shopping-bag icone segundo-icone" />
+        <i className="fas fa-heart icone-card" />
+        <i className="fas fa-shopping-bag icone segundo-icone-card" />
       </div>
       <img
         className="produto-grid-img"

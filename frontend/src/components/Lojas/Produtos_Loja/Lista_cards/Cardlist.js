@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../Card/Card';
 import listaproduto from '../../../../Dados/lista_produtos';
+import './Cardlist.css';
 
 function Cardlist() {
   return (
