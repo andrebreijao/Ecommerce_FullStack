@@ -5,3 +5,53 @@
 .botoes-slide {
   text-align: center;
 }
+
+.container-banner {
+  display: block;
+
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.foto-banner {
+  min-width: 100%;
+  height: auto;
+  width: auto;
+  transition: 0.5s;
+  margin: auto;
+}
+
+#goleft,
+#goright {
+  position: absolute;
+  top: 50%;
+  height: 100%;
+  width: 10%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: none;
+  background: none;
+  outline: none;
+  height: 85%;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 2vw;
+}
+
+#goleft {
+  left: 0px;
+}
+
+#goright {
+  right: 0px;
+}
+
+#goleft:hover,
+#goright:hover {
+  background-color: rgba(0, 0, 0, 0.616);
+  color: white;
+}

@@ -497,6 +497,9 @@ input:focus {
 
 .conteudo-loja {
   margin-left: 14rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
 }
 
 /* secao banner */
