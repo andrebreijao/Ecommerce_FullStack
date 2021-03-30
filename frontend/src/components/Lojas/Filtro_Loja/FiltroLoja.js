@@ -3,6 +3,7 @@
 // import React, { useState, useEffect } from 'react';
 import React from 'react';
 import './filtroloja.css';
+import FiltroToggle from './FiltroToggle';
 
 function MostrarStory() {
   // implementar
@@ -97,147 +98,7 @@ function FiltroLoja({ settermoProcurado }) {
                   </button>
                 </div>
               </div>
-
-              <div className="lista-toggle-filtro">
-                <div
-                  className="filtro-toggle"
-                  id="cat_1"
-                  data-aba="cat_1_toogle"
-                >
-                  <div className="filtro-toggle-texto">Categoria</div>
-                  <div className="filtro-toggle-imagem">
-                    <img src="./Imagens/seta-baixo.svg" alt="" />
-                  </div>
-                </div>
-                <div
-                  className="linha-personalizavel-toggle"
-                  id="linha-primaria"
-                />
-
-                <div className="filtro-toggle-opcoes" id="cat_1_toogle">
-                  <input
-                    type="checkbox"
-                    id="bermudas"
-                    name="bermudas"
-                    value="Bike"
-                  />
-                  <label htmlFor="bermudas"> Bermudas</label>
-                  <br />
-
-                  <input type="checkbox" id="calca" name="calca" value="Bike" />
-                  <label htmlFor="calca"> Calças </label>
-                  <br />
-
-                  <input
-                    type="checkbox"
-                    id="camisetas"
-                    name="camisetas"
-                    value="Bike"
-                  />
-                  <label htmlFor="Camisetas"> Camisetas</label>
-                  <br />
-
-                  <input
-                    type="checkbox"
-                    id="regatas"
-                    name="regatas"
-                    value="Bike"
-                  />
-                  <label htmlFor="regatas"> Regatas</label>
-                  <br />
-                </div>
-
-                <div
-                  className="filtro-toggle"
-                  id="cat_2"
-                  data-aba="cat_2_toogle"
-                >
-                  <div className="filtro-toggle-texto">Tamanho</div>
-                  <div className="filtro-toggle-imagem">
-                    <img src="./Imagens/seta-baixo.svg" alt="" />
-                  </div>
-                </div>
-                <div
-                  className="linha-personalizavel-toggle"
-                  id="linha-secundaria"
-                />
-
-                <div className="filtro-toggle-opcoes" id="cat_2_toogle">
-                  <input type="checkbox" id="p" name="p" value="Bike" />
-                  <label htmlFor="p">P</label>
-                  <br />
-
-                  <input type="checkbox" id="m" name="m" value="Bike" />
-                  <label htmlFor="m">M</label>
-                  <br />
-
-                  <input type="checkbox" id="g" name="g" value="Bike" />
-                  <label htmlFor="g"> G</label>
-                  <br />
-                </div>
-
-                <div
-                  className="filtro-toggle"
-                  id="cat_3"
-                  data-aba="cat_3_toogle"
-                >
-                  <div className="filtro-toggle-texto">Faixa de preço</div>
-                  <div className="filtro-toggle-imagem">
-                    <img src="./Imagens/seta-baixo.svg" alt="" />
-                  </div>
-                </div>
-                <div
-                  className="linha-personalizavel-toggle"
-                  id="linha-terciaria"
-                />
-
-                <div className="filtro-toggle-opcoes" id="cat_3_toogle">
-                  <input
-                    type="checkbox"
-                    id="faixa-1"
-                    name="faixa-1"
-                    value="Bike"
-                  />
-                  <label htmlFor="faixa-1">R$0-R$19,99</label>
-                  <br />
-
-                  <input
-                    type="checkbox"
-                    id="faixa-1"
-                    name="faixa-1"
-                    value="Bike"
-                  />
-                  <label htmlFor="faixa-1">R$20-R$49,99</label>
-                  <br />
-
-                  <input
-                    type="checkbox"
-                    id="faixa-1"
-                    name="faixa-1"
-                    value="Bike"
-                  />
-                  <label htmlFor="faixa-1">R$50-R$99,99</label>
-                  <br />
-
-                  <input
-                    type="checkbox"
-                    id="faixa-1"
-                    name="faixa-1"
-                    value="Bike"
-                  />
-                  <label htmlFor="faixa-1">R$100-R$199,99</label>
-                  <br />
-
-                  <input
-                    type="checkbox"
-                    id="faixa-1"
-                    name="faixa-1"
-                    value="Bike"
-                  />
-                  <label>R$200-R$299,99</label>
-                  <br />
-                </div>
-              </div>
+              <FiltroToggle />
             </div>
           </div>
         </div>
