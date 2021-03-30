@@ -102,8 +102,8 @@
   position: absolute;
   text-align: center;
   color: #fff;
-  top: 5px;
-  right: 12px;
+  top: 1vh;
+  right: 1vw;
   max-width: 30px;
   font-size: 16px;
   border-radius: 5px;

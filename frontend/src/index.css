@@ -1,18 +1,16 @@
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 * {
-	padding: 0px;
-	margin: auto 0;
-	font-family: "Lato", sans-serif;
-	box-sizing: border-box;
+  padding: 0px;
+  margin: auto 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
 }
 
 a {
-	text-decoration: none;
-	color: white;
-	margin-top: auto;
+  text-decoration: none;
+  color: white;
+  margin-top: auto;
 }
-
-

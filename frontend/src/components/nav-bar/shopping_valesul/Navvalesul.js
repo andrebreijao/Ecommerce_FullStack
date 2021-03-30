@@ -23,7 +23,7 @@ function Navvaleusul() {
         </a>
       </div>
 
-      <div className="nav-bar-shopping">
+      <div className="nav-bar-shopping" id="nav-vale-sul">
         <a href="interface_shopping.html">
           <img src="./Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Logo_shopping_Vale_SUL.jpg" alt="logo" id="logo-shopping" />
         </a>

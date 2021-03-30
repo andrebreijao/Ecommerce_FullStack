@@ -1,7 +1,7 @@
 * {
   padding: 0px;
   margin: auto 0;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   box-sizing: border-box;
 }
 
@@ -27,11 +27,11 @@ a {
   z-index: 5;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 body {
   line-height: 1.5;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -40,7 +40,7 @@ html {
 * {
   padding: 0px;
   margin: auto 0;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   box-sizing: border-box;
 }
 
@@ -125,4 +125,10 @@ a {
 
 .icone {
   margin: 0px;
+}
+
+/*necessário para override bootstrap css*/
+#nav-vale-sul a {
+  text-decoration: none;
+  color: white;
 }

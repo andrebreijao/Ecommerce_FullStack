@@ -1,18 +1,14 @@
-/* eslint-disable camelcase */
+/* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable jsx-a11y/interactive-supports-focus */
+// import React, { useState, useEffect } from 'react';
 import React from 'react';
-// import StoryLoja from '../Story_Loja/StoryLoja';
 import './filtroloja.css';
-// import $ from 'jquery';
 
-function mostrar_story() {
+function MostrarStory() {
   // implementar
 }
 
-function FiltroLoja() {
+function FiltroLoja({ settermoProcurado }) {
   return (
     <div>
       {/* <StoryLoja /> */}
@@ -29,11 +25,19 @@ function FiltroLoja() {
                 <div
                   className="stories"
                   id="ao-vivo-animation"
-                  onClick={mostrar_story()}
+                  onClick={MostrarStory()}
+                  onKeyDown={MostrarStory()}
+                  role="button"
+                  tabIndex={0}
                 >
                   Live
                 </div>
                 <div className="liga-desliga">
+                  <input
+                    type="checkbox"
+                    className="liga-desliga-checkbox"
+                    id="liga-desliga"
+                  />
                   <input
                     type="checkbox"
                     className="liga-desliga-checkbox"
@@ -54,6 +58,9 @@ function FiltroLoja() {
                     type="text"
                     placeholder="Pesquisar"
                     id="campo-busca-input-text"
+                    onChange={(event) => {
+                      settermoProcurado(event.target.value);
+                    }}
                   />
                   <button id="campo-de-busca-botao" type="button">
                     <i className="fa fa-search" />
@@ -227,7 +234,7 @@ function FiltroLoja() {
                     name="faixa-1"
                     value="Bike"
                   />
-                  <label htmlFor="faixa-1">R$200-R$299,99</label>
+                  <label>R$200-R$299,99</label>
                   <br />
                 </div>
               </div>

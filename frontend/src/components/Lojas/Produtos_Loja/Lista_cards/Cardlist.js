@@ -1,12 +1,12 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import Card from '../Card/Card';
-import listaproduto from '../../../../Dados/lista_produtos';
 import './Cardlist.css';
 
-function Cardlist() {
+function Cardlist({ produtos }) {
   return (
     <div className="lista-produtos-grid">
-      {listaproduto.map((prod) => (
+      {produtos.map((prod) => (
         <Card
           titulo={prod.titulo}
           imagem={prod.img}

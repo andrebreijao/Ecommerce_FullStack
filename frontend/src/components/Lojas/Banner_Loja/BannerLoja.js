@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 /* eslint-disable react/prop-types */
 import React, { useState, useEffect } from 'react';
 import './bannerloja.css';
@@ -5,25 +6,38 @@ import './bannerloja.css';
 function BannerLoja({ fotosBanner }) {
   const [x, setX] = useState(0);
 
+  const MyTimer = () => {
+    setInterval(goright, 4000);
+  };
+
+  const ClearTimer = () => {
+    clearInterval(MyTimer);
+  };
+
+  const RestartTimer = () => {
+    ClearTimer();
+    console.log('clear timer');
+    MyTimer();
+  };
+
   const goleft = () => {
-    // if (x === 0) {
-    // setX(-100 * (fotosBanner.length - 1));
-    // } else {
-    setX(x + 100);
-    // }
+    if (x === 0) {
+      setX(-100 * (fotosBanner.length - 1));
+    } else {
+      setX(x + 100);
+    }
   };
 
   const goright = () => {
-    // if (x === -100 * (fotosBanner.length - 1)) {
-    // setX(0);
-    // } else {
-    setX(x - 100);
-    // }
+    if (x === -100 * (fotosBanner.length - 1)) {
+      setX(0);
+    } else {
+      setX(x - 100);
+    }
+    RestartTimer();
   };
 
-  useEffect(() => {
-    setInterval(goright, 3000);
-  }, []);
+  useEffect(RestartTimer(), [x]);
 
   return (
     <div className="container-banner">

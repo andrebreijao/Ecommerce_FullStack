@@ -500,27 +500,38 @@ input:focus {
   display: grid;
   align-items: center;
   justify-items: center;
+  width: 80%;
+  grid-template-rows: auto 1fr;
 }
 
 /* secao banner */
 .secao-banner {
-  display: flex;
+  display: block;
   align-content: center;
   align-items: center;
   justify-content: center;
-  height: 300px;
+
   margin: 1rem 0rem;
   flex-wrap: wrap;
 }
 
 #banner {
   background-color: rgba(0, 0, 0, 0.185);
-  width: 1000px;
-  height: 300px;
+  width: 65vw;
+  height: 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 71vw !important;
   /*background: url(Imagens/Destaques.jpg);*/
+}
+
+.slide-banner {
+  max-width: 380px;
+  margin: 20px auto;
+  display: grid;
+  box-shadow: 0 4px 20px 2px rgb(0 0 0 / 40%);
+  position: relative;
 }
 
 /* fim-secao-banner */
