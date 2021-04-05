@@ -1,0 +1,27 @@
+.filtro-antd {
+  color: black;
+  width: 95%;
+  height: 1.6rem;
+  background-color: rgba(245, 245, 245, 1);
+  font-weight: 900;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  z-index: 100;
+  margin-left: 5%;
+  cursor: pointer;
+  position: relative;
+  margin: 20px 0px;
+  padding: 20px;
+}
+
+.filtro-antd-opcao {
+  font-weight: 300;
+}
+
+.filtro-antd > * {
+  display: block;
+}

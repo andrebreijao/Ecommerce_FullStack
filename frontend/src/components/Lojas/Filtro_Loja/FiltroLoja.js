@@ -3,13 +3,13 @@
 // import React, { useState, useEffect } from 'react';
 import React from 'react';
 import './filtroloja.css';
-import FiltroToggle from './FiltroToggle';
+import FiltroToggleANTD from './FiltroToggleANTD';
 
 function MostrarStory() {
   // implementar
 }
 
-function FiltroLoja({ settermoProcurado }) {
+function FiltroLoja({ settermoProcurado, handleFilters }) {
   return (
     <div>
       {/* <StoryLoja /> */}
@@ -97,8 +97,11 @@ function FiltroLoja({ settermoProcurado }) {
                     Kids
                   </button>
                 </div>
+                <FiltroToggleANTD
+                  className="lista-toggle-filtro"
+                  handleFilters={handleFilters}
+                />
               </div>
-              <FiltroToggle />
             </div>
           </div>
         </div>

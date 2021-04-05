@@ -8,7 +8,7 @@ function BannerSection() {
   return (
     <Carousel className="banner-loja" id="banner" fade>
       {fotosBanner.map((item) => (
-        <Carousel.Item Interval={4000}>
+        <Carousel.Item Interval={4000} key={item}>
           <img className="d-block w-100" src={item} alt="slide" />
         </Carousel.Item>
       ))}

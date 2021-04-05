@@ -501,6 +501,7 @@ input:focus {
   position: absolute;
   background-color: rgba(245, 245, 245, 1);
 }
+
 #campo-busca-input-text::placeholder {
   font-size: 13px;
   font-weight: 500;

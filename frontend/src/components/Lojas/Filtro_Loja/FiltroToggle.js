@@ -3,9 +3,9 @@
 import React, { useState } from 'react';
 
 function FiltroToggle() {
-  const [mostrarFiltro1, setmostrarFiltro1] = useState(false);
-  const [mostrarFiltro2, setmostrarFiltro2] = useState(false);
-  const [mostrarFiltro3, setmostrarFiltro3] = useState(false);
+  const [mostrarFiltro1, setmostrarFiltro1] = useState(true);
+  const [mostrarFiltro2, setmostrarFiltro2] = useState(true);
+  const [mostrarFiltro3, setmostrarFiltro3] = useState(true);
 
   const handleKeyPress = (event) => {};
 

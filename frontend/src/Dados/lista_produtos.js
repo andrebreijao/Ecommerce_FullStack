@@ -2,7 +2,7 @@ const listaproduto = [
   {
     titulo: 'Shorts Masculino Em Sarja - Azul',
     genero: 'Masculino',
-    categoria: 'bermuda',
+    categoria: 'Bermudas',
     faixa: 'R$50-R$99,99',
     tamanho: 'M',
     img: 'hrg-1',
@@ -13,7 +13,7 @@ const listaproduto = [
   {
     titulo: 'Regata Feminina Alças Largas Hering + Verena Smit - Preto',
     genero: 'feminino',
-    categoria: 'regata',
+    categoria: 'Regatas',
     faixa: 'R$50-R$99,99',
     tamanho: 'M',
     img: 'hrg-2',
@@ -24,7 +24,7 @@ const listaproduto = [
   {
     titulo: 'Bermuda Feminina Ciclista Em Sarja - Bege',
     genero: 'feminino',
-    categoria: 'bermuda',
+    categoria: 'Bermudas',
     faixa: 'R$100-R$199,99',
     tamanho: 'P',
     img: 'hrg-3',
@@ -35,7 +35,7 @@ const listaproduto = [
   {
     titulo: 'Calça Feminina Jeans Cigarrete Soft Touch - Azul',
     genero: 'feminino',
-    categoria: 'calça',
+    categoria: 'Calças',
     faixa: 'R$100-R$199,99',
     tamanho: 'M',
     img: 'hrg-4',
@@ -46,7 +46,7 @@ const listaproduto = [
   {
     titulo: 'Blusa Feminina Gola Alta Manga Longa Com Elastano - Marrom',
     genero: 'feminino',
-    categoria: 'camiseta',
+    categoria: 'Camisetas',
     faixa: 'R$50-R$99,99',
     tamanho: 'G',
     img: 'hrg-5',
@@ -57,7 +57,7 @@ const listaproduto = [
   {
     titulo: 'Calça Masculina Tapper Chino Em Sarja - Cinza',
     genero: 'Masculino',
-    categoria: 'calça',
+    categoria: 'Calças',
     faixa: 'R$100-R$199,99',
     tamanho: 'M',
     img: 'hrg-6',
@@ -68,7 +68,7 @@ const listaproduto = [
   {
     titulo: 'Calça Menino Em Tecido Slim Chino - Azul',
     genero: 'Kids',
-    categoria: 'calça',
+    categoria: 'Calças',
     faixa: 'R$50-R$99,99',
     tamanho: 'M',
     img: 'hrg-7',
@@ -79,7 +79,7 @@ const listaproduto = [
   {
     titulo: 'Camiseta Infantil Menino Snoopy Com Estampa - Verde',
     genero: 'Kids',
-    categoria: 'camiseta',
+    categoria: 'Camisetas',
     faixa: 'R$20-R$49,99',
     tamanho: 'P',
     img: 'hrg-8',
