@@ -1,19 +1,20 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable max-len */
 import React from 'react';
-import Navmaster from '../components/nav-bar/eshop/Navmaster';
+import Navmaster from '../../components/nav-bar/eshop/Navmaster';
 import './inicial.css';
-import Loginpop from '../components/Loginpop/Loginpop';
-
-function viewshoppings() {
-  document.getElementById('linha-cta').scrollIntoView();
-}
+import Loginpop from '../../components/Loginpop/Loginpop';
 
 function inicial() {
+  function viewshoppings() {
+    document.getElementById('linha-cta').scrollIntoView();
+  }
+
   return (
     <div>
       <Navmaster />
       <Loginpop />
-
+      {/*
       <div
         className="cta"
         style={{
@@ -28,7 +29,7 @@ function inicial() {
           <h1>O Shopping mais perto de você.</h1>
           <p>Fique a vontade para passear e ver as lojas disponíveis.</p>
           <div className="cta-content-search">
-            <button onClick={viewshoppings} className="btn-medium">
+            <button onClick={viewshoppings} className="btn-medium" />
               Entre nos shoppings
             </button>
           </div>
@@ -54,7 +55,7 @@ function inicial() {
 
             </div>
 
-            <a href="interface_shopping.html" id="link-card-shopping">
+            <a href="interface_shopping.html" id="link-card-shopping" />
               <div className="card-shopping">
                 <img src="./Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Logo 1x1.jpg" alt="logo-shopping" className="img-lista-shoppings" />
                 <p>Vale Sul Shopping</p>
@@ -85,8 +86,7 @@ function inicial() {
 
         </div>
 
-      </div>
-
+      </div> */}
     </div>
   );
 }

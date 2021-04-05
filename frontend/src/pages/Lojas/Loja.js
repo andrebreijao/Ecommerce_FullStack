@@ -2,12 +2,11 @@
 /* eslint-disable implicit-arrow-linebreak */
 import React, { useState, useEffect } from 'react';
 import BannerSection from '../../components/Lojas/Banner_Loja/BannerSection';
-
 import Cardlist from '../../components/Lojas/Produtos_Loja/Lista_cards/Cardlist';
 import Navvaleusul from '../../components/nav-bar/shopping_valesul/Navvalesul';
-import listaproduto from '../../Dados/lista_produtos';
 import './loja.css';
 import FiltroLoja from '../../components/Lojas/Filtro_Loja/FiltroLoja';
+import listaproduto from '../../Dados/lista_produtos';
 
 function Loja() {
   const [termoProcurado, settermoProcurado] = useState('');

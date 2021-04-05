@@ -14,7 +14,7 @@ function Cardlist({ produtos, reiniciarFiltro }) {
           </h3>
           <button type="button" onClick={reiniciarFiltro}>
             {' '}
-            "" Reiniciar filtro!
+            Reiniciar filtro!
           </button>
         </>
       ) : (
@@ -26,6 +26,7 @@ function Cardlist({ produtos, reiniciarFiltro }) {
               preco={prod.preco}
               parcelado={prod.parcelado}
               key={prod.img}
+              id={prod.id}
             />
           ))}
         </div>

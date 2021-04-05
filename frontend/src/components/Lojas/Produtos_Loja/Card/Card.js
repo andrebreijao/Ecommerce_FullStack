@@ -1,9 +1,11 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable object-curly-newline */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import './Card.css';
+// import { Link } from 'react-router-dom';
 
-function Card({ titulo, imagem, preco, parcelado }) {
+function Card({ titulo, imagem, preco, parcelado, id }) {
   return (
     <div className="card-produto-grid">
       <div className="botoes-card-grid">
