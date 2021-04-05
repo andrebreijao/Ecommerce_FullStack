@@ -5,11 +5,13 @@ import React from 'react';
 import './filtroloja.css';
 import FiltroToggleANTD from './FiltroToggleANTD';
 
-function MostrarStory() {
-  // implementar
-}
-
-function FiltroLoja({ settermoProcurado, handleFilters }) {
+function FiltroLoja({
+  settermoProcurado,
+  handleFilters,
+  setGeneroAtivo,
+  // eslint-disable-next-line no-unused-vars
+  generoAtivo,
+}) {
   return (
     <div>
       {/* <StoryLoja /> */}
@@ -22,12 +24,12 @@ function FiltroLoja({ settermoProcurado, handleFilters }) {
                 alt=""
                 id="nav-filtros-logo-loja"
               />
-              <div className="instagram-copy-kkk">
+              {/* <div className="instagram-copy-kkk">
                 <div
                   className="stories"
                   id="ao-vivo-animation"
-                  onClick={MostrarStory()}
-                  onKeyDown={MostrarStory()}
+                  onClick={}
+                  onKeyDown={}
                   role="button"
                   tabIndex={0}
                 >
@@ -51,7 +53,7 @@ function FiltroLoja({ settermoProcurado, handleFilters }) {
                     data-unchecked="Seguir"
                   />
                 </div>
-              </div>
+                </div> */}
 
               <div className="container-input" id="container-busca">
                 <div className="campo-busca-input">
@@ -77,6 +79,14 @@ function FiltroLoja({ settermoProcurado, handleFilters }) {
                     id="gen"
                     value="masculino"
                     type="button"
+                    style={{ color: generoAtivo === 'masculino' && 'red' }}
+                    onClick={(e) => {
+                      if (generoAtivo === e.target.value) {
+                        setGeneroAtivo('');
+                      } else {
+                        setGeneroAtivo(e.target.value);
+                      }
+                    }}
                   >
                     Masculino
                   </button>
@@ -85,6 +95,14 @@ function FiltroLoja({ settermoProcurado, handleFilters }) {
                     id="gen"
                     value="feminino"
                     type="button"
+                    style={{ color: generoAtivo === 'feminino' && 'red' }}
+                    onClick={(e) => {
+                      if (generoAtivo === e.target.value) {
+                        setGeneroAtivo('');
+                      } else {
+                        setGeneroAtivo(e.target.value);
+                      }
+                    }}
                   >
                     Feminino
                   </button>
@@ -93,6 +111,14 @@ function FiltroLoja({ settermoProcurado, handleFilters }) {
                     id="kids"
                     value="kids"
                     type="button"
+                    style={{ color: generoAtivo === 'kids' && 'red' }}
+                    onClick={(e) => {
+                      if (generoAtivo === e.target.value) {
+                        setGeneroAtivo('');
+                      } else {
+                        setGeneroAtivo(e.target.value);
+                      }
+                    }}
                   >
                     Kids
                   </button>

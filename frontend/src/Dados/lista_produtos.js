@@ -1,7 +1,7 @@
 const listaproduto = [
   {
-    titulo: 'Shorts Masculino Em Sarja - Azul',
-    genero: 'Masculino',
+    titulo: 'Shorts masculino Em Sarja - Azul',
+    genero: 'masculino',
     categoria: 'Bermudas',
     faixa: 'R$50-R$99,99',
     tamanho: 'M',
@@ -56,7 +56,7 @@ const listaproduto = [
   },
   {
     titulo: 'Calça Masculina Tapper Chino Em Sarja - Cinza',
-    genero: 'Masculino',
+    genero: 'masculino',
     categoria: 'Calças',
     faixa: 'R$100-R$199,99',
     tamanho: 'M',
@@ -67,7 +67,7 @@ const listaproduto = [
   },
   {
     titulo: 'Calça Menino Em Tecido Slim Chino - Azul',
-    genero: 'Kids',
+    genero: 'kids',
     categoria: 'Calças',
     faixa: 'R$50-R$99,99',
     tamanho: 'M',
@@ -78,7 +78,7 @@ const listaproduto = [
   },
   {
     titulo: 'Camiseta Infantil Menino Snoopy Com Estampa - Verde',
-    genero: 'Kids',
+    genero: 'kids',
     categoria: 'Camisetas',
     faixa: 'R$20-R$49,99',
     tamanho: 'P',
