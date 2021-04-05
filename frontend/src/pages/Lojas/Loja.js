@@ -48,6 +48,13 @@ function Loja() {
     return produtosFunc().filter((val) => val.genero === generoAtivo);
   };
 
+  // Reiniciar o filtro
+  const reiniciarFiltro = () => {
+    settermoProcurado('');
+    setarrCat([]);
+    setGeneroAtivo('');
+  };
+
   return (
     <div>
       <Navvaleusul />
@@ -62,7 +69,10 @@ function Loja() {
       />
       <div className="conteudo-loja">
         <BannerSection />
-        <Cardlist produtos={produtosFiltroGeral()} />
+        <Cardlist
+          produtos={produtosFiltroGeral()}
+          reiniciarFiltro={reiniciarFiltro}
+        />
       </div>
     </div>
   );

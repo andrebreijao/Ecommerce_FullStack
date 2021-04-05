@@ -79,7 +79,9 @@ function FiltroLoja({
                     id="gen"
                     value="masculino"
                     type="button"
-                    style={{ color: generoAtivo === 'masculino' && 'red' }}
+                    style={{
+                      color: generoAtivo === 'masculino' ? 'red' : 'black',
+                    }}
                     onClick={(e) => {
                       if (generoAtivo === e.target.value) {
                         setGeneroAtivo('');
@@ -95,7 +97,9 @@ function FiltroLoja({
                     id="gen"
                     value="feminino"
                     type="button"
-                    style={{ color: generoAtivo === 'feminino' && 'red' }}
+                    style={{
+                      color: generoAtivo === 'feminino' ? 'red' : 'black',
+                    }}
                     onClick={(e) => {
                       if (generoAtivo === e.target.value) {
                         setGeneroAtivo('');
@@ -111,7 +115,9 @@ function FiltroLoja({
                     id="kids"
                     value="kids"
                     type="button"
-                    style={{ color: generoAtivo === 'kids' && 'red' }}
+                    style={{
+                      color: generoAtivo === 'kids' ? 'red' : 'black',
+                    }}
                     onClick={(e) => {
                       if (generoAtivo === e.target.value) {
                         setGeneroAtivo('');
