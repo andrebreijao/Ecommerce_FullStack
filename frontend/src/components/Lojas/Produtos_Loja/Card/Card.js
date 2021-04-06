@@ -9,10 +9,10 @@ function Card({ titulo, imagem, preco, parcelado, id }) {
   return (
     <Link to={`/produto/${id}`} style={{ textDecoration: 'none' }}>
       <div className="card-produto-grid">
-        <div className="botoes-card-grid">
+        {/* <div className="botoes-card-grid">
           <i className="fas fa-heart icone-card" />
           <i className="fas fa-shopping-bag icone segundo-icone-card" />
-        </div>
+  </div> */}
         <img
           className="produto-grid-img"
           src={`Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/${imagem}.webp`}

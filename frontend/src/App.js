@@ -6,6 +6,7 @@ import Loja from './pages/Lojas/Loja';
 import Inicial from './pages/Inicial/Inicial';
 import ShoppingValeSul from './pages/Shopping/ShoppingValeSul';
 import Produto from './pages/Produto/Produto';
+import Carrinho from './pages/Carrinho/Carrinho';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/loja" component={Loja} exact />
         <Route path="/valesul" component={ShoppingValeSul} exact />
         <Route path="/produto/:id" component={Produto} />
+        <Route path="/carrinho/:id?" component={Carrinho} />
       </div>
     </Router>
   );

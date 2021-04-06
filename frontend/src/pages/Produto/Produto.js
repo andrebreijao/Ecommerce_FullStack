@@ -1,18 +1,31 @@
-/* eslint-disable react/button-has-type */
-/* eslint-disable react/jsx-one-expression-per-line */
-/* eslint-disable max-len */
 /* eslint-disable eqeqeq */
-/* eslint-disable object-curly-newline */
 /* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
-import React from 'react';
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable react/jsx-one-expression-per-line */
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import listaproduto from '../../Dados/lista_produtos';
 import './produto.css';
 
-function Produto({ match }) {
+function Produto({ match, history }) {
   const prod = listaproduto.find((p) => p.id == match.params.id);
+
+  // Quantidade de itens
+  const [qty, setQty] = useState(1);
+
+  const maisItem = () => {
+    setQty(qty + 1);
+  };
+
+  const menosItem = () => {
+    setQty(qty - 1);
+  };
+
+  // adicionar ao carrinho
+  const addtocarthandler = () => {
+    history.push(`/carrinho/${match.params.id}?qty=${qty}`);
+  };
 
   return (
     <div className="pop-up-wishlist" id="janela-wish">
@@ -21,7 +34,10 @@ function Produto({ match }) {
           <img src="./Imagens/Logo-Loja-FIcticia.jpg" alt="" id="logo-wish" />
           <Link to="/loja" style={{ textDecoration: 'none' }}>
             <div className="wish-pop-botoes">
-              <button id="voltar-loja"> Voltar a loja</button>
+              <button id="voltar-loja" type="button">
+                {' '}
+                Voltar a loja
+              </button>
             </div>
           </Link>
         </div>
@@ -137,7 +153,7 @@ function Produto({ match }) {
             </div>
           </div>
           <div className="nav-botoes-wish">
-            <button>
+            <button type="button">
               <span id="pop-wish-ver-wish" className="material-icons">
                 favorite
               </span>{' '}
@@ -146,14 +162,26 @@ function Produto({ match }) {
 
             <div className="adicionar-sacola-wish">
               <div id="texto-quantidade">Quantidade</div>
-              <span id="remove-item " className="material-icons">
+              <span
+                id="remove-item "
+                className="material-icons"
+                onClick={qty > 1 && menosItem}
+                role="button"
+                tabIndex={0}
+              >
                 remove
               </span>
-              <input type="text" id="n-items" />
-              <span id="add-item" className="material-icons">
+              <input type="text" id="n-items" value={qty} />
+              <span
+                id="add-item"
+                className="material-icons"
+                onClick={maisItem}
+                role="button"
+                tabIndex={0}
+              >
                 add
               </span>
-              <button>
+              <button type="button" onClick={addtocarthandler}>
                 <span className="material-icons" id="cart-wish">
                   {' '}
                   shopping_cart
