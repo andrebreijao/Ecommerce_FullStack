@@ -2,6 +2,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import './navvalesul.css';
+import { Link } from 'react-router-dom';
 import Loginpop from '../../Loginpop/Loginpop';
 
 function togglePopup1() {
@@ -18,19 +19,29 @@ function Navvaleusul() {
       <Loginpop />
 
       <div className="nav-bar">
-        <a href="index.html">
+        <Link to="/">
           <img src="Imagens/logo_weby.png" alt="logo" id="logo-nav" />
-        </a>
+        </Link>
       </div>
 
       <div className="nav-bar-shopping" id="nav-vale-sul">
-        <a href="interface_shopping.html">
-          <img src="./Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Logo_shopping_Vale_SUL.jpg" alt="logo" id="logo-shopping" />
-        </a>
+        <Link to="/">
+          <img
+            src="./Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Logo_shopping_Vale_SUL.jpg"
+            alt="logo"
+            id="logo-shopping"
+          />
+        </Link>
         <div className="nav-bar-loja-menu">
-          <a href="index.html">Home</a>
-          <a href="interface_shopping.html">Shopping</a>
-          <a href="navegar_lojas.html">Navegar Lojas</a>
+          <Link to="/">
+            <li href="index.html">Home</li>
+          </Link>
+          <Link to="/valesul">
+            <li href="interface_shopping.html">Shopping</li>
+          </Link>
+          <Link to="/valesul">
+            <li href="navegar_lojas.html">Navegar Lojas</li>
+          </Link>
         </div>
         <div className="login">
           <a href="#" id="cadastro" onClick={togglePopup2}>

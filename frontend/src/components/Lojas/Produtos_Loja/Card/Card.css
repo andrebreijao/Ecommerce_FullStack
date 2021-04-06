@@ -6,11 +6,14 @@
 
 .card-produto-grid:hover {
   transform: scale(1.1);
+  outline: none;
 }
 
 .card-grid-nome-produto {
   font-size: 17px;
   margin-top: 20px;
+  color: black;
+  outline: none;
 }
 
 .card-grid-precos {
@@ -25,6 +28,7 @@
   font-size: 15px;
   font-weight: 800;
   align-self: center;
+  color: rgb(0, 0, 0);
 }
 
 .card-grid-preco-atual {
@@ -38,6 +42,7 @@
   grid-column: 1 / 3;
   font-size: 13px;
   margin-top: 5px;
+  color: rgb(0, 0, 0);
 }
 
 .produto-grid-img {
