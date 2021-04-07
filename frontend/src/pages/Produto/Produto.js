@@ -31,7 +31,11 @@ function Produto({ match, history }) {
     <div className="pop-up-wishlist" id="janela-wish">
       <div className="container-grid">
         <div className="wish-pop-nav">
-          <img src="./Imagens/Logo-Loja-FIcticia.jpg" alt="" id="logo-wish" />
+          <img
+            src="../../Imagens/Logo-Loja-FIcticia.jpg"
+            alt="Loja"
+            id="logo-wish"
+          />
           <Link to="/loja" style={{ textDecoration: 'none' }}>
             <div className="wish-pop-botoes">
               <button id="voltar-loja" type="button">
@@ -44,7 +48,7 @@ function Produto({ match, history }) {
         <div className="fotos-wish">
           <img
             id="foto-wish-active"
-            src="./Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/Casaco_roxo.jpg"
+            src={`../../Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/${prod.img}.webp`}
             alt=""
           />
           <div className="foto-wish-selecoes">
