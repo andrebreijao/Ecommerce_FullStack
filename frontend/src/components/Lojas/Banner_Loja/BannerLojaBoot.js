@@ -1,7 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './bannerloja.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function BannerLojaBoot() {
   return (

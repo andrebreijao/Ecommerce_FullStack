@@ -20,8 +20,14 @@ function Card({ titulo, imagem, preco, parcelado, id }) {
         />
         <div className="card-grid-nome-produto">{titulo}</div>
         <div className="card-grid-precos">
-          <div className="card-grid-preco-antigo">{preco}</div>
-          <div className="card-grid-preco-atual">{preco}</div>
+          <div className="card-grid-preco-antigo">
+            R$
+            {preco}
+          </div>
+          <div className="card-grid-preco-atual">
+            R$
+            {preco}
+          </div>
           <div className="card-grid-preco-parcela">{parcelado}</div>
         </div>
       </div>
