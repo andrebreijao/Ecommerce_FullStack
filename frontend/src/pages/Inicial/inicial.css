@@ -5,7 +5,7 @@ html {
 * {
   padding: 0px;
   margin: auto 0;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   box-sizing: border-box;
 }
 
@@ -53,7 +53,7 @@ a {
 
 #logo-nav {
   margin-left: 2rem;
-  background-color: white;
+  background-color: none;
 }
 
 #conteudo {
@@ -148,8 +148,8 @@ a {
   padding: 5px;
 }
 
-input[type="text"],
-input[type="password"] {
+input[type='text'],
+input[type='password'] {
   width: 100%;
   color: black;
   font-size: 13px;
@@ -160,8 +160,8 @@ input[type="password"] {
   margin-top: 0.5vh;
 }
 
-input[type="text"]:focus,
-input[type="password"]:focus {
+input[type='text']:focus,
+input[type='password']:focus {
   border: 0.1px solid black;
   border-radius: 0px;
 }
@@ -252,11 +252,10 @@ input[type="password"]:focus {
   background: no-repeat center center/cover;
   display: flex;
   position: relative;
-  top: 7vh;
 }
 
 .cta::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0px;
   left: 0px;
@@ -282,14 +281,14 @@ input[type="password"]:focus {
 
 #logo-cta {
   display: flex;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.801);
   justify-content: center;
   align-items: center;
   color: black;
   text-transform: uppercase;
-  width: 20vh;
-  height: 20vh;
-  border-radius: 100%;
+  width: 15vh;
+  height: 15vh;
+  border-radius: 20%;
 }
 
 .cta-content h1 {

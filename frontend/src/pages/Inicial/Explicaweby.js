@@ -5,7 +5,7 @@ function Explicaweby() {
     <div className="explica-e-shop">
       <div className="explica-e-shop-conteudo-grid">
         <div className="explica-e-shop-bloco-1">
-          <div className="titulo-secao">Eshop - o Shopping na sua casa</div>
+          <div className="titulo-secao">Weby - o Shopping na sua casa</div>
           <p>
             A Weby é uma plataforma onde você encontrará os shoppings mais
             próximos de você. Você pode navegar pela página do shopping e entrar

@@ -1,4 +1,5 @@
 import React from 'react';
+import logovertical from '../../Imagens/WebyLogo/Simbolo/PNG/simbolo_white_RGB.png';
 
 function bannerWeby() {
   function viewshoppings() {
@@ -17,7 +18,7 @@ function bannerWeby() {
         }}
       >
         <div className="cta-content">
-          <div id="logo-cta">Logo</div>
+          <img src={logovertical} alt="Weby" id="logo-cta" />
           <h1>O Shopping mais perto de você.</h1>
           <p>Fique a vontade para passear e ver as lojas disponíveis.</p>
           <div className="cta-content-search">

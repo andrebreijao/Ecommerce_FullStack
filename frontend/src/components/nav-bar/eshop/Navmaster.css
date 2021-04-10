@@ -1,60 +1,55 @@
 * {
-	padding: 0px;
-	margin: auto 0;
-	font-family: "Lato", sans-serif;
-	box-sizing: border-box;
+  padding: 0px;
+  margin: auto 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
 }
 
 a {
-	text-decoration: none;
-	color: white;
-	margin-top: auto;
+  text-decoration: none;
+  color: white;
+  margin-top: auto;
 }
 
-
-#link-card-shopping{
-	color: black;
+#link-card-shopping {
+  color: black;
 }
 
-
-.nav-bar {
-	display: flex;
-	font-size: 0.9rem;
-	list-style: none;
-	background-color: black;
-	height: 7vh;
-	width: 100%;
-	justify-content: space-between;
-	position: fixed;
-	z-index: 5;
+.nav-bar-inicial {
+  display: flex;
+  font-size: 0.9rem;
+  list-style: none;
+  background-color: black;
+  height: 7vh;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 5;
+  padding: 0px 20px;
 }
 
-
-.icone{
-    margin: 8px;
+.icone {
+  margin: 8px;
 }
 
 .login {
-	margin-right: 16px;
-	font-size: 0.8rem;
+  margin-right: 16px;
+  font-size: 0.8rem;
 }
 
 .login > * {
-	padding: 0.3vh;
-	height: 1vh;
+  padding: 0.3vh;
+  height: 1vh;
 }
 
 .login :first-child {
-	margin-right: 0.3rem;
+  margin-right: 0.3rem;
 }
 
 .login > a {
-	border-radius: 10%;
+  border-radius: 10%;
 }
 
 #logo-nav {
-	margin-left: 2rem;
-	background-color: white;
+  margin-left: 2rem;
 }
-
-
