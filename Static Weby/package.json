@@ -1,0 +1,19 @@
+{
+  "name": "weby",
+  "version": "1.0.0",
+  "description": "backend weby",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrebreijao/eshop.git"
+  },
+  "author": "Andre Breijao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrebreijao/eshop/issues"
+  },
+  "homepage": "https://github.com/andrebreijao/eshop#readme"
+}
