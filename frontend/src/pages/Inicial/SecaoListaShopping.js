@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function SecaoListaShopping() {
   return (
@@ -23,16 +24,18 @@ function SecaoListaShopping() {
           <p>Colinas Shopping</p>
         </div>
 
-        <div id="link-card-shopping">
-          <div className="card-shopping">
-            <img
-              src="./Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Logo 1x1.jpg"
-              alt="logo-shopping"
-              className="img-lista-shoppings"
-            />
-            <p>Vale Sul Shopping</p>
+        <Link to="/valesul" style={{ textDecoration: 'none' }}>
+          <div id="link-card-shopping">
+            <div className="card-shopping">
+              <img
+                src="./Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Logo 1x1.jpg"
+                alt="logo-shopping"
+                className="img-lista-shoppings"
+              />
+              <p>Vale Sul Shopping</p>
+            </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

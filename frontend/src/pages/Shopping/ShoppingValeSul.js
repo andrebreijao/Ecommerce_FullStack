@@ -8,6 +8,9 @@ import ListaCat from '../../components/Shopping/ListaCat/ListaCat';
 import SecaoCardMarca from '../../components/Shopping/NavMarcas/SecaoCardMarca';
 
 function ShoppingValeuSul() {
+  const entrarShopp = () => {
+    document.getElementById('linha-cta').scrollIntoView();
+  };
   return (
     <div>
       <Navvalesul />
@@ -29,10 +32,7 @@ function ShoppingValeuSul() {
           <h1 id="shopping">Bem vindo ao Vale Sul Shopping.</h1>
           <p id="susbtitulo-shop">Seu shopping de momentos</p>
           <div className="cta-content-search bck-preto">
-            <button
-              onClick="document.getElementById('linha-cta').scrollIntoView();"
-              className="btn-medium"
-            >
+            <button onClick={entrarShopp} className="btn-medium">
               Entrar no shopping
             </button>
           </div>
