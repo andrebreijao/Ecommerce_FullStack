@@ -6,38 +6,13 @@ import Navvalesul from '../../components/nav-bar/shopping_valesul/Navvalesul';
 import './shoppingvalesul.css';
 import ListaCat from '../../components/Shopping/ListaCat/ListaCat';
 import SecaoCardMarca from '../../components/Shopping/NavMarcas/SecaoCardMarca';
+import CtaValeSul from './CtaValeSul';
 
 function ShoppingValeuSul() {
-  const entrarShopp = () => {
-    document.getElementById('linha-cta').scrollIntoView();
-  };
   return (
     <div>
       <Navvalesul />
-      <div
-        className="cta"
-        style={{
-          backgroundImage: `url(${`${process.env.PUBLIC_URL}/Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Capa_Vale_Sul.jpg`}) `,
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-        }}
-      >
-        <div className="cta-content">
-          <img
-            id="logo-cta"
-            src="Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Logo 1x1.jpg"
-            alt="logo"
-          />
-          <h1 id="shopping">Bem vindo ao Vale Sul Shopping.</h1>
-          <p id="susbtitulo-shop">Seu shopping de momentos</p>
-          <div className="cta-content-search bck-preto">
-            <button onClick={entrarShopp} className="btn-medium">
-              Entrar no shopping
-            </button>
-          </div>
-        </div>
-      </div>
+      <CtaValeSul />
 
       <hr id="linha-cta" className="linha-entre-secoes" />
 

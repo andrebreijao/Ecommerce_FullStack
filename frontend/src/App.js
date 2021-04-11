@@ -15,7 +15,7 @@ function App() {
       <ScrollToTop />
       <div className="App">
         <Route path="/" component={Inicial} exact />
-        <Route path="/loja" component={Loja} exact />
+        <Route path="/valesul/clothefashion" component={Loja} exact />
         <Route path="/valesul" component={ShoppingValeSul} exact />
         <Route path="/produto/:id" component={Produto} />
         <Route path="/carrinho/:id?" component={Carrinho} />

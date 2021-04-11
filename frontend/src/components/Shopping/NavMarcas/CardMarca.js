@@ -3,16 +3,21 @@
 import React from 'react';
 import './cardmarca.css';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 // eslint-disable-next-line max-len
 function CardMarca({ imagem, nome, video }) {
   return (
-    <div>
-      <div className="categorias-individual marca">
-        <img className="img-card-marca" src={imagem} alt={nome} />
-
+    <Link
+      to={`/valesul/${nome.toLowerCase().replace(' ', '')}`}
+      style={{ textDecoration: 'none' }}
+    >
+      <div>
+        <div className="categorias-individual marca">
+          <img className="img-card-marca" src={`/${imagem}`} alt={nome} />
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

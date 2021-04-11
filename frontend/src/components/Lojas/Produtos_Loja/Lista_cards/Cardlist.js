@@ -2,20 +2,17 @@
 import React from 'react';
 import Card from '../Card/Card';
 import './Cardlist.css';
+import Message from '../../../Message/Message';
 
-function Cardlist({ produtos, reiniciarFiltro }) {
+function Cardlist({ produtos }) {
   return (
     <>
       {produtos.length === 0 ? (
         <>
-          <h3>
+          <Message variant="info">
             Infelizmente não existem produtos com essa descrição, tente
             reiniciar o filtro
-          </h3>
-          <button type="button" onClick={reiniciarFiltro}>
-            {' '}
-            Reiniciar filtro!
-          </button>
+          </Message>
         </>
       ) : (
         <div className="lista-produtos-grid">
