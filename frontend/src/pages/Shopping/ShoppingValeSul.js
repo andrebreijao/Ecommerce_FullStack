@@ -4,7 +4,7 @@
 import React from 'react';
 import Navvalesul from '../../components/nav-bar/shopping_valesul/Navvalesul';
 import './shoppingvalesul.css';
-import ListaCat from '../../components/Shopping/ListaCat/ListaCat';
+// import ListaCat from '../../components/Shopping/ListaCat/ListaCat';
 import SecaoCardMarca from '../../components/Shopping/NavMarcas/SecaoCardMarca';
 import CtaValeSul from './CtaValeSul';
 
@@ -16,7 +16,7 @@ function ShoppingValeuSul() {
 
       <hr id="linha-cta" className="linha-entre-secoes" />
 
-      <ListaCat />
+      {/* <ListaCat /> */}
       <SecaoCardMarca />
 
       <div className="nav-destaques">
