@@ -9,7 +9,7 @@ function bannerWeby() {
   return (
     <>
       <div
-        className="cta"
+        className="cta-weby"
         style={{
           backgroundImage: `url(${`${process.env.PUBLIC_URL}Imagens/background-image.jpg`})`,
           backgroundRepeat: 'no-repeat',

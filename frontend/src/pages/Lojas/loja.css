@@ -105,6 +105,7 @@ body {
   justify-content: center;
   margin: 1rem 0rem;
   flex-wrap: wrap;
+  z-index: 333;
 }
 
 #banner {
@@ -116,6 +117,7 @@ body {
   align-items: center;
   max-width: 71vw !important;
   /*background: url(Imagens/Destaques.jpg);*/
+  z-index: 333;
 }
 
 .slide-banner {
@@ -124,6 +126,7 @@ body {
   display: grid;
   box-shadow: 0 4px 20px 2px rgb(0 0 0 / 40%);
   position: relative;
+  z-index: 333;
 }
 
 /* fim-secao-banner */
@@ -580,4 +583,16 @@ body {
 #barra_story {
   position: relative;
   bottom: 570px;
+}
+
+.btnwhats {
+  position: absolute;
+  bottom: 0px;
+  z-index: 1000;
+}
+
+._2iWL7 {
+  position: absolute;
+
+  z-index: 1000;
 }

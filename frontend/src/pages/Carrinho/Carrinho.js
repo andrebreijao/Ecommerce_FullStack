@@ -53,7 +53,7 @@ function Carrinho({ match, location, history }) {
 
           {cartItems.length === 0 ? (
             <Message variant="info">
-              <Link to="/loja" style={{ color: 'black' }}>
+              <Link to="/valesul/clothefashion" style={{ color: 'black' }}>
                 Seu carrinho está vazio, para voltar as compras, clique aqui!
               </Link>
             </Message>
@@ -139,6 +139,7 @@ function Carrinho({ match, location, history }) {
                 className="btn-block"
                 disabled={cartItems.length === 0}
                 onClick={checkoutHandler}
+                style={{ backgroundColor: 'black', borderColor: 'black' }}
               >
                 Comprar itens
               </Button>

@@ -4,7 +4,7 @@ import ListaMarcas from '../../../Dados/Marcas';
 
 function ListaCardMarca() {
   return (
-    <div className="categorias-barra-rolagem">
+    <>
       {ListaMarcas.map((marca) => (
         <CardMarca
           imagem={marca.imagem}
@@ -12,7 +12,7 @@ function ListaCardMarca() {
           video={marca.video}
         />
       ))}
-    </div>
+    </>
   );
 }
 

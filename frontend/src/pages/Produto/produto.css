@@ -204,19 +204,21 @@
 
 .adicionar-sacola-wish {
   display: flex;
-  margin-right: 10px;
   justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .adicionar-sacola-wish > * {
-  margin: 0px 3px;
+  margin: 20px 40px;
 }
 
 #texto-quantidade {
   position: relative;
   bottom: 30px;
-  left: 92px;
+  left: 82px;
   font-weight: 800;
   font-size: 0.8rem;
   color: rgb(128, 128, 128);
@@ -239,7 +241,7 @@
 }
 
 #logo-wish {
-  height: 40px;
+  height: 70px;
   width: auto;
   top: 4px;
   left: 30px;
@@ -266,4 +268,12 @@
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+.ajuste-qty {
+  display: flex;
+}
+
+.produto-container {
+  margin: 0 10%;
 }

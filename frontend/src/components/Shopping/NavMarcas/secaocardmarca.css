@@ -1,0 +1,45 @@
+.marcas--listarea {
+  overflow-x: hidden;
+}
+
+.marcas {
+  padding: 0 0 0 10%;
+  overflow-x: hidden;
+}
+
+.marcas--listarea {
+  width: 100000px;
+  transition: all ease 0.5s;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.secao--left,
+.secao--right {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  height: 12.8rem;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+.secao--left {
+  left: 0%;
+}
+
+.secao--right {
+  right: 0%;
+}
+
+.marcas:hover .secao--right,
+.marcas:hover .secao--left {
+  opacity: 1;
+}

@@ -7,6 +7,7 @@ import Navvaleusul from '../../components/nav-bar/shopping_valesul/Navvalesul';
 import './loja.css';
 import FiltroLoja from '../../components/Lojas/Filtro_Loja/FiltroLoja';
 import listaproduto from '../../Dados/lista_produtos';
+import BtnWhats from '../../components/Lojas/whatsapp/BtnWhats';
 
 function Loja() {
   const [termoProcurado, settermoProcurado] = useState('');
@@ -55,7 +56,7 @@ function Loja() {
   };
 
   return (
-    <div>
+    <>
       <Navvaleusul />
       <FiltroLoja
         termoProcurado={termoProcurado}
@@ -73,7 +74,9 @@ function Loja() {
           reiniciarFiltro={reiniciarFiltro}
         />
       </div>
-    </div>
+      <div className="btnwhats" />
+      <BtnWhats />
+    </>
   );
 }
 

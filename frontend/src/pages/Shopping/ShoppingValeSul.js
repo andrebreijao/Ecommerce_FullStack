@@ -92,7 +92,7 @@ function ShoppingValeuSul() {
         <div className="footer-container">
           <div className="footer-row">
             <div className="footer-col" id="footer-col-eshop">
-              <h4 id="footer-h4">Eshop</h4>
+              <h4 id="footer-h4">Weby</h4>
               <ul id="footer-ul">
                 <li>
                   <a href="#">Quem somos</a>

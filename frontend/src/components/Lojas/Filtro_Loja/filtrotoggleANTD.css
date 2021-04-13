@@ -1,9 +1,8 @@
 .filtro-antd {
   color: black;
   width: 95%;
-  height: 1.6rem;
   background-color: rgba(245, 245, 245, 1);
-  font-weight: 900;
+  font-weight: 700;
   font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
@@ -15,7 +14,13 @@
   cursor: pointer;
   position: relative;
   margin: 20px 0px;
-  padding: 20px;
+  padding: 10px 10px;
+  background-color: silver;
+  border-radius: 5px;
+}
+
+.container-filtro-antd {
+  position: relative;
 }
 
 .filtro-antd-opcao {
@@ -23,5 +28,45 @@
 }
 
 .filtro-antd > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.opcao-filtro-ANTD {
   display: block;
+  position: relative;
+  left: 10px;
+  margin-top: 1px;
+  top: 4px;
+}
+
+.linha-personalizavel,
+.linha-personalizavel-toggle {
+  width: 100%;
+  height: 0.3rem;
+}
+
+.linha-personalizavel-toggle {
+  width: 90%;
+  margin: auto;
+  position: absolute;
+  top: 4px;
+}
+
+#linha-primaria {
+  background-color: black;
+}
+
+#linha-secundaria {
+  background-color: rgb(234, 29, 60);
+}
+
+#linha-terciaria {
+  background-color: rgb(252, 179, 22);
+}
+
+#linha-quaternaria {
+  background-color: rgb(89, 202, 234);
 }

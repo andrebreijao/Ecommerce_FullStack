@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import { Checkbox, Collapse } from 'antd';
@@ -24,22 +25,24 @@ function FiltroToggleANTD({ handleFilters }) {
   };
 
   return (
-    <>
+    <div className="container-filtro-antd">
       <Collapse defaultActiveKey={[0]} className="filtro-antd">
-        <Panel header={filtroCategoria[0].nomeFiltro} key="1">
+        <Panel header={`     ${filtroCategoria[0].nomeFiltro}`} key="1">
           {filtroCategoria[0].opcoesFiltro.map((value) => (
-            <React.Fragment key={value.id}>
-              <Checkbox
-                onChange={() => handleToggle(value.name)}
-                type="checkbox"
-                checked={Checked.indexOf(value.name) !== -1}
-              />
-              <span className="filtro-antd-opcao">{value.name}</span>
-            </React.Fragment>
+            <div className="opcao-filtro-ANTD">
+              <React.Fragment key={value.id}>
+                <Checkbox
+                  onChange={() => handleToggle(value.name)}
+                  type="checkbox"
+                  checked={Checked.indexOf(value.name) !== -1}
+                />
+                <span className="filtro-antd-opcao"> {value.name}</span>
+              </React.Fragment>
+            </div>
           ))}
         </Panel>
       </Collapse>
-    </>
+    </div>
   );
 }
 

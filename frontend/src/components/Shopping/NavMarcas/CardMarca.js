@@ -8,16 +8,18 @@ import { Link } from 'react-router-dom';
 // eslint-disable-next-line max-len
 function CardMarca({ imagem, nome, video }) {
   return (
-    <Link
-      to={`/valesul/${nome.toLowerCase().replace(' ', '')}`}
-      style={{ textDecoration: 'none' }}
-    >
-      <div>
-        <div className="categorias-individual marca">
-          <img className="img-card-marca" src={`/${imagem}`} alt={nome} />
+    <div className="marcas--container-card">
+      <Link
+        to={`/valesul/${nome.toLowerCase().replace(' ', '')}`}
+        style={{ textDecoration: 'none' }}
+      >
+        <div>
+          <div className="marcas--card">
+            <img className="img-card-marca" src={`/${imagem}`} alt={nome} />
+          </div>
         </div>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 }
 
