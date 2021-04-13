@@ -6,7 +6,7 @@ import './btnwhats.css';
 function BtnWhats() {
   return (
     <div className="btn-whats">
-      <WhatsAppWidget phoneNumber="XXXXXXXX" />
+      <WhatsAppWidget phoneNumber="+5511984075826" />
     </div>
   );
 }

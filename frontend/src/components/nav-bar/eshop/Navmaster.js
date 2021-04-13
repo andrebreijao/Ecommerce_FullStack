@@ -14,7 +14,9 @@ function togglePopup2() {
 function Navmaster() {
   return (
     <div className="nav-bar-inicial">
-      <img src={logohorizontel} alt="logo" id="logo-nav" />
+      <Link to="/">
+        <img src={logohorizontel} alt="logo" id="logo-nav" />
+      </Link>
       <div className="login">
         <a href="#" id="cadastro" onClick={togglePopup2}>
           <i className="fas fa-shopping-bag icone segundo-icone" />
