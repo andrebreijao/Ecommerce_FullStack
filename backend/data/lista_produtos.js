@@ -89,4 +89,4 @@ const listaproduto = [
   },
 ];
 
-module.exports = listaproduto;
+export default listaproduto;
