@@ -7,32 +7,27 @@ const productSchema = mongoose.Schema(
       required: true,
       ref: 'User',
     },
-    name: {
+    nome: {
       type: String,
       required: true,
     },
-    image: {
+    img: {
       type: String,
       required: true,
     },
-    brand: {
+    loja: {
       type: String,
       required: true,
     },
-    category: {
+    categoria: {
       type: String,
       required: true,
     },
-    description: {
+    descricao: {
       type: String,
       required: true,
     },
-    price: {
-      type: Number,
-      required: true,
-      default: 0,
-    },
-    countInStock: {
+    preco: {
       type: Number,
       required: true,
       default: 0,

@@ -1,26 +1,30 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
-import listaproduto from './data/lista_produtos.js';
+import productRoutes from './routes/productRoutes.js';
+import { notFound, errorHandler } from './middleWare/errorMiddleWare.js';
 
+//aciona as variáveis de sistema
 dotenv.config();
 
+//aciona a base de dados
 connectDB();
 
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('API ta rolando...');
+  res.send('API is running...');
 });
 
-app.get('/api/produtos', (req, res) => {
-  res.json(produtos);
-});
+// "use" e feito para extender o arquivo para não deixar muito grande
+app.use('/api/products', productRoutes);
 
-app.get('/api/produtos/:id', (req, res) => {
-  const produto = produtos.find((p) => p.id == req.params.id);
-  res.json(produto);
-});
+//middleware para analisar toda request que passa para o backend
+//funciona como um filtro, geralmente usa next pra chamar o próximo modulo
+
+app.use(notFound);
+
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
