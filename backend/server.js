@@ -1,8 +1,9 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
-import productRoutes from './routes/productRoutes.js';
 import { notFound, errorHandler } from './middleWare/errorMiddleWare.js';
+import productRoutes from './routes/productRoutes.js';
+import userRoutes from './routes/userRoutes.js';
 
 //aciona as variáveis de sistema
 dotenv.config();
@@ -16,8 +17,12 @@ app.get('/', (req, res) => {
   res.send('API is running...');
 });
 
+//Middleware para permitir formato JSON no body de request (Na autenticação precisa disso, visto que tem JSON no body da request [email e senha])
+app.use(express.json());
+
 // "use" e feito para extender o arquivo para não deixar muito grande
 app.use('/api/products', productRoutes);
+app.use('/api/users', userRoutes);
 
 //middleware para analisar toda request que passa para o backend
 //funciona como um filtro, geralmente usa next pra chamar o próximo modulo
