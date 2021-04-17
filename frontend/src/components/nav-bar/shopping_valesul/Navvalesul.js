@@ -3,21 +3,10 @@
 import React from 'react';
 import './navvalesul.css';
 import { Link } from 'react-router-dom';
-import Loginpop from '../../Loginpop/Loginpop';
-
-function togglePopup1() {
-  document.getElementById('popup-1').classList.toggle('active');
-}
-
-function togglePopup2() {
-  document.getElementById('popup-2').classList.toggle('active');
-}
 
 function Navvaleusul() {
   return (
     <div>
-      <Loginpop />
-
       <div className="nav-bar">
         <Link to="/">
           <img src="Imagens/logo_weby.png" alt="logo" id="logo-nav" />
@@ -44,14 +33,14 @@ function Navvaleusul() {
           </Link>
         </div>
         <div className="login">
-          <a href="#" id="cadastro" onClick={togglePopup2}>
+          <Link to="/carrinho" id="cadastro">
             <i className="fas fa-shopping-bag icone segundo-icone" />
             Sacola
-          </a>
-          <a href="#" id="entrar" onClick={togglePopup1}>
+          </Link>
+          <Link id="entrar" to="/login">
             <i className="fa fa-user icone" />
             Entrar
-          </a>
+          </Link>
         </div>
       </div>
     </div>

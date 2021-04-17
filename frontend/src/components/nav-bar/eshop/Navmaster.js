@@ -1,32 +1,47 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './Navmaster.css';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { NavDropdown } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 import logohorizontel from '../../../Imagens/WebyLogo/Logo Horizontal/PNG/horizontal_logoprincipal_white_RGB.png';
-
-function togglePopup1() {
-  document.getElementById('popup-1').classList.toggle('active');
-}
-
-function togglePopup2() {
-  document.getElementById('popup-2').classList.toggle('active');
-}
+import { logout } from '../../../actions/userActions';
 
 function Navmaster() {
+  const dispatch = useDispatch();
+
+  const userLogin = useSelector((state) => state.userLogin);
+  const { userInfo } = userLogin;
+
+  const logoutHandler = () => {
+    dispatch(logout());
+  };
+
   return (
     <div className="nav-bar-inicial">
       <Link to="/">
         <img src={logohorizontel} alt="logo" id="logo-nav" />
       </Link>
       <div className="login">
-        <a href="#" id="cadastro" onClick={togglePopup2}>
+        <Link id="cadastro" to="/carrinho">
           <i className="fas fa-shopping-bag icone segundo-icone" />
           Sacola
-        </a>
-        <a href="#" id="entrar" onClick={togglePopup1}>
-          <i className="fa fa-user icone" />
-          Entrar
-        </a>
+        </Link>
+        {userInfo ? (
+          <NavDropdown title={userInfo.name} id="username">
+            <LinkContainer to="/perfil">
+              <NavDropdown.Item>Perfil</NavDropdown.Item>
+            </LinkContainer>
+            <NavDropdown.Item onClick={logoutHandler}>Logout</NavDropdown.Item>
+          </NavDropdown>
+        ) : (
+          <Link id="entrar" to="/login">
+            <i className="fa fa-user icone" />
+            Entrar
+          </Link>
+        )}
       </div>
     </div>
   );

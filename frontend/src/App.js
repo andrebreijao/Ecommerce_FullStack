@@ -8,6 +8,7 @@ import ShoppingValeSul from './pages/Shopping/ShoppingValeSul';
 import Produto from './pages/Produto/Produto';
 import Carrinho from './pages/Carrinho/Carrinho';
 import ScrollToTop from './components/App/ScrollToTop';
+import LoginScreen from './pages/Usuario/loginScreen';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/valesul" component={ShoppingValeSul} exact />
         <Route path="/produto/:id" component={Produto} />
         <Route path="/carrinho/:id?" component={Carrinho} />
+        <Route path="/login" component={LoginScreen} />
       </div>
     </Router>
   );
