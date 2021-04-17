@@ -1,3 +1,4 @@
+//Middleware de resposta em caso de endereço não encontrado
 const notFound = (req, res, next) => {
   const error = new Error(`Não encontrado - ${req.originalUrl}`);
   res.status(404);

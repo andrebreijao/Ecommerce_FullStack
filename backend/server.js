@@ -11,6 +11,7 @@ dotenv.config();
 //aciona a base de dados
 connectDB();
 
+//aciona o app como express
 const app = express();
 
 app.get('/', (req, res) => {
@@ -31,8 +32,10 @@ app.use(notFound);
 
 app.use(errorHandler);
 
+//Seleciona o PORT para o servidor
 const PORT = process.env.PORT || 5000;
 
+//Aciona o servidor no PORT selecionado
 app.listen(
   PORT,
   console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`)

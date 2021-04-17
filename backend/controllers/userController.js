@@ -26,6 +26,42 @@ const authUser = AsyncHandler(async (req, res) => {
   }
 });
 
+//@desc  Register a new user
+//@route POST /api/users
+//@acess public
+
+const registerUser = AsyncHandler(async (req, res) => {
+  const { name, email, password } = req.body;
+
+  const userExist = await User.findOne({ email: email });
+
+  if (userExist) {
+    res.status(400);
+    throw new Error('Usuário já existe');
+  }
+
+  //A encripção pode ser feita por aqui ou por middleware do mongoose
+  //Middleware Mongoose sendo utilizado
+  const user = await User.create({
+    name,
+    email,
+    password,
+  });
+
+  if (user) {
+    res.status(201).json({
+      _id: user._id,
+      name: user.name,
+      email: user.email,
+      isAdmin: user.isAdmin,
+      token: generateToken(user._id),
+    });
+  } else {
+    res.status(400);
+    throw new Error('Dados de usuário inválidos!');
+  }
+});
+
 //@desc  Get user profile
 //@route GET /api/users/profile
 //@acess Private
@@ -46,4 +82,4 @@ const getUserProfile = AsyncHandler(async (req, res) => {
   }
 });
 
-export { authUser, getUserProfile };
+export { authUser, registerUser, getUserProfile };
