@@ -11,6 +11,8 @@ import ScrollToTop from './components/App/ScrollToTop';
 import LoginScreen from './pages/Usuario/loginScreen';
 import RegisterScreen from './pages/Usuario/registerScreen';
 import ProfileScreen from './pages/Usuario/profileScreen';
+import ShippingScreen from './pages/Carrinho/ShippingScreen';
+import PaymentScreen from './pages/Carrinho/PaymentScreen';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/login" component={LoginScreen} />
         <Route path="/cadastro" component={RegisterScreen} />
         <Route path="/perfil" component={ProfileScreen} />
+        <Route path="/shipping" component={ShippingScreen} />
+        <Route path="/payment" component={PaymentScreen} />
       </div>
     </Router>
   );

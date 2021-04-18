@@ -29,10 +29,6 @@ function Carrinho({ match, location, history }) {
   const cart = useSelector((state) => state.cart);
   const { cartItems } = cart;
 
-  const checkoutHandler = () => {
-    history.push('/login?redirect=shipping');
-  };
-
   const removeFromCartHandler = (id) => {
     dispatch(removeFromCart(id));
   };
@@ -43,6 +39,9 @@ function Carrinho({ match, location, history }) {
     }
   }, [dispatch, productId, qty]);
 
+  const checkoutHandler = () => {
+    history.push('/login?redirect=shipping');
+  };
   return (
     <>
       <Navmaster />
