@@ -1,3 +1,5 @@
+/* eslint-disable no-underscore-dangle */
+/* eslint-disable no-unused-vars */
 /* eslint-disable object-curly-newline */
 /* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable react/prop-types */
@@ -7,7 +9,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Message from '../../components/Message/Message';
 import Loader from '../../components/Loader';
 
-import { getUserDetails } from '../../actions/userActions';
+import { getUserDetails, updateUserProfile } from '../../actions/userActions';
 
 const ProfileScreen = ({ history }) => {
   const [name, setName] = useState('');
@@ -25,10 +27,16 @@ const ProfileScreen = ({ history }) => {
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
 
+  // Verificar se o usuário foi atualizado
+  const userUpdateProfile = useSelector((state) => state.userUpdateProfile);
+  const { success } = userUpdateProfile;
+
   useEffect(() => {
     if (!userInfo) {
       history.push('/login');
-    } else if (!user.name) {
+    }
+
+    if (!user.name) {
       // passa o profile para chamar profile no lugar do id
       dispatch(getUserDetails('profile'));
     } else {
@@ -43,7 +51,7 @@ const ProfileScreen = ({ history }) => {
     if (password !== confirmPassword) {
       setMessage('A senha e confirmação de senha são diferentes');
     } else {
-      // dispatch;
+      dispatch(updateUserProfile({ id: user._id, name, email, password }));
     }
   };
 
@@ -53,6 +61,7 @@ const ProfileScreen = ({ history }) => {
         <h2>Perfil usuário</h2>
         {message && <Message variant="danger">{message}</Message>}
         {error && <Message variant="danger">{error}</Message>}
+        {success && <Message variant="success">Perfil atualizado!</Message>}
         {loading && <Loader />}
         <Form onSubmit={submitHandler}>
           <Form.Group controlId="nome">
@@ -94,11 +103,11 @@ const ProfileScreen = ({ history }) => {
               onChange={(e) => setconfirmPassword(e.target.value)}
             />
           </Form.Group>
-        </Form>
 
-        <Button type="submit" variant="primary">
-          Atualizar
-        </Button>
+          <Button type="submit" variant="primary">
+            Atualizar
+          </Button>
+        </Form>
       </Col>
       <Col md={9}>
         <h2> Pedidos</h2>
