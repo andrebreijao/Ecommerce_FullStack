@@ -10,6 +10,7 @@ import Carrinho from './pages/Carrinho/Carrinho';
 import ScrollToTop from './components/App/ScrollToTop';
 import LoginScreen from './pages/Usuario/loginScreen';
 import RegisterScreen from './pages/Usuario/registerScreen';
+import ProfileScreen from './pages/Usuario/profileScreen';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/carrinho/:id?" component={Carrinho} />
         <Route path="/login" component={LoginScreen} />
         <Route path="/cadastro" component={RegisterScreen} />
+        <Route path="/perfil" component={ProfileScreen} />
       </div>
     </Router>
   );
