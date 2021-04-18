@@ -4,6 +4,7 @@ import connectDB from './config/db.js';
 import { notFound, errorHandler } from './middleWare/errorMiddleWare.js';
 import productRoutes from './routes/productRoutes.js';
 import userRoutes from './routes/userRoutes.js';
+import orderRoutes from './routes/orderRoutes.js';
 
 //aciona as variáveis de sistema
 dotenv.config();
@@ -24,6 +25,7 @@ app.use(express.json());
 // "use" e feito para extender o arquivo para não deixar muito grande
 app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);
+app.use('/api/orders', orderRoutes);
 
 //middleware para analisar toda request que passa para o backend
 //funciona como um filtro, geralmente usa next pra chamar o próximo modulo
