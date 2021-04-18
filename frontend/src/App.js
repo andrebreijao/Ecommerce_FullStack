@@ -13,6 +13,7 @@ import RegisterScreen from './pages/Usuario/registerScreen';
 import ProfileScreen from './pages/Usuario/profileScreen';
 import ShippingScreen from './pages/Carrinho/ShippingScreen';
 import PaymentScreen from './pages/Carrinho/PaymentScreen';
+import PlaceOrderScreen from './pages/Carrinho/placeOrderScreen';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/perfil" component={ProfileScreen} />
         <Route path="/shipping" component={ShippingScreen} />
         <Route path="/payment" component={PaymentScreen} />
+        <Route path="/placeorder" component={PlaceOrderScreen} />
       </div>
     </Router>
   );
