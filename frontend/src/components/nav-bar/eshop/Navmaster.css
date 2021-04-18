@@ -15,7 +15,7 @@ a {
   color: black;
 }
 
-.nav-bar-inicial {
+#nav-bar-inicial {
   display: flex;
   font-size: 0.9rem;
   list-style: none;

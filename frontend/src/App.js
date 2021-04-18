@@ -9,6 +9,7 @@ import Produto from './pages/Produto/Produto';
 import Carrinho from './pages/Carrinho/Carrinho';
 import ScrollToTop from './components/App/ScrollToTop';
 import LoginScreen from './pages/Usuario/loginScreen';
+import RegisterScreen from './pages/Usuario/registerScreen';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/produto/:id" component={Produto} />
         <Route path="/carrinho/:id?" component={Carrinho} />
         <Route path="/login" component={LoginScreen} />
+        <Route path="/cadastro" component={RegisterScreen} />
       </div>
     </Router>
   );

@@ -20,7 +20,7 @@ function Navmaster() {
   };
 
   return (
-    <div className="nav-bar-inicial">
+    <div id="nav-bar-inicial">
       <Link to="/">
         <img src={logohorizontel} alt="logo" id="logo-nav" />
       </Link>
