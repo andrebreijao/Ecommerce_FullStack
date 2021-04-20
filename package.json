@@ -2,6 +2,9 @@
   "name": "backweby",
   "version": "1.0.0",
   "description": "Backend Weby",
+  "engines": {
+    "node": "15.x"
+  },
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -17,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/andrebreijao/eshop.git"
   },
-  "autho r": "Andre Breijao",
+  "author": "Andre Breijao",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/andrebreijao/eshop/issues"
