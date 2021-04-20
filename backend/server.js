@@ -1,5 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import morgan from 'morgan';
 import connectDB from './config/db.js';
 import { notFound, errorHandler } from './middleWare/errorMiddleWare.js';
 import productRoutes from './routes/productRoutes.js';
@@ -15,6 +16,10 @@ connectDB();
 //aciona o app como express
 const app = express();
 
+//aciona middleware Morgan, utilizado para logar as chamadas do api
+if (process.env.NODE_ENV === 'development') {
+  app.use(morgan('dev'));
+}
 app.get('/', (req, res) => {
   res.send('API is running...');
 });

@@ -1,15 +1,21 @@
+/* eslint-disable no-nested-ternary */
+/* eslint-disable jsx-a11y/control-has-associated-label */
+/* eslint-disable max-len */
 /* eslint-disable no-underscore-dangle */
 /* eslint-disable no-unused-vars */
 /* eslint-disable object-curly-newline */
 /* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable react/prop-types */
 import React, { useState, useEffect } from 'react';
-import { Form, Button, Row, Col } from 'react-bootstrap';
+
 import { useDispatch, useSelector } from 'react-redux';
+import { LinkContainer } from 'react-router-bootstrap';
+import { Table, Form, Button, Row, Col } from 'react-bootstrap';
 import Message from '../../components/Message/Message';
 import Loader from '../../components/Loader';
 
 import { getUserDetails, updateUserProfile } from '../../actions/userActions';
+import { listMyOrders } from '../../actions/orderActions';
 
 const ProfileScreen = ({ history }) => {
   const [name, setName] = useState('');
@@ -31,6 +37,10 @@ const ProfileScreen = ({ history }) => {
   const userUpdateProfile = useSelector((state) => state.userUpdateProfile);
   const { success } = userUpdateProfile;
 
+  // Pega as informações de pedidos do usuário logado
+  const orderListMy = useSelector((state) => state.orderListMy);
+  const { loading: loadingOrders, error: errorOrders, orders } = orderListMy; // loading e error são renomeados visto que já são usados em userDetails
+
   useEffect(() => {
     if (!userInfo) {
       history.push('/login');
@@ -39,6 +49,7 @@ const ProfileScreen = ({ history }) => {
     if (!user.name) {
       // passa o profile para chamar profile no lugar do id
       dispatch(getUserDetails('profile'));
+      dispatch(listMyOrders());
     } else {
       setName(user.name);
       setEmail(user.email);
@@ -111,6 +122,54 @@ const ProfileScreen = ({ history }) => {
       </Col>
       <Col md={9}>
         <h2> Pedidos</h2>
+        {loadingOrders ? (
+          <Loader />
+        ) : errorOrders ? (
+          <Message variant="danger">{errorOrders}</Message>
+        ) : (
+          <Table striped bordered hover responsive className="table-sm">
+            <thead>
+              <tr>
+                <th>N° IDENTIFICAÇÃO</th>
+                <th>DATA</th>
+                <th>TOTAL</th>
+                <th>PAGO</th>
+                <th>ENTREGUE</th>
+                <th />
+              </tr>
+            </thead>
+            <tbody>
+              {orders.map((order) => (
+                <tr key={order._id}>
+                  <td>{order._id}</td>
+                  <td>{order.createdAt.substring(0, 10)}</td>
+                  <td>{order.totalPrice}</td>
+                  <td>
+                    {order.isPaid ? (
+                      order.paidAt.substring(0, 10)
+                    ) : (
+                      <i className="fas fa-times" style={{ color: 'red' }} />
+                    )}
+                  </td>
+                  <td>
+                    {order.isDelivered ? (
+                      order.deliveredAt.substring(0, 10)
+                    ) : (
+                      <i className="fas fa-times" style={{ color: 'red' }} />
+                    )}
+                  </td>
+                  <td>
+                    <LinkContainer to={`/order/${order._id}`}>
+                      <Button className="btn-sm" variant="light">
+                        Details
+                      </Button>
+                    </LinkContainer>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </Table>
+        )}
       </Col>
     </Row>
   );

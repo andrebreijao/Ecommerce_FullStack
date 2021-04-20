@@ -19,7 +19,7 @@ function ShoppingValeuSul() {
       {/* <ListaCat /> */}
       <SecaoCardMarca />
 
-      <div className="nav-destaques">
+      {/* <div className="nav-destaques">
         <div id="container-conteudo">
           <div className="titulo-e-ver-mais">
             <div className="titulo-secao">Destaques</div>
@@ -38,14 +38,14 @@ function ShoppingValeuSul() {
               <p>Nike</p>
               <img
                 className="story-lista-shoppings"
-                src="Imagens/logo nike.jpg"
+                src="../../Imagens/loja saraiva.jpg"
                 alt="story"
               />
             </div>
 
             <div className="card-shopping">
               <img
-                src="Imagens/loja saraiva.jpg"
+                src="../../Imagens/loja saraiva.jpg"
                 alt="logo-shopping"
                 className="img-lista-shoppings"
               />
@@ -86,7 +86,7 @@ function ShoppingValeuSul() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <footer className="footer-bar">
         <div className="footer-container">
@@ -111,14 +111,10 @@ function ShoppingValeuSul() {
             <div className="footer-col">
               <h4 id="footer-h4">Vale Sul Shopping</h4>
               <ul id="footer-ul">
+                <li>(12) 3321-0900</li>
                 <li>
-                  <a href="#">(12) 3321-0900</a>
-                </li>
-                <li>
-                  <a href="#">
-                    Av. Andrômeda, 227 - Jardim Satélite, São José dos Campos -
-                    SP, 12230-000
-                  </a>
+                  Av. Andrômeda, 227 - Jardim Satélite, São José dos Campos -
+                  SP, 12230-000
                 </li>
                 <div className="social-links">
                   <a href="#">

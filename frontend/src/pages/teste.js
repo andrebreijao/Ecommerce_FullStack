@@ -1,12 +1,41 @@
+/* eslint-disable import/no-duplicates */
+/* eslint-disable import/named */
+/* eslint-disable no-lone-blocks */
 /* eslint-disable object-curly-newline */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Button, Row, Col, ListGroup, Image, Card } from 'react-bootstrap';
+
+import react, { useEffect } from 'react';
+import { link } from 'react-router-dom';
+import { button, row, col, listgroup, image, card } from 'react-bootstrap';
+import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import Message from '../components/Message/Message';
-import { getOrderDetails } from '../actions/orderActions';
+import { getorderdetails, listMyOrders } from '../actions/orderActions';
+import Loader from '../components/Loader';
+
+const Teste = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(listMyOrders());
+  }, []);
+
+  const { loading, orders } = useSelector((state) => state.orderListMy);
+
+  const hello = 'Hello';
+
+  return <div>{loading ? <Loader /> : JSON.stringify(orders)}</div>;
+};
+
+export default Teste;
+
+{
+  /* import react, { useeffect } from 'react';
+import { link } from 'react-router-dom';
+import { button, row, col, listgroup, image, card } from 'react-bootstrap';
+import { usedispatch, useselector } from 'react-redux';
+import message from '../components/message/message';
+import { getorderdetails } from '../actions/orderActions';
 import Loader from '../components/Loader';
 
 const Teste = ({ match, history }) => {
@@ -41,4 +70,5 @@ const Teste = ({ match, history }) => {
   );
 };
 
-export default Teste;
+export default Teste; */
+}
