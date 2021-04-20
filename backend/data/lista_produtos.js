@@ -10,6 +10,7 @@ const listaproduto = [
     parcelado: '2x R$29,99',
     descricao: 'Não disponível',
     loja: 'Clothe Fashion',
+    sku: 1,
   },
   {
     nome: 'Regata Feminina Alças Largas Hering + Verena Smit - Preto',
@@ -22,6 +23,7 @@ const listaproduto = [
     parcelado: '2x R$39,99',
     descricao: 'Não disponível',
     loja: 'Clothe Fashion',
+    sku: 2,
   },
   {
     nome: 'Bermuda Feminina Ciclista Em Sarja - Bege',
@@ -34,6 +36,7 @@ const listaproduto = [
     parcelado: '3x R$39,99',
     descricao: 'Não disponível',
     loja: 'Clothe Fashion',
+    sku: 3,
   },
   {
     nome: 'Calça Feminina Jeans Cigarrete Soft Touch - Azul',
@@ -46,6 +49,7 @@ const listaproduto = [
     parcelado: '5x R$31,99',
     descricao: 'Não disponível',
     loja: 'Clothe Fashion',
+    sku: 4,
   },
   {
     nome: 'Blusa Feminina Gola Alta Manga Longa Com Elastano - Marrom',
@@ -58,6 +62,7 @@ const listaproduto = [
     parcelado: '2x R$44,99',
     descricao: 'Não disponível',
     loja: 'Clothe Fashion',
+    sku: 5,
   },
   {
     nome: 'Calça Masculina Tapper Chino Em Sarja - Cinza',
@@ -70,6 +75,7 @@ const listaproduto = [
     parcelado: '5x R$35,99',
     descricao: 'Não disponível',
     loja: 'Clothe Fashion',
+    sku: 6,
   },
   {
     nome: 'Calça Menino Em Tecido Slim Chino - Azul',
@@ -82,6 +88,7 @@ const listaproduto = [
     parcelado: '2x R$39,99',
     descricao: 'Não disponível',
     loja: 'Clothe Fashion',
+    sku: 7,
   },
   {
     nome: 'Camiseta Infantil Menino Snoopy Com Estampa - Verde',
@@ -94,6 +101,7 @@ const listaproduto = [
     parcelado: '2x R$19,99',
     descricao: 'Não disponível',
     loja: 'Clothe Fashion',
+    sku: 8,
   },
 ];
 

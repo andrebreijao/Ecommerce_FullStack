@@ -15,7 +15,7 @@ const orderSchema = mongoose.Schema(
         preco: { type: Number, required: true },
         Product: {
           type: mongoose.Schema.Types.ObjectId,
-          required: true,
+          required: false,
           ref: 'Product',
         },
       },

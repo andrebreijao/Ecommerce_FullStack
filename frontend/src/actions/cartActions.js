@@ -1,3 +1,4 @@
+/* eslint-disable no-underscore-dangle */
 /* eslint-disable no-unused-expressions */
 /* eslint-disable eqeqeq */
 /* eslint-disable array-callback-return */
@@ -17,7 +18,7 @@ export const addToCart = (id, qty) => async (dispatch, getState) => {
   dispatch({
     type: CART_ADD_ITEM,
     payload: {
-      id: data.id,
+      sku: data.id,
       titulo: data.titulo,
       img: data.img,
       preco: data.preco,
