@@ -1,20 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
-* {
-  padding: 0px;
-  margin: auto 0;
-  font-family: 'Lato', sans-serif;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  margin-top: auto;
-}
-
 #link-card-shopping {
   color: black;
 }
@@ -252,7 +235,6 @@ input[type='password']:focus {
   background: no-repeat center center/cover;
   display: flex;
   position: relative;
-  top: 7vh;
 }
 
 .cta-weby::after {

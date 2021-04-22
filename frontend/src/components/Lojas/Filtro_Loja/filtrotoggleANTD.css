@@ -13,9 +13,10 @@
   margin-left: 5%;
   cursor: pointer;
   position: relative;
-  margin: 20px 0px;
+  margin: 0px 0px;
+  margin-top: 10px;
   padding: 10px 10px;
-  background-color: silver;
+  /* background-color: silver; */
   border-radius: 5px;
 }
 
@@ -56,7 +57,7 @@
 }
 
 #linha-primaria {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.247);
 }
 
 #linha-secundaria {

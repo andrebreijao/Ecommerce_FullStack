@@ -2,23 +2,23 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable react/button-has-type */
 import React from 'react';
-import Navvalesul from '../../components/nav-bar/shopping_valesul/Navvalesul';
 import './shoppingvalesul.css';
 // import ListaCat from '../../components/Shopping/ListaCat/ListaCat';
 import SecaoCardMarca from '../../components/Shopping/NavMarcas/SecaoCardMarca';
 import CtaValeSul from './CtaValeSul';
+import NavWebyShop from '../../components/nav-bar/eshop/NavWebyShop';
+import Navvaleusul2 from '../../components/nav-bar/shopping_valesul/NavValeSul2';
 
 function ShoppingValeuSul() {
   return (
     <div>
-      <Navvalesul />
+      <NavWebyShop style={{ zIndex: '1' }} />
+      <Navvaleusul2 />
+
       <CtaValeSul />
-
       <hr id="linha-cta" className="linha-entre-secoes" />
-
       {/* <ListaCat /> */}
       <SecaoCardMarca />
-
       {/* <div className="nav-destaques">
         <div id="container-conteudo">
           <div className="titulo-e-ver-mais">
@@ -87,7 +87,6 @@ function ShoppingValeuSul() {
           </div>
         </div>
       </div> */}
-
       <footer className="footer-bar">
         <div className="footer-container">
           <div className="footer-row">

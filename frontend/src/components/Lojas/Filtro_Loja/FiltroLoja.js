@@ -130,8 +130,29 @@ function FiltroLoja({
                   </button>
                 </div>
                 <FiltroToggleANTD
+                  style={{ margin: '0px' }}
                   className="lista-toggle-filtro"
                   handleFilters={handleFilters}
+                />
+                <div style={{ height: '5px', backgroundColor: 'lightblue' }} />
+                <FiltroToggleANTD
+                  style={{ margin: '0px' }}
+                  className="lista-toggle-filtro"
+                  handleFilters={handleFilters}
+                />
+                <div
+                  style={{
+                    height: '5px',
+                    backgroundColor: 'rgb(252, 179, 22)',
+                  }}
+                />
+                <FiltroToggleANTD
+                  style={{ margin: '0px' }}
+                  className="lista-toggle-filtro"
+                  handleFilters={handleFilters}
+                />
+                <div
+                  style={{ height: '5px', backgroundColor: 'rgb(234, 29, 60)' }}
                 />
               </div>
             </div>

@@ -1,13 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable max-len */
 import React from 'react';
-import './navvalesul.css';
+import './NavValeSul2.css';
 import { Link } from 'react-router-dom';
 
-function Navvaleusul() {
+function Navvaleusul2() {
   return (
-
-    <div className="nav-bar-shopping-loja" id="nav-vale-sul-loja">
+    <div className="nav-bar-shopping-loja2" id="nav-vale-sul-loja2">
       <Link to="/">
         <img
           src="./Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Logo_shopping_Vale_SUL.jpg"
@@ -15,30 +14,29 @@ function Navvaleusul() {
           id="logo-shopping"
         />
       </Link>
-      <div className="nav-bar-loja-menu">
+      <div className="nav-bar-loja-menu2">
         <Link to="/">
           <li href="index.html">Home</li>
         </Link>
         <Link to="/valesul">
-          <li href="interface_shopping.html">Shopping</li>
+          <li>Shopping</li>
         </Link>
         <Link to="/valesul">
-          <li href="navegar_lojas.html">Navegar Lojas</li>
+          <li>Navegar Lojas</li>
         </Link>
       </div>
-      <div className="login">
+      <div className="login2">
         <Link to="/carrinho" id="cadastro">
           <i className="fas fa-shopping-bag icone segundo-icone" />
           Sacola
         </Link>
-        <Link id="entrar" to="/login">
+        <Link id="entrar2" to="/login">
           <i className="fa fa-user icone" />
           Entrar
         </Link>
       </div>
     </div>
-
   );
 }
 
-export default Navvaleusul;
+export default Navvaleusul2;

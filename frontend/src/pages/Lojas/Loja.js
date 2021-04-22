@@ -3,11 +3,12 @@
 import React, { useState, useEffect } from 'react';
 import BannerSection from '../../components/Lojas/Banner_Loja/BannerSection';
 import Cardlist from '../../components/Lojas/Produtos_Loja/Lista_cards/Cardlist';
-import Navvaleusul from '../../components/nav-bar/shopping_valesul/Navvalesul';
 import './loja.css';
 import FiltroLoja from '../../components/Lojas/Filtro_Loja/FiltroLoja';
 import listaproduto from '../../Dados/lista_produtos';
 import BtnWhats from '../../components/Lojas/whatsapp/BtnWhats';
+import NavWebyShop from '../../components/nav-bar/eshop/NavWebyShop';
+import Navvaleusul2 from '../../components/nav-bar/shopping_valesul/NavValeSul2';
 
 function Loja() {
   const [termoProcurado, settermoProcurado] = useState('');
@@ -57,8 +58,8 @@ function Loja() {
 
   return (
     <>
-      <Navvaleusul />
       <FiltroLoja
+        style={{ zIndex: '0' }}
         termoProcurado={termoProcurado}
         settermoProcurado={settermoProcurado}
         generoAtivo={generoAtivo}
@@ -67,6 +68,11 @@ function Loja() {
           handleFilters(filters);
         }}
       />
+
+      <NavWebyShop style={{ zIndex: '1' }} />
+
+      <Navvaleusul2 />
+
       <div className="conteudo-loja">
         <BannerSection />
         <Cardlist

@@ -2,19 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
-  padding: 0px;
-  margin: auto 0;
-  font-family: 'Lato', sans-serif;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  margin-top: auto;
-}
-
 body {
   position: relative;
 }
@@ -43,7 +30,6 @@ body {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  z-index: 5;
 }
 
 #logo-shopping {
@@ -105,7 +91,7 @@ body {
   justify-content: center;
   margin: 1rem 0rem;
   flex-wrap: wrap;
-  z-index: 333;
+  z-index: -1;
 }
 
 #banner {
@@ -117,7 +103,7 @@ body {
   align-items: center;
   max-width: 71vw !important;
   /*background: url(Imagens/Destaques.jpg);*/
-  z-index: 333;
+  z-index: 0;
 }
 
 .slide-banner {
@@ -126,7 +112,7 @@ body {
   display: grid;
   box-shadow: 0 4px 20px 2px rgb(0 0 0 / 40%);
   position: relative;
-  z-index: 333;
+  z-index: -1;
 }
 
 /* fim-secao-banner */

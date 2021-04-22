@@ -25,24 +25,27 @@ function FiltroToggleANTD({ handleFilters }) {
   };
 
   return (
-    <div className="container-filtro-antd">
-      <Collapse defaultActiveKey={[0]} className="filtro-antd">
-        <Panel header={`     ${filtroCategoria[0].nomeFiltro}`} key="1">
-          {filtroCategoria[0].opcoesFiltro.map((value) => (
-            <div className="opcao-filtro-ANTD">
-              <React.Fragment key={value.id}>
-                <Checkbox
-                  onChange={() => handleToggle(value.name)}
-                  type="checkbox"
-                  checked={Checked.indexOf(value.name) !== -1}
-                />
-                <span className="filtro-antd-opcao"> {value.name}</span>
-              </React.Fragment>
-            </div>
-          ))}
-        </Panel>
-      </Collapse>
-    </div>
+    <>
+      <div className="container-filtro-antd">
+        <Collapse defaultActiveKey={[0]} className="filtro-antd">
+          <Panel header={`     ${filtroCategoria[0].nomeFiltro}`} key="1">
+            {filtroCategoria[0].opcoesFiltro.map((value) => (
+              <div className="opcao-filtro-ANTD">
+                <React.Fragment key={value.id}>
+                  <Checkbox
+                    onChange={() => handleToggle(value.name)}
+                    type="checkbox"
+                    checked={Checked.indexOf(value.name) !== -1}
+                  />
+                  <span className="filtro-antd-opcao"> {value.name}</span>
+                </React.Fragment>
+              </div>
+            ))}
+          </Panel>
+        </Collapse>
+      </div>
+      {/* <div className="linha-personalizavel-toggle" id="linha-secundaria" /> */}
+    </>
   );
 }
 

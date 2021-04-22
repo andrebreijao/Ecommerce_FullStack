@@ -5,6 +5,53 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
+import React from 'react';
+import Navvaleusul2 from '../components/nav-bar/shopping_valesul/NavValeSul2';
+import NavWebyShop from '../components/nav-bar/eshop/NavWebyShop';
+
+function Teste() {
+  return (
+    <>
+      <NavWebyShop />
+      <Navvaleusul2 />
+
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+      <h1>testes</h1>
+    </>
+  );
+}
+
+export default Teste;
+
+{
+  /*
 import react, { useEffect } from 'react';
 import { link } from 'react-router-dom';
 import { button, row, col, listgroup, image, card } from 'react-bootstrap';
@@ -28,6 +75,9 @@ const Teste = () => {
 };
 
 export default Teste;
+
+* /
+}
 
 {
   /* import react, { useeffect } from 'react';

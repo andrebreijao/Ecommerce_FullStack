@@ -1,25 +1,4 @@
-#link-card-shopping {
-  color: black;
-}
-
-#link-card-shopping {
-  color: black;
-}
-
-/* nav section */
-
-.nav-bar {
-  display: flex;
-  font-size: 0.6rem;
-  list-style: none;
-  background-color: black;
-  height: 6vh;
-  width: 100%;
-  position: relative;
-  justify-content: center;
-}
-
-.nav-bar-shopping-loja {
+.nav-bar-shopping-loja2 {
   display: flex;
   font-size: 0.7rem;
   list-style: none;
@@ -27,40 +6,48 @@
   height: 8vh;
   width: 100%;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-#logo-shopping {
+#logo-shopping2 {
   height: 40px;
   margin-left: 20px;
 }
 
-.nav-bar-loja-menu {
+.nav-bar-loja-menu2 {
   display: flex;
   height: 80%;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-bar-loja-menu > a {
+.nav-bar-loja-menu2 > a {
   margin: 0 3rem;
   text-transform: uppercase;
 }
 
-.login {
+.nav-bar-loja-menu2 > a {
+  margin: 0 3rem;
+  text-transform: uppercase;
+}
+
+.login2 {
   margin-right: 16px;
   font-size: 0.8rem;
 }
 
-.login > * {
+.login2 > * {
   padding: 0.3vh;
   height: 1vh;
 }
 
-.login :first-child {
+.login2 :first-child {
   margin-right: 5px;
 }
 
-.login > a {
+.login2 > a {
   border-radius: 10%;
 }
 
@@ -71,14 +58,9 @@
 }
 
 /*necessário para override bootstrap css*/
-#nav-vale-sul-loja a {
+#nav-vale-sul-loja2 a {
   text-decoration: none;
   color: white;
   position: sticky;
   top: 0;
-}
-
-#nav-vale-sul {
-  z-index: 1000;
-  position: relative;
 }

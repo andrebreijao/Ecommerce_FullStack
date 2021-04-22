@@ -1,0 +1,14 @@
+.nav-bar {
+  display: flex;
+  font-size: 0.9rem;
+  list-style: none;
+  background-color: black;
+  height: 7vh;
+  width: 100%;
+  justify-content: center;
+}
+
+#logo-nav {
+  margin-left: 0rem;
+  height: 40px;
+}

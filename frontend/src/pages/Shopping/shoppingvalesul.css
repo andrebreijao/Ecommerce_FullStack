@@ -36,7 +36,6 @@ a {
   width: 100%;
   position: relative;
   justify-content: center;
-  z-index: 5;
 }
 
 .nav-bar-shopping {
@@ -49,7 +48,6 @@ a {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  z-index: 5;
 }
 
 #logo-shopping {
