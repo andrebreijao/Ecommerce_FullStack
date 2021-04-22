@@ -59,7 +59,7 @@ function Carrinho({ match, location, history }) {
           ) : (
             <ListGroup variant="flush">
               {cartItems.map((item) => (
-                <ListGroup.Item key={item.id}>
+                <ListGroup.Item key={item.sku}>
                   <Row>
                     <Col md={2}>
                       <Image
@@ -70,7 +70,7 @@ function Carrinho({ match, location, history }) {
                     </Col>
                     <Col md={3}>
                       <Link
-                        to={`/produto/${item.id}`}
+                        to={`/produto/${item.sku}`}
                         style={{ color: 'black' }}
                       >
                         {item.titulo}
@@ -84,7 +84,7 @@ function Carrinho({ match, location, history }) {
                         as="select"
                         value={item.qty}
                         onChange={(e) =>
-                          dispatch(addToCart(item.id, Number(e.target.value)))
+                          dispatch(addToCart(item.sku, Number(e.target.value)))
                         }
                       >
                         {[...Array(20).keys()].map((x) => (
@@ -100,7 +100,7 @@ function Carrinho({ match, location, history }) {
                         type="button"
                         variant="light"
                         onClick={() => {
-                          removeFromCartHandler(item.id);
+                          removeFromCartHandler(item.sku);
                         }}
                       >
                         <i className="fas fa-trash" />
