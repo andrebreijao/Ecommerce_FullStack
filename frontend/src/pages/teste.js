@@ -16,6 +16,7 @@ export const Teste = () => {
 
   return <div>{cartItems.reduce((acc, item) => acc + item.qty, 0)}</div>;
 };
+export default Teste;
 
 {
   /* function Teste() {
@@ -58,8 +59,6 @@ export const Teste = () => {
   );
 } */
 }
-
-export default Teste;
 
 {
   /*
