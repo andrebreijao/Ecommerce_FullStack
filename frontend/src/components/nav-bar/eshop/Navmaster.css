@@ -20,24 +20,61 @@
   margin: 8px;
 }
 
-.login {
-  margin-right: 16px;
+.login-nav-master {
+  margin-right: 1rem;
   font-size: 0.8rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
-.login > * {
+.login-nav-master > * {
   padding: 0.3vh;
   height: 1vh;
 }
 
-.login :first-child {
+.login-nav-master :first-child {
   margin-right: 0.3rem;
 }
 
-.login > a {
+.login-nav-master > a {
   border-radius: 10%;
 }
 
 #logo-nav {
   margin-left: 2rem;
+}
+
+.loggedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  bottom: 8px;
+}
+
+.login2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  position: relative;
+  bottom: 7px;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
 }

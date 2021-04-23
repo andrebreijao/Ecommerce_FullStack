@@ -3,8 +3,21 @@
 import React from 'react';
 import './NavValeSul2.css';
 import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { NavDropdown } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
+import { logout } from '../../../actions/userActions';
 
 function Navvaleusul2() {
+  const dispatch = useDispatch();
+
+  const userLogin = useSelector((state) => state.userLogin);
+  const { userInfo } = userLogin;
+
+  const logoutHandler = () => {
+    dispatch(logout());
+  };
+
   return (
     <div className="nav-bar-shopping-loja2" id="nav-vale-sul-loja2">
       <Link to="/">
@@ -30,10 +43,26 @@ function Navvaleusul2() {
           <i className="fas fa-shopping-bag icone segundo-icone" />
           Sacola
         </Link>
-        <Link id="entrar2" to="/login">
-          <i className="fa fa-user icone" />
-          Entrar
-        </Link>
+        {userInfo ? (
+          <div className="loggedin2">
+            <NavDropdown title={userInfo.name.split(' ')[0]} id="username">
+              <LinkContainer to="/perfil" style={{ color: '#212529' }}>
+                <NavDropdown.Item>Perfil</NavDropdown.Item>
+              </LinkContainer>
+              <NavDropdown.Item
+                onClick={logoutHandler}
+                style={{ color: '#212529' }}
+              >
+                Logout
+              </NavDropdown.Item>
+            </NavDropdown>
+          </div>
+        ) : (
+          <Link id="entrar" to="/login">
+            <i className="fa fa-user icone" />
+            Entrar
+          </Link>
+        )}
       </div>
     </div>
   );

@@ -24,24 +24,32 @@ function Navmaster() {
       <Link to="/">
         <img src={logohorizontel} alt="logo" id="logo-nav" />
       </Link>
-      <div className="login">
-        <Link id="cadastro" to="/carrinho">
-          <i className="fas fa-shopping-bag icone segundo-icone" />
-          Sacola
-        </Link>
-        {userInfo ? (
-          <NavDropdown title={userInfo.name} id="username">
-            <LinkContainer to="/perfil">
-              <NavDropdown.Item>Perfil</NavDropdown.Item>
-            </LinkContainer>
-            <NavDropdown.Item onClick={logoutHandler}>Logout</NavDropdown.Item>
-          </NavDropdown>
-        ) : (
-          <Link id="entrar" to="/login">
-            <i className="fa fa-user icone" />
-            Entrar
+      <div className="login-nav-master">
+        <div>
+          <Link id="cadastro" to="/carrinho">
+            <i className="fas fa-shopping-bag icone segundo-icone" />
+            Sacola
           </Link>
-        )}
+        </div>
+        <div>
+          {userInfo ? (
+            <div className="loggedin">
+              <NavDropdown title={userInfo.name.split(' ')[0]} id="username">
+                <LinkContainer to="/perfil">
+                  <NavDropdown.Item>Perfil</NavDropdown.Item>
+                </LinkContainer>
+                <NavDropdown.Item onClick={logoutHandler}>
+                  Logout
+                </NavDropdown.Item>
+              </NavDropdown>
+            </div>
+          ) : (
+            <Link id="entrar" to="/login">
+              <i className="fa fa-user icone" />
+              Entrar
+            </Link>
+          )}
+        </div>
       </div>
     </div>
   );

@@ -10,12 +10,13 @@ import Navvaleusul2 from '../components/nav-bar/shopping_valesul/NavValeSul2';
 import NavWebyShop from '../components/nav-bar/eshop/NavWebyShop';
 
 function Teste() {
+  const fixedStyle = { position: 'fixed', bottom: '10px', right: '10px' };
   return (
     <>
       <NavWebyShop />
       <Navvaleusul2 />
 
-      <h1>testes</h1>
+      <h1 style={fixedStyle}>fixed</h1>
       <h1>testes</h1>
       <h1>testes</h1>
       <h1>testes</h1>

@@ -64,3 +64,12 @@
   position: sticky;
   top: 0;
 }
+
+.loggedin2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  bottom: 8px;
+}

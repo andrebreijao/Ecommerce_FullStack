@@ -93,7 +93,7 @@ const PlaceOrderScreen = ({ history }) => {
               ) : (
                 <ListGroup variant="flush">
                   {cart.cartItems.map((item) => (
-                    <ListGroup.Item key={item.id}>
+                    <ListGroup.Item key={item.sku}>
                       <Row>
                         <Col md={1}>
                           <Image
@@ -104,7 +104,7 @@ const PlaceOrderScreen = ({ history }) => {
                           />
                         </Col>
                         <Col>
-                          <Link to={`/product/${item.id}`}>{item.titulo}</Link>
+                          <Link to={`/product/${item.sku}`}>{item.titulo}</Link>
                         </Col>
                         <Col md={4}>
                           {item.qty} x ${item.preco} = R$

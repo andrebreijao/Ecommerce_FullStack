@@ -578,7 +578,13 @@ body {
 }
 
 ._2iWL7 {
-  position: absolute;
+  position: fixed !important;
+  bottom: 90px !important;
+  right: 70px !important;
+}
 
-  z-index: 1000;
+._1bpcM {
+  position: fixed !important;
+  bottom: 10px !important;
+  right: 30px !important;
 }

@@ -56,6 +56,8 @@ function Loja() {
     setGeneroAtivo('');
   };
 
+  const fixedStyle = { position: 'fixed', bottom: '10px', right: '10px' };
+
   return (
     <>
       <FiltroLoja
@@ -80,8 +82,7 @@ function Loja() {
           reiniciarFiltro={reiniciarFiltro}
         />
       </div>
-      <div className="btnwhats" />
-      <BtnWhats />
+      <BtnWhats className="btn-whats" />
     </>
   );
 }
