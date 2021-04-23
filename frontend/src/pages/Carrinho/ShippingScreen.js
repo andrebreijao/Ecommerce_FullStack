@@ -35,10 +35,10 @@ const ShippingScreen = ({ history }) => {
   return (
     <FormContainer>
       <CheckoutSteps step1 step2 />
-      <h1>Shipping</h1>
+      <h1>Informações de entrega</h1>
       <Form onSubmit={submitHandler}>
         <Form.Group controlId="address">
-          <Form.Label>Address</Form.Label>
+          <Form.Label>Endereço</Form.Label>
           <Form.Control
             type="text"
             placeholder="Enter address"
@@ -49,7 +49,7 @@ const ShippingScreen = ({ history }) => {
         </Form.Group>
 
         <Form.Group controlId="city">
-          <Form.Label>City</Form.Label>
+          <Form.Label>Cidade</Form.Label>
           <Form.Control
             type="text"
             placeholder="Enter city"
@@ -60,7 +60,7 @@ const ShippingScreen = ({ history }) => {
         </Form.Group>
 
         <Form.Group controlId="postalCode">
-          <Form.Label>Postal Code</Form.Label>
+          <Form.Label>CEP</Form.Label>
           <Form.Control
             type="text"
             placeholder="Enter postal code"
@@ -71,7 +71,7 @@ const ShippingScreen = ({ history }) => {
         </Form.Group>
 
         <Form.Group controlId="country">
-          <Form.Label>Country</Form.Label>
+          <Form.Label>País</Form.Label>
           <Form.Control
             type="text"
             placeholder="Enter country"
