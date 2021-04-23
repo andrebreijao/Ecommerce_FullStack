@@ -33,7 +33,6 @@ function App() {
         <Route path="/payment" component={PaymentScreen} />
         <Route path="/placeorder" component={PlaceOrderScreen} />
         <Route path="/order/:id" component={OrderScreen} />
-        <Route path="/teste" component={Teste} />
       </div>
     </Router>
   );
