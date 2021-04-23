@@ -1,6 +1,6 @@
 /* Popup section */
 
-.overlay {
+/* .overlay {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -175,6 +175,6 @@ input[type="password"]:focus {
   color: black;
   border: solid black;
   text-transform: uppercase;
-}
+} */
 
 /* End Popup section */

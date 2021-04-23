@@ -192,6 +192,7 @@
   transform: translate(-50%, 0%);
 }
 
+/*
 input[type='text'] {
   box-sizing: border-box;
   padding-left: 0.5rem;
@@ -203,22 +204,21 @@ input:focus {
 }
 
 ::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  opacity: 1; /* Firefox */
+  opacity: 1; 
   font-size: 0.7rem;
 }
 
 :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
   font-size: 0.7rem;
   padding: 0.5rem;
 }
 
 ::-ms-input-placeholder {
-  /* Microsoft Edge */
   font-size: 0.7rem;
   padding: 0.5rem;
 }
+
+*/
 
 .campo-busca {
   width: 100%;

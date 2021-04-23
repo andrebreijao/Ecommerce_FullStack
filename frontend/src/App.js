@@ -15,6 +15,7 @@ import ShippingScreen from './pages/Carrinho/ShippingScreen';
 import PaymentScreen from './pages/Carrinho/PaymentScreen';
 import PlaceOrderScreen from './pages/Carrinho/placeOrderScreen';
 import OrderScreen from './pages/Carrinho/OrderScreen';
+import Teste from './pages/SignInSide';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/payment" component={PaymentScreen} />
         <Route path="/placeorder" component={PlaceOrderScreen} />
         <Route path="/order/:id" component={OrderScreen} />
+        <Route path="/teste" component={Teste} />
       </div>
     </Router>
   );

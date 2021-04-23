@@ -1,16 +1,78 @@
-/* eslint-disable object-curly-newline */
-/* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-one-expression-per-line */
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Form, Button, Row, Col } from 'react-bootstrap';
+import Avatar from '@material-ui/core/Avatar';
+import Button from '@material-ui/core/Button';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import TextField from '@material-ui/core/TextField';
+// import FormControlLabel from '@material-ui/core/FormControlLabel';
+// import Checkbox from '@material-ui/core/Checkbox';
+import Link from '@material-ui/core/Link';
+import Grid from '@material-ui/core/Grid';
+import Box from '@material-ui/core/Box';
+import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
+import Container from '@material-ui/core/Container';
+import Paper from '@material-ui/core/Paper';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link as LinkRouter } from 'react-router-dom';
+import Navmaster from '../../components/nav-bar/eshop/Navmaster';
+
 import Message from '../../components/Message/Message';
 import Loader from '../../components/Loader';
-import FormContainer from '../../components/FormContainer';
+// import FormContainer from '../../components/FormContainer';
 import { register } from '../../actions/userActions';
 
-const RegisterScreen = ({ location, history }) => {
+function Copyright() {
+  return (
+    <Typography variant="body2" color="textSecondary" align="center">
+      {'Copyright © '}
+      <Link color="inherit" href="https://material-ui.com/">
+        Weby
+      </Link>{' '}
+      {new Date().getFullYear()}
+      {'.'}
+    </Typography>
+  );
+}
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    height: '100vh',
+  },
+  image: {
+    backgroundImage: 'url(https://source.unsplash.com/random)',
+    backgroundRepeat: 'no-repeat',
+    backgroundColor:
+      theme.palette.type === 'light'
+        ? theme.palette.grey[50]
+        : theme.palette.grey[900],
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  },
+  paper: {
+    marginTop: theme.spacing(8),
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  avatar: {
+    margin: theme.spacing(1),
+    backgroundColor: theme.palette.secondary.main,
+  },
+  form: {
+    width: '100%', // Fix IE 11 issue.
+    marginTop: theme.spacing(3),
+  },
+  submit: {
+    margin: theme.spacing(3, 0, 2),
+  },
+}));
+
+export default function SignUp({ location, history }) {
+  const classes = useStyles();
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -42,68 +104,132 @@ const RegisterScreen = ({ location, history }) => {
   };
 
   return (
-    <FormContainer>
-      <h1>Cadastro</h1>
-      {message && <Message variant="danger">{message}</Message>}
-      {error && <Message variant="danger">{error}</Message>}
-      {loading && <Loader />}
-      <Form onSubmit={submitHandler}>
-        <Form.Group controlId="nome">
-          <Form.Label>Nome</Form.Label>
-          <Form.Control
-            type="nome"
-            placeholder="Insira seu nome completo"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </Form.Group>
-        <Form onSubmit={submitHandler}>
-          <Form.Group controlId="email">
-            <Form.Label>Endereço de e-mail</Form.Label>
-            <Form.Control
-              type="email"
-              placeholder="Insira o e-mail"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </Form.Group>
+    <>
+      <Navmaster />
+      <Grid
+        container
+        component="main"
+        className={classes.root}
+        style={{ height: '93vh' }}
+      >
+        <CssBaseline />
+        <Grid item xs={false} sm={4} md={7} className={classes.image} />
+        <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
+          <Container component="main" maxWidth="xs">
+            <CssBaseline />
+            <div className={classes.paper}>
+              <Avatar className={classes.avatar}>
+                <LockOutlinedIcon />
+              </Avatar>
+              <Typography component="h1" variant="h5">
+                Cadastro
+              </Typography>
+              {message && <Message variant="danger">{message}</Message>}
+              {error && <Message variant="danger">{error}</Message>}
+              {loading && <Loader />}
+              <form
+                className={classes.form}
+                noValidate
+                onSubmit={submitHandler}
+              >
+                <Grid container spacing={2}>
+                  <Grid item xs={12}>
+                    <TextField
+                      autoComplete="fname"
+                      name="nome"
+                      variant="outlined"
+                      required
+                      fullWidth
+                      id="nome"
+                      label="Nome"
+                      autoFocus
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                    />
+                  </Grid>
 
-          <Form.Group controlId="password">
-            <Form.Label>Senha</Form.Label>
-            <Form.Control
-              type="password"
-              placeholder="Insira a senha"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />
-          </Form.Group>
-
-          <Form.Group controlId="confirmPassword">
-            <Form.Label>Confirmação de senha</Form.Label>
-            <Form.Control
-              type="password"
-              placeholder="Insira a senha novamente"
-              value={confirmPassword}
-              onChange={(e) => setconfirmPassword(e.target.value)}
-            />
-          </Form.Group>
-        </Form>
-
-        <Button type="submit" variant="primary">
-          Cadastrar
-        </Button>
-
-        <Row className="py-3">
-          <Col>
-            Já possui conta conta?{' '}
-            <Link to={redirect ? `/login?redirect=${redirect}` : '/login'}>
-              Login
-            </Link>
-          </Col>
-        </Row>
-      </Form>
-    </FormContainer>
+                  <Grid item xs={12}>
+                    <TextField
+                      variant="outlined"
+                      required
+                      fullWidth
+                      id="email"
+                      label="Email"
+                      name="email"
+                      autoComplete="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      variant="outlined"
+                      required
+                      fullWidth
+                      name="password"
+                      label="Senha"
+                      type="password"
+                      id="password"
+                      autoComplete="current-password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      variant="outlined"
+                      required
+                      fullWidth
+                      name="password"
+                      label="Senha"
+                      type="password"
+                      id="password"
+                      autoComplete="current-password"
+                      value={confirmPassword}
+                      onChange={(e) => setconfirmPassword(e.target.value)}
+                    />
+                  </Grid>
+                  {/* <Grid item xs={12}>
+                        <FormControlLabel
+                        control={
+                            <Checkbox value="allowExtraEmails" color="primary" />
+                        }
+                        label="I want to receive inspiration,
+                        marketing promotions and updates via email."
+                        />
+                    </Grid> */}
+                </Grid>
+                <Button
+                  type="submit"
+                  fullWidth
+                  variant="contained"
+                  color="primary"
+                  className={classes.submit}
+                  style={{ backgroundColor: 'black' }}
+                >
+                  Cadastrar
+                </Button>
+                <Grid container justify="flex-end">
+                  <Grid item>
+                    <LinkRouter to="/login">
+                      <Link
+                        to="/"
+                        variant="body2"
+                        style={{ cursor: 'pointer', color: 'black' }}
+                      >
+                        Já tem uma conta? Faça o login
+                      </Link>
+                    </LinkRouter>
+                  </Grid>
+                </Grid>
+              </form>
+            </div>
+            <Box mt={5}>
+              <Copyright />
+            </Box>
+          </Container>
+        </Grid>
+      </Grid>
+    </>
   );
-};
-
-export default RegisterScreen;
+}

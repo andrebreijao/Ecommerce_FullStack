@@ -23,7 +23,7 @@ function Cardlist({ produtos }) {
               preco={prod.preco}
               parcelado={prod.parcelado}
               key={prod.img}
-              id={prod.id}
+              id={prod.sku}
             />
           ))}
         </div>
