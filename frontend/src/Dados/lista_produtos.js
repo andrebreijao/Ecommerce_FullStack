@@ -8,7 +8,7 @@ const listaproduto = [
     img: 'hrg-1',
     preco: 59.99,
     parcelado: '2x R$29,99',
-    id: 1,
+    sku: 1,
   },
   {
     titulo: 'Regata Feminina Alças Largas Hering + Verena Smit - Preto',
@@ -19,7 +19,7 @@ const listaproduto = [
     img: 'hrg-2',
     preco: 79.99,
     parcelado: '2x R$39,99',
-    id: 2,
+    sku: 2,
   },
   {
     titulo: 'Bermuda Feminina Ciclista Em Sarja - Bege',
@@ -30,7 +30,7 @@ const listaproduto = [
     img: 'hrg-3',
     preco: 119.99,
     parcelado: '3x R$39,99',
-    id: 3,
+    sku: 3,
   },
   {
     titulo: 'Calça Feminina Jeans Cigarrete Soft Touch - Azul',
@@ -41,7 +41,7 @@ const listaproduto = [
     img: 'hrg-4',
     preco: 159.99,
     parcelado: '5x R$31,99',
-    id: 4,
+    sku: 4,
   },
   {
     titulo: 'Blusa Feminina Gola Alta Manga Longa Com Elastano - Marrom',
@@ -52,7 +52,7 @@ const listaproduto = [
     img: 'hrg-5',
     preco: 89.99,
     parcelado: '2x R$44,99',
-    id: 5,
+    sku: 5,
   },
   {
     titulo: 'Calça Masculina Tapper Chino Em Sarja - Cinza',
@@ -63,7 +63,7 @@ const listaproduto = [
     img: 'hrg-6',
     preco: 179.99,
     parcelado: '5x R$35,99',
-    id: 6,
+    sku: 6,
   },
   {
     titulo: 'Calça Menino Em Tecido Slim Chino - Azul',
@@ -74,7 +74,7 @@ const listaproduto = [
     img: 'hrg-7',
     preco: 79.99,
     parcelado: '2x R$39,99',
-    id: 7,
+    sku: 7,
   },
   {
     titulo: 'Camiseta Infantil Menino Snoopy Com Estampa - Verde',
@@ -85,7 +85,7 @@ const listaproduto = [
     img: 'hrg-8',
     preco: 39.99,
     parcelado: '2x R$19,99',
-    id: 8,
+    sku: 8,
   },
 ];
 export default listaproduto;

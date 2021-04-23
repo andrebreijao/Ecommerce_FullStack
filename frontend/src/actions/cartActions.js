@@ -13,12 +13,12 @@ import {
 const produtos = listaproduto;
 
 export const addToCart = (id, qty) => async (dispatch, getState) => {
-  const data = produtos.find((e) => e.id == id);
+  const data = produtos.find((e) => e.sku == id);
 
   dispatch({
     type: CART_ADD_ITEM,
     payload: {
-      sku: data.id,
+      sku: data.sku,
       titulo: data.titulo,
       img: data.img,
       preco: data.preco,

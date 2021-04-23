@@ -6,10 +6,19 @@
 /* eslint-disable react/prop-types */
 
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import Navvaleusul2 from '../components/nav-bar/shopping_valesul/NavValeSul2';
 import NavWebyShop from '../components/nav-bar/eshop/NavWebyShop';
 
-function Teste() {
+export const Teste = () => {
+  const cart = useSelector((state) => state.cart);
+  const { cartItems } = cart;
+
+  return <div>{cartItems.reduce((acc, item) => acc + item.qty, 0)}</div>;
+};
+
+{
+  /* function Teste() {
   const fixedStyle = { position: 'fixed', bottom: '10px', right: '10px' };
   return (
     <>
@@ -47,6 +56,7 @@ function Teste() {
       <h1>testes</h1>
     </>
   );
+} */
 }
 
 export default Teste;

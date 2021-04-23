@@ -1,3 +1,4 @@
+/* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable max-len */
 import React from 'react';
@@ -6,6 +7,8 @@ import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import Badge from '@material-ui/core/Badge';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import { logout } from '../../../actions/userActions';
 
 function Navvaleusul2() {
@@ -17,6 +20,13 @@ function Navvaleusul2() {
   const logoutHandler = () => {
     dispatch(logout());
   };
+
+  // informações do badge
+  const cart = useSelector((state) => state.cart);
+  const { cartItems } = cart;
+
+  const getTotalItems = (items) =>
+    items.reduce((ack, item) => ack + Number(item.qty), 0);
 
   return (
     <div className="nav-bar-shopping-loja2" id="nav-vale-sul-loja2">
@@ -39,9 +49,14 @@ function Navvaleusul2() {
         </Link>
       </div>
       <div className="login2">
-        <Link to="/carrinho" id="cadastro">
-          <i className="fas fa-shopping-bag icone segundo-icone" />
-          Sacola
+        <Link id="cadastro" to="/carrinho">
+          <Badge
+            badgeContent={getTotalItems(cartItems)}
+            color="error"
+            style={{ color: 'white', position: 'relative', bottom: '5px' }}
+          >
+            <AddShoppingCartIcon />
+          </Badge>
         </Link>
         {userInfo ? (
           <div className="loggedin2">

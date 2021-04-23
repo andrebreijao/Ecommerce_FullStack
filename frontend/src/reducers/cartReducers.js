@@ -19,13 +19,13 @@ export const cartReducer = (
     case CART_ADD_ITEM:
       const item = action.payload;
 
-      const existItem = state.cartItems.find((x) => x.id === item.id);
+      const existItem = state.cartItems.find((x) => x.sku === item.sku);
 
       if (existItem) {
         return {
           ...state,
           cartItems: state.cartItems.map((x) =>
-            x.id === existItem.id ? item : x
+            x.sku === existItem.sku ? item : x
           ),
         };
       }
@@ -37,7 +37,7 @@ export const cartReducer = (
     case CART_REMOVE_ITEM:
       return {
         ...state,
-        cartItems: state.cartItems.filter((x) => x.id !== action.payload),
+        cartItems: state.cartItems.filter((x) => x.sku !== action.payload),
       };
 
     case CART_SAVE_SHIPPING_ADDRESS:

@@ -1,3 +1,4 @@
+/* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
@@ -6,6 +7,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import Badge from '@material-ui/core/Badge';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import logohorizontel from '../../../Imagens/WebyLogo/Logo Horizontal/PNG/horizontal_logoprincipal_white_RGB.png';
 import { logout } from '../../../actions/userActions';
 
@@ -19,6 +22,12 @@ function Navmaster() {
     dispatch(logout());
   };
 
+  const cart = useSelector((state) => state.cart);
+  const { cartItems } = cart;
+
+  const getTotalItems = (items) =>
+    items.reduce((ack, item) => ack + Number(item.qty), 0);
+
   return (
     <div id="nav-bar-inicial">
       <Link to="/">
@@ -26,9 +35,18 @@ function Navmaster() {
       </Link>
       <div className="login-nav-master">
         <div>
-          <Link id="cadastro" to="/carrinho">
+          {/* <Link id="cadastro" to="/carrinho">
             <i className="fas fa-shopping-bag icone segundo-icone" />
             Sacola
+          </Link> */}
+          <Link id="cadastro" to="/carrinho">
+            <Badge
+              badgeContent={getTotalItems(cartItems)}
+              color="error"
+              style={{ color: 'white', position: 'relative', bottom: '5px' }}
+            >
+              <AddShoppingCartIcon />
+            </Badge>
           </Link>
         </div>
         <div>
