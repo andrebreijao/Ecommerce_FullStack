@@ -14,7 +14,7 @@ import listaproduto from '../../Dados/lista_produtos';
 import './produto.css';
 
 function Produto({ match, history }) {
-  const prod = listaproduto.find((p) => p.id == match.params.id);
+  const prod = listaproduto.find((p) => p.sku == match.params.id);
 
   // Quantidade de itens
   const [qty, setQty] = useState(1);
