@@ -26,7 +26,6 @@ import { Link as LinkRouter } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { login } from '../../actions/userActions';
 import Navmaster from '../../components/nav-bar/eshop/Navmaster';
-import capa from '../../Imagens/Login/viktor-bystrov-gFjGZ2qRZOo-unsplash (2).jpg';
 
 function Copyright() {
   return (
@@ -47,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
   },
   image: {
     /* backgroundImage: 'url(https://source.unsplash.com/random)', */
-    backgroundImage: { capa },
+    backgroundImage: `url(${`${process.env.PUBLIC_URL}Imagens/Login/viktor-bystrov-gFjGZ2qRZOo-unsplash (2).jpg`})`,
     backgroundRepeat: 'no-repeat',
     backgroundColor:
       theme.palette.type === 'light'
