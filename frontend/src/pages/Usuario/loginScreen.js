@@ -23,11 +23,10 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import React, { useState, useEffect } from 'react';
 import { Link as LinkRouter } from 'react-router-dom';
-
 import { useDispatch, useSelector } from 'react-redux';
-
 import { login } from '../../actions/userActions';
 import Navmaster from '../../components/nav-bar/eshop/Navmaster';
+import capa from '../../Imagens/Login/viktor-bystrov-gFjGZ2qRZOo-unsplash (2).jpg';
 
 function Copyright() {
   return (
@@ -47,7 +46,8 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh',
   },
   image: {
-    backgroundImage: 'url(https://source.unsplash.com/random)',
+    /* backgroundImage: 'url(https://source.unsplash.com/random)', */
+    backgroundImage: { capa },
     backgroundRepeat: 'no-repeat',
     backgroundColor:
       theme.palette.type === 'light'
