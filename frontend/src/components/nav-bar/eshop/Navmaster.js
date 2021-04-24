@@ -4,23 +4,20 @@
 import React from 'react';
 import './Navmaster.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { NavDropdown } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
+import Link from '@material-ui/core/Link';
+import { Link as LinkRouter } from 'react-router-dom';
 import Badge from '@material-ui/core/Badge';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+import PersonRoundedIcon from '@material-ui/icons/PersonRounded';
 import logohorizontel from '../../../Imagens/WebyLogo/Logo Horizontal/PNG/horizontal_logoprincipal_white_RGB.png';
 import { logout } from '../../../actions/userActions';
+import ToggleMenuMU from './ToggleMenuMU';
 
 function Navmaster() {
   const dispatch = useDispatch();
 
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
-
-  const logoutHandler = () => {
-    dispatch(logout());
-  };
 
   const cart = useSelector((state) => state.cart);
   const { cartItems } = cart;
@@ -30,16 +27,16 @@ function Navmaster() {
 
   return (
     <div id="nav-bar-inicial">
-      <Link to="/">
+      <LinkRouter to="/">
         <img src={logohorizontel} alt="logo" id="logo-nav" />
-      </Link>
+      </LinkRouter>
       <div className="login-nav-master">
         <div>
           {/* <Link id="cadastro" to="/carrinho">
             <i className="fas fa-shopping-bag icone segundo-icone" />
             Sacola
           </Link> */}
-          <Link id="cadastro" to="/carrinho">
+          <LinkRouter id="cadastro" to="/carrinho">
             <Badge
               badgeContent={getTotalItems(cartItems)}
               color="error"
@@ -47,24 +44,30 @@ function Navmaster() {
             >
               <AddShoppingCartIcon />
             </Badge>
-          </Link>
+          </LinkRouter>
         </div>
         <div>
           {userInfo ? (
             <div className="loggedin">
-              <NavDropdown title={userInfo.name.split(' ')[0]} id="username">
+              {/* <NavDropdown title={userInfo.name.split(' ')[0]} id="username">
                 <LinkContainer to="/perfil">
                   <NavDropdown.Item>Perfil</NavDropdown.Item>
                 </LinkContainer>
                 <NavDropdown.Item onClick={logoutHandler}>
                   Logout
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
+              <ToggleMenuMU style={{ position: 'relative', bottom: '5px' }} />
             </div>
           ) : (
-            <Link id="entrar" to="/login">
-              <i className="fa fa-user icone" />
-              Entrar
+            <Link>
+              <LinkRouter
+                to="/login"
+                style={{ position: 'relative', bottom: '5px' }}
+              >
+                <PersonRoundedIcon />
+                Entrar
+              </LinkRouter>
             </Link>
           )}
         </div>
