@@ -10,5 +10,12 @@
 
 #logo-nav {
   margin-left: 0rem;
-  height: 40px;
+  height: 35px;
+}
+
+@media (max-width: 500px) {
+  #logo-nav {
+    margin-left: 0rem;
+    height: 30px;
+  }
 }

@@ -1,19 +1,23 @@
 .nav-bar-shopping-loja2 {
-  display: flex;
+  display: grid;
   font-size: 0.7rem;
   list-style: none;
   background-color: #bf2c37;
   height: 8vh;
   width: 100%;
-  justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 1000;
+  grid-template-columns: 2fr 4fr 2fr;
+}
+
+.secao-logo-shop2 {
+  justify-content: center;
+  margin-left: 4vw;
 }
 
 #logo-shopping2 {
-  height: 40px;
-  margin-left: 20px;
+  height: 30vw;
 }
 
 .nav-bar-loja-menu2 {
@@ -24,22 +28,22 @@
 }
 
 .nav-bar-loja-menu2 > a {
-  margin: 0 3rem;
+  margin: 0 10vw;
   text-transform: uppercase;
+  font-size: 0.9rem;
 }
 
-.nav-bar-loja-menu2 > a {
-  margin: 0 3rem;
-  text-transform: uppercase;
+.container-loggedin2 {
+  justify-self: end;
 }
 
 .login2 {
-  margin-right: 16px;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  margin-right: 4vw;
 }
 
 .login2 > * {
-  padding: 0.3vh;
+  padding: 1.5vh;
   height: 1vh;
 }
 
@@ -71,5 +75,33 @@
   align-items: center;
   align-content: center;
   position: relative;
-  bottom: 8px;
+  bottom: 8vw;
+}
+
+@media (max-width: 770px) {
+  .nav-bar-shopping-loja2 {
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+
+  .login2 {
+    font-size: 0.8rem;
+    margin-right: 0vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-bar-loja-menu2 > a {
+    margin: 0 3vw;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .login2 {
+    font-size: 0.8rem;
+    margin-right: 0vw;
+  }
+
+  .nav-bar-shopping-loja2 {
+    grid-template-columns: 1fr 2fr 2fr;
+  }
 }
