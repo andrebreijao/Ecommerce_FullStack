@@ -181,9 +181,9 @@ export default function SignUp({ location, history }) {
                       required
                       fullWidth
                       name="password"
-                      label="Senha"
+                      label="Confirme a senha"
                       type="password"
-                      id="password"
+                      id="confirmPassword"
                       autoComplete="current-password"
                       value={confirmPassword}
                       onChange={(e) => setconfirmPassword(e.target.value)}

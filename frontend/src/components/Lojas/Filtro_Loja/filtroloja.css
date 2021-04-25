@@ -273,6 +273,8 @@ input:focus {
   left: 0;
   position: absolute;
   background-color: rgba(245, 245, 245, 1);
+  font-size: 1rem;
+  padding: 10px;
 }
 #campo-busca-input-text::placeholder {
   font-style: italic;

@@ -24,6 +24,7 @@ function FiltroLoja({
                 alt=""
                 id="nav-filtros-logo-loja"
               />
+
               {/* <div className="instagram-copy-kkk">
                 <div
                   className="stories"
@@ -65,7 +66,11 @@ function FiltroLoja({
                       settermoProcurado(event.target.value);
                     }}
                   />
-                  <button id="campo-de-busca-botao" type="button">
+                  <button
+                    id="campo-de-busca-botao"
+                    type="button"
+                    style={{ cursor: 'auto' }}
+                  >
                     <i className="fa fa-search" />
                   </button>
                 </div>

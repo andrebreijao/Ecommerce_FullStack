@@ -3,7 +3,6 @@
 /* eslint-disable import/named */
 /* eslint-disable no-lone-blocks */
 /* eslint-disable object-curly-newline */
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
 // --- Post bootstrap -----
@@ -12,8 +11,8 @@ import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
+// import FormControlLabel from '@material-ui/core/FormControlLabel';
+// import Checkbox from '@material-ui/core/Checkbox';
 import Link from '@material-ui/core/Link';
 import Paper from '@material-ui/core/Paper';
 import Box from '@material-ui/core/Box';
@@ -26,6 +25,8 @@ import { Link as LinkRouter } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { login } from '../../actions/userActions';
 import Navmaster from '../../components/nav-bar/eshop/Navmaster';
+import Message from '../../components/Message/Message';
+import Loader from '../../components/Loader';
 
 function Copyright() {
   return (
@@ -118,6 +119,8 @@ export default function SignInSide({ location, history }) {
             <Typography component="h1" variant="h5">
               Entrar
             </Typography>
+            {error && <Message variant="danger">{error}</Message>}
+            {loading && <Loader />}
             <form className={classes.form} noValidate onSubmit={submitHandler}>
               <TextField
                 variant="outlined"
@@ -145,10 +148,10 @@ export default function SignInSide({ location, history }) {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
-              <FormControlLabel
+              {/* <FormControlLabel
                 control={<Checkbox value="remember" color="primary" />}
                 label="Lembrar dados"
-              />
+              /> */}
               <Button
                 type="submit"
                 fullWidth
