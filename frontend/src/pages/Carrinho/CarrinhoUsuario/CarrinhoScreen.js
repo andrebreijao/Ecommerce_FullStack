@@ -210,7 +210,7 @@ export default function CarrinhoMD({ match, location, history }) {
                         gutterBottom
                         className={classes.nomeLoja}
                       >
-                        COLINAS
+                        CENTERVALE
                       </Typography>
                     </Grid>
                     <Grid item xs={12} spacing={1}>
@@ -237,7 +237,7 @@ export default function CarrinhoMD({ match, location, history }) {
                   <Grid item xs={4} spacing={1}>
                     <Avatar
                       variant="square"
-                      src="Imagens/Shoppings/São_José_dos_Campos/Colinas_Shopping/Logo 1x1.jpg"
+                      src="Imagens/Shoppings/São_José_dos_Campos/CenterVale/Logo 1x1.jpg"
                       className={classes.largeAvatar}
                     />
                     {/* <ImageIcon />
