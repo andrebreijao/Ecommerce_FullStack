@@ -11,6 +11,7 @@ import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import Navmaster from './components/nav-bar/eshop/Navmaster';
 import LojaCarrinho from './components/carrinho/LojaCarrinho';
 import EnderecoCarrinho from './components/carrinho/EnderecoCarrinho';
@@ -18,6 +19,7 @@ import TotalCarrinho from './components/carrinho/TotalCarrinho';
 
 // funcionalidades
 import { addToCart } from './actions/cartActions';
+import Message from './components/Message/Message';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,6 +28,13 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: theme.spacing(0),
   },
   paper: {
+    margin: theme.spacing(1),
+    width: '100%',
+    padding: theme.spacing(1),
+    backgroundColor: '#F8F9FB',
+  },
+
+  paperContainer: {
     margin: theme.spacing(1),
     width: '100%',
     padding: theme.spacing(1),
@@ -123,6 +132,17 @@ const useStyles = makeStyles((theme) => ({
     width: theme.spacing(10),
     height: theme.spacing(10),
   },
+  buttonFinalizar: {
+    backgroundColor: '#148BA6',
+    width: '100%',
+    margin: '2rem 0rem 1rem 0rem',
+  },
+
+  carrinhoVazio: {
+    paddin: '1rem',
+    margin: '1rem',
+    width: '100%',
+  },
 }));
 
 export default function CarrinhoMD({ match, location, history }) {
@@ -158,11 +178,19 @@ export default function CarrinhoMD({ match, location, history }) {
       <Grid container spacing={3}>
         <Grid item xs={12} container spacing={1}>
           <Grid item xs={12} sm={8}>
-            <LojaCarrinho />
+            {cartItems.length === 0 ? (
+              <Message variant="info" className={classes.carrinhoVazio}>
+                <Link to="/">
+                  Seu carrinho está vazio, para voltar as compras, clique aqui!
+                </Link>
+              </Message>
+            ) : (
+              <LojaCarrinho />
+            )}
           </Grid>
 
           <Grid item xs={12} sm={4}>
-            <Paper className={classes.paper}>
+            <Paper className={classes.paperContainer}>
               {' '}
               <Typography
                 variant="h6"
@@ -234,6 +262,7 @@ export default function CarrinhoMD({ match, location, history }) {
                   variant="contained"
                   color="primary"
                   filled
+                  className={classes.buttonFinalizar}
                 >
                   FINALIZAR COMPRA
                 </Button>

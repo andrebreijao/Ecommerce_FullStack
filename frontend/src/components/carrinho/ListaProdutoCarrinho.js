@@ -15,21 +15,17 @@ function ListaProdutoCarrinho() {
   };
   return (
     <div>
-      {cartItems.length === 0 ? (
-        <h1>Seu carrinho está vazio, para voltar as compras, clique aqui!</h1>
-      ) : (
-        cartItems.map((item) => (
-          <>
-            <ProdutoCarrinho
-              sku={item.sku}
-              titulo={item.titulo}
-              img={item.img}
-              preco={item.preco}
-              qty={item.qty}
-            />
-          </>
-        ))
-      )}
+      {cartItems.map((item) => (
+        <>
+          <ProdutoCarrinho
+            sku={item.sku}
+            titulo={item.titulo}
+            img={item.img}
+            preco={item.preco}
+            qty={item.qty}
+          />
+        </>
+      ))}
     </div>
   );
 }

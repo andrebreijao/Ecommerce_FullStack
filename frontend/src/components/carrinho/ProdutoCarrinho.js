@@ -21,6 +21,7 @@ import Image from 'material-ui-image';
 
 // funcionalidades
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { addToCart, removeFromCart } from '../../actions/cartActions';
 
 const useStyles = makeStyles((theme) => ({
@@ -33,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
     width: '100%',
     padding: theme.spacing(1),
+    backgroundColor: '#F8F9FB',
   },
 
   grid: {
@@ -162,11 +164,13 @@ function ProdutoCarrinho({ sku, titulo, img, preco, qty }) {
                   src={`../../Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/${img}.webp`}
                 />
               </ListItemAvatar>
-              <ListItemText
-                style={{ paddingLeft: '10px' }}
-                primary={titulo}
-                secondary="Produto de muita qualidade, acretide na gente! Valeu!! Produto de muita qualidade, acretide na gente! Valeu!! "
-              />
+              <Link to={`/produto/${sku}`} style={{ color: 'black' }}>
+                <ListItemText
+                  style={{ paddingLeft: '10px' }}
+                  primary={titulo}
+                  secondary="Produto de muita qualidade, acretide na gente! Valeu!! Produto de muita qualidade, acretide na gente! Valeu!! "
+                />
+              </Link>
             </ListItem>
           </List>
         </Grid>

@@ -1,9 +1,13 @@
+/* eslint-disable object-curly-newline */
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -15,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
     width: '100%',
     padding: theme.spacing(1),
+    backgroundColor: '#F8F9FB',
   },
 
   grid: {
@@ -105,10 +110,20 @@ const useStyles = makeStyles((theme) => ({
     color: 'black',
     padding: theme.spacing(1),
   },
+  buttonCadastrarEnd: {
+    padding: '1rem',
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignContent: 'center',
+  },
 }));
 
 function EnderecoCarrinho() {
   const classes = useStyles();
+
+  const shippingAddress = useSelector((state) => state.cart.shippingAddress);
+  const { address, city, country, postalCode } = shippingAddress;
 
   return (
     <div className={classes.root}>
@@ -116,33 +131,49 @@ function EnderecoCarrinho() {
         {/* Conteudo paper */}
         <Grid item xs={12} container spacing={1}>
           {/* Informações entregra */}
-          <Grid item xs={10} spacing={1}>
-            <Grid item xs={12} spacing={1} className={classes.enderecoTitulo}>
-              Enviar para
-            </Grid>
-            <Grid item xs={12} spacing={1} className={classes.endereco}>
-              RUA SANTA RITA, 19, centro,
-            </Grid>
-            <Grid item xs={12} spacing={1} className={classes.endereco}>
-              NOVA YORK, MG{' '}
-            </Grid>
-            <Grid item xs={12} spacing={1} className={classes.endereco}>
-              CEP 123.456.789-10
-            </Grid>
-          </Grid>
+          {city ? (
+            <>
+              <Grid item xs={10} spacing={1}>
+                <Grid
+                  item
+                  xs={12}
+                  spacing={1}
+                  className={classes.enderecoTitulo}
+                >
+                  Enviar para
+                </Grid>
+                <Grid item xs={12} spacing={1} className={classes.endereco}>
+                  {address}
+                </Grid>
+                <Grid item xs={12} spacing={1} className={classes.endereco}>
+                  {city} , {country}
+                </Grid>
+                <Grid item xs={12} spacing={1} className={classes.endereco}>
+                  CEP {postalCode}
+                </Grid>
+              </Grid>
 
-          {/* Botao alterar */}
-          <Grid item xs={9} spacing={1} />
+              <Grid item xs={9} spacing={1} />
 
-          <Grid item xs={3} spacing={1}>
-            <Button
-              size="small"
-              color="primary"
-              className={classes.buttonResumo}
+              <Grid item xs={3} spacing={1}>
+                <Button
+                  size="small"
+                  color="primary"
+                  className={classes.buttonResumo}
+                >
+                  <Link to="/shipping">ALTERAR</Link>
+                </Button>
+              </Grid>
+            </>
+          ) : (
+            <Link
+              to="/shipping"
+              className={classes.buttonCadastrarEnd}
+              variant="contained"
             >
-              ALTERAR
-            </Button>
-          </Grid>
+              CADASTRAR ENDEREÇO
+            </Link>
+          )}
         </Grid>
       </Paper>
     </div>
