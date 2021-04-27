@@ -1,3 +1,5 @@
+/* eslint-disable comma-dangle */
+/* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-one-expression-per-line */
 import React, { useEffect } from 'react';
@@ -8,7 +10,7 @@ import Avatar from '@material-ui/core/Avatar';
 // import ImageIcon from '@material-ui/icons/Image';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import Navmaster from './components/nav-bar/eshop/Navmaster';
 import LojaCarrinho from './components/carrinho/LojaCarrinho';
 import EnderecoCarrinho from './components/carrinho/EnderecoCarrinho';
@@ -126,10 +128,13 @@ const useStyles = makeStyles((theme) => ({
 export default function CarrinhoMD({ match, location, history }) {
   const classes = useStyles();
 
+  const dispatch = useDispatch();
+
+  const cart = useSelector((state) => state.cart);
+  const { cartItems } = cart;
+
   const productId = match.params.id;
   const qty = location.search ? location.search.split('=')[1] : 1;
-
-  const dispatch = useDispatch();
 
   useEffect(() => {
     if (productId) {
@@ -140,6 +145,12 @@ export default function CarrinhoMD({ match, location, history }) {
   const checkoutHandler = () => {
     history.push('/login?redirect=shipping');
   };
+
+  const totalColinas = cartItems
+    .reduce((acc, item) => acc + item.qty * parseFloat(item.preco), 0)
+    .toFixed(2);
+
+  const totalGasto = (Number(12.99) + Number(totalColinas)).toFixed(2);
 
   return (
     <div className={classes.root}>
@@ -180,7 +191,7 @@ export default function CarrinhoMD({ match, location, history }) {
                         gutterBottom
                         className={classes.resumoNumero}
                       >
-                        TOTAL: R$ 200,99
+                        TOTAL: R$ {totalColinas}
                       </Typography>
                     </Grid>
                     <Grid item xs={12} spacing={1}>
@@ -189,7 +200,7 @@ export default function CarrinhoMD({ match, location, history }) {
                         gutterBottom
                         className={classes.resumoNumero}
                       >
-                        FRETE: R$ 200,99
+                        FRETE: R$ 12,99
                       </Typography>
                     </Grid>
                   </Grid>
@@ -216,7 +227,7 @@ export default function CarrinhoMD({ match, location, history }) {
                 </Grid>
               </Paper>
               <EnderecoCarrinho />
-              <TotalCarrinho />
+              <TotalCarrinho totalShop={totalGasto} />
               <Grid item xs={12} spacing={1}>
                 <Button
                   onClick={checkoutHandler}

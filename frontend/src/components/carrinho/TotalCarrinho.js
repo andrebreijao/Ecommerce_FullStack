@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
@@ -106,7 +107,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function TotalCarrinho() {
+function TotalCarrinho({ totalShop }) {
   const classes = useStyles();
   return (
     <Paper className={classes.paper}>
@@ -116,7 +117,7 @@ function TotalCarrinho() {
           Total com frete
         </Grid>
         <Grid item xs={6} spacing={1} className={classes.totalCompraValor}>
-          R$ 1.203,99
+          R$ {totalShop}
         </Grid>
       </Grid>
     </Paper>

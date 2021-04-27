@@ -17,6 +17,7 @@ import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import DeleteIcon from '@material-ui/icons/Delete';
+import Image from 'material-ui-image';
 
 // funcionalidades
 import { useDispatch, useSelector } from 'react-redux';
@@ -122,6 +123,10 @@ const useStyles = makeStyles((theme) => ({
     color: 'black',
     padding: theme.spacing(1),
   },
+
+  produtoImage: {
+    margin: theme.spacing(1),
+  },
 }));
 
 function ProdutoCarrinho({ sku, titulo, img, preco, qty }) {
@@ -153,14 +158,12 @@ function ProdutoCarrinho({ sku, titulo, img, preco, qty }) {
           <List className={classes.root}>
             <ListItem>
               <ListItemAvatar>
-                <Avatar
-                  variant="square"
+                <Image
                   src={`../../Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/${img}.webp`}
-                >
-                  <ImageIcon />
-                </Avatar>
+                />
               </ListItemAvatar>
               <ListItemText
+                style={{ paddingLeft: '10px' }}
                 primary={titulo}
                 secondary="Produto de muita qualidade, acretide na gente! Valeu!! Produto de muita qualidade, acretide na gente! Valeu!! "
               />
@@ -191,6 +194,7 @@ function ProdutoCarrinho({ sku, titulo, img, preco, qty }) {
               className={classes.button}
               size="small"
               onClick={lessItem}
+              disabled={qty < 2}
             >
               <RemoveIcon />
             </IconButton>

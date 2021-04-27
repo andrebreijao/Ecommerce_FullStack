@@ -1,3 +1,4 @@
+/* eslint-disable comma-dangle */
 /* eslint-disable no-underscore-dangle */
 /* eslint-disable no-unused-expressions */
 /* eslint-disable eqeqeq */
@@ -15,18 +16,23 @@ const produtos = listaproduto;
 export const addToCart = (id, qty) => async (dispatch, getState) => {
   const data = produtos.find((e) => e.sku == id);
 
-  dispatch({
-    type: CART_ADD_ITEM,
-    payload: {
-      sku: data.sku,
-      titulo: data.titulo,
-      img: data.img,
-      preco: data.preco,
-      qty,
-    },
-  });
+  if (qty > 0) {
+    dispatch({
+      type: CART_ADD_ITEM,
+      payload: {
+        sku: data.sku,
+        titulo: data.titulo,
+        img: data.img,
+        preco: data.preco,
+        qty,
+      },
+    });
 
-  localStorage.setItem('cartItems', JSON.stringify(getState().cart.cartItems));
+    localStorage.setItem(
+      'cartItems',
+      JSON.stringify(getState().cart.cartItems)
+    );
+  }
 };
 
 export const removeFromCart = (id) => (dispatch, getState) => {
