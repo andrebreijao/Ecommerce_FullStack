@@ -6,7 +6,6 @@ import Inicial from './pages/Inicial/Inicial';
 import Loja from './pages/Lojas/Loja';
 import ShoppingValeSul from './pages/Shopping/ShoppingValeSul';
 import Produto from './pages/Produto/Produto';
-import Carrinho from './pages/Carrinho/Carrinho';
 import ScrollToTop from './components/App/ScrollToTop';
 import LoginScreen from './pages/Usuario/loginScreen';
 import RegisterScreen from './pages/Usuario/registerScreen';
@@ -17,6 +16,7 @@ import PlaceOrderScreen from './pages/Carrinho/placeOrderScreen';
 import OrderScreen from './pages/Carrinho/OrderScreen';
 import Teste from './Teste';
 import Teste2 from './Teste2';
+import CarrinhoScreen from './pages/Carrinho/CarrinhoUsuario/CarrinhoScreen';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <Route path="/valesul/clothefashion" component={Loja} exact />
         <Route path="/valesul" component={ShoppingValeSul} exact />
         <Route path="/produto/:id" component={Produto} />
-        <Route path="/carrinho/:id?" component={Carrinho} />
+        <Route path="/carrinho/:id?" component={CarrinhoScreen} />
         <Route path="/login" component={LoginScreen} />
         <Route path="/cadastro" component={RegisterScreen} />
         <Route path="/perfil" component={ProfileScreen} />

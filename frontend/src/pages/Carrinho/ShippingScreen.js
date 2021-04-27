@@ -29,7 +29,7 @@ const ShippingScreen = ({ history }) => {
         country,
       })
     );
-    history.push('/payment');
+    history.push('/carrinho');
   };
 
   return (

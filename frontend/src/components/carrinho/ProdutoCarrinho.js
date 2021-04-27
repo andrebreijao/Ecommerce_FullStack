@@ -168,7 +168,7 @@ function ProdutoCarrinho({ sku, titulo, img, preco, qty }) {
                 <ListItemText
                   style={{ paddingLeft: '10px' }}
                   primary={titulo}
-                  secondary="Produto de muita qualidade, acretide na gente! Valeu!! Produto de muita qualidade, acretide na gente! Valeu!! "
+                  secondary="Descrição do produto"
                 />
               </Link>
             </ListItem>
