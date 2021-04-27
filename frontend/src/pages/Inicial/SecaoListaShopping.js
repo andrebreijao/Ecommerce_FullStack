@@ -6,16 +6,21 @@ function SecaoListaShopping() {
     <div className="secao-lista-shoppings">
       <div className="titulo-secao">Os melhores Shoppings estão aqui</div>
       <div className="lista-cards">
-        {/* <div className="card-shopping">
-          <img
-            src="Imagens/Shoppings/São_José_dos_Campos/CenterVale/Logo 1x1.jpg"
-            alt="logo-shopping"
-            className="img-lista-shoppings"
-          />
-          <p>Center Vale Shopping</p>
+        <div className="card-shopping">
+          <Link
+            to="/centervale"
+            style={{ textDecoration: 'none', color: 'black' }}
+          >
+            <img
+              src="Imagens/Shoppings/São_José_dos_Campos/CenterVale/Logo 1x1.jpg"
+              alt="logo-shopping"
+              className="img-lista-shoppings"
+            />
+            <p>Center Vale Shopping</p>
+          </Link>
         </div>
 
-        <div className="card-shopping">
+        {/* <div className="card-shopping">
           <img
             src="./Imagens/Shoppings/São_José_dos_Campos/Colinas_Shopping/Logo 1x1.jpg"
             alt="logo-shopping"
@@ -24,7 +29,7 @@ function SecaoListaShopping() {
           <p>Colinas Shopping</p>
         </div> */}
 
-        <Link to="/valesul" style={{ textDecoration: 'none' }}>
+        {/* <Link to="/valesul" style={{ textDecoration: 'none' }}>
           <div id="link-card-shopping">
             <div className="card-shopping">
               <img
@@ -35,7 +40,7 @@ function SecaoListaShopping() {
               <p>Vale Sul Shopping</p>
             </div>
           </div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

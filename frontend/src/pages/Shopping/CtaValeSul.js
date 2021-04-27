@@ -9,7 +9,7 @@ function CtaValeSul() {
       <div
         className="cta"
         style={{
-          backgroundImage: `url(${`${process.env.PUBLIC_URL}/Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Capa_Vale_Sul.jpg`}) `,
+          backgroundImage: `url(${`${process.env.PUBLIC_URL}/Imagens/Shoppings/São_José_dos_Campos/CenterVale/CTAcentevale2-855070.jpg`}) `,
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           backgroundSize: 'cover',
@@ -18,11 +18,14 @@ function CtaValeSul() {
         <div className="cta-content">
           <img
             id="logo-cta"
-            src="Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Logo 1x1.jpg"
+            src="../../Imagens/Shoppings/São_José_dos_Campos/CenterVale/Logo 1x1.jpg"
             alt="logo"
           />
-          <h1 id="shopping">Bem vindo ao Vale Sul Shopping.</h1>
-          <p id="susbtitulo-shop">Seu shopping de momentos</p>
+          <h1 id="shopping">Bem vindo ao CenterVale.</h1>
+          <p id="susbtitulo-shop">
+            Aliamos tradição e vanguarda, inovando sempre para criar vínculo com
+            os frequentadores.
+          </p>
           <div className="cta-content-search bck-preto">
             <button onClick={entrarShopp} className="btn-medium" type="button">
               Entrar no shopping

@@ -91,10 +91,12 @@ function ShoppingValeuSul() {
         <div className="footer-container">
           <div className="footer-row">
             <div className="footer-col" id="footer-col-eshop">
-              <h4 id="footer-h4">Weby</h4>
+              <h4 id="footer-h4">Loby</h4>
               <ul id="footer-ul">
                 <li>
-                  <a href="#">Quem somos</a>
+                  <a href="#" style={{ color: 'white' }}>
+                    Quem somos
+                  </a>
                 </li>
                 <div className="social-links">
                   <a href="#">
@@ -108,12 +110,12 @@ function ShoppingValeuSul() {
             </div>
 
             <div className="footer-col">
-              <h4 id="footer-h4">Vale Sul Shopping</h4>
+              <h4 id="footer-h4">CenterVale Shopping</h4>
               <ul id="footer-ul">
-                <li>(12) 3321-0900</li>
+                <li>(12) 3924-3026</li>
                 <li>
-                  Av. Andrômeda, 227 - Jardim Satélite, São José dos Campos -
-                  SP, 12230-000
+                  Av. Dep. Benedito Matarazzo, 9403 - Jardim Oswaldo Cruz, São
+                  José dos Campos
                 </li>
                 <div className="social-links">
                   <a href="#">

@@ -10,7 +10,7 @@ function CardMarca({ imagem, nome, video }) {
   return (
     <div className="marcas--container-card">
       <Link
-        to={`/valesul/${nome.toLowerCase().replace(' ', '')}`}
+        to={`/centervale/${nome.toLowerCase().replace(' ', '')}`}
         style={{ textDecoration: 'none' }}
       >
         <div>

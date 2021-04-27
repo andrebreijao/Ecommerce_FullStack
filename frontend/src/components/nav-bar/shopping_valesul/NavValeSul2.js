@@ -33,7 +33,7 @@ function Navvaleusul2() {
       <div className="secao-logo-shop2">
         <Link to="/">
           <img
-            src="./Imagens/Shoppings/São_José_dos_Campos/Vale_Sul/Logo_shopping_Vale_SUL.jpg"
+            src="Imagens/Shoppings/São_José_dos_Campos/CenterVale/centerValeLogoBranco.png"
             alt="logo"
             id="logo-shopping2"
           />
