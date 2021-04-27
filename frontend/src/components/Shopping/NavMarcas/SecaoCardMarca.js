@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 /* eslint-disable operator-linebreak */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/button-has-type */
@@ -33,10 +34,11 @@ function SecaoCardMarca() {
     setscrollX(x);
   };
 
+  {
+    /*
   // mostra seta dinamicamente
-  const [showArrow, setshowArrow] = useState(false);
-
-  useEffect(() => {
+  const [showArrow, setshowArrow] = useState(true);
+useEffect(() => {
     const analiseArrow = () => {
       // tamanho lista
       const listaW =
@@ -54,19 +56,20 @@ function SecaoCardMarca() {
     return () => {
       window.removeEventListener('resize', analiseArrow);
     };
-  }, []);
+  }, []); */
+  }
 
   return (
     <>
       <div className="marcas">
         <div className="titulo-e-ver-mais">
           <div className="titulo-secao">Navegue pelas marcas</div>
-          <a href="navegar_lojas.html" className="ver-mais">
+          {/* <a href="navegar_lojas.html" className="ver-mais">
             ver mais
-          </a>
+  </a> */}
         </div>
         <div className="secao--left">
-          {showArrow && (
+          {true && (
             <NavigateBeforeIcon
               onClick={handleLeftArrow}
               style={{ fontSize: 50 }}
@@ -74,7 +77,7 @@ function SecaoCardMarca() {
           )}
         </div>
         <div className="secao--right">
-          {showArrow && (
+          {true && (
             <NavigateNextIcon
               onClick={handleRighttArrow}
               style={{ fontSize: 50 }}
