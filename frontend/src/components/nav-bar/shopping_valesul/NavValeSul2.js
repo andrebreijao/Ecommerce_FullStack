@@ -43,7 +43,7 @@ function Navvaleusul2() {
         <Link to="/">
           <li href="index.html">Home</li>
         </Link>
-        <Link to="/valesul">
+        <Link to="/centervale">
           <li>Shopping</li>
         </Link>
         {/* <Link to="/valesul">
