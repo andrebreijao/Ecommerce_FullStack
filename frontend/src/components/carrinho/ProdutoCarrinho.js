@@ -145,11 +145,11 @@ function ProdutoCarrinho({ sku, titulo, img, preco, qty }) {
 
   // add and remove itens
   const lessItem = () => {
-    dispatch(addToCart(sku, Number(qty - 1)));
+    dispatch(addToCart(sku, Number(qty) - 1));
   };
 
   const plusItem = () => {
-    dispatch(addToCart(sku, Number(qty + 1)));
+    dispatch(addToCart(sku, Number(qty) + 1));
   };
 
   return (
@@ -204,7 +204,7 @@ function ProdutoCarrinho({ sku, titulo, img, preco, qty }) {
             </IconButton>
           </Grid>
           <Grid item xs={4} spacing={0}>
-            <input type="text" id="n-items" value={qty} />
+            <input type="text" id="n-items" value={Number(qty)} />
           </Grid>
           <Grid item xs={4} spacing={0}>
             <IconButton
