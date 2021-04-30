@@ -63,7 +63,7 @@ function Navmaster() {
             <Link>
               <LinkRouter
                 to="/login"
-                style={{ position: 'relative', bottom: '5px' }}
+                style={{ position: 'relative', bottom: '5px', color: 'white' }}
               >
                 <PersonRoundedIcon />
                 Entrar
