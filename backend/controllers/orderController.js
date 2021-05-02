@@ -1,5 +1,6 @@
 import asyncHandler from 'express-async-handler';
 import Order from '../models/orderModel.js';
+import sendMail from '../utils/sendOrderEmail.js';
 
 // @desc    Create new order
 // @route   POST /api/orders
@@ -32,6 +33,8 @@ const addOrderItems = asyncHandler(async (req, res) => {
     const createdOrder = await order.save();
 
     res.status(201).json(createdOrder);
+
+    /*Email com confirmação de ordem*/
   }
 });
 

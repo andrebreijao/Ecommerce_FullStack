@@ -1,3 +1,5 @@
+/* eslint-disable operator-linebreak */
+/* eslint-disable no-underscore-dangle */
 /* eslint-disable comma-dangle */
 /* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable react/prop-types */
@@ -15,11 +17,13 @@ import { Link } from 'react-router-dom';
 import Navmaster from '../../../components/nav-bar/eshop/Navmaster';
 import LojaCarrinho from '../../../components/carrinho/LojaCarrinho';
 import EnderecoCarrinho from '../../../components/carrinho/EnderecoCarrinho';
+import PagamentoCarrinho from '../../../components/carrinho/PagamentoCarrinho';
 import TotalCarrinho from '../../../components/carrinho/TotalCarrinho';
+import Message from '../../../components/Message/Message';
 
 // funcionalidades
 import { addToCart } from '../../../actions/cartActions';
-import Message from '../../../components/Message/Message';
+import { createOrder } from '../../../actions/orderActions';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -162,15 +166,46 @@ export default function CarrinhoMD({ match, location, history }) {
     }
   }, [dispatch, productId, qty]);
 
-  const checkoutHandler = () => {
-    history.push('/login?redirect=shipping');
-  };
-
   const totalColinas = cartItems
     .reduce((acc, item) => acc + item.qty * parseFloat(item.preco), 0)
     .toFixed(2);
 
   const totalGasto = (Number(12.99) + Number(totalColinas)).toFixed(2);
+
+  // Postar pedido
+  const orderCreate = useSelector((state) => state.orderCreate);
+  const { order, success, error } = orderCreate;
+
+  useEffect(() => {
+    if (success) {
+      history.push(`/order/${order._id}`);
+      /* dispatch({ type: USER_DETAILS_RESET });
+      dispatch({ type: ORDER_CREATE_RESET }); */
+    }
+    // eslint-disable-next-line
+  }, [history, success]);
+
+  // verificar se user está logado
+
+  const userLogin = useSelector((state) => state.userLogin);
+  const { userInfo } = userLogin;
+
+  const placeOrderHandler = () => {
+    if (!userInfo) {
+      history.push('/login?redirect=carrinho');
+    } else {
+      dispatch(
+        createOrder({
+          orderItems: cart.cartItems,
+          shippingAddress: cart.shippingAddress,
+          paymentMethod: cart.paymentMethod,
+          itemsPrice: cart.itemsPrice,
+          shippingPrice: cart.shippingPrice,
+          totalPrice: cart.totalPrice,
+        })
+      );
+    }
+  };
 
   return (
     <div className={classes.root}>
@@ -255,15 +290,23 @@ export default function CarrinhoMD({ match, location, history }) {
                 </Grid>
               </Paper>
               <EnderecoCarrinho />
+              <PagamentoCarrinho paymentMethod={cart.paymentMethod} />
               <TotalCarrinho totalShop={totalGasto} />
               <Grid item xs={12} spacing={1}>
+                {error && <Message variant="danger">{error}</Message>}
+              </Grid>
+              <Grid item xs={12} spacing={1}>
                 <Button
-                  onClick={checkoutHandler}
+                  onClick={placeOrderHandler}
                   variant="contained"
                   color="primary"
                   filled
                   className={classes.buttonFinalizar}
-                  disabled
+                  disabled={
+                    !cart.paymentMethod ||
+                    cart.shippingPrice ||
+                    cartItems.length === 0
+                  }
                 >
                   FINALIZAR COMPRA
                 </Button>

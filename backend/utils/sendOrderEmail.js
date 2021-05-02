@@ -1,26 +1,55 @@
 import nodemailer from 'nodemailer';
+import google from 'googleapis';
 
-let transporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com',
-  port: 587,
-  secure: true,
-  auth: {
-    user: 'andre@loby.com.br',
-    pass: '1960!Elon',
-  },
-});
+const CLIENT_ID =
+  '618764626040-7v0g1ahgv2kb40hahkmkn0hjn93guujh.apps.googleusercontent.com';
+const CLIENT_SECRET = '8VOW-GE_SZAf2_6w28dhfLNt';
+const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
+const REFRESH_TOKEN =
+  '1//04weDaWJS-V5kCgYIARAAGAQSNwF-L9IrFhHVoUiYJHxhrHPAHJnn7br0VdWDpvlW7U4zutsjibTnPPRJXfE0xqAp8JSwB5AMopk';
 
-transporter
-  .sendMail({
-    from: 'Andre Felipe <andre@loby.com.br>',
-    to: 'andrebreijao@gmail.com',
-    subject: 'Teste notificação por email',
-    text: 'Deu certo!',
-    html: '<h1>Deu certo!<h2><p>Muito bom!!!</p>',
-  })
-  .then((message) => {
-    console.log(message);
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+//Generate new access token
+const oAuth2Client = new google.Auth.OAuth2Client(
+  CLIENT_ID,
+  CLIENT_SECRET,
+  REDIRECT_URI
+);
+
+oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
+
+const sendMail = async () => {
+  try {
+    const accessToken = await oAuth2Client.getAccessToken();
+
+    const transport = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        type: 'OAuth2',
+        user: 'pedidos@loby.com.br',
+        clientId: CLIENT_ID,
+        clientSecret: CLIENT_SECRET,
+        refreshToken: REFRESH_TOKEN,
+        accessToken: accessToken,
+      },
+    });
+
+    const mailOptions = {
+      from: 'Pedidos Loby <pedidos@loby.com.br>',
+      to: ['andrebreijao@gmail.com', 'usuarioinexistente@loby.com.br'],
+      subject: 'Teste de email',
+      text: 'teste de email',
+      html: '<h3>teste de email</h3>',
+    };
+
+    const result = await transport.sendMail(mailOptions);
+    return result;
+  } catch (error) {
+    return error;
+  }
+};
+
+export default sendMail;
+
+// sendMail()
+//   .then((result) => console.log('Email enviado...', result))
+//   .catch((error) => console.log(error.message));

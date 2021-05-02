@@ -87,8 +87,6 @@ const getUserProfile = AsyncHandler(async (req, res) => {
 //@acess Private
 
 const updateUserProfile = AsyncHandler(async (req, res) => {
-  const user = await User.findById(req.user._id);
-
   if (user) {
     user.name = req.body.name || user.name;
     user.email = req.body.email || user.email;
