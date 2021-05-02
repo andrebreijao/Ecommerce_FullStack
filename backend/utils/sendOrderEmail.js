@@ -17,7 +17,7 @@ const oAuth2Client = new google.Auth.OAuth2Client(
 
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 
-const sendMail = async () => {
+const sendMail = async (nome, listaItems, email, valorPedido) => {
   try {
     const accessToken = await oAuth2Client.getAccessToken();
 
@@ -35,10 +35,10 @@ const sendMail = async () => {
 
     const mailOptions = {
       from: 'Pedidos Loby <pedidos@loby.com.br>',
-      to: ['andrebreijao@gmail.com', 'usuarioinexistente@loby.com.br'],
+      to: [email],
       subject: 'Teste de email',
-      text: 'teste de email',
-      html: '<h3>teste de email</h3>',
+      text: ` Olá ${nome}, seu pedido foi confirmado! Valor do pedido: ${valorPedido} ${listaItems} Obrigado! `,
+      html: ` <h3>Olá ${nome}, seu pedido foi confirmado!</h3> Valor do pedido: ${valorPedido}  <br>${listaItems}<br> Obrigado! `,
     };
 
     const result = await transport.sendMail(mailOptions);

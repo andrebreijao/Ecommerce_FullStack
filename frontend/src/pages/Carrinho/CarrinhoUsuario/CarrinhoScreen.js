@@ -166,6 +166,20 @@ export default function CarrinhoMD({ match, location, history }) {
     }
   }, [dispatch, productId, qty]);
 
+  //   Calculate prices
+  const addDecimals = (num) => (Math.round(num * 100) / 100).toFixed(2);
+
+  cart.itemsPrice = addDecimals(
+    cart.cartItems.reduce((acc, item) => acc + item.preco * item.qty, 0)
+  );
+
+  // cart.shippingPrice = addDecimals(Number((0.15 * cart.itemsPrice).toFixed(2)));
+  cart.shippingPrice = 12.99;
+
+  cart.totalPrice = (
+    Number(cart.itemsPrice) + Number(cart.shippingPrice)
+  ).toFixed(2);
+
   const totalColinas = cartItems
     .reduce((acc, item) => acc + item.qty * parseFloat(item.preco), 0)
     .toFixed(2);
@@ -304,7 +318,7 @@ export default function CarrinhoMD({ match, location, history }) {
                   className={classes.buttonFinalizar}
                   disabled={
                     !cart.paymentMethod ||
-                    cart.shippingPrice ||
+                    !cart.shippingAddress ||
                     cartItems.length === 0
                   }
                 >

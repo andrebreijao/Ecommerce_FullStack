@@ -30,11 +30,21 @@ const addOrderItems = asyncHandler(async (req, res) => {
       totalPrice,
     });
 
+    console.log(order);
+
     const createdOrder = await order.save();
 
-    res.status(201).json(createdOrder);
+    const items = orderItems
+      .map(function (e) {
+        return e.titulo;
+      })
+      .join();
 
-    /*Email com confirmação de ordem*/
+    //email de confirmação
+
+    sendMail(req.user.name, items, req.user.email, totalPrice);
+
+    res.status(201).json(createdOrder);
   }
 });
 
