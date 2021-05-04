@@ -34,16 +34,20 @@ function Produto({ match, history }) {
 
   return (
     <div className="produto-container">
-      <Link className="btn btn-dark my-3" to="/">
+      <Link className="btn btn-dark my-3" to={`/centervale/${prod.loja}`}>
         Voltar
       </Link>
       <Row>
         <Col md={5}>
-          <Image
-            src={`../../Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/${prod.img}.webp`}
-            alt={prod.name}
-            fluid
-          />
+          {prod.loja === 'clothefashion' ? (
+            <Image
+              src={`../../Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/${prod.img}.webp`}
+              alt={prod.name}
+              fluid
+            />
+          ) : (
+            <Image src={prod.img} alt="produto" fluid />
+          )}
         </Col>
         <Col md={4}>
           <ListGroup variant="flush">

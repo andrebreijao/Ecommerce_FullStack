@@ -76,7 +76,17 @@ function Loja() {
       />
 
       <div className="conteudo-loja">
-        <BannerSectionCueca />
+        {/* <BannerSectionCueca /> */}
+        <img
+          src="Imagens/Lojas/São_José_dos_Campos/CenterVale/Casa_das_Cuecas/1170x500_classicos.webp"
+          alt="banner"
+          style={{
+            height: 'auto',
+            width: '80%',
+            margin: '1rem',
+            marginLeft: '3rem',
+          }}
+        />
 
         <CardlistCueca
           produtos={produtosFiltroGeral()}

@@ -23,6 +23,7 @@ function FiltroLoja({
                 src="Imagens/Lojas/São_José_dos_Campos/CenterVale/Casa_das_Cuecas/logo-1360239649826.png"
                 alt="casa das cuecas"
                 id="nav-filtros-logo-loja"
+                style={{ borderRadius: '50%' }}
               />
 
               {/* <div className="instagram-copy-kkk">
@@ -74,7 +75,10 @@ function FiltroLoja({
                     <i className="fa fa-search" />
                   </button>
                 </div>
-                <div className="linha-personalizavel" id="linha-primaria" />
+                <div
+                  className="linha-personalizavel"
+                  id="linha-primariaCueca"
+                />
               </div>
 
               <div className="container-input" id="container-genero">
@@ -148,7 +152,7 @@ function FiltroLoja({
                 <div
                   style={{
                     height: '5px',
-                    backgroundColor: 'rgb(252, 179, 22)',
+                    backgroundColor: '#717878',
                   }}
                 />
                 <FiltroToggleANTD
@@ -156,9 +160,7 @@ function FiltroLoja({
                   className="lista-toggle-filtro"
                   handleFilters={handleFilters}
                 />
-                <div
-                  style={{ height: '5px', backgroundColor: 'rgb(234, 29, 60)' }}
-                />
+                <div style={{ height: '5px', backgroundColor: '#1D222A' }} />
               </div>
             </div>
           </div>

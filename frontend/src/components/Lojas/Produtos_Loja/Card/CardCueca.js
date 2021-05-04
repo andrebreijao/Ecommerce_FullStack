@@ -34,11 +34,11 @@ function Card({ titulo, imagem, preco, parcelado, id }) {
         <div className="card-grid-precosCueca">
           <div className="card-grid-preco-antigoCueca">
             R$
-            {preco.tofixed(2)}
+            {preco}
           </div>
           <div className="card-grid-preco-atualCueca">
             R$
-            {preco.tofixed(2)}
+            {preco}
           </div>
           <div className="card-grid-preco-parcelaCueca">{parcelado}</div>
         </div>

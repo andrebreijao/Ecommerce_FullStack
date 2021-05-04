@@ -5,7 +5,7 @@ import BannerSection from '../../components/Lojas/Banner_Loja/BannerSection';
 import Cardlist from '../../components/Lojas/Produtos_Loja/Lista_cards/Cardlist';
 import './loja.css';
 import FiltroLoja from '../../components/Lojas/Filtro_Loja/FiltroLoja';
-import listaproduto from '../../Dados/lista_produtos';
+import listaprodutoCloth from '../../Dados/lista_produtosCloth';
 import BtnWhats from '../../components/Lojas/whatsapp/BtnWhats';
 import NavWebyShop from '../../components/nav-bar/eshop/NavWebyShop';
 import Navvaleusul2 from '../../components/nav-bar/shopping_valesul/NavValeSul2';
@@ -24,7 +24,7 @@ function Loja() {
   const mudarGeneroAtivo = (e) => console.log(e);
 
   // Filtro barra de pesquisa
-  const produtosTermo = listaproduto.filter((val) => {
+  const produtosTermo = listaprodutoCloth.filter((val) => {
     if (termoProcurado === '') {
       return val;
     }

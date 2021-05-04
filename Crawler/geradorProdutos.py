@@ -21,10 +21,20 @@ for i in range(2, sheet_obj.max_row):
     img3 = sheet_obj.cell(row=i, column=10).value
     img4 = sheet_obj.cell(row=i, column=11).value
     img5 = sheet_obj.cell(row=i, column=12).value
-    preco = sheet_obj.cell(row=i, column=6).value
-    sku = 8+i
 
-    produto = f"{{nome: '{nome}', genero: '', categoria: '{categoria}',faixa: '',img1: '{img1}',img2: '{img2}',img3: '{img3}',img4: '{img4}',img5: '{img5}',preco: {preco},parcelado: '',descricao: 'Não disponível',loja: 'Casa das Cuecas',sku: {sku}, }},"
+    preco = sheet_obj.cell(row=i, column=6).value
+    preco = "{:.2f}".format(float(preco))
+
+    descricao_bruta = sheet_obj.cell(row=i, column=7).value.split('\n\n')[0]
+    descricao = ''
+    caracteres_pau = ['“', '”', "'", "''"]
+    for letra in descricao_bruta:
+        if letra not in caracteres_pau:
+            descricao += letra
+
+    sku = 7+i
+
+    produto = f"{{nome: '{nome}', genero: '', categoria: '{categoria}',faixa: '',img1: '{img1}',img2: '{img2}',img3: '{img3}',img4: '{img4}',img5: '{img5}',preco: {preco},parcelado: '',descricao: '{str(descricao)}',loja: 'Casa das Cuecas',sku: {sku}, }},"
 
     lista_produtos += produto
 

@@ -131,7 +131,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function ProdutoCarrinho({ sku, titulo, img, preco, qty }) {
+function ProdutoCarrinho({ sku, titulo, img, preco, qty, loja }) {
   const classes = useStyles();
 
   const dispatch = useDispatch();
@@ -160,9 +160,13 @@ function ProdutoCarrinho({ sku, titulo, img, preco, qty }) {
           <List className={classes.root}>
             <ListItem>
               <ListItemAvatar>
-                <Image
-                  src={`../../Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/${img}.webp`}
-                />
+                {loja === 'clothefashion' ? (
+                  <Image
+                    src={`../../Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/${img}.webp`}
+                  />
+                ) : (
+                  <Image src={img} />
+                )}
               </ListItemAvatar>
               <Link to={`/produto/${sku}`} style={{ color: 'black' }}>
                 <ListItemText

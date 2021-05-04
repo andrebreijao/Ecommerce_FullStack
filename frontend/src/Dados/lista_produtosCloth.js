@@ -1,5 +1,3 @@
-import listaprodutoCueca from './lista_produtosCueca';
-
 const listaprodutoCloth = [
   {
     titulo: 'Shorts masculino Em Sarja - Azul',
@@ -99,6 +97,4 @@ const listaprodutoCloth = [
   },
 ];
 
-const listaproduto = [...listaprodutoCloth, ...listaprodutoCueca];
-
-export default listaproduto;
+export default listaprodutoCloth;
