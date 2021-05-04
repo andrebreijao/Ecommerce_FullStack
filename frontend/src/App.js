@@ -17,6 +17,7 @@ import OrderScreen from './pages/Carrinho/OrderScreen';
 import Teste from './Teste';
 import Teste2 from './Teste2';
 import CarrinhoScreen from './pages/Carrinho/CarrinhoUsuario/CarrinhoScreen';
+import casaDasCuecas from './pages/Lojas/casaDasCuecas';
 
 function App() {
   return (
@@ -24,8 +25,13 @@ function App() {
       <ScrollToTop />
       <div className="App">
         <Route path="/" component={Inicial} exact />
-        <Route path="/centervale/clothefashion" component={Loja} exact />
         <Route path="/centervale" component={ShoppingValeSul} exact />
+        <Route path="/centervale/clothefashion" component={Loja} exact />
+        <Route
+          path="/centervale/casadascuecas"
+          component={casaDasCuecas}
+          exact
+        />
         <Route path="/produto/:id" component={Produto} />
         <Route path="/carrinho/:id?" component={CarrinhoScreen} />
         <Route path="/login" component={LoginScreen} />

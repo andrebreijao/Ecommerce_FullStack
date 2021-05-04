@@ -9,6 +9,7 @@
   top: 0;
   z-index: 1000;
   grid-template-columns: 2fr 4fr 2fr;
+  box-shadow: 0 4px 5px 2px rgb(0 0 0 / 40%);
 }
 
 .secao-logo-shop2 {
