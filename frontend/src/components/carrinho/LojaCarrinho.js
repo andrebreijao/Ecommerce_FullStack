@@ -57,7 +57,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 600,
     margin: theme.spacing(1),
   },
-  listaProdutos: {
+  listaProdutosLojas: {
     textTransform: 'upperCase',
     fontWeight: 500,
     margin: theme.spacing(1),
@@ -117,16 +117,18 @@ export default function FullWidthGrid() {
         {/* Nome da loja */}
         <Grid item xs={12} spacing={1}>
           <Typography variant="h7" gutterBottom className={classes.nomeLoja}>
-            Cloth fashion
+            {/* Cloth fashion */}
+            Lista de Produtos
           </Typography>
         </Grid>
         <Grid item xs={12} spacing={1}>
           <Typography
             variant="h8"
             gutterBottom
-            className={classes.listaProdutos}
+            className={classes.listaProdutosLojas}
           >
-            Lista de Produtos
+            {/* Lista de Produtos */}
+            Resumo
           </Typography>
         </Grid>
 

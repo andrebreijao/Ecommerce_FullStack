@@ -2,10 +2,17 @@
   margin: 0;
   transition: 0.1s;
   transition-timing-function: ease;
+  display: grid;
+  grid-template-rows: 4fr 1fr 1fr;
+  margin: 0;
+  transform: scale(0.8);
+  transition: 0.2s;
+  transition-timing-function: ease;
+  cursor: pointer;
 }
 
 .card-produto-gridCueca:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
   outline: none;
 }
 
@@ -48,18 +55,6 @@
 .produto-grid-imgCueca {
   height: 200px;
   border-radius: 5px;
-}
-
-.card-produto-gridCueca {
-  margin: 0;
-  transform: scale(0.8);
-  transition: 0.2s;
-  transition-timing-function: ease;
-  cursor: pointer;
-}
-
-.card-produto-gridCueca:hover {
-  transform: scale(0.9);
 }
 
 .card-grid-nome-produtoCueca {

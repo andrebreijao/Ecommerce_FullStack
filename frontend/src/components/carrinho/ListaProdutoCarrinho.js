@@ -21,7 +21,7 @@ function ListaProdutoCarrinho() {
             sku={item.sku}
             titulo={item.titulo}
             img={item.img}
-            preco={item}
+            preco={item.preco}
             qty={item.qty}
             loja={item.loja}
           />
