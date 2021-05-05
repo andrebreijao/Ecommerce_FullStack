@@ -5,8 +5,9 @@ import React from 'react';
 import './filtrolojaCueca.css';
 import FiltroToggleANTD from './FiltroToggleANTD';
 
-function FiltroLoja({
-  settermoProcurado,
+function FiltroLojaCueca({
+  settermoProcuradoCueca,
+  termoProcuradoCueca,
   handleFilters,
   setGeneroAtivo,
   // eslint-disable-next-line no-unused-vars
@@ -64,7 +65,8 @@ function FiltroLoja({
                     placeholder="Pesquisar"
                     id="campo-busca-input-text"
                     onChange={(event) => {
-                      settermoProcurado(event.target.value);
+                      settermoProcuradoCueca(event.target.value);
+                      console.log(termoProcuradoCueca);
                     }}
                   />
                   <button
@@ -170,4 +172,4 @@ function FiltroLoja({
   );
 }
 
-export default FiltroLoja;
+export default FiltroLojaCueca;

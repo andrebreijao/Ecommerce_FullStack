@@ -10,8 +10,8 @@ import BtnWhats from '../../components/Lojas/whatsapp/BtnWhats';
 import NavWebyShop from '../../components/nav-bar/eshop/NavWebyShop';
 import Navvaleusul2 from '../../components/nav-bar/shopping_valesul/NavValeSul2';
 
-function Loja() {
-  const [termoProcurado, settermoProcurado] = useState('');
+function CasadasCuecas() {
+  const [termoProcuradoCueca, settermoProcuradoCueca] = useState('');
   const [arrCat, setarrCat] = useState([]);
   const [generoAtivo, setGeneroAtivo] = useState('');
 
@@ -25,10 +25,10 @@ function Loja() {
 
   // Filtro barra de pesquisa
   const produtosTermo = listaprodutoCueca.filter((val) => {
-    if (termoProcurado === '') {
+    if (termoProcuradoCueca === '') {
       return val;
     }
-    if (val.titulo.toLowerCase().includes(termoProcurado.toLowerCase())) {
+    if (val.titulo.toLowerCase().includes(termoProcuradoCueca.toLowerCase())) {
       return val;
     }
     return false;
@@ -51,12 +51,10 @@ function Loja() {
 
   // Reiniciar o filtro
   const reiniciarFiltro = () => {
-    settermoProcurado('');
+    settermoProcuradoCueca('');
     setarrCat([]);
     setGeneroAtivo('');
   };
-
-  const fixedStyle = { position: 'fixed', bottom: '10px', right: '10px' };
 
   return (
     <>
@@ -66,8 +64,8 @@ function Loja() {
 
       <FiltroLojaCueca
         style={{ zIndex: '0' }}
-        termoProcurado={termoProcurado}
-        settermoProcurado={settermoProcurado}
+        termoProcuradoCueca={termoProcuradoCueca}
+        settermoProcuradoCueca={settermoProcuradoCueca}
         generoAtivo={generoAtivo}
         setGeneroAtivo={setGeneroAtivo}
         handleFilters={(filters) => {
@@ -99,4 +97,4 @@ function Loja() {
   );
 }
 
-export default Loja;
+export default CasadasCuecas;

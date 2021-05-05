@@ -15,7 +15,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 10,
   },
   {
@@ -33,7 +33,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 11,
   },
   {
@@ -50,7 +50,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 12,
   },
   {
@@ -69,7 +69,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 13,
   },
   {
@@ -88,7 +88,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 14,
   },
   {
@@ -106,7 +106,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 15,
   },
   {
@@ -123,7 +123,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 16,
   },
   {
@@ -142,7 +142,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 17,
   },
   {
@@ -161,7 +161,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 18,
   },
   {
@@ -180,7 +180,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 19,
   },
   {
@@ -199,7 +199,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 20,
   },
   {
@@ -218,7 +218,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 21,
   },
   {
@@ -235,7 +235,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 22,
   },
   {
@@ -252,7 +252,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 23,
   },
   {
@@ -269,7 +269,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 24,
   },
   {
@@ -288,7 +288,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 25,
   },
   {
@@ -307,7 +307,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 26,
   },
   {
@@ -324,7 +324,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 27,
   },
   {
@@ -343,7 +343,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 28,
   },
   {
@@ -362,7 +362,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 29,
   },
   {
@@ -379,7 +379,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 30,
   },
   {
@@ -398,7 +398,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 31,
   },
   {
@@ -415,7 +415,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 32,
   },
   {
@@ -434,7 +434,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 33,
   },
   {
@@ -451,7 +451,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 34,
   },
   {
@@ -468,7 +468,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 35,
   },
   {
@@ -485,7 +485,7 @@ const listaprodutoCueca = [
     preco: 35.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 36,
   },
   {
@@ -504,7 +504,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 37,
   },
   {
@@ -521,7 +521,7 @@ const listaprodutoCueca = [
     preco: 29.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 38,
   },
   {
@@ -540,7 +540,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 39,
   },
   {
@@ -561,7 +561,7 @@ const listaprodutoCueca = [
     preco: 12.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 40,
   },
   {
@@ -580,7 +580,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 41,
   },
   {
@@ -597,7 +597,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 42,
   },
   {
@@ -614,7 +614,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 43,
   },
   {
@@ -633,7 +633,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 44,
   },
   {
@@ -652,7 +652,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 45,
   },
   {
@@ -669,7 +669,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 46,
   },
   {
@@ -688,7 +688,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 47,
   },
   {
@@ -705,7 +705,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 48,
   },
   {
@@ -724,7 +724,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 49,
   },
   {
@@ -741,7 +741,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 50,
   },
   {
@@ -758,7 +758,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 51,
   },
   {
@@ -777,7 +777,7 @@ const listaprodutoCueca = [
     preco: 39.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 52,
   },
   {
@@ -796,7 +796,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 53,
   },
   {
@@ -815,7 +815,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 54,
   },
   {
@@ -832,7 +832,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 55,
   },
   {
@@ -853,7 +853,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 56,
   },
   {
@@ -872,7 +872,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 57,
   },
   {
@@ -891,7 +891,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 58,
   },
   {
@@ -910,7 +910,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 59,
   },
   {
@@ -929,7 +929,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 60,
   },
   {
@@ -948,7 +948,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 61,
   },
   {
@@ -967,7 +967,7 @@ const listaprodutoCueca = [
     preco: 289.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 62,
   },
   {
@@ -984,7 +984,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 63,
   },
   {
@@ -1003,7 +1003,7 @@ const listaprodutoCueca = [
     preco: 269.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 64,
   },
   {
@@ -1022,7 +1022,7 @@ const listaprodutoCueca = [
     preco: 299.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 65,
   },
   {
@@ -1041,7 +1041,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 66,
   },
   {
@@ -1058,7 +1058,7 @@ const listaprodutoCueca = [
     preco: 349.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 67,
   },
   {
@@ -1077,7 +1077,7 @@ const listaprodutoCueca = [
     preco: 289.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 68,
   },
   {
@@ -1094,7 +1094,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 69,
   },
   {
@@ -1111,7 +1111,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 70,
   },
   {
@@ -1129,7 +1129,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 71,
   },
   {
@@ -1147,7 +1147,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 72,
   },
   {
@@ -1166,7 +1166,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 73,
   },
   {
@@ -1185,7 +1185,7 @@ const listaprodutoCueca = [
     preco: 399.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 74,
   },
   {
@@ -1204,7 +1204,7 @@ const listaprodutoCueca = [
     preco: 249.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 75,
   },
   {
@@ -1221,7 +1221,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 76,
   },
   {
@@ -1238,7 +1238,7 @@ const listaprodutoCueca = [
     preco: 299.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 77,
   },
   {
@@ -1255,7 +1255,7 @@ const listaprodutoCueca = [
     preco: 249.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 78,
   },
   {
@@ -1274,7 +1274,7 @@ const listaprodutoCueca = [
     preco: 399.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 79,
   },
   {
@@ -1293,7 +1293,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 80,
   },
   {
@@ -1312,7 +1312,7 @@ const listaprodutoCueca = [
     preco: 299.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 81,
   },
   {
@@ -1329,7 +1329,7 @@ const listaprodutoCueca = [
     preco: 269.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 82,
   },
   {
@@ -1346,7 +1346,7 @@ const listaprodutoCueca = [
     preco: 299.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 83,
   },
   {
@@ -1363,7 +1363,7 @@ const listaprodutoCueca = [
     preco: 449.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 84,
   },
   {
@@ -1380,7 +1380,7 @@ const listaprodutoCueca = [
     preco: 279.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 85,
   },
   {
@@ -1397,7 +1397,7 @@ const listaprodutoCueca = [
     preco: 279.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 86,
   },
   {
@@ -1414,7 +1414,7 @@ const listaprodutoCueca = [
     preco: 249.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 87,
   },
   {
@@ -1431,7 +1431,7 @@ const listaprodutoCueca = [
     preco: 249.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 88,
   },
   {
@@ -1450,7 +1450,7 @@ const listaprodutoCueca = [
     preco: 299.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 89,
   },
   {
@@ -1468,7 +1468,7 @@ const listaprodutoCueca = [
     preco: 349.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 90,
   },
   {
@@ -1487,7 +1487,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 91,
   },
   {
@@ -1504,7 +1504,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 92,
   },
   {
@@ -1521,7 +1521,7 @@ const listaprodutoCueca = [
     preco: 299.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 93,
   },
   {
@@ -1541,7 +1541,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 94,
   },
   {
@@ -1560,7 +1560,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 95,
   },
   {
@@ -1579,7 +1579,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 96,
   },
   {
@@ -1597,7 +1597,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 97,
   },
   {
@@ -1616,7 +1616,7 @@ const listaprodutoCueca = [
     preco: 269.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 98,
   },
   {
@@ -1632,7 +1632,7 @@ const listaprodutoCueca = [
     preco: 279.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 99,
   },
   {
@@ -1651,7 +1651,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 100,
   },
   {
@@ -1668,7 +1668,7 @@ const listaprodutoCueca = [
     preco: 399.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 101,
   },
   {
@@ -1685,7 +1685,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 102,
   },
   {
@@ -1702,7 +1702,7 @@ const listaprodutoCueca = [
     preco: 329.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 103,
   },
   {
@@ -1719,7 +1719,7 @@ const listaprodutoCueca = [
     preco: 279.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 104,
   },
   {
@@ -1736,7 +1736,7 @@ const listaprodutoCueca = [
     preco: 249.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 105,
   },
   {
@@ -1753,7 +1753,7 @@ const listaprodutoCueca = [
     preco: 24.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 106,
   },
   {
@@ -1770,7 +1770,7 @@ const listaprodutoCueca = [
     preco: 29.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 107,
   },
   {
@@ -1787,7 +1787,7 @@ const listaprodutoCueca = [
     preco: 34.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 108,
   },
   {
@@ -1804,7 +1804,7 @@ const listaprodutoCueca = [
     preco: 34.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 109,
   },
   {
@@ -1821,7 +1821,7 @@ const listaprodutoCueca = [
     preco: 24.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 110,
   },
   {
@@ -1839,7 +1839,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 111,
   },
   {
@@ -1857,7 +1857,7 @@ const listaprodutoCueca = [
     preco: 39.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 112,
   },
   {
@@ -1874,7 +1874,7 @@ const listaprodutoCueca = [
     preco: 24.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 113,
   },
   {
@@ -1891,7 +1891,7 @@ const listaprodutoCueca = [
     preco: 29.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 114,
   },
   {
@@ -1908,7 +1908,7 @@ const listaprodutoCueca = [
     preco: 24.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 115,
   },
   {
@@ -1925,7 +1925,7 @@ const listaprodutoCueca = [
     preco: 29.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 116,
   },
   {
@@ -1942,7 +1942,7 @@ const listaprodutoCueca = [
     preco: 29.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 117,
   },
   {
@@ -1960,7 +1960,7 @@ const listaprodutoCueca = [
     preco: 29.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 118,
   },
   {
@@ -1977,7 +1977,7 @@ const listaprodutoCueca = [
     preco: 79.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 119,
   },
   {
@@ -1994,7 +1994,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 120,
   },
   {
@@ -2011,7 +2011,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 121,
   },
   {
@@ -2028,7 +2028,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 122,
   },
   {
@@ -2045,7 +2045,7 @@ const listaprodutoCueca = [
     preco: 34.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 123,
   },
   {
@@ -2062,7 +2062,7 @@ const listaprodutoCueca = [
     preco: 89,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 124,
   },
   {
@@ -2079,7 +2079,7 @@ const listaprodutoCueca = [
     preco: 34.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 125,
   },
   {
@@ -2096,7 +2096,7 @@ const listaprodutoCueca = [
     preco: 29.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 126,
   },
   {
@@ -2114,7 +2114,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 127,
   },
   {
@@ -2132,7 +2132,7 @@ const listaprodutoCueca = [
     preco: 29.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 128,
   },
   {
@@ -2150,7 +2150,7 @@ const listaprodutoCueca = [
     preco: 29.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 129,
   },
   {
@@ -2167,7 +2167,7 @@ const listaprodutoCueca = [
     preco: 39.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 130,
   },
   {
@@ -2184,7 +2184,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 131,
   },
   {
@@ -2201,7 +2201,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 132,
   },
   {
@@ -2218,7 +2218,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 133,
   },
   {
@@ -2235,7 +2235,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 134,
   },
   {
@@ -2252,7 +2252,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 135,
   },
   {
@@ -2270,7 +2270,7 @@ const listaprodutoCueca = [
     preco: 34.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 136,
   },
   {
@@ -2287,7 +2287,7 @@ const listaprodutoCueca = [
     preco: 24.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 137,
   },
   {
@@ -2304,7 +2304,7 @@ const listaprodutoCueca = [
     preco: 89,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 138,
   },
   {
@@ -2321,7 +2321,7 @@ const listaprodutoCueca = [
     preco: 89,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 139,
   },
   {
@@ -2338,7 +2338,7 @@ const listaprodutoCueca = [
     preco: 89,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 140,
   },
   {
@@ -2355,7 +2355,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 141,
   },
   {
@@ -2372,7 +2372,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 142,
   },
   {
@@ -2389,7 +2389,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 143,
   },
   {
@@ -2406,7 +2406,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 144,
   },
   {
@@ -2423,7 +2423,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 145,
   },
   {
@@ -2440,7 +2440,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 146,
   },
   {
@@ -2457,7 +2457,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 147,
   },
   {
@@ -2474,7 +2474,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 148,
   },
   {
@@ -2491,7 +2491,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 149,
   },
   {
@@ -2508,7 +2508,7 @@ const listaprodutoCueca = [
     preco: 29.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 150,
   },
   {
@@ -2525,7 +2525,7 @@ const listaprodutoCueca = [
     preco: 24.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 151,
   },
   {
@@ -2542,7 +2542,7 @@ const listaprodutoCueca = [
     preco: 24.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 152,
   },
   {
@@ -2561,7 +2561,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 153,
   },
   {
@@ -2578,7 +2578,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 154,
   },
   {
@@ -2597,7 +2597,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 155,
   },
   {
@@ -2614,7 +2614,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 156,
   },
   {
@@ -2631,7 +2631,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 157,
   },
   {
@@ -2648,7 +2648,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 158,
   },
   {
@@ -2667,7 +2667,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 159,
   },
   {
@@ -2684,7 +2684,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 160,
   },
   {
@@ -2701,7 +2701,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 161,
   },
   {
@@ -2718,7 +2718,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 162,
   },
   {
@@ -2735,7 +2735,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 163,
   },
   {
@@ -2752,7 +2752,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 164,
   },
   {
@@ -2769,7 +2769,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 165,
   },
   {
@@ -2786,7 +2786,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 166,
   },
   {
@@ -2803,7 +2803,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 167,
   },
   {
@@ -2820,7 +2820,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 168,
   },
   {
@@ -2837,7 +2837,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 169,
   },
   {
@@ -2854,7 +2854,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 170,
   },
   {
@@ -2871,7 +2871,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 171,
   },
   {
@@ -2888,7 +2888,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 172,
   },
   {
@@ -2905,7 +2905,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 173,
   },
   {
@@ -2922,7 +2922,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 174,
   },
   {
@@ -2939,7 +2939,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 175,
   },
   {
@@ -2956,7 +2956,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 176,
   },
   {
@@ -2973,7 +2973,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 177,
   },
   {
@@ -2990,7 +2990,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 178,
   },
   {
@@ -3007,7 +3007,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 179,
   },
   {
@@ -3024,7 +3024,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 180,
   },
   {
@@ -3041,7 +3041,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 181,
   },
   {
@@ -3058,7 +3058,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 182,
   },
   {
@@ -3077,7 +3077,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 183,
   },
   {
@@ -3096,7 +3096,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 184,
   },
   {
@@ -3115,7 +3115,7 @@ const listaprodutoCueca = [
     preco: 79.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 185,
   },
   {
@@ -3134,7 +3134,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 186,
   },
   {
@@ -3153,7 +3153,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 187,
   },
   {
@@ -3172,7 +3172,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 188,
   },
   {
@@ -3191,7 +3191,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 189,
   },
   {
@@ -3209,7 +3209,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 190,
   },
   {
@@ -3227,7 +3227,7 @@ const listaprodutoCueca = [
     preco: 79.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 191,
   },
   {
@@ -3247,7 +3247,7 @@ const listaprodutoCueca = [
     preco: 79.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 192,
   },
   {
@@ -3265,7 +3265,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 193,
   },
   {
@@ -3284,7 +3284,7 @@ const listaprodutoCueca = [
     preco: 49.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 194,
   },
   {
@@ -3302,7 +3302,7 @@ const listaprodutoCueca = [
     preco: 79.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 195,
   },
   {
@@ -3321,7 +3321,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 196,
   },
   {
@@ -3338,7 +3338,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 197,
   },
   {
@@ -3357,7 +3357,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 198,
   },
   {
@@ -3376,7 +3376,7 @@ const listaprodutoCueca = [
     preco: 39.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 199,
   },
   {
@@ -3395,7 +3395,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 200,
   },
   {
@@ -3414,7 +3414,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 201,
   },
   {
@@ -3433,7 +3433,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 202,
   },
   {
@@ -3452,7 +3452,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 203,
   },
   {
@@ -3471,7 +3471,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 204,
   },
   {
@@ -3489,7 +3489,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 205,
   },
   {
@@ -3508,7 +3508,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 206,
   },
   {
@@ -3527,7 +3527,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 207,
   },
   {
@@ -3546,7 +3546,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 208,
   },
   {
@@ -3565,7 +3565,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 209,
   },
   {
@@ -3584,7 +3584,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 210,
   },
   {
@@ -3602,7 +3602,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 211,
   },
   {
@@ -3621,7 +3621,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 212,
   },
   {
@@ -3640,7 +3640,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 213,
   },
   {
@@ -3657,7 +3657,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 214,
   },
   {
@@ -3676,7 +3676,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 215,
   },
   {
@@ -3695,7 +3695,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 216,
   },
   {
@@ -3714,7 +3714,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 217,
   },
   {
@@ -3732,7 +3732,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 218,
   },
   {
@@ -3751,7 +3751,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 219,
   },
   {
@@ -3768,7 +3768,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 220,
   },
   {
@@ -3786,7 +3786,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 221,
   },
   {
@@ -3804,7 +3804,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 222,
   },
   {
@@ -3822,7 +3822,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 223,
   },
   {
@@ -3841,7 +3841,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 224,
   },
   {
@@ -3859,7 +3859,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 225,
   },
   {
@@ -3878,7 +3878,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 226,
   },
   {
@@ -3897,7 +3897,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 227,
   },
   {
@@ -3914,7 +3914,7 @@ const listaprodutoCueca = [
     preco: 189.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 228,
   },
   {
@@ -3933,7 +3933,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 229,
   },
   {
@@ -3950,7 +3950,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 230,
   },
   {
@@ -3969,7 +3969,7 @@ const listaprodutoCueca = [
     preco: 249.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 231,
   },
   {
@@ -3988,7 +3988,7 @@ const listaprodutoCueca = [
     preco: 249.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 232,
   },
   {
@@ -4007,7 +4007,7 @@ const listaprodutoCueca = [
     preco: 149.99,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 233,
   },
   {
@@ -4026,7 +4026,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 234,
   },
   {
@@ -4043,7 +4043,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 235,
   },
   {
@@ -4060,7 +4060,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 236,
   },
   {
@@ -4077,7 +4077,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 237,
   },
   {
@@ -4094,7 +4094,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 238,
   },
   {
@@ -4111,7 +4111,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 239,
   },
   {
@@ -4128,7 +4128,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 240,
   },
   {
@@ -4145,7 +4145,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 241,
   },
   {
@@ -4162,7 +4162,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 242,
   },
   {
@@ -4179,7 +4179,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 243,
   },
   {
@@ -4198,7 +4198,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 244,
   },
   {
@@ -4217,7 +4217,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 245,
   },
   {
@@ -4236,7 +4236,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 246,
   },
   {
@@ -4255,7 +4255,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 247,
   },
   {
@@ -4273,7 +4273,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 248,
   },
   {
@@ -4292,7 +4292,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 249,
   },
   {
@@ -4309,7 +4309,7 @@ const listaprodutoCueca = [
     preco: 289.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 250,
   },
   {
@@ -4329,7 +4329,7 @@ const listaprodutoCueca = [
     preco: 279.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 251,
   },
   {
@@ -4346,7 +4346,7 @@ const listaprodutoCueca = [
     preco: 269.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 252,
   },
   {
@@ -4365,7 +4365,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 253,
   },
   {
@@ -4384,7 +4384,7 @@ const listaprodutoCueca = [
     preco: 189.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 254,
   },
   {
@@ -4403,7 +4403,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 255,
   },
   {
@@ -4422,7 +4422,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 256,
   },
   {
@@ -4439,7 +4439,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 257,
   },
   {
@@ -4459,7 +4459,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 258,
   },
   {
@@ -4478,7 +4478,7 @@ const listaprodutoCueca = [
     preco: 159.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 259,
   },
   {
@@ -4495,7 +4495,7 @@ const listaprodutoCueca = [
     preco: 299.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 260,
   },
   {
@@ -4514,7 +4514,7 @@ const listaprodutoCueca = [
     preco: 249.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 261,
   },
   {
@@ -4533,7 +4533,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 262,
   },
   {
@@ -4552,7 +4552,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 263,
   },
   {
@@ -4570,7 +4570,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 264,
   },
   {
@@ -4589,7 +4589,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 265,
   },
   {
@@ -4608,7 +4608,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 266,
   },
   {
@@ -4628,7 +4628,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 267,
   },
   {
@@ -4647,7 +4647,7 @@ const listaprodutoCueca = [
     preco: 115,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 268,
   },
   {
@@ -4666,7 +4666,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 269,
   },
   {
@@ -4683,7 +4683,7 @@ const listaprodutoCueca = [
     preco: 249.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 270,
   },
   {
@@ -4703,7 +4703,7 @@ const listaprodutoCueca = [
     preco: 189.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 271,
   },
   {
@@ -4723,7 +4723,7 @@ const listaprodutoCueca = [
     preco: 399.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 272,
   },
   {
@@ -4741,7 +4741,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 273,
   },
   {
@@ -4761,7 +4761,7 @@ const listaprodutoCueca = [
     preco: 189.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 274,
   },
   {
@@ -4780,7 +4780,7 @@ const listaprodutoCueca = [
     preco: 189.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 275,
   },
   {
@@ -4798,7 +4798,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 276,
   },
   {
@@ -4815,7 +4815,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 277,
   },
   {
@@ -4834,7 +4834,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 278,
   },
   {
@@ -4852,7 +4852,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 279,
   },
   {
@@ -4870,7 +4870,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 280,
   },
   {
@@ -4888,7 +4888,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 281,
   },
   {
@@ -4906,7 +4906,7 @@ const listaprodutoCueca = [
     preco: 289.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 282,
   },
   {
@@ -4924,7 +4924,7 @@ const listaprodutoCueca = [
     preco: 289.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 283,
   },
   {
@@ -4942,7 +4942,7 @@ const listaprodutoCueca = [
     preco: 289.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 284,
   },
   {
@@ -4960,7 +4960,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 285,
   },
   {
@@ -4978,7 +4978,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 286,
   },
   {
@@ -4996,7 +4996,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 287,
   },
   {
@@ -5013,7 +5013,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 288,
   },
   {
@@ -5031,7 +5031,7 @@ const listaprodutoCueca = [
     preco: 329.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 289,
   },
   {
@@ -5049,7 +5049,7 @@ const listaprodutoCueca = [
     preco: 329.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 290,
   },
   {
@@ -5067,7 +5067,7 @@ const listaprodutoCueca = [
     preco: 329.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 291,
   },
   {
@@ -5084,7 +5084,7 @@ const listaprodutoCueca = [
     preco: 329.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 292,
   },
   {
@@ -5102,7 +5102,7 @@ const listaprodutoCueca = [
     preco: 229.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 293,
   },
   {
@@ -5119,7 +5119,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 294,
   },
   {
@@ -5138,7 +5138,7 @@ const listaprodutoCueca = [
     preco: 189.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 295,
   },
   {
@@ -5155,7 +5155,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 296,
   },
   {
@@ -5174,7 +5174,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 297,
   },
   {
@@ -5192,7 +5192,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 298,
   },
   {
@@ -5211,7 +5211,7 @@ const listaprodutoCueca = [
     preco: 179.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 299,
   },
   {
@@ -5230,7 +5230,7 @@ const listaprodutoCueca = [
     preco: 179.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 300,
   },
   {
@@ -5249,7 +5249,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 301,
   },
   {
@@ -5268,7 +5268,7 @@ const listaprodutoCueca = [
     preco: 179.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 302,
   },
   {
@@ -5287,7 +5287,7 @@ const listaprodutoCueca = [
     preco: 179.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 303,
   },
   {
@@ -5306,7 +5306,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 304,
   },
   {
@@ -5325,7 +5325,7 @@ const listaprodutoCueca = [
     preco: 99.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 305,
   },
   {
@@ -5344,7 +5344,7 @@ const listaprodutoCueca = [
     preco: 249.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 306,
   },
   {
@@ -5363,7 +5363,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 307,
   },
   {
@@ -5382,7 +5382,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 308,
   },
   {
@@ -5401,7 +5401,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 309,
   },
   {
@@ -5420,7 +5420,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 310,
   },
   {
@@ -5439,7 +5439,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 311,
   },
   {
@@ -5458,7 +5458,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 312,
   },
   {
@@ -5477,7 +5477,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 313,
   },
   {
@@ -5496,7 +5496,7 @@ const listaprodutoCueca = [
     preco: 199.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 314,
   },
   {
@@ -5515,7 +5515,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 315,
   },
   {
@@ -5534,7 +5534,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 316,
   },
   {
@@ -5553,7 +5553,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 317,
   },
   {
@@ -5572,7 +5572,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 318,
   },
   {
@@ -5591,7 +5591,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 319,
   },
   {
@@ -5610,7 +5610,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 320,
   },
   {
@@ -5629,7 +5629,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 321,
   },
   {
@@ -5648,7 +5648,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 322,
   },
   {
@@ -5667,7 +5667,7 @@ const listaprodutoCueca = [
     preco: 169.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 323,
   },
   {
@@ -5686,7 +5686,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 324,
   },
   {
@@ -5705,7 +5705,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 325,
   },
   {
@@ -5724,7 +5724,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 326,
   },
   {
@@ -5743,7 +5743,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 327,
   },
   {
@@ -5762,7 +5762,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 328,
   },
   {
@@ -5781,7 +5781,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 329,
   },
   {
@@ -5800,7 +5800,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 330,
   },
   {
@@ -5818,7 +5818,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 331,
   },
   {
@@ -5836,7 +5836,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 332,
   },
   {
@@ -5855,7 +5855,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 333,
   },
   {
@@ -5873,7 +5873,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 334,
   },
   {
@@ -5893,7 +5893,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 335,
   },
   {
@@ -5912,7 +5912,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 336,
   },
   {
@@ -5931,7 +5931,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 337,
   },
   {
@@ -5950,7 +5950,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 338,
   },
   {
@@ -5969,7 +5969,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 339,
   },
   {
@@ -5988,7 +5988,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 340,
   },
   {
@@ -6007,7 +6007,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 341,
   },
   {
@@ -6026,7 +6026,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 342,
   },
   {
@@ -6045,7 +6045,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 343,
   },
   {
@@ -6064,7 +6064,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 344,
   },
   {
@@ -6082,7 +6082,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 345,
   },
   {
@@ -6100,7 +6100,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 346,
   },
   {
@@ -6119,7 +6119,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 347,
   },
   {
@@ -6137,7 +6137,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 348,
   },
   {
@@ -6157,7 +6157,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 349,
   },
   {
@@ -6176,7 +6176,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 350,
   },
   {
@@ -6195,7 +6195,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 351,
   },
   {
@@ -6214,7 +6214,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 352,
   },
   {
@@ -6233,7 +6233,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 353,
   },
   {
@@ -6252,7 +6252,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 354,
   },
   {
@@ -6271,7 +6271,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 355,
   },
   {
@@ -6290,7 +6290,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 356,
   },
   {
@@ -6309,7 +6309,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 357,
   },
   {
@@ -6328,7 +6328,7 @@ const listaprodutoCueca = [
     preco: 149.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 358,
   },
   {
@@ -6346,7 +6346,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 359,
   },
   {
@@ -6364,7 +6364,7 @@ const listaprodutoCueca = [
     preco: 129.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 360,
   },
   {
@@ -6383,7 +6383,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 361,
   },
   {
@@ -6401,7 +6401,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 362,
   },
   {
@@ -6420,7 +6420,7 @@ const listaprodutoCueca = [
     preco: 69.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 363,
   },
   {
@@ -6439,7 +6439,7 @@ const listaprodutoCueca = [
     preco: 59.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 364,
   },
   {
@@ -6458,7 +6458,7 @@ const listaprodutoCueca = [
     preco: 119.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 365,
   },
   {
@@ -6477,7 +6477,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 366,
   },
   {
@@ -6494,7 +6494,7 @@ const listaprodutoCueca = [
     preco: 39.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 367,
   },
   {
@@ -6511,7 +6511,7 @@ const listaprodutoCueca = [
     preco: 39.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 368,
   },
   {
@@ -6529,7 +6529,7 @@ const listaprodutoCueca = [
     preco: 39.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 369,
   },
   {
@@ -6547,7 +6547,7 @@ const listaprodutoCueca = [
     preco: 39.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 370,
   },
   {
@@ -6564,7 +6564,7 @@ const listaprodutoCueca = [
     preco: 89.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 371,
   },
   {
@@ -6582,7 +6582,7 @@ const listaprodutoCueca = [
     preco: 19.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 372,
   },
   {
@@ -6599,7 +6599,7 @@ const listaprodutoCueca = [
     preco: 19.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 373,
   },
   {
@@ -6617,7 +6617,7 @@ const listaprodutoCueca = [
     preco: 19.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 374,
   },
   {
@@ -6635,7 +6635,7 @@ const listaprodutoCueca = [
     preco: 19.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 375,
   },
   {
@@ -6653,7 +6653,7 @@ const listaprodutoCueca = [
     preco: 19.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 376,
   },
   {
@@ -6670,7 +6670,7 @@ const listaprodutoCueca = [
     preco: 19.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 377,
   },
   {
@@ -6687,7 +6687,7 @@ const listaprodutoCueca = [
     preco: 19.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 378,
   },
   {
@@ -6704,7 +6704,7 @@ const listaprodutoCueca = [
     preco: 79.6,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 379,
   },
   {
@@ -6722,7 +6722,7 @@ const listaprodutoCueca = [
     preco: 179.9,
     parcelado: '',
     descricao: 'Não disponível',
-    loja: 'Casa das Cuecas',
+    loja: 'casadascuecas',
     sku: 380,
   },
 ];
