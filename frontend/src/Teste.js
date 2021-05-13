@@ -1,368 +1,102 @@
-/* eslint-disable react/jsx-one-expression-per-line */
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import AddIcon from '@material-ui/icons/Add';
-import RemoveIcon from '@material-ui/icons/Remove';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import Avatar from '@material-ui/core/Avatar';
-import ImageIcon from '@material-ui/icons/Image';
-import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
-import IconButton from '@material-ui/core/IconButton';
-import Button from '@material-ui/core/Button';
-import DeleteIcon from '@material-ui/icons/Delete';
-import Navmaster from './components/nav-bar/eshop/Navmaster';
+/* eslint-disable comma-dangle */
+/* eslint-disable no-unused-vars */
+import React, { useState } from 'react';
+import BannerSectionCueca from './components/Lojas/Banner_Loja/BannerSectionCueca';
+import CardlistCueca from './components/Lojas/Produtos_Loja/Lista_cards/CardlistCueca';
+import './pages/Lojas/loja.css';
+import FiltroLojaCueca from './components/Lojas/Filtro_Loja/FiltroLojaCueca';
+import listaprodutoCueca from './Dados/lista_produtosCueca';
+import BtnWhats from './components/Lojas/whatsapp/BtnWhats';
+import NavWebyShop from './components/nav-bar/eshop/NavWebyShop';
+import Navvaleusul2 from './components/nav-bar/shopping_valesul/NavValeSul2';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    marginTop: theme.spacing(1),
-    marginLeft: theme.spacing(0),
-  },
-  paper: {
-    margin: theme.spacing(1),
-    width: '100%',
-    padding: theme.spacing(1),
-  },
+function CasadasCuecas() {
+  const [termoProcuradoCueca, settermoProcuradoCueca] = useState('');
+  const [arrCat, setarrCat] = useState([]);
+  const [generoAtivo, setGeneroAtivo] = useState('');
+  const [produtos, setProdutos] = useState([...listaprodutoCueca]);
 
-  grid: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignContent: 'center',
-    justifyItems: 'center',
-  },
+  // Fucao que pega o valor setado em filtrotoggleANTD
+  const handleFilters = (filters) => {
+    setarrCat([...filters]);
+  };
 
-  price: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignContent: 'center',
-    alignItems: 'center',
-    justifyItems: 'center',
-    width: '100%',
-    height: '100%',
-    fontWeight: 600,
-  },
+  // Filtro barra de pesquisa
+  const produtosTermo = listaprodutoCueca.filter((val) => {
+    if (termoProcuradoCueca === '') {
+      return val;
+    }
+    if (val.titulo.toLowerCase().includes(termoProcuradoCueca.toLowerCase())) {
+      return val;
+    }
+    return false;
+  });
 
-  qty: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignContent: 'center',
-    alignItems: 'center',
-    justifyItems: 'center',
-    width: '100%',
-    height: '100%',
-    fontWeight: 600,
-    backgroundColor: 'red',
-  },
+  // Filtro combinado
+  const produtosFunc = () => {
+    if (arrCat.length === 0) {
+      return [...produtosTermo];
+    }
+    return [...produtosTermo].filter(
+      (val) => arrCat.indexOf(val.categoria) !== -1
+    );
+  };
 
-  IconButton: {
-    margin: theme.spacing(1),
-    padding: theme.spacing(1),
-  },
+  const produtosFiltroGeral = () => {
+    if (generoAtivo === '') {
+      return [...produtosFunc()];
+    }
+    return [...produtosFunc()].filter((val) => val.genero === generoAtivo);
+  };
 
-  nomeLoja: {
-    textTransform: 'upperCase',
-    fontWeight: 600,
-    margin: theme.spacing(1),
-  },
-  listaProdutos: {
-    textTransform: 'upperCase',
-    fontWeight: 500,
-    margin: theme.spacing(1),
-  },
-  resumoNumero: {
-    textTransform: 'upperCase',
-    fontWeight: 600,
-    fontSize: '0.8rem',
-    color: '#636464',
-    margin: theme.spacing(2),
-  },
-  buttonResumo: {
-    textTransform: 'upperCase',
-    fontWeight: 600,
-    fontSize: '0.8rem',
-    marginLeft: theme.spacing(1),
-    padding: theme.spacing(1),
-  },
-  endereco: {
-    textTransform: 'upperCase',
-    fontWeight: 600,
-    fontSize: '0.8rem',
-    color: '#636464',
-    marginLeft: theme.spacing(1),
-    padding: theme.spacing(0),
-  },
-  enderecoTitulo: {
-    textTransform: 'upperCase',
-    fontWeight: 600,
-    fontSize: '0.8rem',
-    color: 'darkblue',
-    margin: theme.spacing(1),
-    marginLeft: theme.spacing(1),
-    padding: theme.spacing(0),
-  },
-  totalCompra: {
-    fontWeight: 600,
-    fontSize: '0.8rem',
-    color: '#636464',
-    padding: theme.spacing(1),
-  },
-  totalCompraValor: {
-    fontWeight: 600,
-    fontSize: '1.5rem',
-    color: 'black',
-    padding: theme.spacing(1),
-  },
-}));
+  // Reiniciar o filtro
+  const reiniciarFiltro = () => {
+    settermoProcuradoCueca('');
+    setarrCat([]);
+    setGeneroAtivo('');
+  };
 
-export default function FullWidthGrid() {
-  const classes = useStyles();
+  /* const produtoFiltrados = new Promise((resolve, reject) => {
+    const produtoFiltradosPromise = produtosFiltroGeral();
+    resolve(produtoFiltradosPromise);
+  }).then((produtoFiltradosPromise) => produtoFiltradosPromise); */
 
   return (
-    <div className={classes.root}>
-      <Navmaster />
-      <Grid container spacing={3}>
-        <Grid item xs={12} container spacing={1}>
-          <Grid item xs={12} sm={8}>
-            {/* Loja individual */}
-            <Paper className={classes.paper}>
-              {/* Nome da loja */}
-              <Grid item xs={12} spacing={1}>
-                <Typography
-                  variant="h7"
-                  gutterBottom
-                  className={classes.nomeLoja}
-                >
-                  Cloth fashion
-                </Typography>
-              </Grid>
-              <Grid item xs={12} spacing={1}>
-                <Typography
-                  variant="h8"
-                  gutterBottom
-                  className={classes.listaProdutos}
-                >
-                  Lista de Produtos
-                </Typography>
-              </Grid>
+    <>
+      <NavWebyShop style={{ zIndex: '1' }} />
 
-              <Grid item xs={12} container spacing={1}>
-                {/* secao nome produto */}
-                <Grid item xs={12} sm={7} spacing={1}>
-                  <List className={classes.root}>
-                    <ListItem>
-                      <ListItemAvatar>
-                        <Avatar variant="square">
-                          <ImageIcon />
-                        </Avatar>
-                      </ListItemAvatar>
-                      <ListItemText primary="Photos" secondary="Jan 9, 2014" />
-                    </ListItem>
-                  </List>
-                </Grid>
-                {/* secao preco */}
-                <Grid item xs={2} spacing={1}>
-                  <div className={classes.price}>
-                    {' '}
-                    <Typography variant="h7">R$ 129,90</Typography>
-                  </div>
-                </Grid>
-                {/* secao qty item */}
-                <Grid
-                  item
-                  xs={2}
-                  container
-                  spacing={0}
-                  direction="row"
-                  alignItems="center"
-                  justify="center"
-                >
-                  <Grid item xs={4} spacing={0}>
-                    <IconButton
-                      variant="contained"
-                      color="black"
-                      className={classes.button}
-                      size="small"
-                    >
-                      <RemoveIcon />
-                    </IconButton>
-                  </Grid>
-                  <Grid item xs={4} spacing={0}>
-                    <input type="text" id="n-items" />
-                  </Grid>
-                  <Grid item xs={4} spacing={0}>
-                    <IconButton
-                      variant="contained"
-                      color="black"
-                      className={classes.button}
-                      size="small"
-                    >
-                      <AddIcon />
-                    </IconButton>
-                  </Grid>
-                </Grid>
-                {/* secao botao remover */}
-                <Grid
-                  item
-                  xs={1}
-                  container
-                  spacing={0}
-                  direction="row"
-                  alignItems="center"
-                  justify="center"
-                >
-                  <Grid
-                    item
-                    xs={12}
-                    spacing={0}
-                    direction="collumn"
-                    alignItems="center"
-                    justify="center"
-                  >
-                    {/* <Button
-                      variant="contained"
-                      color="black"
-                      className={classes.button}
-                      size="small"
-                      startIcon={<DeleteIcon />}
-                    >
-                      REMOVER
-                    </Button> */}
-                    <IconButton aria-label="delete">
-                      <DeleteIcon />
-                    </IconButton>
-                  </Grid>
-                </Grid>
-              </Grid>
-              <Divider variant="inset" />
-              {/* fim produto */}
-            </Paper>
-          </Grid>
+      <Navvaleusul2 />
 
-          <Grid item xs={12} sm={4}>
-            <Paper className={classes.paper}>
-              {' '}
-              <Typography
-                variant="h6"
-                gutterBottom
-                className={classes.nomeLoja}
-              >
-                RESUMO
-              </Typography>
-              <Paper className={classes.paper}>
-                {/* Conteudo paper */}
-                <Grid item xs={12} container spacing={1}>
-                  {/* Informações resumo */}
-                  <Grid item xs={10} spacing={1}>
-                    <Grid item xs={12} spacing={1}>
-                      <Typography
-                        variant="h8"
-                        gutterBottom
-                        className={classes.nomeLoja}
-                      >
-                        COLINAS
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={12} spacing={1}>
-                      <Typography
-                        variant="h8"
-                        gutterBottom
-                        className={classes.resumoNumero}
-                      >
-                        TOTAL: R$ 200,99
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={12} spacing={1}>
-                      <Typography
-                        variant="h8"
-                        gutterBottom
-                        className={classes.resumoNumero}
-                      >
-                        FRETE: R$ 200,99
-                      </Typography>
-                    </Grid>
-                  </Grid>
+      <FiltroLojaCueca
+        style={{ zIndex: '0' }}
+        termoProcuradoCueca={termoProcuradoCueca}
+        settermoProcuradoCueca={settermoProcuradoCueca}
+        generoAtivo={generoAtivo}
+        setGeneroAtivo={setGeneroAtivo}
+        handleFilters={(filters) => {
+          handleFilters(filters);
+        }}
+      />
 
-                  {/* Avatar resumo */}
-                  <Grid item xs={2} spacing={1}>
-                    <Avatar variant="square">
-                      <ImageIcon />
-                    </Avatar>
-                  </Grid>
-                </Grid>
-                <Grid item xs={12} spacing={1}>
-                  <Button
-                    size="small"
-                    color="primary"
-                    className={classes.buttonResumo}
-                  >
-                    REVISAR
-                  </Button>
-                </Grid>
-              </Paper>
-              <Paper className={classes.paper}>
-                {/* Conteudo paper */}
-                <Grid item xs={12} container spacing={1}>
-                  {/* Informações entregra */}
-                  <Grid item xs={10} spacing={1}>
-                    <Grid
-                      item
-                      xs={12}
-                      spacing={1}
-                      className={classes.enderecoTitulo}
-                    >
-                      Enviar para
-                    </Grid>
-                    <Grid item xs={12} spacing={1} className={classes.endereco}>
-                      RUA SANTA RITA, 19, centro,
-                    </Grid>
-                    <Grid item xs={12} spacing={1} className={classes.endereco}>
-                      NOVA YORK, MG{' '}
-                    </Grid>
-                    <Grid item xs={12} spacing={1} className={classes.endereco}>
-                      CEP 123.456.789-10
-                    </Grid>
-                  </Grid>
+      <div className="conteudo-loja">
+        {/* <BannerSectionCueca /> */}
+        <img
+          src="Imagens/Lojas/São_José_dos_Campos/CenterVale/Casa_das_Cuecas/1170x500_classicos.webp"
+          alt="banner"
+          style={{
+            height: 'auto',
+            width: '80%',
+            margin: '1rem',
+            marginLeft: '3rem',
+          }}
+        />
 
-                  {/* Botao alterar */}
-                  <Grid item xs={9} spacing={1} />
+        <CardlistCueca produtos={produtos} reiniciarFiltro={reiniciarFiltro} />
+      </div>
 
-                  <Grid item xs={3} spacing={1}>
-                    <Button
-                      size="small"
-                      color="primary"
-                      className={classes.buttonResumo}
-                    >
-                      ALTERAR
-                    </Button>
-                  </Grid>
-                </Grid>
-              </Paper>
-              <Paper className={classes.paper}>
-                {/* Conteudo paper */}
-                <Grid item xs={12} container spacing={1}>
-                  <Grid item xs={6} spacing={1} className={classes.totalCompra}>
-                    Total com frete
-                  </Grid>
-                  <Grid
-                    item
-                    xs={6}
-                    spacing={1}
-                    className={classes.totalCompraValor}
-                  >
-                    R$ 1.203,99
-                  </Grid>
-                </Grid>
-              </Paper>
-            </Paper>
-          </Grid>
-        </Grid>
-      </Grid>
-    </div>
+      <BtnWhats className="btn-whats" />
+    </>
   );
 }
+
+export default CasadasCuecas;

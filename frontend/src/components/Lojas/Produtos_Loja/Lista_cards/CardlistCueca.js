@@ -4,7 +4,7 @@ import CardCueca from '../Card/CardCueca';
 import './Cardlist.css';
 import Message from '../../../Message/Message';
 
-function Cardlist({ produtos }) {
+function CardlistCueca({ produtos }) {
   return (
     <>
       {produtos.length === 0 ? (
@@ -31,4 +31,4 @@ function Cardlist({ produtos }) {
   );
 }
 
-export default Cardlist;
+export default CardlistCueca;

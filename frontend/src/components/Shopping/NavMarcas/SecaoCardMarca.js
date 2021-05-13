@@ -69,7 +69,7 @@ useEffect(() => {
   </a> */}
         </div>
         <div className="secao--left">
-          {true && (
+          {false && (
             <NavigateBeforeIcon
               onClick={handleLeftArrow}
               style={{ fontSize: 50 }}
@@ -77,7 +77,7 @@ useEffect(() => {
           )}
         </div>
         <div className="secao--right">
-          {true && (
+          {false && (
             <NavigateNextIcon
               onClick={handleRighttArrow}
               style={{ fontSize: 50 }}

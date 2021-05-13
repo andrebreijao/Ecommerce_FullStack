@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
-/* eslint-disable implicit-arrow-linebreak */
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import BannerSectionCueca from '../../components/Lojas/Banner_Loja/BannerSectionCueca';
 import CardlistCueca from '../../components/Lojas/Produtos_Loja/Lista_cards/CardlistCueca';
 import './loja.css';
@@ -14,6 +13,7 @@ function CasadasCuecas() {
   const [termoProcuradoCueca, settermoProcuradoCueca] = useState('');
   const [arrCat, setarrCat] = useState([]);
   const [generoAtivo, setGeneroAtivo] = useState('');
+  const [produtos, setProdutos] = useState([]);
 
   // Fucao que pega o valor setado em filtrotoggleANTD
   const handleFilters = (filters) => {
@@ -21,10 +21,20 @@ function CasadasCuecas() {
   };
 
   // Funcoes que ajustam o termo selecionado
-  const mudarGeneroAtivo = (e) => console.log(e);
+
+  // Filtro inicial
+  const produtosInicial = listaprodutoCueca.filter((val) => {
+    if (termoProcuradoCueca === '') {
+      return val;
+    }
+    if (val.titulo.toLowerCase().includes(termoProcuradoCueca.toLowerCase())) {
+      return val;
+    }
+    return false;
+  });
 
   // Filtro barra de pesquisa
-  const produtosTermo = listaprodutoCueca.filter((val) => {
+  const produtosTermo = produtosInicial.filter((val) => {
     if (termoProcuradoCueca === '') {
       return val;
     }
@@ -56,6 +66,13 @@ function CasadasCuecas() {
     setGeneroAtivo('');
   };
 
+  const produtoFiltrados = produtosFiltroGeral();
+
+  /* const produtoFiltrados = new Promise((resolve, reject) => {
+    const produtoFiltradosPromise = produtosFiltroGeral();
+    resolve(produtoFiltradosPromise);
+  }).then((produtoFiltradosPromise) => produtoFiltradosPromise); */
+
   return (
     <>
       <NavWebyShop style={{ zIndex: '1' }} />
@@ -86,10 +103,7 @@ function CasadasCuecas() {
           }}
         />
 
-        <CardlistCueca
-          produtos={produtosFiltroGeral()}
-          reiniciarFiltro={reiniciarFiltro}
-        />
+        <CardlistCueca produtos={produtos} reiniciarFiltro={reiniciarFiltro} />
       </div>
 
       <BtnWhats className="btn-whats" />

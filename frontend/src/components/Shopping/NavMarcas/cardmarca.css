@@ -1,7 +1,7 @@
 .marcas--card {
   border-radius: 4%;
-  height: 14.08rem;
-  width: 11.33rem;
+  height: 16.9rem;
+  width: 13.6rem;
   background-color: white;
   border: 2px solid #c4c4c4;
   align-items: center;
@@ -10,8 +10,9 @@
   -webkit-filter: none;
   display: flex;
   justify-content: center;
-  transform: scale(0.9);
   transition: all ease 0.2s;
+  transform: scale(0.9);
+  margin: 10px 0px;
 }
 
 .marcas--card:hover {
@@ -25,6 +26,6 @@
 
 .marcas--container-card {
   display: inline-block;
-  height: 14rem;
-  width: 12rem;
+  height: 18rem;
+  width: 13.6rem;
 }
