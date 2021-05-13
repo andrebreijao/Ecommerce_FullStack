@@ -103,7 +103,10 @@ function CasadasCuecas() {
           }}
         />
 
-        <CardlistCueca produtos={produtos} reiniciarFiltro={reiniciarFiltro} />
+        <CardlistCueca
+          produtos={listaprodutoCueca}
+          reiniciarFiltro={reiniciarFiltro}
+        />
       </div>
 
       <BtnWhats className="btn-whats" />

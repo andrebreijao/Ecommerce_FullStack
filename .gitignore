@@ -5,6 +5,8 @@ node_modules
 node_modules/
 /.pnp
 .pnp.js
+we-by/
+we-by
 
 # testing
 /coverage
