@@ -13,7 +13,7 @@ function CasadasCuecas() {
   const [termoProcuradoCueca, settermoProcuradoCueca] = useState('');
   const [arrCat, setarrCat] = useState([]);
   const [generoAtivo, setGeneroAtivo] = useState('');
-  const [produtos, setProdutos] = useState([]);
+  const [produtos, setProdutos] = useState(listaprodutoCueca);
 
   // Fucao que pega o valor setado em filtrotoggleANTD
   const handleFilters = (filters) => {
@@ -22,8 +22,8 @@ function CasadasCuecas() {
 
   // Funcoes que ajustam o termo selecionado
 
-  // Filtro inicial
-  const produtosInicial = listaprodutoCueca.filter((val) => {
+  // Filtro barra de pesquisa
+  const produtosTermo = listaprodutoCueca.filter((val) => {
     if (termoProcuradoCueca === '') {
       return val;
     }
@@ -33,23 +33,14 @@ function CasadasCuecas() {
     return false;
   });
 
-  // Filtro barra de pesquisa
-  const produtosTermo = produtosInicial.filter((val) => {
-    if (termoProcuradoCueca === '') {
-      return val;
-    }
-    if (val.titulo.toLowerCase().includes(termoProcuradoCueca.toLowerCase())) {
-      return val;
-    }
-    return false;
-  });
+  const produtosTermo2 = [...produtosTermo];
 
   // Filtro combinado
   const produtosFunc = () => {
     if (arrCat.length === 0) {
-      return produtosTermo;
+      return produtosTermo2;
     }
-    return produtosTermo.filter((val) => arrCat.indexOf(val.categoria) !== -1);
+    return produtosTermo2.filter((val) => arrCat.indexOf(val.categoria) !== -1);
   };
 
   const produtosFiltroGeral = () => {
@@ -67,6 +58,7 @@ function CasadasCuecas() {
   };
 
   const produtoFiltrados = produtosFiltroGeral();
+  // setProdutos(produtosFiltroGeral());
 
   /* const produtoFiltrados = new Promise((resolve, reject) => {
     const produtoFiltradosPromise = produtosFiltroGeral();
@@ -104,7 +96,7 @@ function CasadasCuecas() {
         />
 
         <CardlistCueca
-          produtos={listaprodutoCueca}
+          produtos={produtoFiltrados}
           reiniciarFiltro={reiniciarFiltro}
         />
       </div>

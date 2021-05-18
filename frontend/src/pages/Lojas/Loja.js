@@ -21,7 +21,9 @@ function Loja() {
   };
 
   // Funcoes que ajustam o termo selecionado
-  const mudarGeneroAtivo = (e) => console.log(e);
+  const mudarGeneroAtivo = (e) => {
+    // console.log(e)
+  };
 
   // Filtro barra de pesquisa
   const produtosTermo = listaprodutoCloth.filter((val) => {

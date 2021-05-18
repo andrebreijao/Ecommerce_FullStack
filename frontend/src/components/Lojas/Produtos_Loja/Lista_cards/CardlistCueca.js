@@ -21,7 +21,7 @@ function CardlistCueca({ produtos }) {
               titulo={prod.titulo}
               imagem={prod.img}
               preco={prod.preco}
-              key={prod.img}
+              key={prod.sku}
               id={prod.sku}
             />
           ))}

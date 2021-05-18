@@ -7,7 +7,6 @@ import FiltroToggleANTD from './FiltroToggleANTD';
 
 function FiltroLojaCueca({
   settermoProcuradoCueca,
-  termoProcuradoCueca,
   handleFilters,
   setGeneroAtivo,
   // eslint-disable-next-line no-unused-vars
@@ -66,7 +65,6 @@ function FiltroLojaCueca({
                     id="campo-busca-input-text"
                     onChange={(event) => {
                       settermoProcuradoCueca(event.target.value);
-                      console.log(termoProcuradoCueca);
                     }}
                   />
                   <button
