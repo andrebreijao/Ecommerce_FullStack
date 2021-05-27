@@ -14,8 +14,8 @@ import ShippingScreen from './pages/Carrinho/ShippingScreen';
 import PaymentScreen from './pages/Carrinho/PaymentScreen';
 import PlaceOrderScreen from './pages/Carrinho/placeOrderScreen';
 import OrderScreen from './pages/Carrinho/OrderScreen';
-import Teste from './Teste';
-import Teste2 from './Teste2';
+import Teste from './Teste/Teste';
+import Teste2 from './Teste/Teste2';
 import CarrinhoScreen from './pages/Carrinho/CarrinhoUsuario/CarrinhoScreen';
 import casaDasCuecas from './pages/Lojas/casaDasCuecas';
 

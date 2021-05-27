@@ -1,17 +1,15 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 // import React, { useState, useEffect } from 'react';
 import React from 'react';
-import './filtroloja.css';
-import FiltroToggleANTD from './FiltroToggleANTD';
+import '../components/Lojas/Filtro_Loja/filtroloja.css';
+import FiltroToggleANTD from '../components/Lojas/Filtro_Loja/FiltroToggleANTD';
+import FitroCatMU from './FiltroCatMU';
 
 function FiltroLoja({
   settermoProcurado,
-  handleFilters1,
-  handleFilters2,
-  handleFilters3,
-  handleFilters4,
-  handleFilters5,
+  handleFilters,
   setGeneroAtivo,
   // eslint-disable-next-line no-unused-vars
   generoAtivo,
@@ -138,16 +136,13 @@ function FiltroLoja({
                     Kids
                   </button>
                 </div>
-                <FiltroToggleANTD
+                <FitroCatMU />
+                {/* <FiltroToggleANTD
                   style={{ margin: '0px' }}
                   className="lista-toggle-filtro"
-                  handleFilters1={handleFilters1}
-                  handleFilters2={handleFilters2}
-                  handleFilters3={handleFilters3}
-                  handleFilters4={handleFilters4}
-                  handleFilters5={handleFilters5}
+                  handleFilters={handleFilters}
                 />
-                {/* <div style={{ height: '5px', backgroundColor: 'lightblue' }} />
+                <div style={{ height: '5px', backgroundColor: 'lightblue' }} />
                 <FiltroToggleANTD
                   style={{ margin: '0px' }}
                   className="lista-toggle-filtro"

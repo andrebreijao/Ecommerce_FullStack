@@ -1,3 +1,8 @@
+/* eslint-disable eqeqeq */
+/* eslint-disable function-paren-newline */
+/* eslint-disable comma-dangle */
+/* eslint-disable no-restricted-syntax */
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 /* eslint-disable implicit-arrow-linebreak */
 import React, { useState, useEffect } from 'react';
@@ -12,12 +17,28 @@ import Navvaleusul2 from '../../components/nav-bar/shopping_valesul/NavValeSul2'
 
 function Loja() {
   const [termoProcurado, settermoProcurado] = useState('');
-  const [arrCat, setarrCat] = useState([]);
   const [generoAtivo, setGeneroAtivo] = useState('');
+  const [arrCat1, setarrCat1] = useState([]);
+  const [arrCat2, setarrCat2] = useState([]);
+  const [arrCat3, setarrCat3] = useState([]);
+  const [arrCat4, setarrCat4] = useState([]);
+  const [arrCat5, setarrCat5] = useState([]);
 
   // Fucao que pega o valor setado em filtrotoggleANTD
-  const handleFilters = (filters) => {
-    setarrCat([...filters]);
+  const handleFilters1 = (filters) => {
+    setarrCat1([...filters]);
+  };
+  const handleFilters2 = (filters) => {
+    setarrCat2([...filters]);
+  };
+  const handleFilters3 = (filters) => {
+    setarrCat3([...filters]);
+  };
+  const handleFilters4 = (filters) => {
+    setarrCat4([...filters]);
+  };
+  const handleFilters5 = (filters) => {
+    setarrCat5([...filters]);
   };
 
   // Funcoes que ajustam o termo selecionado
@@ -37,12 +58,74 @@ function Loja() {
   });
 
   // Filtro combinado
+
+  // função de verificação se algum elemento do array selecionado está nas especificações do produto
+  const check = (arr1, arr2) => {
+    let item;
+    for (item of arr1) {
+      if (arr2.includes(item)) {
+        return true;
+      }
+    }
+    return false;
+  };
+
+  // função para fazer o junção dos filtros
+  // Before: Array de cards antes do filtro
+  // arrFilter: Itens selecionados pelo usuário para realizar o filtro
+  // arrProd: Lista do filtro em que o produto se encontra
+
+  const mergeFilters1 = (before, arrFilter) => {
+    if (arrFilter.length == !0) {
+      return before.filter((val) => check(arrFilter, val.filtro1));
+    }
+    return before;
+  };
+
+  const mergeFilters2 = (before, arrFilter) => {
+    if (arrFilter.length == !0) {
+      return before.filter((val) => check(arrFilter, val.filtro2));
+    }
+    return before;
+  };
+
+  const mergeFilters3 = (before, arrFilter) => {
+    if (arrFilter.length == !0) {
+      return before.filter((val) => check(arrFilter, val.filtro3));
+    }
+    return before;
+  };
+
+  const mergeFilters4 = (before, arrFilter) => {
+    if (arrFilter.length == !0) {
+      return before.filter((val) => check(arrFilter, val.filtro4));
+    }
+    return before;
+  };
+
+  const mergeFilters5 = (before, arrFilter) => {
+    if (arrFilter.length == !0) {
+      return before.filter((val) => check(arrFilter, val.filtro5));
+    }
+    return before;
+  };
+
   const produtosFunc = () => {
-    if (arrCat.length === 0) {
+    const arr1 = mergeFilters1(produtosTermo, arrCat1);
+    const arr2 = mergeFilters2(arr1, arrCat2);
+    const arr3 = mergeFilters3(arr2, arrCat3);
+    const arr4 = mergeFilters4(arr3, arrCat4);
+    const arr5 = mergeFilters5(arr4, arrCat5);
+
+    return arr5;
+  };
+  /* if (arrCat1.length === 0) {
       return produtosTermo;
     }
-    return produtosTermo.filter((val) => arrCat.indexOf(val.categoria) !== -1);
-  };
+    return produtosTermo.filter((val) =>
+      // arrCat1.indexOf(val.filtro1) !== -1;
+      check(arrCat1, val.filtro1)
+  ); */
 
   const produtosFiltroGeral = () => {
     if (generoAtivo === '') {
@@ -54,7 +137,7 @@ function Loja() {
   // Reiniciar o filtro
   const reiniciarFiltro = () => {
     settermoProcurado('');
-    setarrCat([]);
+    setarrCat1([]);
     setGeneroAtivo('');
   };
 
@@ -68,8 +151,20 @@ function Loja() {
         settermoProcurado={settermoProcurado}
         generoAtivo={generoAtivo}
         setGeneroAtivo={setGeneroAtivo}
-        handleFilters={(filters) => {
-          handleFilters(filters);
+        handleFilters1={(filters) => {
+          handleFilters1(filters);
+        }}
+        handleFilters2={(filters) => {
+          handleFilters2(filters);
+        }}
+        handleFilters3={(filters) => {
+          handleFilters3(filters);
+        }}
+        handleFilters4={(filters) => {
+          handleFilters4(filters);
+        }}
+        handleFilters5={(filters) => {
+          handleFilters5(filters);
         }}
       />
 
