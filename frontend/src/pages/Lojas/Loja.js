@@ -1,3 +1,4 @@
+/* eslint-disable object-curly-newline */
 /* eslint-disable eqeqeq */
 /* eslint-disable function-paren-newline */
 /* eslint-disable comma-dangle */
@@ -10,10 +11,11 @@ import BannerSection from '../../components/Lojas/Banner_Loja/BannerSection';
 import Cardlist from '../../components/Lojas/Produtos_Loja/Lista_cards/Cardlist';
 import './loja.css';
 import FiltroLoja from '../../components/Lojas/Filtro_Loja/FiltroLoja';
-import listaprodutoCloth from '../../Dados/lista_produtosCloth';
 import BtnWhats from '../../components/Lojas/whatsapp/BtnWhats';
 import NavWebyShop from '../../components/nav-bar/eshop/NavWebyShop';
 import Navvaleusul2 from '../../components/nav-bar/shopping_valesul/NavValeSul2';
+import ClothFashion from '../../Dados/Lojas/ClothFashion';
+import CasadasCuecas from '../../Dados/Lojas/CasadasCuecas';
 
 function Loja() {
   const [termoProcurado, settermoProcurado] = useState('');
@@ -23,6 +25,29 @@ function Loja() {
   const [arrCat3, setarrCat3] = useState([]);
   const [arrCat4, setarrCat4] = useState([]);
   const [arrCat5, setarrCat5] = useState([]);
+
+  /* const {
+    nomeLoja,
+    filtros,
+    logo,
+    fotosBanner,
+    produtos,
+    cssCard,
+    cssBanner,
+  } = ClothFashion;
+  */
+  const {
+    nomeLoja,
+    filtros,
+    logo,
+    fotosBanner,
+    produtos,
+    cssCard,
+    cssBanner,
+  } = CasadasCuecas;
+
+  console.log(`cssBanner= ${cssBanner.marginBottom}`);
+  console.log(typeof fotosBanner);
 
   // Fucao que pega o valor setado em filtrotoggleANTD
   const handleFilters1 = (filters) => {
@@ -47,7 +72,7 @@ function Loja() {
   };
 
   // Filtro barra de pesquisa
-  const produtosTermo = listaprodutoCloth.filter((val) => {
+  const produtosTermo = produtos.filter((val) => {
     if (termoProcurado === '') {
       return val;
     }
@@ -166,6 +191,9 @@ function Loja() {
         handleFilters5={(filters) => {
           handleFilters5(filters);
         }}
+        nomeLoja={nomeLoja}
+        logo={logo}
+        filtros={filtros}
       />
 
       <NavWebyShop style={{ zIndex: '1' }} />
@@ -173,10 +201,11 @@ function Loja() {
       <Navvaleusul2 />
 
       <div className="conteudo-loja">
-        <BannerSection />
+        <BannerSection fotosBanner={fotosBanner} cssBanner={cssBanner} />
         <Cardlist
           produtos={produtosFiltroGeral()}
           reiniciarFiltro={reiniciarFiltro}
+          cssCard={cssCard}
         />
       </div>
       <BtnWhats className="btn-whats" />

@@ -2,7 +2,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Modal Chumbo Wave',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/248508-677-677/0000617-cueca-wave-boxer-chumbo-still.jpg?v=636361616936370000',
@@ -21,7 +21,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Slip Modal Chumbo Wave',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299534-677-677/0000616-cueca-wave-slip-mescla-escuro-frente.jpg?v=637490852628400000',
@@ -39,7 +39,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Microfibra Mescla Cinza Sport',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299472-677-677/432.105_MES.jpg?v=637472866518730000',
@@ -56,7 +56,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Modal Azul Marinho Wave',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/230416-677-677/1432007MARINHO_01397.jpg?v=635642642153330000',
@@ -75,7 +75,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Slip Modal Azul Marinho Wave',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/227623-677-677/Cueca_slip_uw_casa_das_cuecas_marinho_still_1432009.jpg?v=635509536248170000',
@@ -94,7 +94,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Samba Canção Viscolycra Azul',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/257425-677-677/465561_AZUL--1-.jpg?v=636766699481370000',
@@ -112,7 +112,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer de Microfibra Light Preta',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299325-677-677/0000619-cueca-sungao-light-preta-still.jpg?v=637423636786270000',
@@ -129,7 +129,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Samba Cançao Tricoline Elástico Preta',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/246886-677-677/samba-cancao-tricoline-elastico-preto-still-505063.jpg?v=636174132524030000',
@@ -148,7 +148,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Samba Canção Viscolycra Mescla',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/246802-677-677/cueca_samba_cancao_mescla_still_465561.jpg?v=636173319946100000',
@@ -167,7 +167,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Sungão Microfibra Cinza Sport',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/227048-677-677/Cueca_sungao_uw_casa_das_cuecas_cinza_still_25551.jpg?v=635507121454770000',
@@ -186,7 +186,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Sungão Microfibra Azul Marinho Sport',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/227045-677-677/Cueca_sungao_uw_casa_das_cuecas_marinho_still_25551.jpg?v=635507118366770000',
@@ -205,7 +205,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Microfibra Preta Scratch',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/257551-677-677/1432001_PRETO--1-.jpg?v=636776453825270000',
@@ -224,7 +224,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Microfibra Azul Marinho Sport',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299471-677-677/432.105_MA.jpg?v=637472865294830000',
@@ -241,7 +241,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Microfibra Preta Sport',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299470-677-677/432.105_PT.jpg?v=637472864324130000',
@@ -258,7 +258,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Slip Modal Preta Wave',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299372-677-677/Cueca_slip_uw_casa_das_cuecas_preta_still_1432009.jpg?v=637435463045770000',
@@ -275,7 +275,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Plus Size Preta Cool',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/230649-677-677/455063PRETA.jpg?v=635663461524400000',
@@ -294,7 +294,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Algodão Branca Cool',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/230632-677-677/455063BRANCA.jpg?v=635663387913570000',
@@ -313,7 +313,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Slip Algodão Branca Cool',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299523-677-677/455.061_BR.jpg?v=637487400309900000',
@@ -330,7 +330,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Modal Branca Wave',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/227617-677-677/Cueca_boxer_uw_casa_das_cuecas_branca_still_1432007.jpg?v=635508944722530000',
@@ -349,7 +349,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Samba Canção Tricoline Xadrez Azul',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299586-677-677/619.062.jpg?v=637498495910830000',
@@ -368,7 +368,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer de Algodão com Abertura Branca Free',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299612-677-677/000.062_BR.jpg?v=637511066373400000',
@@ -385,7 +385,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Samba Canção de Malha Azul',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/246808-677-677/cueca_samba_cancao_azul_still_476361.jpg?v=636173328960730000',
@@ -404,7 +404,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Sungão de Microfibra Light Mescla',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299378-677-677/0000619-cueca-sungao-light-mescla-still.jpg?v=637435476707070000',
@@ -421,7 +421,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer de Algodão com Abertura Preta Free',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/239921-677-677/cueca-boxer-free-preta_22450.jpg?v=635954771949970000',
@@ -440,7 +440,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Slip Microfibra Mescla Sport',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/238742-677-677/025551CINZA_01181_SLIP.jpg?v=635870726632100000',
@@ -457,7 +457,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Sungão sem Costura Modal Preta Wave',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/259804-677-677/025551PRETA_01201_edit.jpg?v=636845536098700000',
@@ -474,7 +474,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Infantil Modal Wave Preta',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299532-677-677/517.063_PT.jpg?v=637490114758100000',
@@ -491,7 +491,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Samba Cançao Tricoline Elástico Marinho',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/246883-677-677/samba-cancao-tricoline-elastico-marinho-still-505063.jpg?v=636174129646370000',
@@ -510,7 +510,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Infantil Mescla',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299617-677-677/455.067_MES.jpg?v=637511077464570000',
@@ -527,7 +527,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Samba Canção de Malha Branca',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/246840-677-677/cueca_samba_cancao_branca_still_476361.jpg?v=636173961888130000',
@@ -546,7 +546,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Slip Boy Branca',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/227582-677-677/Cueca_slip_uw_casa_das_cuecas_branca_still_462312.jpg?v=635508883346500000',
@@ -567,7 +567,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Sungão Microfibra Preta Sport',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/227054-677-677/Cueca_sungao_uw_casa_das_cuecas_preta_still_25551.jpg?v=635507123847100000',
@@ -586,7 +586,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Modal Preta Wave',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299373-677-677/Cueca_boxer_uw_casa_das_cuecas_preta_still_1432007.jpg?v=637435465167830000',
@@ -603,7 +603,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Slip Microfibra Preta Sport',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299374-677-677/432104PRETA_01149.jpg?v=637435468190270000',
@@ -620,7 +620,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Samba Canção Plus Size Viscolycra Preta',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/246892-677-677/cueca_samba_cancao_preta_still_465561.jpg?v=636174144153970000',
@@ -639,7 +639,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Longa Esportiva Preta',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/227691-677-677/Cueca_boxer_uw_casa_das_cuecas_preta_still_483061.jpg?v=635509595480030000',
@@ -658,7 +658,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Slip Microfibra Branca Sport',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299375-677-677/432104BRANCA_01119.jpg?v=637435470387930000',
@@ -675,7 +675,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Sungão Microfibra Branca Sport',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/227042-677-677/Cueca_sungao_uw_casa_das_cuecas_branca_still_25551.jpg?v=635507115550170000',
@@ -694,7 +694,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Samba Canção Tricoline Xadrez Marinho',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299715-677-677/619.064.jpg?v=637541762326700000',
@@ -711,7 +711,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Samba Canção Viscose Discos',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299589-677-677/619.061.jpg?v=637498506060500000',
@@ -730,7 +730,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Viscolycra Preta',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/271665-677-677/000.638_preto.jpg?v=637408755371930000',
@@ -747,7 +747,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Samba Canção Plus Size Viscolycra Marinho',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/267147-677-677/465.561_465.562_marinho.jpg?v=637165288454800000',
@@ -764,7 +764,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer RIB Viscose Mescla',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263850-677-677/000.0625.jpg?v=637014679343400000',
@@ -783,7 +783,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Slip Algodão Egípcio Branco',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262767-677-677/000.0622-Branco.jpg?v=636995669203600000',
@@ -802,7 +802,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Slip de Algodão Branca Nature',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/241745-677-677/cueca-slip-nature-branca_22432.jpg?v=636027107781730000',
@@ -821,7 +821,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit Cueca Boxer Infantil Algodão Cool',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299609-677-677/455.065.jpg?v=637511061519630000',
@@ -838,7 +838,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit Cueca Slip Infantil Algodão Cool',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/229345-677-677/kit2.jpg?v=635614969349830000',
@@ -859,7 +859,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Modal Vermelho Wave',
     genero: '',
-    categoria: 'Cueca',
+    filtro1: ['Cueca'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/258130-677-677/523063_VERMELHO--1-.jpg?v=636796039711130000',
@@ -878,7 +878,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Bicolor com Manga Raglan Mescla',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266691-677-677/000.381-MESCLA-E-MARINHO.jpg?v=637122879182900000',
@@ -897,7 +897,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Marinho Curto Malha Gola V Bolso',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262201-677-677/4833828_MARINHO--1-.jpg?v=636964574879930000',
@@ -916,7 +916,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Mescla Gola V Bicolor',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/257540-677-677/483.3821-MESCLA-E-PRETA.jpg?v=636776397750770000',
@@ -935,7 +935,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Cueca Boxer Modal Azul Marinho Wave',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/230416-677-677/1432007MARINHO_01397.jpg?v=635642642153330000',
@@ -954,7 +954,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Tricoline Xadrez Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299514-677-677/619.381_619.3814.jpg?v=637483841309700000',
@@ -973,7 +973,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Viscolycra Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266264-677-677/000.3816.jpg?v=637109717918170000',
@@ -990,7 +990,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Malha Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262199-677-677/483.3824-Marinho.jpg?v=636964570963930000',
@@ -1009,7 +1009,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo de Modal Bicolor Branco e Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/264562-677-677/000.384-BRANCA-E-MARINHO.jpg?v=637038049827970000',
@@ -1028,7 +1028,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Marinho Plus Size Curto Malha Gola V Bolso',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262198-677-677/4833828_MARINHO--1-.jpg?v=636963954125500000',
@@ -1047,7 +1047,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Viscolycra Xadrez Preto',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299718-677-677/619.389_619.3823.jpg?v=637544499598530000',
@@ -1064,7 +1064,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Viscolycra Mescla',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299529-677-677/619.3815.jpg?v=637489938549100000',
@@ -1083,7 +1083,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Gola V Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299636-677-677/483.3821_MA.jpg?v=637514325741430000',
@@ -1100,7 +1100,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Listrado Viscose Telha',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/296649-677-677/608.3829.jpg?v=637417318970730000',
@@ -1117,7 +1117,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Malha Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262161-677-677/000.3814-Marinho.jpg?v=636963732128630000',
@@ -1135,7 +1135,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Plus Size de Algodão com Manga Raglan Mescla',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/252520-677-677/000382_2.jpg?v=636638012717170000',
@@ -1153,7 +1153,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Marinho Aberto Curto Malha',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262177-677-677/483.3822-Marinho.jpg?v=636963744360870000',
@@ -1172,7 +1172,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Tricoline Xadrez Mescla',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299682-677-677/619.385.jpg?v=637534777186600000',
@@ -1191,7 +1191,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Viscolycra listrado Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299704-677-677/619.383.jpg?v=637538238994370000',
@@ -1210,7 +1210,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Viscolycra Infantil Mescla',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299530-677-677/619.3815.jpg?v=637490073573630000',
@@ -1227,7 +1227,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Tricoline Plus Size Xadrez Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299515-677-677/619.381_619.3814.jpg?v=637483842576600000',
@@ -1244,7 +1244,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Daddy Bear Tricoline Mescla',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265614-677-677/601.3838.jpg?v=637075232399270000',
@@ -1261,7 +1261,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Aberto Malha Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299349-677-677/000.3811_MARINHO--1-.jpg?v=637432184026270000',
@@ -1280,7 +1280,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Plus Size de Algodão com Manga Raglan Branco',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262152-677-677/000.382-Branco-e-Marinho.jpg?v=636963722570730000',
@@ -1299,7 +1299,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Plus Size Curto de Viscolycra Gola V Bicolor',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262181-677-677/517.387-Mescla-e-Preto--2-.jpg?v=636963747568130000',
@@ -1318,7 +1318,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Tricoline Xadrez Mescla',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299711-677-677/619.386_619.3819_619.3818.jpg?v=637541708687030000',
@@ -1335,7 +1335,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Tricoline Xadrez Plus Size Mescla',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299713-677-677/619.386_619.3819_619.3818.jpg?v=637541730498170000',
@@ -1352,7 +1352,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Aberto Xadrez Viscose Preto',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299694-677-677/619.3810.jpg?v=637534828206600000',
@@ -1369,7 +1369,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Malha Ferrugem',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/271641-677-677/616.3830.jpg?v=637402686074600000',
@@ -1386,7 +1386,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Viscose Azul',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/271309-677-677/616.3825.jpg?v=637358532415400000',
@@ -1403,7 +1403,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Tricoline Plus Size Xadrez Mescla',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266288-677-677/608.384.jpg?v=637109779006000000',
@@ -1420,7 +1420,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Plus Size Listrado Jersey Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266292-677-677/608.388.jpg?v=637109785329570000',
@@ -1437,7 +1437,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Aberto Moletom Azul',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/260951-677-677/5903832--1-.jpg?v=636904270094770000',
@@ -1456,7 +1456,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Tricoline Xadrez',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/251508-677-677/566385--ok.jpg?v=636586247953800000',
@@ -1474,7 +1474,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Jersey Liso Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262159-677-677/000.3810-Marinho.jpg?v=636963730253500000',
@@ -1493,7 +1493,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Viscolycra Mescla Claro',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/271637-677-677/616.3827_616.3828.jpg?v=637402659109470000',
@@ -1510,7 +1510,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Listrado Viscose Marinho',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299243-677-677/608.3810_608.3811.jpg?v=637418250529500000',
@@ -1527,7 +1527,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Tricoline Infantil Xadrez Branco',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266420-677-677/608.3826.jpg?v=637110019150100000',
@@ -1547,7 +1547,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Infantil Wanna Be Boss Tricoline Branco',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262875-677-677/601.385.jpg?v=637000879927430000',
@@ -1566,7 +1566,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto de Viscolycra Infantil Branco',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262179-677-677/517.385-Branco-e-Marinho.jpg?v=636963746095230000',
@@ -1585,7 +1585,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Azul Aberto Curto Malha',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/227997-677-677/pijama_curto_uw_casa_das_cuecas_azul_frente_4833822.jpg?v=635512171417230000',
@@ -1603,7 +1603,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Malha Mescla',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/257539-677-677/000389_MESCLA--1-.jpg?v=636776392244270000',
@@ -1622,7 +1622,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Marinho de Pima',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img: 'None',
     img2: 'None',
@@ -1638,7 +1638,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Marinho Plus Size Aberto Curto Malha',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262194-677-677/483.3822-Marinho.jpg?v=636963879573630000',
@@ -1657,7 +1657,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Viscolycra Xadrez Plus Size Preto',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299719-677-677/619.389_619.3823.jpg?v=637544508498300000',
@@ -1674,7 +1674,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Tricoline Xadrez Infantil Mescla',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299712-677-677/619.386_619.3819_619.3818.jpg?v=637541720429000000',
@@ -1691,7 +1691,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Longo Viscolycra Plus Size Chumbo',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299693-677-677/619.3821_619.387.jpg?v=637534819183770000',
@@ -1708,7 +1708,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Viscolycra Listrado Azul',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/271640-677-677/616.3829.jpg?v=637402681434070000',
@@ -1725,7 +1725,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Pijama Curto Tricoline Listrado Azul',
     genero: '',
-    categoria: 'pijama',
+    filtro1: ['pijama'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/271639-677-677/616.3826.jpg?v=637402672655130000',
@@ -1742,7 +1742,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Algodão Sem Punho Marinho',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256073-677-677/000.303-MARINHO_2.jpg?v=636729569435570000',
@@ -1759,7 +1759,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia de Modal Café - CAFE - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263868-677-677/000.451_Marrom.jpg?v=637014698612400000',
@@ -1776,7 +1776,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Social de Algodão Mercerizado Preta',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263857-677-677/000.305_Preto.jpg?v=637014690363830000',
@@ -1793,7 +1793,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Social de Algodão Mercerizado Café',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263859-677-677/000.305_Marrom.jpg?v=637014691087800000',
@@ -1810,7 +1810,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Algodão Sem Punho Bege',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265701-677-677/000.303-bege.jpg?v=637079509884800000',
@@ -1827,7 +1827,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit Meias de Algodão Soquete Brancas',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263864-677-677/000.309_Tripack.jpg?v=637014694962370000',
@@ -1845,7 +1845,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit Meias Soquete de Algodão Brancas',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263855-677-677/000.301_Tripack.jpg?v=637014687063330000',
@@ -1863,7 +1863,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Algodão Sem Punho Café',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256074-677-677/000.303-CAFE_2.jpg?v=636729569521130000',
@@ -1880,7 +1880,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia de Modal Preta - PRETO - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263871-677-677/000.451_Preto.jpg?v=637014699462600000',
@@ -1897,7 +1897,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Algodão Sem Punho Preto',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263874-677-677/000303_Preto.jpg?v=637014702001300000',
@@ -1914,7 +1914,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Soquete Esportiva de Poliamida',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263877-677-677/1347005_Azul_M-®dio.jpg?v=637014704737300000',
@@ -1931,7 +1931,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Esportiva Cano Médio de Poliamida',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263875-677-677/1347004_Azul_M-®dio.jpg?v=637014703348800000',
@@ -1949,7 +1949,7 @@ const listaprodutoCueca = [
     titulo:
       'Meia Algodão Desenhado Losango Cinza - LOSANGO CINZA FUNDO CINZA - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266961-677-677/000.4513_losango-cinza-com-fundo-cinza.jpg?v=637146885125670000',
@@ -1966,7 +1966,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit Meia de Modal Preta - PRETO / PRETO / PRETO - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266321-677-677/000.4512.jpg?v=637109860316770000',
@@ -1983,7 +1983,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit de Meias de Algodão Pretas - PRETO - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263872-677-677/000.453_Tripack.jpg?v=637014700706230000',
@@ -2000,7 +2000,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Social Longa de Poliamida Preta',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266255-677-677/000.452.jpg?v=637109712416830000',
@@ -2017,7 +2017,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Fruits Marinho - MEIA CASUAL-FRU- - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/260504-677-677/FRU01-6001.jpg?v=636888720207670000',
@@ -2034,7 +2034,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Social Fibra de Bambu Preto - PRETO - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266256-677-677/000.456_cortada.jpg?v=637109713138600000',
@@ -2051,7 +2051,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Social Circuit Preto',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/250356-677-677/CIR34-9000.jpg?v=636516074943330000',
@@ -2068,7 +2068,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Social de Algodão Mercerizado Marinho',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263858-677-677/000.305_Marinho.jpg?v=637014690775200000',
@@ -2085,7 +2085,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Esportiva Cano Médio de Poliamida Cinza',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263876-677-677/1347004_Cinza_M-®dio.jpg?v=637014703876970000',
@@ -2102,7 +2102,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit Meias de Algodão Soquete',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263865-677-677/000.309_Tripack_Sortido.jpg?v=637014696003030000',
@@ -2121,7 +2121,7 @@ const listaprodutoCueca = [
     titulo:
       'Meia Algodão Desenhado Zig Zag Cinza - ZIG ZAG CINZA FUNDO PRETO - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266962-677-677/000.4513_zig-zag-cinza-com-fundo-preto.jpg?v=637146885232170000',
@@ -2139,7 +2139,7 @@ const listaprodutoCueca = [
     titulo:
       'Meia Algodão Desenhado Hexagono Azul - HEXAGONO AZUL FUNDO PRETO - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266959-677-677/000.4513_hexagono-azul-com-fundo-preto.jpg?v=637146884943300000',
@@ -2156,7 +2156,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit Meias Soquete de Algodão Preto',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266266-677-677/000.301.jpg?v=637109725174370000',
@@ -2173,7 +2173,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Smile Preto - MEIA CASUAL-SMI- - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/260499-677-677/SMI01-9000.jpg?v=636888662333530000',
@@ -2190,7 +2190,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Thin Stripe Azul - MEIA CASUAL-TST- - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/260498-677-677/TST01-6002.jpg?v=636888651707870000',
@@ -2207,7 +2207,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Dots Azul Claro - MEIA CASUAL-DOT- - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/260497-677-677/DOT01-6002.jpg?v=636888651141130000',
@@ -2224,7 +2224,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Bang Bang Azul - MEIA CASUAL-BNG- - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/260496-677-677/BNG01-6000.jpg?v=636888646214500000',
@@ -2241,7 +2241,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Bang Bang Amarelo - MEIA CASUAL-BNG- - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/260495-677-677/BNG01-2000.jpg?v=636888642735030000',
@@ -2258,7 +2258,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Social Fibra de Bambu Marinho - MARINHO - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299622-677-677/000.456-MARINHO_2.jpg?v=637511684809230000',
@@ -2276,7 +2276,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Algodão Invisível Azul',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256130-677-677/000.458-JEANS_2.jpg?v=636730583100000000',
@@ -2293,7 +2293,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Social Moss Knit Marinho',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/250353-677-677/MOK34-6000.jpg?v=636516064005400000',
@@ -2310,7 +2310,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Social Zig Zag Azul',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/250354-677-677/HEB34-9002.jpg?v=636516067128170000',
@@ -2327,7 +2327,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Social Flamingo Vermelho',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/250355-677-677/FLA34-6001.jpg?v=636516068074800000',
@@ -2344,7 +2344,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit Meia Happy Socks Infantil Guitar Preto',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/250290-677-677/KGUI02-9000.jpg?v=636511982836100000',
@@ -2361,7 +2361,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit Meia Happy Socks Infantil Bang Bang Azul',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/250288-677-677/KBNG02-6000.jpg?v=636511978265800000',
@@ -2378,7 +2378,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit Meia Happy Socks Infantil Bang Bang Amarelo',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/250287-677-677/KBNG02-2000.jpg?v=636511977066330000',
@@ -2395,7 +2395,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit Meia Happy Socks Infantil Big Dots Preto',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/250286-677-677/KBDO02-9002.jpg?v=636511975895130000',
@@ -2412,7 +2412,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Optic Azul - MEIA CASUAL-OPT- - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/250251-677-677/OPT01-6002.jpg?v=636511791799870000',
@@ -2429,7 +2429,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Filled Optic Vermelho - MEIA CASUAL-FO- - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/247488-677-677/FO01-068-ok.jpg?v=636282963048870000',
@@ -2446,7 +2446,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Dots Preto - MEIA CASUAL-DO- - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/247481-677-677/DO01-909-ok.jpg?v=636282959517230000',
@@ -2463,7 +2463,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Thin Stripe Cinza - MEIA CASUAL-TST- - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/249278-677-677/TST01-9001.jpg?v=636410870100930000',
@@ -2480,7 +2480,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Happy Socks Direction Colors - MEIA CASUAL-DIR- - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/250256-677-677/DIR01-9001.jpg?v=636511801205470000',
@@ -2497,7 +2497,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia de Modal Cáqui - CAQUI ESCURO - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256119-677-677/000.451-CAQUI_2.jpg?v=636730576863670000',
@@ -2514,7 +2514,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia Algodão Paprica - PAPRICA - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/248560-677-677/000454-meia-algodao-paprica.jpg?v=636367521738400000',
@@ -2531,7 +2531,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Meia de Algodão Cinza - MESCLA CINZA - /',
     genero: '',
-    categoria: 'Meia',
+    filtro1: ['Meias'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/248559-677-677/000454-meia-algodao-cinza.jpg?v=636367521324700000',
@@ -2548,7 +2548,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Plus Size Lisa Preta',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/242091-677-677/000741-sunga-boxer-preto-still.jpg?v=636037935440900000',
@@ -2567,7 +2567,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sungão Infantil Estampado Focas Azuis',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265606-677-677/601.746_FocasAzul.jpg?v=637075220717070000',
@@ -2584,7 +2584,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Lisa Azul',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/242082-677-677/000741-sunga-boxer-marinho-still.jpg?v=636037931655470000',
@@ -2603,7 +2603,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Lisa Vermelha',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299241-677-677/000741-sunga-boxer-vermelha-lisa-still.jpg?v=637418226308170000',
@@ -2620,7 +2620,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Lisa Vermelha',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299240-677-677/000744-sunga-lisa-vermelha-still.jpg?v=637418223469870000',
@@ -2637,7 +2637,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Lisa Preta',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299239-677-677/000744-sunga-lisa-preta-still.jpg?v=637418222700530000',
@@ -2654,7 +2654,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Lisa Preta',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/242085-677-677/000741-sunga-boxer-preto-still.jpg?v=636037932769600000',
@@ -2673,7 +2673,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Lisa Verde',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299545-677-677/000.744_VD.jpg?v=637492549817570000',
@@ -2690,7 +2690,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Lisa Azul',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299544-677-677/000.744_AZ.jpg?v=637492547740300000',
@@ -2707,7 +2707,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Plus Size Estampada Leões Laranja',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265613-677-677/601.749_LeoesLaranja.jpg?v=637075231552400000',
@@ -2724,7 +2724,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Plus Size Estampada Listras Azuis',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265612-677-677/601.749_ListrasAzul.jpg?v=637075230937100000',
@@ -2741,7 +2741,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Infantil Estampada Praia Laranja',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265611-677-677/601.748_PraiaLaranja.jpg?v=637075229647330000',
@@ -2758,7 +2758,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Infantil Estampada Leões Laranja',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265610-677-677/601.748_LeoesLaranja.jpg?v=637075228676630000',
@@ -2775,7 +2775,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Estampada Rinos Vermelhos',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265609-677-677/601.747_RinosVermelho.jpg?v=637075226180270000',
@@ -2792,7 +2792,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Estampada Praia Laranja',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265608-677-677/601.747_PraiaLaranja.jpg?v=637075223365800000',
@@ -2809,7 +2809,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Estampada Leões Laranja',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265607-677-677/601.747_LeoesLaranja.jpg?v=637075222222500000',
@@ -2826,7 +2826,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sungão Estampado Listras Azuis',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265604-677-677/601.745_ListrasAzuis.jpg?v=637075218284800000',
@@ -2843,7 +2843,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sungão Estampado Focas Azuis',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265603-677-677/601.745_FocasAzul.jpg?v=637075217500830000',
@@ -2860,7 +2860,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sungão Estampado Animais Rosas',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265602-677-677/601.745_AnimaisRosa.jpg?v=637075216618000000',
@@ -2877,7 +2877,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Plus Size Verde',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265601-677-677/601.744_Verde.jpg?v=637075215190900000',
@@ -2894,7 +2894,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Plus Size Chumbo',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265600-677-677/601.744_Chumbo.jpg?v=637075214608300000',
@@ -2911,7 +2911,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Plus Size Bic',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265599-677-677/601.744_Bic.jpg?v=637075214137270000',
@@ -2928,7 +2928,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Infantil Verde',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265598-677-677/601.743_Verde.jpg?v=637075211975770000',
@@ -2945,7 +2945,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Infantil Bic',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265597-677-677/601.743_Bic.jpg?v=637075211453170000',
@@ -2962,7 +2962,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Verde',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265596-677-677/601.742_Verde.jpg?v=637075210544930000',
@@ -2979,7 +2979,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Chumbo',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265595-677-677/601.742_Chumbo.jpg?v=637075209159700000',
@@ -2996,7 +2996,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Bic',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265594-677-677/601.742_Bic.jpg?v=637075208158100000',
@@ -3013,7 +3013,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sungão Liso Verde',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265593-677-677/601.741_Verde.jpg?v=637075206880070000',
@@ -3030,7 +3030,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sungão Liso Chumbo',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265592-677-677/601.741_Chumbo.jpg?v=637075205521670000',
@@ -3047,7 +3047,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sungão Liso Bic',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265591-677-677/601.741_Bic.jpg?v=637075204545330000',
@@ -3064,7 +3064,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Infantil Estampado Dinossauro',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256374-677-677/5767416_1.jpg?v=636735709274000000',
@@ -3083,7 +3083,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Estampado Dinossauro',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256371-677-677/576.7415_1.jpg?v=636735707448000000',
@@ -3102,7 +3102,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Slip Infantil Surf',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256368-677-677/5767414_1.jpg?v=636735705979900000',
@@ -3121,7 +3121,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Slip Infantil Estrela do Mar',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256365-677-677/5767413_1.jpg?v=636735704045100000',
@@ -3140,7 +3140,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Infantil Listrado Splash',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256319-677-677/5767412_1.jpg?v=636735650149300000',
@@ -3159,7 +3159,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Tradicional Infantil Estampada Geométrico',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/255212-677-677/576.7410_1.jpg?v=636706976902270000',
@@ -3178,7 +3178,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Tradicional Estampada Geométrico',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/255209-677-677/576.748_1.jpg?v=636706973647500000',
@@ -3197,7 +3197,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Tradicional Listrada',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/255028-677-677/576.745_1.jpg?v=636705554549800000',
@@ -3215,7 +3215,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Infantil Listrada',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/255207-677-677/576747_1.jpg?v=636706970010670000',
@@ -3233,7 +3233,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga com Bolso Marinho',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/253800-677-677/576.741_1.jpg?v=636694005288330000',
@@ -3253,7 +3253,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Infantil Estampada',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/249603-677-677/cdc2-5251.jpg?v=636461624292170000',
@@ -3271,7 +3271,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Infantil com faixa lateral Preto e Azul',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262193-677-677/558.743-Preto-e-Azul.jpg?v=636963775478500000',
@@ -3290,7 +3290,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Bicolor Marinho e Vermelho',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/249231-677-677/cdc_558.741_frente.jpg?v=636408131266130000',
@@ -3308,7 +3308,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Lisa Infantil Marinho',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262188-677-677/000.745-Marinho.jpg?v=636963771397530000',
@@ -3327,7 +3327,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Infantil Lisa Azul',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/242094-677-677/000741-sunga-boxer-marinho-still.jpg?v=636037936978430000',
@@ -3344,7 +3344,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Boxer Plus Size Lisa Azul',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/242088-677-677/000741-sunga-boxer-marinho-still.jpg?v=636037934789070000',
@@ -3363,7 +3363,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Sunga Basic Infantil',
     genero: '',
-    categoria: 'sunga',
+    filtro1: ['Sunga'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262190-677-677/517.742-Marinho.jpg?v=636963773509030000',
@@ -3382,7 +3382,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta e gola V de Algodão Preta',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266690-677-677/000.377--PRETA.jpg?v=637122877577100000',
@@ -3401,7 +3401,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Algodão Preta',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262168-677-677/466.589-Preto.jpg?v=636963737650000000',
@@ -3420,7 +3420,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Algodão Mescla',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262167-677-677/466.589-Mescla.jpg?v=636963737401770000',
@@ -3439,7 +3439,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta e gola V de Algodão Branca',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262150-677-677/000.377-Branco.jpg?v=636963720373000000',
@@ -3458,7 +3458,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta e gola careca de Algodão Branca',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262148-677-677/000.376-Branco.jpg?v=636963718297800000',
@@ -3477,7 +3477,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Regata Algodão Branca',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228347-677-677/camiseta_rib_uw_casa_das_cuecas_branca_466585.jpg?v=635524220417330000',
@@ -3495,7 +3495,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta e gola careca de Algodão Preta',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262149-677-677/000.376-Preto.jpg?v=636963719277970000',
@@ -3514,7 +3514,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Regata Preta MODAL',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/291181-677-677/camiseta_uw_casa_das_cuecas_preta_frente_465581.jpg?v=637415127350830000',
@@ -3533,7 +3533,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Branca Manga Curta Gola Careca Viscose',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262164-677-677/465.582-Branco.jpg?v=636963735108530000',
@@ -3552,7 +3552,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Thermo Infantil Manga Longa',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266689-677-677/000.375-INF-THERMO-PRETA.jpg?v=637122873089000000',
@@ -3571,7 +3571,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta de Microfibra Manga Curta Light',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262147-677-677/000.372-Mescla.jpg?v=636963716730400000',
@@ -3590,7 +3590,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Algodão Pima Preta',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/246753-677-677/camiseta_uw_casa_das_cuecas_preta_frente_462583.jpg?v=636173138138700000',
@@ -3608,7 +3608,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta com Bolso Viscose Telha',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299685-677-677/619.373.jpg?v=637534787550530000',
@@ -3627,7 +3627,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Estampada em malha Azul',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299489-677-677/619.377_619.376_619.371.jpg?v=637478619745800000',
@@ -3646,7 +3646,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta malha listrada Vinho',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/271634-677-677/616.374.jpg?v=637402641865170000',
@@ -3663,7 +3663,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Regata RIB Viscose Mescla',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263846-677-677/000.3715.jpg?v=637014674176600000',
@@ -3682,7 +3682,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta UV Manga Longa Infantil Branca',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262158-677-677/000.3712-Branco.jpg?v=636963729448230000',
@@ -3701,7 +3701,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta UV Manga Longa',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/248521-677-677/0003711-camiseta-uv-frente.jpg?v=636365013260130000',
@@ -3720,7 +3720,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Algodão Pima Branca',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/246749-677-677/pijama_curto_uw_casa_das_cuecas_branca_frente_462583.jpg?v=636173138112330000',
@@ -3738,7 +3738,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Thermo Manga Longa',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262185-677-677/000.374-Preto.jpg?v=636963768410400000',
@@ -3757,7 +3757,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta infantil manga longa gola careca',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299236-677-677/466.5816-BRANCA.jpg?v=637418212153030000',
@@ -3774,7 +3774,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola Careca Branca Algodão',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228361-677-677/camiseta_rib_uw_casa_das_cuecas_branca_4665810.jpg?v=635524260850730000',
@@ -3792,7 +3792,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Algodão Branca',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228355-677-677/camiseta_rib_uw_casa_das_cuecas_branca_466589.jpg?v=635524229365930000',
@@ -3810,7 +3810,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Malha Blessed',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/258111-677-677/576.376_1.jpg?v=636795431665700000',
@@ -3828,7 +3828,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola V Preta RIB x',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262170-677-677/466.5813-Preto.jpg?v=636963738832570000',
@@ -3847,7 +3847,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola Careca Mescla Algodão',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228363-677-677/camiseta_rib_uw_casa_das_cuecas_mescla_4665810.jpg?v=635524262692900000',
@@ -3865,7 +3865,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Preta Manga Curta Gola Careca Viscose',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262165-677-677/465.582-Preto.jpg?v=636963735292930000',
@@ -3884,7 +3884,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Regata Branca MODAL',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262162-677-677/465.581-Branco.jpg?v=636963733223970000',
@@ -3903,7 +3903,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Estampada em malha Plus Size Azul',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299491-677-677/619.377_619.376_619.371.jpg?v=637478635668000000',
@@ -3920,7 +3920,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Estampada em malha Preta',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299492-677-677/619.372.jpg?v=637478643047870000',
@@ -3939,7 +3939,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Estampada em malha Infantil Azul',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299490-677-677/619.377_619.376_619.371.jpg?v=637478628245200000',
@@ -3956,7 +3956,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camisa em malha Marinho',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299459-677-677/616.892.jpg?v=637463214699400000',
@@ -3975,7 +3975,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camisa em linho Cru',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299458-677-677/616.891.jpg?v=637463208726170000',
@@ -3994,7 +3994,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Malha com Bolso Cru',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299453-677-677/616.377_Cru.jpg?v=637463178058200000',
@@ -4013,7 +4013,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Malha com Bolso Mescla',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299452-677-677/616.376.jpg?v=637463158122800000',
@@ -4032,7 +4032,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta em Malha Cinza',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299397-677-677/888.731_Cinza.jpg?v=637439122731700000',
@@ -4049,7 +4049,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta em Malha Azul',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299396-677-677/888.371_Azul.jpg?v=637439074565630000',
@@ -4066,7 +4066,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Polo em Malha Vermelha',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299468-677-677/888.732_Vermelho.jpg?v=637472619827570000',
@@ -4083,7 +4083,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Polo em Malha Preta',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299467-677-677/888.732_Preto.jpg?v=637472617718170000',
@@ -4100,7 +4100,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Polo em Malha Marinho',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299466-677-677/888.732_Marinho.jpg?v=637472615919030000',
@@ -4117,7 +4117,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Polo em Malha Branca',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299465-677-677/888.732_Branco.jpg?v=637472614425530000',
@@ -4134,7 +4134,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Polo em Malha Azul',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299464-677-677/888.732_Azul.jpg?v=637472611893430000',
@@ -4151,7 +4151,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta malha listrada Preto',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/271635-677-677/616.375.jpg?v=637402645828200000',
@@ -4168,7 +4168,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta malha listrada Azul',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/271633-677-677/616.373.jpg?v=637402630136430000',
@@ -4185,7 +4185,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Malha Vermelho',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/268438-677-677/616.372_vermelho_1500x1500.jpg?v=637316563532130000',
@@ -4204,7 +4204,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Malha Chumbo',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/268435-677-677/616.372_chumbo_1500x1500.jpg?v=637316562409830000',
@@ -4223,7 +4223,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta malha Azul',
     genero: '',
-    categoria: 'Camiseta',
+    filtro1: ['Camiseta'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/268430-677-677/616.372_azul_1500x1500.jpg?v=637316561207170000',
@@ -4242,7 +4242,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Marinho de Malha e Friso Lateral',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262173-677-677/483.403-Marinho.jpg?v=636963741319370000',
@@ -4261,7 +4261,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça de Moletom Mescla',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262156-677-677/000.407-Mescla.jpg?v=636963727361800000',
@@ -4279,7 +4279,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça de Moletom Marinho',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256206-677-677/000.407-MARINHO.jpg?v=636733849859330000',
@@ -4298,7 +4298,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Viscose Xadrez Marinho',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299696-677-677/619.403.jpg?v=637534851218500000',
@@ -4315,7 +4315,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Suedine Mescla',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299460-677-677/616.401.jpg?v=637463221025370000',
@@ -4335,7 +4335,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Suedine Mescla',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299695-677-677/619.402.jpg?v=637534835581170000',
@@ -4352,7 +4352,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Flanela Azul',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/260975-677-677/590406.jpg?v=636904288302900000',
@@ -4371,7 +4371,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Moletom Marinho',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/260972-677-677/590405.jpg?v=636904286160530000',
@@ -4390,7 +4390,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Microfibra Light',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256117-677-677/000.408-MESCLA.jpg?v=636730574214370000',
@@ -4409,7 +4409,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça de Microfibra sem Costura Light',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262154-677-677/000.403-Mescla.jpg?v=636963725733600000',
@@ -4428,7 +4428,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Infantil Xadrez Marinho',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266294-677-677/608.401.jpg?v=637109787868570000',
@@ -4445,7 +4445,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Esportiva com Bolso Cinza',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266296-677-677/608.404.jpg?v=637109790299900000',
@@ -4465,7 +4465,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Thermo Infantil',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266692-677-677/000.405-INF--PRETA.jpg?v=637122880615500000',
@@ -4484,7 +4484,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça em Malha Marinho',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299462-677-677/616.402.jpg?v=637463276965530000',
@@ -4501,7 +4501,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Tricoline Azul',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262714-677-677/601.402.jpg?v=636995082651800000',
@@ -4520,7 +4520,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Malha Suedine Cinza',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262738-677-677/601.401.jpg?v=636995644177630000',
@@ -4539,7 +4539,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Moletom Plus Size Marinho',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262197-677-677/000.409-MARINHO.jpg?v=636963953237970000',
@@ -4558,7 +4558,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça de Moletom Preto',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262155-677-677/000.407-Preto.jpg?v=636963726738670000',
@@ -4576,7 +4576,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Thermo Preta',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256116-677-677/000.406-PRETA.jpg?v=636730572900170000',
@@ -4595,7 +4595,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Thermo',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262186-677-677/000.404-Preto.jpg?v=636963769149730000',
@@ -4614,7 +4614,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça de Modal com Elástico',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/239242-677-677/000401-calca-modal-elastico-frente-zoom.jpg?v=635919278125330000',
@@ -4634,7 +4634,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Tricoline Xadrez - XADREZ AZUL / VERDE - GG',
     genero: '',
-    categoria: 'Calça',
+    filtro1: ['Calças'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228391-677-677/483402_Azul.jpg?v=635524468244630000',
@@ -4653,7 +4653,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Blusa Suedine Marinho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299461-677-677/616.872.jpg?v=637463227711230000',
@@ -4672,7 +4672,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Blusão Thermo Aberto de Fleece',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262189-677-677/000464-Preto.jpg?v=636963772897770000',
@@ -4689,7 +4689,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Blusa de Moletom Listrado Marinho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266314-677-677/608.875.jpg?v=637109810379470000',
@@ -4709,7 +4709,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Colete Fleece Dupla Face Preto',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266260-677-677/000.951--2-.jpg?v=637109715724370000',
@@ -4729,7 +4729,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Blusa Moletom Plus Size Telha',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266312-677-677/608.873.jpg?v=637109808541330000',
@@ -4747,7 +4747,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Blusa Moletom Telha',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266310-677-677/608.873.jpg?v=637109807473700000',
@@ -4767,7 +4767,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Blusa Moletom Marinho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/260954-677-677/590871--1-.jpg?v=636904272846300000',
@@ -4786,7 +4786,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Blusão Thermo com Zíper',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/261826-677-677/000.461-PRETA.jpg?v=636953595878600000',
@@ -4804,7 +4804,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Viscolycra Infantil Chumbo',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299700-677-677/619.425_619.424619.421.jpg?v=637535016910030000',
@@ -4821,7 +4821,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Viscolycra Chumbo',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299697-677-677/619.425_619.424619.421.jpg?v=637534997935700000',
@@ -4840,7 +4840,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Liso Infantil Vermelho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299670-677-677/casa_das_cuecas_6763_st_055.jpg?v=637517659885500000',
@@ -4858,7 +4858,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Liso Infantil Rosa',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299666-677-677/casa_das_cuecas_6763_st_043.jpg?v=637517653883830000',
@@ -4876,7 +4876,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Liso Infantil Azul',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299664-677-677/casa_das_cuecas_6763_st_061.jpg?v=637517650486730000',
@@ -4894,7 +4894,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Liso Vermelho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299662-677-677/casa_das_cuecas_6763_st_055.jpg?v=637517633434370000',
@@ -4912,7 +4912,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Liso Rosa',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299658-677-677/casa_das_cuecas_6763_st_043.jpg?v=637517628574870000',
@@ -4930,7 +4930,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Liso Azul',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299656-677-677/casa_das_cuecas_6763_st_061.jpg?v=637517625665930000',
@@ -4948,7 +4948,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Estampado Infantil Tropical',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299654-677-677/casa_das_cuecas_6763_st_051.jpg?v=637517609503400000',
@@ -4966,7 +4966,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Estampado Infantil Peixe',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299652-677-677/casa_das_cuecas_6763_st_049.jpg?v=637517605853600000',
@@ -4984,7 +4984,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Estampado Infantil Corda',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299650-677-677/casa_das_cuecas_6763_st_045.jpg?v=637517597537000000',
@@ -5002,7 +5002,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Estampado Infantil Concha',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299649-677-677/casa_das_cuecas_6763_st_053.jpg?v=637517595390700000',
@@ -5019,7 +5019,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Estampado Tropical',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299647-677-677/casa_das_cuecas_6763_st_051.jpg?v=637517581260770000',
@@ -5037,7 +5037,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Estampado Tie Dye',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299645-677-677/casa_das_cuecas_6763_st_047.jpg?v=637517579454600000',
@@ -5055,7 +5055,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Estampado Peixe',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299643-677-677/casa_das_cuecas_6763_st_049.jpg?v=637517575819230000',
@@ -5073,7 +5073,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Estampado Concha',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299638-677-677/casa_das_cuecas_6763_st_053.jpg?v=637517558652600000',
@@ -5090,7 +5090,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Suedine Marinho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299456-677-677/616.427.jpg?v=637463199809070000',
@@ -5108,7 +5108,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Moletom Plus Size Marinho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266536-677-677/608.425.jpg?v=637115158789500000',
@@ -5125,7 +5125,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Moletom Marinho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266305-677-677/608.425.jpg?v=637109802535970000',
@@ -5144,7 +5144,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Listrada Infantil Viscose Marinho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266304-677-677/608.423.jpg?v=637109800941900000',
@@ -5161,7 +5161,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Listrada Viscose Marinho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266303-677-677/608.423.jpg?v=637109800017570000',
@@ -5180,7 +5180,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Short Algodão com Elastano Marinho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265580-677-677/601.411.jpg?v=637075184764370000',
@@ -5198,7 +5198,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Malha Marinho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263816-677-677/601.425.jpg?v=637013839869100000',
@@ -5217,7 +5217,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Viscose Azul',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262735-677-677/601.424.jpg?v=636995641736200000',
@@ -5236,7 +5236,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Infantil Listrada Malha Branco',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262856-677-677/601.423.jpg?v=637000235785830000',
@@ -5255,7 +5255,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Listrada Malha Branco',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262853-677-677/601.422.jpg?v=637000234004600000',
@@ -5274,7 +5274,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Tricoline Xadrez Azul',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/260606-677-677/590421--1-.jpg?v=636892148298800000',
@@ -5293,7 +5293,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Infantil Tricoline Marinho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/254716-677-677/576.428.jpg?v=636705275013870000',
@@ -5312,7 +5312,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bermuda Tricoline Xadrez Vermelho',
     genero: '',
-    categoria: 'Blusa',
+    filtro1: ['Blusas'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/253806-677-677/576.425.jpg?v=636694008726870000',
@@ -5331,7 +5331,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Blusão Thermo Aberto de Fleece',
     genero: '',
-    categoria: 'Blusa e Jacqueta Térmica',
+    filtro1: ['Blusa e Jacqueta Térmica'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262189-677-677/000464-Preto.jpg?v=636963772897770000',
@@ -5350,7 +5350,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Blusão Thermo com Zíper',
     genero: '',
-    categoria: 'Blusa e Jacqueta Térmica',
+    filtro1: ['Blusa e Jacqueta Térmica'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/261826-677-677/000.461-PRETA.jpg?v=636953595878600000',
@@ -5369,7 +5369,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta UV Manga Longa',
     genero: '',
-    categoria: 'Blusa e Jacqueta Térmica',
+    filtro1: ['Blusa e Jacqueta Térmica'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/248521-677-677/0003711-camiseta-uv-frente.jpg?v=636365013260130000',
@@ -5388,7 +5388,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Thermo Manga Longa',
     genero: '',
-    categoria: 'Blusa e Jacqueta Térmica',
+    filtro1: ['Blusa e Jacqueta Térmica'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262185-677-677/000.374-Preto.jpg?v=636963768410400000',
@@ -5407,7 +5407,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Thermo Cinza',
     genero: '',
-    categoria: 'Blusa e Jacqueta Térmica',
+    filtro1: ['Blusa e Jacqueta Térmica'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263854-677-677/000.3714.jpg?v=637014685989770000',
@@ -5426,7 +5426,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta de Microfibra Manga Longa Light',
     genero: '',
-    categoria: 'Blusa e Jacqueta Térmica',
+    filtro1: ['Blusa e Jacqueta Térmica'],
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266688-677-677/000.373-MESCLA.jpg?v=637122871115270000',
@@ -5445,7 +5445,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Microfibra Light',
     genero: '',
-    categoria: 'Calça Térmica',
+    filtro1: 'Calça Térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256117-677-677/000.408-MESCLA.jpg?v=636730574214370000',
@@ -5464,7 +5464,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça de Microfibra sem Costura Light',
     genero: '',
-    categoria: 'Calça Térmica',
+    filtro1: 'Calça Térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262154-677-677/000.403-Mescla.jpg?v=636963725733600000',
@@ -5483,7 +5483,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Calça Thermo Preta',
     genero: '',
-    categoria: 'Calça Térmica',
+    filtro1: 'Calça Térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/256116-677-677/000.406-PRETA.jpg?v=636730572900170000',
@@ -5502,7 +5502,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Thermo Manga Longa',
     genero: '',
-    categoria: 'Calça Térmica',
+    filtro1: 'Calça Térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262185-677-677/000.374-Preto.jpg?v=636963768410400000',
@@ -5521,7 +5521,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Thermo Cinza',
     genero: '',
-    categoria: 'Calça Térmica',
+    filtro1: 'Calça Térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263854-677-677/000.3714.jpg?v=637014685989770000',
@@ -5540,7 +5540,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta de Microfibra Manga Longa Light',
     genero: '',
-    categoria: 'Calça Térmica',
+    filtro1: 'Calça Térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266688-677-677/000.373-MESCLA.jpg?v=637122871115270000',
@@ -5559,7 +5559,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Thermo Infantil Manga Longa',
     genero: '',
-    categoria: 'camiseta térmica',
+    filtro1: 'camiseta térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266689-677-677/000.375-INF-THERMO-PRETA.jpg?v=637122873089000000',
@@ -5578,7 +5578,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta UV Manga Longa Infantil Branca',
     genero: '',
-    categoria: 'camiseta térmica',
+    filtro1: 'camiseta térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262158-677-677/000.3712-Branco.jpg?v=636963729448230000',
@@ -5597,7 +5597,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta UV Manga Longa',
     genero: '',
-    categoria: 'camiseta térmica',
+    filtro1: 'camiseta térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/248521-677-677/0003711-camiseta-uv-frente.jpg?v=636365013260130000',
@@ -5616,7 +5616,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Thermo Manga Longa',
     genero: '',
-    categoria: 'camiseta térmica',
+    filtro1: 'camiseta térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262185-677-677/000.374-Preto.jpg?v=636963768410400000',
@@ -5635,7 +5635,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Thermo Cinza',
     genero: '',
-    categoria: 'camiseta térmica',
+    filtro1: 'camiseta térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/263854-677-677/000.3714.jpg?v=637014685989770000',
@@ -5654,7 +5654,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta de Microfibra Manga Longa Light',
     genero: '',
-    categoria: 'camiseta térmica',
+    filtro1: 'camiseta térmica',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266688-677-677/000.373-MESCLA.jpg?v=637122871115270000',
@@ -5673,7 +5673,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Ceroula Algodão Cinza',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262171-677-677/466.5815-Mescla.jpg?v=636963739730730000',
@@ -5692,7 +5692,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Ceroula Algodão Preta',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262172-677-677/466.5815-Preto.jpg?v=636963739914600000',
@@ -5711,7 +5711,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Algodão Mescla',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262167-677-677/466.589-Mescla.jpg?v=636963737401770000',
@@ -5730,7 +5730,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Regata Algodão Branca',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228347-677-677/camiseta_rib_uw_casa_das_cuecas_branca_466585.jpg?v=635524220417330000',
@@ -5749,7 +5749,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Ceroula Algodão Preta',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262172-677-677/466.5815-Preto.jpg?v=636963739914600000',
@@ -5768,7 +5768,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Thermo Infantil Manga Longa',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266689-677-677/000.375-INF-THERMO-PRETA.jpg?v=637122873089000000',
@@ -5787,7 +5787,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta de Microfibra Manga Curta Light',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262147-677-677/000.372-Mescla.jpg?v=636963716730400000',
@@ -5806,7 +5806,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola Careca Branca Algodão',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228361-677-677/camiseta_rib_uw_casa_das_cuecas_branca_4665810.jpg?v=635524260850730000',
@@ -5824,7 +5824,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Algodão Branca',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228355-677-677/camiseta_rib_uw_casa_das_cuecas_branca_466589.jpg?v=635524229365930000',
@@ -5842,7 +5842,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola V Preta RIB x',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262170-677-677/466.5813-Preto.jpg?v=636963738832570000',
@@ -5861,7 +5861,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola Careca Mescla Algodão',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228363-677-677/camiseta_rib_uw_casa_das_cuecas_mescla_4665810.jpg?v=635524262692900000',
@@ -5879,7 +5879,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Ceroula Infantil de Algodão Branca',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/230574-677-677/466.5817_ceroulabranca.jpg?v=635653145418000000',
@@ -5899,7 +5899,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta manga curta Branca gola careca RIB',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266693-677-677/466.584-BRANCA.jpg?v=637122882557600000',
@@ -5918,7 +5918,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola V Branca Algodão',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262169-677-677/466.5813-Branco.jpg?v=636963738675330000',
@@ -5937,7 +5937,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Macacão Azul Delavê',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/247718-677-677/551001_macacao_m-331.jpg?v=636335640744300000',
@@ -5956,7 +5956,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Macacão de Microfibra Light',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266687-677-677/000.001-MESCLA.jpg?v=637122868411100000',
@@ -5975,7 +5975,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Algodão Mescla',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262167-677-677/466.589-Mescla.jpg?v=636963737401770000',
@@ -5994,7 +5994,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Regata Algodão Branca',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228347-677-677/camiseta_rib_uw_casa_das_cuecas_branca_466585.jpg?v=635524220417330000',
@@ -6013,7 +6013,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Ceroula Algodão Preta',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262172-677-677/466.5815-Preto.jpg?v=636963739914600000',
@@ -6032,7 +6032,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Thermo Infantil Manga Longa',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266689-677-677/000.375-INF-THERMO-PRETA.jpg?v=637122873089000000',
@@ -6051,7 +6051,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta de Microfibra Manga Curta Light',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262147-677-677/000.372-Mescla.jpg?v=636963716730400000',
@@ -6070,7 +6070,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola Careca Branca Algodão',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228361-677-677/camiseta_rib_uw_casa_das_cuecas_branca_4665810.jpg?v=635524260850730000',
@@ -6088,7 +6088,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Algodão Branca',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228355-677-677/camiseta_rib_uw_casa_das_cuecas_branca_466589.jpg?v=635524229365930000',
@@ -6106,7 +6106,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola V Preta RIB x',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262170-677-677/466.5813-Preto.jpg?v=636963738832570000',
@@ -6125,7 +6125,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola Careca Mescla Algodão',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228363-677-677/camiseta_rib_uw_casa_das_cuecas_mescla_4665810.jpg?v=635524262692900000',
@@ -6143,7 +6143,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Ceroula Infantil de Algodão Branca',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/230574-677-677/466.5817_ceroulabranca.jpg?v=635653145418000000',
@@ -6163,7 +6163,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta manga curta Branca gola careca RIB',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266693-677-677/466.584-BRANCA.jpg?v=637122882557600000',
@@ -6182,7 +6182,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola V Branca Algodão',
     genero: '',
-    categoria: 'macacão',
+    filtro1: 'macacão',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262169-677-677/466.5813-Branco.jpg?v=636963738675330000',
@@ -6201,7 +6201,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Ceroula Algodão Cinza',
     genero: '',
-    categoria: 'ceroula',
+    filtro1: 'ceroula',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262171-677-677/466.5815-Mescla.jpg?v=636963739730730000',
@@ -6220,7 +6220,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Algodão Preta',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262168-677-677/466.589-Preto.jpg?v=636963737650000000',
@@ -6239,7 +6239,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Algodão Mescla',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262167-677-677/466.589-Mescla.jpg?v=636963737401770000',
@@ -6258,7 +6258,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Regata Algodão Branca',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228347-677-677/camiseta_rib_uw_casa_das_cuecas_branca_466585.jpg?v=635524220417330000',
@@ -6277,7 +6277,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Ceroula Algodão Preta',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262172-677-677/466.5815-Preto.jpg?v=636963739914600000',
@@ -6296,7 +6296,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Thermo Infantil Manga Longa',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266689-677-677/000.375-INF-THERMO-PRETA.jpg?v=637122873089000000',
@@ -6315,7 +6315,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta de Microfibra Manga Curta Light',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262147-677-677/000.372-Mescla.jpg?v=636963716730400000',
@@ -6334,7 +6334,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola Careca Branca Algodão',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228361-677-677/camiseta_rib_uw_casa_das_cuecas_branca_4665810.jpg?v=635524260850730000',
@@ -6352,7 +6352,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Longa Algodão Branca',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228355-677-677/camiseta_rib_uw_casa_das_cuecas_branca_466589.jpg?v=635524229365930000',
@@ -6370,7 +6370,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola V Preta RIB x',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262170-677-677/466.5813-Preto.jpg?v=636963738832570000',
@@ -6389,7 +6389,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola Careca Mescla Algodão',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/228363-677-677/camiseta_rib_uw_casa_das_cuecas_mescla_4665810.jpg?v=635524262692900000',
@@ -6407,7 +6407,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Ceroula Infantil de Algodão Branca',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/230574-677-677/466.5817_ceroulabranca.jpg?v=635653145418000000',
@@ -6426,7 +6426,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta manga curta Branca gola careca RIB',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/266693-677-677/466.584-BRANCA.jpg?v=637122882557600000',
@@ -6445,7 +6445,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Camiseta Manga Curta Gola V Branca Algodão',
     genero: '',
-    categoria: 'segunda pele',
+    filtro1: 'segunda pele',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262169-677-677/466.5813-Branco.jpg?v=636963738675330000',
@@ -6465,7 +6465,7 @@ const listaprodutoCueca = [
     titulo:
       'Kit com Lenços de Pano Cinza - BRANCO/ CINZA MÉDIO/ CINZA CLARO - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/236415-677-677/rsz_1899001cinza_27240.jpg?v=635769831108000000',
@@ -6483,7 +6483,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Babador Bear Mescla - MESCLA - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265589-677-677/601.603.jpg?v=637075202499330000',
@@ -6500,7 +6500,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bandana Pet Bear Mescla - MESCLA - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/265588-677-677/601.602.jpg?v=637075202103300000',
@@ -6517,7 +6517,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bandana Pet Mini Boss Malha Branco - BRANCO - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/262881-677-677/601.601.jpg?v=637000883736970000',
@@ -6535,7 +6535,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Bandana para Cachorros Best Tricoline Branco - BRANCO - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/253840-677-677/576.601_1.jpg?v=636694029282530000',
@@ -6553,7 +6553,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit com Lenços de Pano Brancos - BCO/BCO/BCO - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/236413-677-677/rsz_1899001branco_27246.jpg?v=635769825358900000',
@@ -6571,7 +6571,7 @@ const listaprodutoCueca = [
     titulo:
       'Máscara em algodão Tricoline Folhagem Escura - FOLHAGEM ESCURA - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299732-677-677/23.jpg?v=637547096765700000',
@@ -6588,7 +6588,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Máscara em algodão Tricoline Folhagem Clara - FOLHAGEM CLARA - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299725-677-677/05.jpg?v=637547023792900000',
@@ -6606,7 +6606,7 @@ const listaprodutoCueca = [
     titulo:
       'Máscara em algodão Tricoline Coqueiro Branco | 615.601 - COQUEIRO BRANCO - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299726-677-677/02.jpg?v=637547030753970000',
@@ -6624,7 +6624,7 @@ const listaprodutoCueca = [
     titulo:
       'Máscara em algodão Tricoline Coqueiro Azul | 615.601 - COQUEIRO AZUL - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299727-677-677/08.jpg?v=637547032874600000',
@@ -6642,7 +6642,7 @@ const listaprodutoCueca = [
     titulo:
       'Máscara em algodão Tricoline Bolinha Azul e Branca | 615.601 - BOLINHA AZUL E BRANCA - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299729-677-677/06.jpg?v=637547038115330000',
@@ -6659,7 +6659,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Máscara em algodão Tricoline Bolinha Azul - BOLINHA AZUL - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299730-677-677/07.jpg?v=637547040019430000',
@@ -6676,7 +6676,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Máscara em Viscose Abacaxi - - ABACAXI - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/268347-677-677/20200716_083221_1500x1500.jpg?v=637305814559200000',
@@ -6693,7 +6693,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Kit com quatro máscaras em algodão tricoline + doação - UNICO - U',
     genero: '',
-    categoria: 'lenços e máscaras',
+    filtro1: 'lenços e máscaras',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299614-677-677/615.6034.jpg?v=637511073662370000',
@@ -6710,7 +6710,7 @@ const listaprodutoCueca = [
   {
     titulo: 'Chinelo de Couro Nobuck Café',
     genero: '',
-    categoria: 'Chinelo',
+    filtro1: 'Chinelo',
     faixa: '',
     img:
       'https://marcynonline.vteximg.com.br/arquivos/ids/299387-677-677/casa_das_cuecas_7066_st_015.jpg?v=637438003753270000',

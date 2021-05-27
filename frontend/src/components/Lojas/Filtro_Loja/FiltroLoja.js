@@ -15,6 +15,9 @@ function FiltroLoja({
   setGeneroAtivo,
   // eslint-disable-next-line no-unused-vars
   generoAtivo,
+  nomeLoja,
+  logo,
+  filtros,
 }) {
   return (
     <div>
@@ -23,11 +26,7 @@ function FiltroLoja({
         <div className="nav-filtros-conteudo">
           <div className="nav-filtro-conteudo-flex-container">
             <div className="campo-busca">
-              <img
-                src="./Imagens/Logo-Loja-FIcticia.jpg"
-                alt=""
-                id="nav-filtros-logo-loja"
-              />
+              <img src={logo} alt={nomeLoja} id="nav-filtros-logo-loja" />
 
               {/* <div className="instagram-copy-kkk">
                 <div
@@ -146,6 +145,7 @@ function FiltroLoja({
                   handleFilters3={handleFilters3}
                   handleFilters4={handleFilters4}
                   handleFilters5={handleFilters5}
+                  filtros={filtros}
                 />
                 {/* <div style={{ height: '5px', backgroundColor: 'lightblue' }} />
                 <FiltroToggleANTD

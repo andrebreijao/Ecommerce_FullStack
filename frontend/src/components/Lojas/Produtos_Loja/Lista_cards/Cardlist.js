@@ -4,7 +4,7 @@ import Card from '../Card/Card';
 import './Cardlist.css';
 import Message from '../../../Message/Message';
 
-function Cardlist({ produtos }) {
+function Cardlist({ produtos, cssCard }) {
   return (
     <>
       {produtos.length === 0 ? (
@@ -22,8 +22,9 @@ function Cardlist({ produtos }) {
               imagem={prod.img}
               preco={prod.preco}
               parcelado={prod.parcelado}
-              key={prod.img}
+              key={prod.sku}
               id={prod.sku}
+              cssCard={cssCard}
             />
           ))}
         </div>

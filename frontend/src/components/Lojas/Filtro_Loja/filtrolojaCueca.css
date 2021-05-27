@@ -1,4 +1,4 @@
-/* nav-filtros */
+/* nav-filtros 
 .nav-filtros {
   display: inline-block;
   width: 14rem;
@@ -223,6 +223,7 @@ input:focus {
 
 */
 
+/*
 .campo-busca {
   width: 100%;
   display: block;
@@ -237,7 +238,7 @@ input:focus {
   font-size: 1rem;
   position: absolute;
   top: 0;
-  right: -1rem; /*acochambrada*/
+  right: -1rem; 
   z-index: 2;
   top: auto;
   height: 90%;
@@ -482,12 +483,12 @@ input:focus {
   font-size: 1rem;
   position: absolute;
   top: 0;
-  right: -1rem; /*acochambrada*/
+  right: -1rem; 
   z-index: 2;
   top: auto;
   height: 90%;
   width: 2rem;
-  /* background-color: rgba(255, 255, 255, 0); */
+
 }
 
 #campo-de-busca-botao:focus {
@@ -496,11 +497,6 @@ input:focus {
   border: none;
 }
 
-/* #campo-de-busca-botao:hover {
-  background-color: rgba(100, 148, 237, 0.479);
-  border: none;
-  height: 95%;
-} */
 
 .campo-busca-input {
   width: 90%;
@@ -542,3 +538,4 @@ input:focus {
   justify-content: center;
   align-content: center;
 }
+*/

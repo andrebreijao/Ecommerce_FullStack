@@ -2,7 +2,8 @@ const listaprodutoCloth = [
   {
     titulo: 'Shorts masculino Em Sarja - Azul',
     genero: 'masculino',
-    img: 'hrg-1',
+    img:
+      'Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-1.webp',
     preco: 59.99,
     parcelado: '2x R$29,99',
     sku: 1,
@@ -15,7 +16,8 @@ const listaprodutoCloth = [
     titulo: 'Regata Feminina Alças Largas Hering + Verena Smit - Preto',
     genero: 'feminino',
     filtro3: 'R$50-R$99,99',
-    img: 'hrg-2',
+    img:
+      'Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-2.webp',
     preco: 79.99,
     parcelado: '2x R$39,99',
     sku: 2,
@@ -29,7 +31,8 @@ const listaprodutoCloth = [
     filtro1: ['Bermudas'],
     filtro3: 'R$100-R$199,99',
     filtro2: ['P'],
-    img: 'hrg-3',
+    img:
+      'Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-3.webp',
     preco: 119.99,
     parcelado: '3x R$39,99',
     sku: 3,
@@ -41,7 +44,8 @@ const listaprodutoCloth = [
     filtro1: ['Calças'],
     filtro3: 'R$100-R$199,99',
     filtro2: ['M'],
-    img: 'hrg-4',
+    img:
+      'Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-4.webp',
     preco: 159.99,
     parcelado: '5x R$31,99',
     sku: 4,
@@ -53,7 +57,8 @@ const listaprodutoCloth = [
     filtro1: ['Camisetas'],
     filtro3: 'R$50-R$99,99',
     filtro2: ['P', 'G'],
-    img: 'hrg-5',
+    img:
+      'Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-5.webp',
     preco: 89.99,
     parcelado: '2x R$44,99',
     sku: 5,
@@ -65,7 +70,8 @@ const listaprodutoCloth = [
     filtro1: ['Calças'],
     filtro3: 'R$100-R$199,99',
     filtro2: ['M'],
-    img: 'hrg-6',
+    img:
+      'Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-6.webp',
     preco: 179.99,
     parcelado: '5x R$35,99',
     sku: 6,
@@ -77,7 +83,8 @@ const listaprodutoCloth = [
     filtro1: ['Calças'],
     filtro3: 'R$50-R$99,99',
     filtro2: ['M'],
-    img: 'hrg-7',
+    img:
+      'Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-7.webp',
     preco: 79.99,
     parcelado: '2x R$39,99',
     sku: 7,
@@ -89,7 +96,8 @@ const listaprodutoCloth = [
     filtro1: ['Camisetas'],
     filtro3: 'R$20-R$49,99',
     filtro2: ['P'],
-    img: 'hrg-8',
+    img:
+      'Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/hrg-8.webp',
     preco: 39.99,
     parcelado: '2x R$19,99',
     sku: 8,

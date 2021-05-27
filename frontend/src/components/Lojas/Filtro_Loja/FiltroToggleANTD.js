@@ -13,7 +13,6 @@ import Checkbox from '@material-ui/core/Checkbox';
 
 import React, { useState } from 'react';
 // import { Checkbox, Collapse } from 'antd';
-import filtroCategoria from '../../../Dados/Filtro_toggle_loja/lista_filtro_categoria';
 import './filtrotoggleANTD.css';
 
 const useStyles = makeStyles((theme) => ({
@@ -34,6 +33,7 @@ function FiltroToggleANTD({
   handleFilters3,
   handleFilters4,
   handleFilters5,
+  filtros,
 }) {
   const [Checked1, setChecked1] = useState([]);
   const [Checked2, setChecked2] = useState([]);
@@ -206,12 +206,16 @@ function FiltroToggleANTD({
             </Typography>
           </AccordionSummary>
           {cat.opcoesFiltro.map((value) => (
-            <AccordionDetails style={{ margin: '0px', padding: '0px' }}>
-              <React.Fragment key={value.id}>
+            <AccordionDetails
+              key={value.id}
+              style={{ margin: '0px', padding: '0px' }}
+            >
+              <React.Fragment key={`${value.id}b`}>
                 <Checkbox
                   onChange={() => handleToggle(value.name, i)}
                   type="checkbox"
                   checked={selecionado(value, i)}
+                  key={`${value.id}a`}
                 />
                 <span className="filtro-antd-opcao"> {value.name}</span>
               </React.Fragment>
@@ -225,7 +229,7 @@ function FiltroToggleANTD({
   return (
     <>
       <div className="container-filtro-antd">
-        {filtroCategoria.map((cat, i) => {
+        {filtros.map((cat, i) => {
           const x = cat;
           return SimpleAccordion(x, i + 1);
         })}

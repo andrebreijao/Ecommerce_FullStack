@@ -5,30 +5,26 @@ import React from 'react';
 import './Card.css';
 import { Link } from 'react-router-dom';
 
-function Card({ titulo, imagem, preco, parcelado, id }) {
+function Card({ titulo, imagem, preco, parcelado, id, cssCard }) {
   return (
     <Link to={`/produto/${id}`} style={{ textDecoration: 'none' }}>
-      <div className="card-produto-grid">
+      <div className={cssCard.cardGrid}>
         {/* <div className="botoes-card-grid">
           <i className="fas fa-heart icone-card" />
           <i className="fas fa-shopping-bag icone segundo-icone-card" />
   </div> */}
-        <img
-          className="produto-grid-img"
-          src={`Imagens/Lojas/São_José_dos_Campos/Vale_Sul/Clothe_Fashion/Produtos/${imagem}.webp`}
-          alt="produto"
-        />
-        <div className="card-grid-nome-produto">{titulo}</div>
-        <div className="card-grid-precos">
-          <div className="card-grid-preco-antigo">
+        <img className={cssCard.img} src={imagem} alt="produto" />
+        <div className={cssCard.nomeProduto}>{titulo}</div>
+        <div className={cssCard.precos}>
+          <div className={cssCard.precoAntigo}>
             R$
             {preco}
           </div>
-          <div className="card-grid-preco-atual">
+          <div className={cssCard.precoAtual}>
             R$
             {preco}
           </div>
-          <div className="card-grid-preco-parcela">{parcelado}</div>
+          <div className={cssCard.precoParcelado}>{parcelado}</div>
         </div>
       </div>
     </Link>

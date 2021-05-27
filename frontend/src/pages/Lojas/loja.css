@@ -104,6 +104,7 @@ body {
   max-width: 71vw !important;
   /*background: url(Imagens/Destaques.jpg);*/
   z-index: 0;
+  margin-bottom: 5rem;
 }
 
 .slide-banner {
