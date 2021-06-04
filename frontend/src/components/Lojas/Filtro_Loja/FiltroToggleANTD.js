@@ -113,27 +113,21 @@ function FiltroToggleANTD({
   const handleToggle = (value, i) => {
     switch (i) {
       case 1:
-        console.log(ajusteChecked1(value));
         handleFilters1(ajusteChecked1(value));
         break;
       case 2:
-        console.log(ajusteChecked2(value));
         handleFilters2(ajusteChecked2(value));
         break;
       case 3:
-        console.log(ajusteChecked3(value));
         handleFilters3(ajusteChecked3(value));
         break;
       case 4:
-        console.log(ajusteChecked4(value));
         handleFilters4(ajusteChecked4(value));
         break;
       case 5:
-        console.log(ajusteChecked5(value));
         handleFilters5(ajusteChecked5(value));
         break;
       default:
-        console.log('erro');
     }
   };
 

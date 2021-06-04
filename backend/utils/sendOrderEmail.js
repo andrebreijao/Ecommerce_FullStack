@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 import google from 'googleapis';
-import { gmail } from 'googleapis/build/src/apis/gmail';
+//import { gmail } from 'googleapis/build/src/apis/gmail';
 
 const CLIENT_ID =
   '618764626040-7v0g1ahgv2kb40hahkmkn0hjn93guujh.apps.googleusercontent.com';
@@ -45,6 +45,7 @@ const sendMail = async (nome, listaItems, email, valorPedido) => {
     const result = await transport.sendMail(mailOptions);
     return result;
   } catch (error) {
+    console.log('erro no e-mail de confirmação');
     return error;
   }
 };
