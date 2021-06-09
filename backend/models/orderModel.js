@@ -47,6 +47,11 @@ const orderSchema = mongoose.Schema(
       required: true,
       default: 0.0,
     },
+    isApprovedBySeller: {
+      type: String,
+      required: true,
+      default: 'pending',
+    },
     isPaid: {
       type: Boolean,
       required: true,

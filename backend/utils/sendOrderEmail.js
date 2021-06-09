@@ -51,11 +51,11 @@ const sendMail = async (nome, listaItems, email, valorPedido) => {
 
 export default sendMail;
 
-sendMail(
+/*sendMail(
   'andre',
   'lista',
   ['andrebreijao@gmail.com', 'andrebreijao@hotmail.com'],
   'R$ 100,20'
 )
   .then((result) => console.log('Email enviado...', result))
-  .catch((error) => console.log(error.message));
+  .catch((error) => console.log(error.message));*/

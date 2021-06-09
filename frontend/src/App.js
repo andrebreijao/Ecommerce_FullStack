@@ -26,9 +26,10 @@ function App() {
       <div className="App">
         <Route path="/" component={Inicial} exact />
         <Route path="/centervale" component={ShoppingValeSul} exact />
-        <Route path="/centervale/clothefashion" component={Loja} exact />
+        <Route path="/centervale/:loja" component={Loja} exact />
+
         <Route
-          path="/centervale/casadascuecas"
+          path="/centervale/casadascuecas222"
           component={casaDasCuecas}
           exact
         />

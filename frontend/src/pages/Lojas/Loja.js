@@ -1,3 +1,5 @@
+/* eslint-disable operator-linebreak */
+/* eslint-disable react/prop-types */
 /* eslint-disable object-curly-newline */
 /* eslint-disable eqeqeq */
 /* eslint-disable function-paren-newline */
@@ -17,7 +19,7 @@ import Navvaleusul2 from '../../components/nav-bar/shopping_valesul/NavValeSul2'
 import ClothFashion from '../../Dados/Lojas/ClothFashion';
 import CasadasCuecas from '../../Dados/Lojas/CasadasCuecas';
 
-function Loja() {
+function Loja({ match }) {
   const [termoProcurado, settermoProcurado] = useState('');
   const [generoAtivo, setGeneroAtivo] = useState('');
   const [arrCat1, setarrCat1] = useState([]);
@@ -34,20 +36,13 @@ function Loja() {
     produtos,
     cssCard,
     cssBanner,
-  } = ClothFashion;
-  */
-  const {
-    nomeLoja,
-    filtros,
-    logo,
-    fotosBanner,
-    produtos,
-    cssCard,
-    cssBanner,
-  } = CasadasCuecas;
+  } = ClothFashion; */
 
-  console.log(`cssBanner= ${cssBanner.marginBottom}`);
-  console.log(typeof fotosBanner);
+  const { loja } = match.params;
+  console.log(loja);
+
+  const { nomeLoja, filtros, logo, fotosBanner, produtos, cssCard, cssBanner } =
+    loja === 'casadascuecas' ? CasadasCuecas : ClothFashion;
 
   // Fucao que pega o valor setado em filtrotoggleANTD
   const handleFilters1 = (filters) => {

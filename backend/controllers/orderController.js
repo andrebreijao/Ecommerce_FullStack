@@ -70,6 +70,7 @@ const getOrderById = asyncHandler(async (req, res) => {
 // @access  Private
 const updateOrdertoPaid = asyncHandler(async (req, res) => {
   const order = await Order.findById(req.params.id);
+  console.log(req.params.id);
 
   if (order) {
     order.isPaid = true;
@@ -99,4 +100,10 @@ const getMyOrders = asyncHandler(async (req, res) => {
   res.json(orders);
 });
 
-export { addOrderItems, getOrderById, getMyOrders, updateOrdertoPaid };
+const teste = (req, res) => {
+  const id = req.params.id;
+  console.log('funcao de teste');
+  res.send(`seu id é ${id}`);
+};
+
+export { addOrderItems, getOrderById, getMyOrders, updateOrdertoPaid, teste };
