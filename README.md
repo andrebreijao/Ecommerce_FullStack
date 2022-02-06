@@ -4,7 +4,7 @@ Project showcase on heroku:
 
 ## Overview of the project
   This is full stack Ecommerce website deployed on Heroku using the following technologies:
-  <div style="display:flex; width:100%; justify-content: space-envenly">
+  <div style="display:flex; width:100%; justify-content: space-evenly">
     <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
