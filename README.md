@@ -1,7 +1,5 @@
 # Ecommerce_FullStack
 
-Project showcase on heroku: 
-
 ## Overview of the project
   This is full stack Ecommerce website deployed on Heroku using the following technologies:
   <div style="display:flex; width:100%; justify-content: space-evenly">
